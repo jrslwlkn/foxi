@@ -76,15 +76,6 @@
       padding: 0;
     }
 
-    .heartButton {
-      display: flex;
-      align-items: center;
-      margin: 0px 10px;
-      &:hover svg {
-        fill: var(--confirm);
-      }
-    }
-
     .settingsButton {
       display: flex;
       align-items: center;
@@ -100,5 +91,17 @@
       fill: var(--sub-text);
       transition: fill 100ms, transform 300ms ease;
     }
+
+    .ankiButton {
+      color: white;
+      display: flex;
+      align-items: center;
+      margin: 0px 10px;
+      &:hover {
+        color: var(--highlight);
+      }
+      margin: 20px;
+    }
+
   }
 }

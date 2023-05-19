@@ -29,133 +29,156 @@ export default props => {
   let formId;
   let optionForm;
   switch (type) {
-    case "checkbox":
-      formId = id;
-      optionForm = (
-        <label>
-          <input
-            type="checkbox"
-            id={formId}
-            onChange={handleCheckedChange}
-            defaultChecked={currentValue}
-          />
-          <span className="checkbox" />
-        </label>
-      );
-      break;
-    case "number":
-      formId = id;
-      optionForm = (
-        <input
-          type="number"
-          id={formId}
-          min={props.min}
-          max={props.max}
-          step={props.step}
-          placeholder={props.placeholder}
-          onChange={handleValueChange}
-          defaultValue={currentValue}
-        />
-      );
-      break;
-    case "text":
-      formId = id;
-      optionForm = (
-        <input
-          type="text"
-          id={formId}
-          placeholder={props.placeholder}
-          onChange={handleValueChange}
-          defaultValue={currentValue}
-        />
-      );
-      break;
-    case "textarea":
-      formId = id;
-      optionForm = (
-        <textarea
-          id={formId}
-          spellCheck={false}
-          placeholder={props.placeholder}
-          onChange={handleValueChange}
-          defaultValue={currentValue}
-        />
-      );
-      break;
-    case "radio":
-      formId = `${id}_${props.value}`;
-      optionForm = (
-        <label>
-          <input
-            type="radio"
-            id={formId}
-            name={id}
-            value={props.value}
-            onChange={handleValueChange}
-            defaultChecked={props.value === currentValue ? "checked" : ""}
-          />
-          <span className="radio" />
-        </label>
-      );
-      break;
-    case "color":
-      formId = id;
-      optionForm = (
-        <label>
-          <input
-            type="color"
-            id={formId}
-            onChange={handleValueChange}
-            defaultValue={currentValue}
-          />
-        </label>
-      );
-      break;
-    case "select":
-      formId = id;
-      optionForm = (
-        <div className="selectWrap">
-          <select id={formId} onChange={handleValueChange} value={currentValue}>
-            {(typeof props.options === 'function' ? props.options() : props.options).map((option, index) => (
-              <option value={option.value} key={index}>
-                {props.useRawOptionName ? option.name : browser.i18n.getMessage(option.name)}
-              </option>
-            ))}
-          </select>
-        </div>
-      );
-      break;
-    case "button":
-      formId = "";
-      optionForm = (
-        <input type="button" value={browser.i18n.getMessage(props.value)} onClick={props.onClick} />
-      );
-      break;
-    case "file":
-      formId = "";
-      optionForm = (
-        <label className="button includeSpan" htmlFor={id}>
-          <span>{browser.i18n.getMessage(props.value)}</span>
-          <input
-            type="file"
-            id={id}
-            accept={props.accept}
-            multiple={props.multiple}
-            onChange={props.onChange}
-          />
-        </label>
-      );
-      break;
-    case "keyboard-shortcut":
-      formId = id;
-      optionForm = (
-        <KeyboardShortcutForm id={id} shortcut={props.shortcut} defaultValue={props.defaultValue} />
-      );
-      break;
-    case "none":
-      formId = "";
-      optionForm = "";
-      break;
+      case "checkbox":
+          formId = id;
+          optionForm = (
+              <label>
+                  <input
+                      type="checkbox"
+                      id={formId}
+                      onChange={handleCheckedChange}
+                      defaultChecked={currentValue}
+                  />
+                  <span className="checkbox" />
+              </label>
+          );
+          break;
+      case "number":
+          formId = id;
+          optionForm = (
+              <input
+                  type="number"
+                  id={formId}
+                  min={props.min}
+                  max={props.max}
+                  step={props.step}
+                  placeholder={props.placeholder}
+                  onChange={handleValueChange}
+                  defaultValue={currentValue}
+              />
+          );
+          break;
+      case "text":
+          formId = id;
+          optionForm = (
+              <input
+                  type="text"
+                  id={formId}
+                  placeholder={props.placeholder}
+                  onChange={handleValueChange}
+                  defaultValue={currentValue}
+              />
+          );
+          break;
+      case "password":
+          formId = id;
+          optionForm = (
+              <input
+                  type="password"
+                  id={formId}
+                  onChange={handleValueChange}
+                  defaultValue={currentValue}
+              />
+          );
+          break;
+      case "textarea":
+          formId = id;
+          optionForm = (
+              <textarea
+                  id={formId}
+                  spellCheck={false}
+                  placeholder={props.placeholder}
+                  onChange={handleValueChange}
+                  defaultValue={currentValue}
+              />
+          );
+          break;
+      case "radio":
+          formId = `${id}_${props.value}`;
+          optionForm = (
+              <label>
+                  <input
+                      type="radio"
+                      id={formId}
+                      name={id}
+                      value={props.value}
+                      onChange={handleValueChange}
+                      defaultChecked={props.value === currentValue ? "checked" : ""}
+                  />
+                  <span className="radio" />
+              </label>
+          );
+          break;
+      case "color":
+          formId = id;
+          optionForm = (
+              <label>
+                  <input
+                      type="color"
+                      id={formId}
+                      onChange={handleValueChange}
+                      defaultValue={currentValue}
+                  />
+              </label>
+          );
+          break;
+      case "select":
+          formId = id;
+          optionForm = (
+              <div className="selectWrap">
+                  <select id={formId} onChange={handleValueChange} value={currentValue}>
+                      {(typeof props.options === "function" ? props.options() : props.options).map(
+                          (option, index) => (
+                              <option value={option.value} key={index}>
+                                  {props.useRawOptionName
+                                      ? option.name
+                                      : browser.i18n.getMessage(option.name)}
+                              </option>
+                          )
+                      )}
+                  </select>
+              </div>
+          );
+          break;
+      case "button":
+          formId = "";
+          optionForm = (
+              <input
+                  type="button"
+                  value={browser.i18n.getMessage(props.value)}
+                  onClick={props.onClick}
+              />
+          );
+          break;
+      case "file":
+          formId = "";
+          optionForm = (
+              <label className="button includeSpan" htmlFor={id}>
+                  <span>{browser.i18n.getMessage(props.value)}</span>
+                  <input
+                      type="file"
+                      id={id}
+                      accept={props.accept}
+                      multiple={props.multiple}
+                      onChange={props.onChange}
+                  />
+              </label>
+          );
+          break;
+      case "keyboard-shortcut":
+          formId = id;
+          optionForm = (
+              <KeyboardShortcutForm
+                  id={id}
+                  shortcut={props.shortcut}
+                  defaultValue={props.defaultValue}
+              />
+          );
+          break;
+      case "none":
+          formId = "";
+          optionForm = "";
+          break;
   }
 
   const shouldShow = props.shouldShow == undefined
