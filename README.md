@@ -23,4 +23,4 @@ First, install the AnciConnect plugin.
 ### Load the extension in Firefox
 
 1. Open Firefox browser and navigate to `about:debugging`
-2. Click "Load Temporary Add-on" and from the file browser, choose `simple-translate/dev/firefox`
+2. Click "Load Temporary Add-on" and from the file browser, choose `foxi/dev/firefox`
