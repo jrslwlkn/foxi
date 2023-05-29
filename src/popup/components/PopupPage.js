@@ -186,7 +186,11 @@ export default class PopupPage extends Component {
                 this.state.inputText,
                 this.state.resultText + "\n" + this.state.candidateText
             );
-            window.alert(result ? "Added successfully!" : "Request failed.");
+            window.alert(
+                result
+                    ? "Added successfully!"
+                    : "Request failed. Make sure Anki is open, AnkiConnect plugin is installed, and card being added is not empty."
+            );
         } catch (e) {
             window.alert(e.message);
             this.state.setState({ errorMessage: e.message });
