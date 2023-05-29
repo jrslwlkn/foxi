@@ -43,11 +43,11 @@ export default class SettingsPage extends Component {
             <hr />
             {isInit ? settingsContent : ""}
             <div className="bottomContainer">
-                <a href="" className="bottomLink">
+                <a href="https://github.com/jrslwlkn/foxi" className="bottomLink">
                     Foxi
                 </a>{" "}
                 is Anki-enabled fork of{" "}
-                <a href="https://github.com/jrslwlkn/foxi" className="bottomLink">
+                <a href="https://github.com/sienori/simple-translate" className="bottomLink">
                     Simple Translate
                 </a>
                 .
