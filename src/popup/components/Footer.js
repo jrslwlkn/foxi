@@ -26,36 +26,50 @@ export default class Footer extends Component {
     const { tabUrl, targetLang, langHistory, langList } = this.props;
 
     return (
-      <div id="footer">
-        <div className="translateLink">
-          {tabUrl && <a onClick={this.handleLinkClick}>{browser.i18n.getMessage("showLink")}</a>}
+        <div id="footer">
+            <div className="translateLink">
+                {tabUrl && (
+                    <a onClick={this.handleLinkClick}>{browser.i18n.getMessage("showLink")}</a>
+                )}
+            </div>
+            <div className="selectWrap">
+                <select
+                    style={{ margin: "10px 0" }}
+                    onChange={(e) => this.props.handleSelect(e.target.value)}
+                >
+                    <optgroup label="Anki Decks">
+                        {this.props.decks.map((d) => (
+                            <option value={d} key={d}>
+                                {d}
+                            </option>
+                        ))}
+                    </optgroup>
+                </select>
+                <select
+                    id="langList"
+                    value={targetLang}
+                    onChange={this.handleChange}
+                    title={browser.i18n.getMessage("targetLangLabel")}
+                >
+                    <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
+                        {langList
+                            .filter((option) => langHistory.includes(option.value))
+                            .map((option) => (
+                                <option value={option.value} key={option.value}>
+                                    {option.name}
+                                </option>
+                            ))}
+                    </optgroup>
+                    <optgroup label={browser.i18n.getMessage("allLangLabel")}>
+                        {langList.map((option) => (
+                            <option value={option.value} key={option.value}>
+                                {option.name}
+                            </option>
+                        ))}
+                    </optgroup>
+                </select>
+            </div>
         </div>
-        <div className="selectWrap">
-          <select
-            id="langList"
-            value={targetLang}
-            onChange={this.handleChange}
-            title={browser.i18n.getMessage("targetLangLabel")}
-          >
-
-            <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
-              {langList.filter(option => langHistory.includes(option.value))
-                .map(option => (
-                  <option value={option.value} key={option.value}>
-                    {option.name}
-                  </option>
-                ))}
-            </optgroup>
-            <optgroup label={browser.i18n.getMessage("allLangLabel")}>
-              {langList.map(option => (
-                <option value={option.value} key={option.value}>
-                  {option.name}
-                </option>
-              ))}
-            </optgroup>
-          </select>
-        </div>
-      </div>
     );
   }
 }

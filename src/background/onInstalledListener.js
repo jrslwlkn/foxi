@@ -12,12 +12,7 @@ import {
 } from "src/settings/defaultColors";
 const logDir = "background/onInstalledListener";
 
-const openOptionsPage = active => {
-  browser.tabs.create({
-    url: "options/index.html#information?action=updated",
-    active: active
-  });
-};
+const openOptionsPage = (active) => {};
 
 export default async details => {
   if (details.reason != "install" && details.reason != "update") return;

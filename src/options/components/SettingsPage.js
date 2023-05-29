@@ -38,11 +38,21 @@ export default class SettingsPage extends Component {
     );
 
     return (
-      <div>
-        <p className="contentTitle">{browser.i18n.getMessage("settingsLabel")}</p>
-        <hr />
-        {isInit ? settingsContent : ""}
-      </div>
+        <div>
+            <p className="contentTitle">{browser.i18n.getMessage("settingsLabel")}</p>
+            <hr />
+            {isInit ? settingsContent : ""}
+            <div className="bottomContainer">
+                <a href="" className="bottomLink">
+                    Foxi
+                </a>{" "}
+                is Anki-enabled fork of{" "}
+                <a href="https://github.com/jrslwlkn/foxi" className="bottomLink">
+                    Simple Translate
+                </a>
+                .
+            </div>
+        </div>
     );
   }
 }

@@ -53,35 +53,6 @@ const getTheme = () =>
 
 export default [
     {
-        category: "ankiConfigLabel",
-        elements: [
-            {
-                id: "ankiCredentials",
-                title: "ankiCredentialsLabel",
-                captions: [],
-                type: "none",
-                default: "",
-                childElements: [
-                    {
-                        id: "ankiUserId",
-                        title: "ankiUserIdLabel",
-                        captions: [],
-                        type: "text",
-                        default: "",
-                        placeholder: "",
-                    },
-                    {
-                        id: "ankiUserPassword",
-                        title: "ankiUserPasswordLabel",
-                        captions: [],
-                        type: "password",
-                        default: "",
-                    },
-                ],
-            },
-        ],
-    },
-    {
         category: "generalLabel",
         elements: [
             {

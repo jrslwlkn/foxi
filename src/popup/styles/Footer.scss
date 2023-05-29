@@ -1,8 +1,4 @@
 #footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   padding: 0px 10px 10px;
 
   .translateLink {
@@ -19,29 +15,10 @@
   }
 
   .selectWrap {
-    position: relative;
-    margin-inline-start: 5px;
-    &:before {
-      pointer-events: none;
-      content: "";
-      z-index: 1;
-      position: absolute;
-      top: 35%;
-      inset-inline-end: 7px;
-      width: 5px;
-      height: 5px;
+    width: 100%;
+    // position: relative;
+    // margin-inline-start: 5px;
 
-      transform: rotate(45deg);
-
-      .popup-page-rtl-language & {
-        transform: rotate(-45deg);
-      }
-
-      border-bottom: 2px solid var(--sub-text);
-      border-inline-end: 2px solid var(--sub-text);
-
-      transition: border-color 100ms ease-out;
-    }
     &:hover::before {
       border-bottom: 2px solid var(--highlight);
       border-inline-end: 2px solid var(--highlight);
@@ -57,7 +34,7 @@
       border-radius: 2px;
       padding: 3px 5px;
       padding-inline-end: 20px;
-      width: 100%;
+      width: 50%;
       transition: border-color 100ms ease-out;
       scrollbar-color: var(--button) var(--line);
       &:hover {
