@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Mabilis na isalin ang napili o tinipang salita sa web pages. Suportahan ang Google Translate at DeepL API."
-  },
-  "donateWithPaypalLabel": {
-    "message": "Magbigay gamit ang PayPal"
-  },
-  "donateLabel": {
-    "message": "Magbigay"
-  },
-  "enableOnThisPage": {
-    "message": "Paganahin ang pagsasalin sa pahinang ito"
-  },
-  "disableOnThisPage": {
-    "message": "Huwag paganahin ang pagsasalin sa pahinang ito"
-  },
-  "initialTextArea": {
-    "message": "Maglagay ng teksto"
-  },
-  "showLink": {
-    "message": "Isalin ang pahinang ito"
-  },
-  "openInGoogleLabel": {
-    "message": "Buksan sa Google Translate"
-  },
-  "openInDeeplLabel": {
-    "message": "Buksan sa DeepL Translator"
-  },
-  "copyLabel": {
-    "message": "Kopyahin"
-  },
-  "copiedLabel": {
-    "message": "Nakopya na."
-  },
-  "listenLabel": {
-    "message": "Makinig"
-  },
-  "targetLangLabel": {
-    "message": "Target na lenggwahe"
-  },
-  "allLangLabel": {
-    "message": "Lahat ng lenggwahe"
-  },
-  "recentLangLabel": {
-    "message": "Kamakailang lenggwahe"
-  },
-  "settingsLabel": {
-    "message": "Settings"
-  },
-  "generalLabel": {
-    "message": "Pangkalahatan"
-  },
-  "translationApiLabel": {
-    "message": "Makinista ng translasyon"
-  },
-  "googleApiLabel": {
-    "message": "Ang translasyon ng API sa Google"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Gamitin ang Google Translate API. Hindi na kailangang magrehistro."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "Gumamit ng DeepL API. Kailangan mong magrehistro sa DeepL API Free o DeepL API Pro para makakuha ng susi ng pagpapatunay."
-  },
-  "howToUseDeeplLabel": {
-    "message": "Paano magrehistro sa DeepL API"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API plan"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Piliin ang DeepL API plan na iyong nirehistruhan."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "Deep API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Susi ng pagpapatunay"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Ilagay ang susi ng pagpapatunay para sa DeepL API."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Piliin ang depolt ng lenggwaheng target."
-  },
-  "webPageLabel": {
-    "message": "Web page"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Ipakita ang pagpipiliang translasyon"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Ipakita ang iba't ibang pagpipilian kapag ang isang salita ay nasalin."
-  },
-  "whenSelectTextLabel": {
-    "message": "Pag-uugali sa pagpili ng teksto"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Ipakita ang panel ng translasyon"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Tuluyang ipakita ang panel translasyon nang hindi ipinapakita ang pindutan."
-  },
-  "ifShowButtonLabel": {
-    "message": "Ipakita ang pindutan ng translasyon"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Ipakita ang pindutan ng translasyon upang mabuksan ang panel kapag pinindot."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Huwag ipakita ang pindutan o panel"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Huwag ipakita ang pindutan ng translasyon o ang panel ng translasyon."
-  },
-  "ifCheckLangLabel": {
-    "message": "Huwag pinakita ang pindutan kung ang translasyon ay hindi kinakailangan"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Manmanan ang lenggwaheng ng piniling salita, at kung ito ay parehas sa target lenggwahe, ang pindutan ay hindi pinapakita."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Manmanan ang lenggwahe ng piniling salita, at kung parehas sa depolt target na lenggwahe, isalin ito sa pangalawang wika."
-  },
-  "disableTranslationLabel": {
-    "message": "Huwag paganahin ang translasyon"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Huwag paganahin ang translasyon sa patlang ng mga salita"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Huwag ipakita ang pindutan ng translasyon o panel kapag pipili ng salita sa patlang."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "Huwag ipakita ang translasyon sa code tags"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Huwag ipakita ang pindutan ng translasyon o panel kapag pipili ng salita sa code tag."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Isali sa modifier key pressed"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Ipakita lang ang translasyon sa mga piling modifier key pressed."
-  },
-  "modifierKeyLabel": {
-    "message": "Modifier Key"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "Listahan ng URL upang huwag paganahin ang pagsasalin"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Kung tumugma ang URL ng page sa listahan, hindi pinagana ang pagsasalin sa web page. Pinapayagan ng listahan ang mga wildcard na \"*\"."
-  },
-  "toolbarLabel": {
-    "message": "Toolbar popup"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Awtomatikong lumipat sa pangalawang wika"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Tinutukoy ang wika ng input text, at kung ito ay pareho sa default na target na wika, isalin ito sa pangalawang wika."
-  },
-  "secondTargetLangLabel": {
-    "message": "Pangalawang wika"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Piliin ang pangalawang target na wika."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Huwag paganahin ang pagsasalin ayon sa lang katangian"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Huwag paganahin ang pagsasalin kung ang katangian lang sa html elemento ng pahina ay tumutugma sa listahan. Maglagay ng mga tag ng wikang pinaghihiwalay ng kuwit."
-  },
-  "waitTimeLabel": {
-    "message": "Oras ng paghihintay para magsalin"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Tukuyin ang oras ng paghihintay mula sa input ng isang character hanggang sa simula ng pagsasalin. (millisecond)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Kung isasalin mo ito nang maraming beses sa maikling panahon, maaari itong maging hindi magamit nang ilang sandali."
-  },
-  "menuLabel": {
-    "message": "Menu ng konteksto"
-  },
-  "ifShowMenuLabel": {
-    "message": "Ipakita ang menu ng konteksto"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Magdagdag ng mga item sa menu ng konteksto na ipinapakita kapag nag-right click sa web page o sa tab."
-  },
-  "pageTranslationLabel": {
-    "message": "Translasyon ng pahina"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Tab para ipakita ang resulta ng translasyon"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Tukuyin ang tab upang ipakita ang mga resulta ng pagsasalin ng pahina."
-  },
-  "newTabLabel": {
-    "message": "Bagong tab"
-  },
-  "currentTabLabel": {
-    "message": "Kasalukuyang tab"
-  },
-  "styleLabel": {
-    "message": "Estilo"
-  },
-  "themeLabel": {
-    "message": "Tema"
-  },
-  "themeCaptionLabel": {
-    "message": "Tukuyin ang skim ng kulay."
-  },
-  "lightLabel": {
-    "message": "Liwanag"
-  },
-  "darkLabel": {
-    "message": "Madilim"
-  },
-  "systemLabel": {
-    "message": "Sistema"
-  },
-  "buttonStyleLabel": {
-    "message": "Pindutan ng pagsasalin"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Tukuyin ang istilo ng pindutan ng pagsasalin na ipinapakita sa web page."
-  },
-  "buttonSizeLabel": {
-    "message": "Sukat"
-  },
-  "buttonPositionLabel": {
-    "message": "Ipakita ang posisyon"
-  },
-  "topRightLabel": {
-    "message": "Itaas sa kanan"
-  },
-  "bottomRightLabel": {
-    "message": "Ibabang kanan"
-  },
-  "topLeftLabel": {
-    "message": "Taas sa kaliwa"
-  },
-  "bottomLeftLabel": {
-    "message": "Ibabang kaliwa"
-  },
-  "topLabel": {
-    "message": "Taas"
-  },
-  "bottomLabel": {
-    "message": "Baba"
-  },
-  "leftLabel": {
-    "message": "Kaliwa"
-  },
-  "rightLabel": {
-    "message": "Kanan"
-  },
-  "positionOffsetLabel": {
-    "message": "Posisyon ng display - Offset"
-  },
-  "panelStyleLabel": {
-    "message": "Panel ng pagsasalin"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Tukuyin ang istilo ng panel ng pagsasalin na ipinapakita sa web page."
-  },
-  "widthLabel": {
-    "message": "Lapad"
-  },
-  "heightLabel": {
-    "message": "Taas"
-  },
-  "fontSizeLabel": {
-    "message": "Font size"
-  },
-  "referencePointLabel": {
-    "message": "Display position - Reference point"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
-  },
-  "topSelectedTextLabel": {
-    "message": "Top of selected text"
-  },
-  "clickedPointLabel": {
-    "message": "Clicked point"
-  },
-  "displayDirectionLabel": {
-    "message": "Display position - Direction"
-  },
-  "resultFontColorLabel": {
-    "message": "Font color of translation result"
-  },
-  "isOverrideColorsLabel": {
-    "message": "I-overrayd ang depolt na kulay sa mga kulay na nasa ibaba"
-  },
-  "candidateFontColorLabel": {
-    "message": "Kulay ng font ng pagpipiliang translasyon"
-  },
-  "bgColorLabel": {
-    "message": "Kulay ng nasalikod"
-  },
-  "otherLabel": {
-    "message": "Iba"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Ipakita ang pahinang opsyon kapag nag-a-apdeyt"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Ipakita ang pahina ng opsyon kapag ang Simple Translate ay na-update na. Maari mong i-update ang nilalaman nang mabilis."
-  },
-  "isDebugModeLabel": {
-    "message": "Paganahin ang mode debug"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Kapag ang debug mode ay gumagama, ang log ay napupunta sa debugger."
-  },
-  "exportSettingsLabel": {
-    "message": "Ilabas sa settings"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "I-save ang settings nang naka-json file sa kompyuter."
-  },
-  "exportButtonLabel": {
-    "message": "Ilabas"
-  },
-  "importSettingsLabel": {
-    "message": "Ipasok sa Settings"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "I-load sa settings ng file na naka-save sa kompyuter."
-  },
-  "importButtonLabel": {
-    "message": "Ipasok"
-  },
-  "resetSettingsLabel": {
-    "message": "Reset settings"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Ibalik lahat ang settings sa dati."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Ibalik"
-  },
-  "shortcutsLabel": {
-    "message": "Mga shortcut"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Mga keyboard shortcut"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Ayusin ang mga keyboard shortcut."
-  },
-  "typeShortcutMessage": {
-    "message": "Maglagay ng shortcut"
-  },
-  "typeLetterMessage": {
-    "message": "Maglagay ng letra"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Kasama ang alin man sa Ctrl o Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Kasama ang alin man sa Command, Ctrl o Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "Ang letra ay hindi magagamit"
-  },
-  "invalidShortcutMessage": {
-    "message": "Ang shortcut ay hindi magagamit"
-  },
-  "clear": {
-    "message": "Malinaw"
-  },
-  "reset": {
-    "message": "Ibalik"
-  },
-  "informationLabel": {
-    "message": "Impormasyon"
-  },
-  "backersLabel": {
-    "message": "Backers"
-  },
-  "licenseLabel": {
-    "message": "Lisensya"
-  },
-  "donationLabel": {
-    "message": "Mangyaring mag-donate"
-  },
-  "donationCaptionLabel": {
-    "message": "Salamat sa paggamit ng Simple Translate.<br>Ang iyong suporta ay magiging isang malaking paghihikayat, habang patuloy kong ginagawa ang add-on.<br>Kung gusto mo ang Simple Translate, ako ay nalulugod kung maaari mong isaalang-alang ang pagbibigay ng donasyon."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
-  },
-  "sponsorsLabel": {
-    "message": "Mga sponsor"
-  },
-  "addonPageLabel": {
-    "message": "Add-on page"
-  },
-  "extensionPageLabel": {
-    "message": "Karugtong na pahina"
-  },
-  "privacyPolicyLabel": {
-    "message": "Patakaran sa paglilihim"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Hindi maaari: Suriin ang status ng network connection."
-  },
-  "unavailableError": {
-    "message": "Hindi maaari: Naabot na ang limitasyon sa paggamit ng serbisyo. Mangyaring maghintay ng ilang sandali at subukang muli."
-  },
-  "deeplAuthError": {
-    "message": "Hindi Maari: Nabigo ang pagpapatotoo ng DeepL API. Mangyaring itakda ang authentication key at magplano nang tama sa pahina ng mga setting."
-  },
-  "unknownError": {
-    "message": "Hindi Maari: Hindi kilalang mali"
-  },
-  "translatePageMenu": {
-    "message": "Isalin ang pahinang ito"
-  },
-  "translateTextMenu": {
-    "message": "Isalin ang napiling salita"
-  },
-  "translateLinkMenu": {
-    "message": "Isalin ang sinilektang link"
-  },
-  "openPopupDescription": {
-    "message": "Buksan ang toolbar popup"
-  },
-  "lang_af": {
-    "message": "Afrikaans"
-  },
-  "lang_sq": {
-    "message": "Albanian"
-  },
-  "lang_am": {
-    "message": "Amharic"
-  },
-  "lang_ar": {
-    "message": "Arabic"
-  },
-  "lang_hy": {
-    "message": "Armenian"
-  },
-  "lang_az": {
-    "message": "Azerbaijani"
-  },
-  "lang_eu": {
-    "message": "Basque"
-  },
-  "lang_be": {
-    "message": "Belarusian"
-  },
-  "lang_bn": {
-    "message": "Bengali"
-  },
-  "lang_bs": {
-    "message": "Bosnian"
-  },
-  "lang_bg": {
-    "message": "Bulgarian"
-  },
-  "lang_ca": {
-    "message": "Catalan"
-  },
-  "lang_ceb": {
-    "message": "Cebuano"
-  },
-  "lang_ny": {
-    "message": "Chewa"
-  },
-  "lang_zh_CN": {
-    "message": "Chinese (Simplified)"
-  },
-  "lang_zh_TW": {
-    "message": "Chinese (Traditional)"
-  },
-  "lang_co": {
-    "message": "Corsican"
-  },
-  "lang_hr": {
-    "message": "Croatian"
-  },
-  "lang_cs": {
-    "message": "Czech"
-  },
-  "lang_da": {
-    "message": "Danish"
-  },
-  "lang_nl": {
-    "message": "Dutch"
-  },
-  "lang_en": {
-    "message": "English"
-  },
-  "lang_eo": {
-    "message": "Esperanto"
-  },
-  "lang_et": {
-    "message": "Estonian"
-  },
-  "lang_fi": {
-    "message": "Finnish"
-  },
-  "lang_fr": {
-    "message": "French"
-  },
-  "lang_fy": {
-    "message": "Frisian"
-  },
-  "lang_gl": {
-    "message": "Galician"
-  },
-  "lang_ka": {
-    "message": "Georgian"
-  },
-  "lang_de": {
-    "message": "German"
-  },
-  "lang_el": {
-    "message": "Greek"
-  },
-  "lang_gu": {
-    "message": "Gujarati"
-  },
-  "lang_ht": {
-    "message": "Haitian"
-  },
-  "lang_ha": {
-    "message": "Hausa"
-  },
-  "lang_haw": {
-    "message": "Hawaiian"
-  },
-  "lang_he": {
-    "message": "Hebrew"
-  },
-  "lang_hi": {
-    "message": "Hindi"
-  },
-  "lang_hu": {
-    "message": "Hungarian"
-  },
-  "lang_is": {
-    "message": "Icelandic"
-  },
-  "lang_ig": {
-    "message": "Igbo"
-  },
-  "lang_id": {
-    "message": "Indonesian"
-  },
-  "lang_ga": {
-    "message": "Irish"
-  },
-  "lang_it": {
-    "message": "Italian"
-  },
-  "lang_ja": {
-    "message": "Japanese"
-  },
-  "lang_jv": {
-    "message": "Javanese"
-  },
-  "lang_kn": {
-    "message": "Kannada"
-  },
-  "lang_kk": {
-    "message": "Kazakh"
-  },
-  "lang_km": {
-    "message": "Khmer"
-  },
-  "lang_rw": {
-    "message": "Kinyarwanda"
-  },
-  "lang_ky": {
-    "message": "Kirghiz"
-  },
-  "lang_ko": {
-    "message": "Korean"
-  },
-  "lang_ku": {
-    "message": "Kurdish"
-  },
-  "lang_lo": {
-    "message": "Laotian"
-  },
-  "lang_la": {
-    "message": "Latin"
-  },
-  "lang_lv": {
-    "message": "Latvian"
-  },
-  "lang_lt": {
-    "message": "Lithuanian"
-  },
-  "lang_lb": {
-    "message": "Luxembourgish"
-  },
-  "lang_mk": {
-    "message": "Macedonian"
-  },
-  "lang_mg": {
-    "message": "Malagasy"
-  },
-  "lang_ms": {
-    "message": "Malay"
-  },
-  "lang_ml": {
-    "message": "Malayalam"
-  },
-  "lang_mt": {
-    "message": "Maltese"
-  },
-  "lang_mi": {
-    "message": "Maori"
-  },
-  "lang_mr": {
-    "message": "Marathi"
-  },
-  "lang_mn": {
-    "message": "Mongolian"
-  },
-  "lang_hmn": {
-    "message": "Monk"
-  },
-  "lang_my": {
-    "message": "Myanmar"
-  },
-  "lang_ne": {
-    "message": "Nepali"
-  },
-  "lang_no": {
-    "message": "Norwegian"
-  },
-  "lang_or": {
-    "message": "Odia (Oriya)"
-  },
-  "lang_fa": {
-    "message": "Persian"
-  },
-  "lang_pl": {
-    "message": "Polish"
-  },
-  "lang_pt": {
-    "message": "Portuguese"
-  },
-  "lang_pa": {
-    "message": "Punjabi"
-  },
-  "lang_ps": {
-    "message": "Pushto"
-  },
-  "lang_ro": {
-    "message": "Romanian"
-  },
-  "lang_ru": {
-    "message": "Russian"
-  },
-  "lang_sm": {
-    "message": "Samoan"
-  },
-  "lang_gd": {
-    "message": "Scottish Gaelic"
-  },
-  "lang_sr": {
-    "message": "Serbian"
-  },
-  "lang_st": {
-    "message": "Sesotho"
-  },
-  "lang_sn": {
-    "message": "Shona"
-  },
-  "lang_sd": {
-    "message": "Sindhi"
-  },
-  "lang_si": {
-    "message": "Sinhala"
-  },
-  "lang_sk": {
-    "message": "Slovak"
-  },
-  "lang_sl": {
-    "message": "Slovenian"
-  },
-  "lang_so": {
-    "message": "Somali"
-  },
-  "lang_es": {
-    "message": "Spanish"
-  },
-  "lang_su": {
-    "message": "Sundanese"
-  },
-  "lang_sw": {
-    "message": "Swahili"
-  },
-  "lang_sv": {
-    "message": "Swedish"
-  },
-  "lang_tl": {
-    "message": "Tagalog"
-  },
-  "lang_tg": {
-    "message": "Tajiki"
-  },
-  "lang_ta": {
-    "message": "Tamil"
-  },
-  "lang_tt": {
-    "message": "Tatar"
-  },
-  "lang_te": {
-    "message": "Telugu"
-  },
-  "lang_th": {
-    "message": "Thai"
-  },
-  "lang_tr": {
-    "message": "Turkish"
-  },
-  "lang_tk": {
-    "message": "Turkmen"
-  },
-  "lang_uk": {
-    "message": "Ukrainian"
-  },
-  "lang_ur": {
-    "message": "Urdu"
-  },
-  "lang_ug": {
-    "message": "Uyghur"
-  },
-  "lang_uz": {
-    "message": "Uzbek"
-  },
-  "lang_vi": {
-    "message": "Vietnamese"
-  },
-  "lang_cy": {
-    "message": "Welsh"
-  },
-  "lang_xh": {
-    "message": "Xosa"
-  },
-  "lang_yi": {
-    "message": "Yiddish"
-  },
-  "lang_yo": {
-    "message": "Yoruba"
-  },
-  "lang_zu": {
-    "message": "Zulu"
-  },
-  "lang_en_US": {
-    "message": "English (American)"
-  },
-  "lang_en_GB": {
-    "message": "English (British)"
-  },
-  "lang_pt_PT": {
-    "message": "Portuguese"
-  },
-  "lang_pt_BR": {
-    "message": "Portuguese (Brazilian)"
-  },
-  "lang_zh": {
-    "message": "Chinese"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Mabilis na isalin ang napili o tinipang salita sa web pages. Suportahan ang Google Translate at DeepL API."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Magbigay gamit ang PayPal"
+    },
+    "donateLabel": {
+        "message": "Magbigay"
+    },
+    "enableOnThisPage": {
+        "message": "Paganahin ang pagsasalin sa pahinang ito"
+    },
+    "disableOnThisPage": {
+        "message": "Huwag paganahin ang pagsasalin sa pahinang ito"
+    },
+    "initialTextArea": {
+        "message": "Maglagay ng teksto"
+    },
+    "showLink": {
+        "message": "Isalin ang pahinang ito"
+    },
+    "openInGoogleLabel": {
+        "message": "Buksan sa Google Translate"
+    },
+    "openInDeeplLabel": {
+        "message": "Buksan sa DeepL Translator"
+    },
+    "copyLabel": {
+        "message": "Kopyahin"
+    },
+    "copiedLabel": {
+        "message": "Nakopya na."
+    },
+    "listenLabel": {
+        "message": "Makinig"
+    },
+    "targetLangLabel": {
+        "message": "Target na lenggwahe"
+    },
+    "allLangLabel": {
+        "message": "Lahat ng lenggwahe"
+    },
+    "recentLangLabel": {
+        "message": "Kamakailang lenggwahe"
+    },
+    "settingsLabel": {
+        "message": "Settings"
+    },
+    "generalLabel": {
+        "message": "Pangkalahatan"
+    },
+    "translationApiLabel": {
+        "message": "Makinista ng translasyon"
+    },
+    "googleApiLabel": {
+        "message": "Ang translasyon ng API sa Google"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Gamitin ang Google Translate API. Hindi na kailangang magrehistro."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "Gumamit ng DeepL API. Kailangan mong magrehistro sa DeepL API Free o DeepL API Pro para makakuha ng susi ng pagpapatunay."
+    },
+    "howToUseDeeplLabel": {
+        "message": "Paano magrehistro sa DeepL API"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API plan"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Piliin ang DeepL API plan na iyong nirehistruhan."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "Deep API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Susi ng pagpapatunay"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Ilagay ang susi ng pagpapatunay para sa DeepL API."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Piliin ang depolt ng lenggwaheng target."
+    },
+    "webPageLabel": {
+        "message": "Web page"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Ipakita ang pagpipiliang translasyon"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Ipakita ang iba't ibang pagpipilian kapag ang isang salita ay nasalin."
+    },
+    "whenSelectTextLabel": {
+        "message": "Pag-uugali sa pagpili ng teksto"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Ipakita ang panel ng translasyon"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Tuluyang ipakita ang panel translasyon nang hindi ipinapakita ang pindutan."
+    },
+    "ifShowButtonLabel": {
+        "message": "Ipakita ang pindutan ng translasyon"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Ipakita ang pindutan ng translasyon upang mabuksan ang panel kapag pinindot."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Huwag ipakita ang pindutan o panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Huwag ipakita ang pindutan ng translasyon o ang panel ng translasyon."
+    },
+    "ifCheckLangLabel": {
+        "message": "Huwag pinakita ang pindutan kung ang translasyon ay hindi kinakailangan"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Manmanan ang lenggwaheng ng piniling salita, at kung ito ay parehas sa target lenggwahe, ang pindutan ay hindi pinapakita."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Manmanan ang lenggwahe ng piniling salita, at kung parehas sa depolt target na lenggwahe, isalin ito sa pangalawang wika."
+    },
+    "disableTranslationLabel": {
+        "message": "Huwag paganahin ang translasyon"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Huwag paganahin ang translasyon sa patlang ng mga salita"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Huwag ipakita ang pindutan ng translasyon o panel kapag pipili ng salita sa patlang."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "Huwag ipakita ang translasyon sa code tags"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Huwag ipakita ang pindutan ng translasyon o panel kapag pipili ng salita sa code tag."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Isali sa modifier key pressed"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Ipakita lang ang translasyon sa mga piling modifier key pressed."
+    },
+    "modifierKeyLabel": {
+        "message": "Modifier Key"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "Listahan ng URL upang huwag paganahin ang pagsasalin"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Kung tumugma ang URL ng page sa listahan, hindi pinagana ang pagsasalin sa web page. Pinapayagan ng listahan ang mga wildcard na \"*\"."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Awtomatikong lumipat sa pangalawang wika"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Tinutukoy ang wika ng input text, at kung ito ay pareho sa default na target na wika, isalin ito sa pangalawang wika."
+    },
+    "secondTargetLangLabel": {
+        "message": "Pangalawang wika"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Piliin ang pangalawang target na wika."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Huwag paganahin ang pagsasalin ayon sa lang katangian"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Huwag paganahin ang pagsasalin kung ang katangian lang sa html elemento ng pahina ay tumutugma sa listahan. Maglagay ng mga tag ng wikang pinaghihiwalay ng kuwit."
+    },
+    "waitTimeLabel": {
+        "message": "Oras ng paghihintay para magsalin"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Tukuyin ang oras ng paghihintay mula sa input ng isang character hanggang sa simula ng pagsasalin. (millisecond)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Kung isasalin mo ito nang maraming beses sa maikling panahon, maaari itong maging hindi magamit nang ilang sandali."
+    },
+    "menuLabel": {
+        "message": "Menu ng konteksto"
+    },
+    "ifShowMenuLabel": {
+        "message": "Ipakita ang menu ng konteksto"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Magdagdag ng mga item sa menu ng konteksto na ipinapakita kapag nag-right click sa web page o sa tab."
+    },
+    "pageTranslationLabel": {
+        "message": "Translasyon ng pahina"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Tab para ipakita ang resulta ng translasyon"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Tukuyin ang tab upang ipakita ang mga resulta ng pagsasalin ng pahina."
+    },
+    "newTabLabel": {
+        "message": "Bagong tab"
+    },
+    "currentTabLabel": {
+        "message": "Kasalukuyang tab"
+    },
+    "styleLabel": {
+        "message": "Estilo"
+    },
+    "themeLabel": {
+        "message": "Tema"
+    },
+    "themeCaptionLabel": {
+        "message": "Tukuyin ang skim ng kulay."
+    },
+    "lightLabel": {
+        "message": "Liwanag"
+    },
+    "darkLabel": {
+        "message": "Madilim"
+    },
+    "systemLabel": {
+        "message": "Sistema"
+    },
+    "buttonStyleLabel": {
+        "message": "Pindutan ng pagsasalin"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Tukuyin ang istilo ng pindutan ng pagsasalin na ipinapakita sa web page."
+    },
+    "buttonSizeLabel": {
+        "message": "Sukat"
+    },
+    "buttonPositionLabel": {
+        "message": "Ipakita ang posisyon"
+    },
+    "topRightLabel": {
+        "message": "Itaas sa kanan"
+    },
+    "bottomRightLabel": {
+        "message": "Ibabang kanan"
+    },
+    "topLeftLabel": {
+        "message": "Taas sa kaliwa"
+    },
+    "bottomLeftLabel": {
+        "message": "Ibabang kaliwa"
+    },
+    "topLabel": {
+        "message": "Taas"
+    },
+    "bottomLabel": {
+        "message": "Baba"
+    },
+    "leftLabel": {
+        "message": "Kaliwa"
+    },
+    "rightLabel": {
+        "message": "Kanan"
+    },
+    "positionOffsetLabel": {
+        "message": "Posisyon ng display - Offset"
+    },
+    "panelStyleLabel": {
+        "message": "Panel ng pagsasalin"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Tukuyin ang istilo ng panel ng pagsasalin na ipinapakita sa web page."
+    },
+    "widthLabel": {
+        "message": "Lapad"
+    },
+    "heightLabel": {
+        "message": "Taas"
+    },
+    "fontSizeLabel": {
+        "message": "Font size"
+    },
+    "referencePointLabel": {
+        "message": "Display position - Reference point"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Bottom of selected text"
+    },
+    "topSelectedTextLabel": {
+        "message": "Top of selected text"
+    },
+    "clickedPointLabel": {
+        "message": "Clicked point"
+    },
+    "displayDirectionLabel": {
+        "message": "Display position - Direction"
+    },
+    "resultFontColorLabel": {
+        "message": "Font color of translation result"
+    },
+    "isOverrideColorsLabel": {
+        "message": "I-overrayd ang depolt na kulay sa mga kulay na nasa ibaba"
+    },
+    "candidateFontColorLabel": {
+        "message": "Kulay ng font ng pagpipiliang translasyon"
+    },
+    "bgColorLabel": {
+        "message": "Kulay ng nasalikod"
+    },
+    "otherLabel": {
+        "message": "Iba"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Ipakita ang pahinang opsyon kapag nag-a-apdeyt"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Ipakita ang pahina ng opsyon kapag ang Foxi ay na-update na. Maari mong i-update ang nilalaman nang mabilis."
+    },
+    "isDebugModeLabel": {
+        "message": "Paganahin ang mode debug"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Kapag ang debug mode ay gumagama, ang log ay napupunta sa debugger."
+    },
+    "exportSettingsLabel": {
+        "message": "Ilabas sa settings"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "I-save ang settings nang naka-json file sa kompyuter."
+    },
+    "exportButtonLabel": {
+        "message": "Ilabas"
+    },
+    "importSettingsLabel": {
+        "message": "Ipasok sa Settings"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "I-load sa settings ng file na naka-save sa kompyuter."
+    },
+    "importButtonLabel": {
+        "message": "Ipasok"
+    },
+    "resetSettingsLabel": {
+        "message": "Reset settings"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Ibalik lahat ang settings sa dati."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Ibalik"
+    },
+    "shortcutsLabel": {
+        "message": "Mga shortcut"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Mga keyboard shortcut"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Ayusin ang mga keyboard shortcut."
+    },
+    "typeShortcutMessage": {
+        "message": "Maglagay ng shortcut"
+    },
+    "typeLetterMessage": {
+        "message": "Maglagay ng letra"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Kasama ang alin man sa Ctrl o Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Kasama ang alin man sa Command, Ctrl o Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "Ang letra ay hindi magagamit"
+    },
+    "invalidShortcutMessage": {
+        "message": "Ang shortcut ay hindi magagamit"
+    },
+    "clear": {
+        "message": "Malinaw"
+    },
+    "reset": {
+        "message": "Ibalik"
+    },
+    "informationLabel": {
+        "message": "Impormasyon"
+    },
+    "backersLabel": {
+        "message": "Backers"
+    },
+    "licenseLabel": {
+        "message": "Lisensya"
+    },
+    "donationLabel": {
+        "message": "Mangyaring mag-donate"
+    },
+    "donationCaptionLabel": {
+        "message": "Salamat sa paggamit ng Foxi.<br>Ang iyong suporta ay magiging isang malaking paghihikayat, habang patuloy kong ginagawa ang add-on.<br>Kung gusto mo ang Foxi, ako ay nalulugod kung maaari mong isaalang-alang ang pagbibigay ng donasyon."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
+    "sponsorsLabel": {
+        "message": "Mga sponsor"
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "extensionPageLabel": {
+        "message": "Karugtong na pahina"
+    },
+    "privacyPolicyLabel": {
+        "message": "Patakaran sa paglilihim"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Hindi maaari: Suriin ang status ng network connection."
+    },
+    "unavailableError": {
+        "message": "Hindi maaari: Naabot na ang limitasyon sa paggamit ng serbisyo. Mangyaring maghintay ng ilang sandali at subukang muli."
+    },
+    "deeplAuthError": {
+        "message": "Hindi Maari: Nabigo ang pagpapatotoo ng DeepL API. Mangyaring itakda ang authentication key at magplano nang tama sa pahina ng mga setting."
+    },
+    "unknownError": {
+        "message": "Hindi Maari: Hindi kilalang mali"
+    },
+    "translatePageMenu": {
+        "message": "Isalin ang pahinang ito"
+    },
+    "translateTextMenu": {
+        "message": "Isalin ang napiling salita"
+    },
+    "translateLinkMenu": {
+        "message": "Isalin ang sinilektang link"
+    },
+    "openPopupDescription": {
+        "message": "Buksan ang toolbar popup"
+    },
+    "lang_af": {
+        "message": "Afrikaans"
+    },
+    "lang_sq": {
+        "message": "Albanian"
+    },
+    "lang_am": {
+        "message": "Amharic"
+    },
+    "lang_ar": {
+        "message": "Arabic"
+    },
+    "lang_hy": {
+        "message": "Armenian"
+    },
+    "lang_az": {
+        "message": "Azerbaijani"
+    },
+    "lang_eu": {
+        "message": "Basque"
+    },
+    "lang_be": {
+        "message": "Belarusian"
+    },
+    "lang_bn": {
+        "message": "Bengali"
+    },
+    "lang_bs": {
+        "message": "Bosnian"
+    },
+    "lang_bg": {
+        "message": "Bulgarian"
+    },
+    "lang_ca": {
+        "message": "Catalan"
+    },
+    "lang_ceb": {
+        "message": "Cebuano"
+    },
+    "lang_ny": {
+        "message": "Chewa"
+    },
+    "lang_zh_CN": {
+        "message": "Chinese (Simplified)"
+    },
+    "lang_zh_TW": {
+        "message": "Chinese (Traditional)"
+    },
+    "lang_co": {
+        "message": "Corsican"
+    },
+    "lang_hr": {
+        "message": "Croatian"
+    },
+    "lang_cs": {
+        "message": "Czech"
+    },
+    "lang_da": {
+        "message": "Danish"
+    },
+    "lang_nl": {
+        "message": "Dutch"
+    },
+    "lang_en": {
+        "message": "English"
+    },
+    "lang_eo": {
+        "message": "Esperanto"
+    },
+    "lang_et": {
+        "message": "Estonian"
+    },
+    "lang_fi": {
+        "message": "Finnish"
+    },
+    "lang_fr": {
+        "message": "French"
+    },
+    "lang_fy": {
+        "message": "Frisian"
+    },
+    "lang_gl": {
+        "message": "Galician"
+    },
+    "lang_ka": {
+        "message": "Georgian"
+    },
+    "lang_de": {
+        "message": "German"
+    },
+    "lang_el": {
+        "message": "Greek"
+    },
+    "lang_gu": {
+        "message": "Gujarati"
+    },
+    "lang_ht": {
+        "message": "Haitian"
+    },
+    "lang_ha": {
+        "message": "Hausa"
+    },
+    "lang_haw": {
+        "message": "Hawaiian"
+    },
+    "lang_he": {
+        "message": "Hebrew"
+    },
+    "lang_hi": {
+        "message": "Hindi"
+    },
+    "lang_hu": {
+        "message": "Hungarian"
+    },
+    "lang_is": {
+        "message": "Icelandic"
+    },
+    "lang_ig": {
+        "message": "Igbo"
+    },
+    "lang_id": {
+        "message": "Indonesian"
+    },
+    "lang_ga": {
+        "message": "Irish"
+    },
+    "lang_it": {
+        "message": "Italian"
+    },
+    "lang_ja": {
+        "message": "Japanese"
+    },
+    "lang_jv": {
+        "message": "Javanese"
+    },
+    "lang_kn": {
+        "message": "Kannada"
+    },
+    "lang_kk": {
+        "message": "Kazakh"
+    },
+    "lang_km": {
+        "message": "Khmer"
+    },
+    "lang_rw": {
+        "message": "Kinyarwanda"
+    },
+    "lang_ky": {
+        "message": "Kirghiz"
+    },
+    "lang_ko": {
+        "message": "Korean"
+    },
+    "lang_ku": {
+        "message": "Kurdish"
+    },
+    "lang_lo": {
+        "message": "Laotian"
+    },
+    "lang_la": {
+        "message": "Latin"
+    },
+    "lang_lv": {
+        "message": "Latvian"
+    },
+    "lang_lt": {
+        "message": "Lithuanian"
+    },
+    "lang_lb": {
+        "message": "Luxembourgish"
+    },
+    "lang_mk": {
+        "message": "Macedonian"
+    },
+    "lang_mg": {
+        "message": "Malagasy"
+    },
+    "lang_ms": {
+        "message": "Malay"
+    },
+    "lang_ml": {
+        "message": "Malayalam"
+    },
+    "lang_mt": {
+        "message": "Maltese"
+    },
+    "lang_mi": {
+        "message": "Maori"
+    },
+    "lang_mr": {
+        "message": "Marathi"
+    },
+    "lang_mn": {
+        "message": "Mongolian"
+    },
+    "lang_hmn": {
+        "message": "Monk"
+    },
+    "lang_my": {
+        "message": "Myanmar"
+    },
+    "lang_ne": {
+        "message": "Nepali"
+    },
+    "lang_no": {
+        "message": "Norwegian"
+    },
+    "lang_or": {
+        "message": "Odia (Oriya)"
+    },
+    "lang_fa": {
+        "message": "Persian"
+    },
+    "lang_pl": {
+        "message": "Polish"
+    },
+    "lang_pt": {
+        "message": "Portuguese"
+    },
+    "lang_pa": {
+        "message": "Punjabi"
+    },
+    "lang_ps": {
+        "message": "Pushto"
+    },
+    "lang_ro": {
+        "message": "Romanian"
+    },
+    "lang_ru": {
+        "message": "Russian"
+    },
+    "lang_sm": {
+        "message": "Samoan"
+    },
+    "lang_gd": {
+        "message": "Scottish Gaelic"
+    },
+    "lang_sr": {
+        "message": "Serbian"
+    },
+    "lang_st": {
+        "message": "Sesotho"
+    },
+    "lang_sn": {
+        "message": "Shona"
+    },
+    "lang_sd": {
+        "message": "Sindhi"
+    },
+    "lang_si": {
+        "message": "Sinhala"
+    },
+    "lang_sk": {
+        "message": "Slovak"
+    },
+    "lang_sl": {
+        "message": "Slovenian"
+    },
+    "lang_so": {
+        "message": "Somali"
+    },
+    "lang_es": {
+        "message": "Spanish"
+    },
+    "lang_su": {
+        "message": "Sundanese"
+    },
+    "lang_sw": {
+        "message": "Swahili"
+    },
+    "lang_sv": {
+        "message": "Swedish"
+    },
+    "lang_tl": {
+        "message": "Tagalog"
+    },
+    "lang_tg": {
+        "message": "Tajiki"
+    },
+    "lang_ta": {
+        "message": "Tamil"
+    },
+    "lang_tt": {
+        "message": "Tatar"
+    },
+    "lang_te": {
+        "message": "Telugu"
+    },
+    "lang_th": {
+        "message": "Thai"
+    },
+    "lang_tr": {
+        "message": "Turkish"
+    },
+    "lang_tk": {
+        "message": "Turkmen"
+    },
+    "lang_uk": {
+        "message": "Ukrainian"
+    },
+    "lang_ur": {
+        "message": "Urdu"
+    },
+    "lang_ug": {
+        "message": "Uyghur"
+    },
+    "lang_uz": {
+        "message": "Uzbek"
+    },
+    "lang_vi": {
+        "message": "Vietnamese"
+    },
+    "lang_cy": {
+        "message": "Welsh"
+    },
+    "lang_xh": {
+        "message": "Xosa"
+    },
+    "lang_yi": {
+        "message": "Yiddish"
+    },
+    "lang_yo": {
+        "message": "Yoruba"
+    },
+    "lang_zu": {
+        "message": "Zulu"
+    },
+    "lang_en_US": {
+        "message": "English (American)"
+    },
+    "lang_en_GB": {
+        "message": "English (British)"
+    },
+    "lang_pt_PT": {
+        "message": "Portuguese"
+    },
+    "lang_pt_BR": {
+        "message": "Portuguese (Brazilian)"
+    },
+    "lang_zh": {
+        "message": "Chinese"
+    }
 }

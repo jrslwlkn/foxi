@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Gyors fordító a weblapokon kijelölt vagy begépelt szövegekhez. Támogatja a Google Translate és a DeepL API szolgáltatásokat."
-  },
-  "donateWithPaypalLabel": {
-    "message": "Adomány PayPal használatával"
-  },
-  "donateLabel": {
-    "message": "Támogatás"
-  },
-  "enableOnThisPage": {
-    "message": "Fordítás engedélyezése ezen az oldalon"
-  },
-  "disableOnThisPage": {
-    "message": "Fordítás letiltása ezen az oldalon"
-  },
-  "initialTextArea": {
-    "message": "Írja be a szöveget"
-  },
-  "showLink": {
-    "message": "Az oldal fordítása"
-  },
-  "openInGoogleLabel": {
-    "message": "Megnyitás a Google Fordítóban"
-  },
-  "openInDeeplLabel": {
-    "message": "Megnyitás a DeepL Fordítóban"
-  },
-  "copyLabel": {
-    "message": "Másolás"
-  },
-  "copiedLabel": {
-    "message": "Másolva."
-  },
-  "listenLabel": {
-    "message": "Meghallgatás"
-  },
-  "targetLangLabel": {
-    "message": "Célnyelv"
-  },
-  "allLangLabel": {
-    "message": "Minden nyelv"
-  },
-  "recentLangLabel": {
-    "message": "Legutóbbi nyelvek"
-  },
-  "settingsLabel": {
-    "message": "Beállítások"
-  },
-  "generalLabel": {
-    "message": "Általános"
-  },
-  "translationApiLabel": {
-    "message": "Fordító felület"
-  },
-  "googleApiLabel": {
-    "message": "Google translate API"
-  },
-  "googleApiCaptionLabel": {
-    "message": "A Google Translate API használata. Nincs szükség regisztrációra."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "A DeepL API használata. Regisztrációra van szükség a DeepL API Free vagy a DeepL API Pro szolgáltatásra a hitelesítő kulcs beszerzéséhez."
-  },
-  "howToUseDeeplLabel": {
-    "message": "Hogyan lehet regisztrálni a DeepL API szolgáltatásaira?"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Válassza ki azt a DeepL API szolgáltatást melyre regisztrált."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Hitelesítő kulcs"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Írja be a hitelesítő kulcsot a DeepL API használatához."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Válassza ki az alapértelmezett nyelvet."
-  },
-  "webPageLabel": {
-    "message": "Honlap"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Lehetséges fordítások megjelenítése"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Több lehetséges fordítás megjelenítése amikor csak egy szó kerül lefordításra."
-  },
-  "whenSelectTextLabel": {
-    "message": "Viselkedés a szöveg kiválasztásakor"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "A fordítópanel megjelenítése"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Közvetlenül jelenítse meg a fordítópanelt a gomb megjelenítése nélkül."
-  },
-  "ifShowButtonLabel": {
-    "message": "Fordító gomb megjelenítése"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "A fordítás gomb megnyomásával nyissa meg a panelt, ha rákattint."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Ne jelenítse meg a gombot vagy a panelt"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Ne jelenítse meg a fordító gombot vagy a fordítópanelt."
-  },
-  "ifCheckLangLabel": {
-    "message": "Ne jelenjen meg a gomb ha nincs szükség fordításra"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik a célnyelvvel akkor a gomb nem jelenik meg."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
-  },
-  "disableTranslationLabel": {
-    "message": "Fordítás kikapcsilása"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Fordítás letiltása a szövegmezőkben"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Ne jelenítse meg a fordítói gombot vagy panelt, amikor szöveget választ a szövegmezőben."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "Fordítás kikapcsolása a <code> cimkékben"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Ne jelenjen meg a fordító gomb vagy a panel amikor a kijelölt szöveg egy <code> cimkében található."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Fordítás a módosító billentyű lenyomásakor"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Fordítás megjelenítése csak a megadott módosító billentyű lenyomásakor."
-  },
-  "modifierKeyLabel": {
-    "message": "Módosító billentyű"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Parancs"
-  },
-  "disableUrlListLabel": {
-    "message": "URL-ek listája, ahol a fordítás le lesz tiltásra"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Ha az oldal URL-je illeszkedik a mintára akkor a weblapon a fordítása le lesz tiltva. A listában használható a \"*\" helyettesítőkarakter."
-  },
-  "toolbarLabel": {
-    "message": "Felugró ablak az eszköztár gombjához"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Automatikus váltás a második nyelvre"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Felismeri a beírt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
-  },
-  "secondTargetLangLabel": {
-    "message": "Második nyelv"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Válassza ki a második célnyelvet."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Fordítás kikapcsolása adott 'lang' tulajdonság esetén"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Fordítás kikapcsolása ha a weblap html elemében megadott 'lang' tulajdonság szerepel a listában. Vesszővel elválasztott listaként kell megadni a nyelvek cimkéit."
-  },
-  "waitTimeLabel": {
-    "message": "Várakozási idő fordítás előtt"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Várakozási idő a karakterek beírása és a fordítás megkezdése előtt. (ezredmásodperc)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Ha sokszor fordít rövid időn belül akkor egy időre használhatatlanná válhat."
-  },
-  "menuLabel": {
-    "message": "Helyi menü"
-  },
-  "ifShowMenuLabel": {
-    "message": "Megjelenítés a helyi menüben"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Elemek hozzáadása a helyi menübe, amikor jobb egérgombbal kattint a weboldalra vagy a lapra."
-  },
-  "pageTranslationLabel": {
-    "message": "Page translation"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
-  },
-  "newTabLabel": {
-    "message": "New tab"
-  },
-  "currentTabLabel": {
-    "message": "Current tab"
-  },
-  "styleLabel": {
-    "message": "Stílus"
-  },
-  "themeLabel": {
-    "message": "Téma"
-  },
-  "themeCaptionLabel": {
-    "message": "Szín séma megadása."
-  },
-  "lightLabel": {
-    "message": "Világos"
-  },
-  "darkLabel": {
-    "message": "Sötét"
-  },
-  "systemLabel": {
-    "message": "System"
-  },
-  "buttonStyleLabel": {
-    "message": "Fordító gomb"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Állítsa be a weboldalakon megjelenő fordító gomb stílusát."
-  },
-  "buttonSizeLabel": {
-    "message": "Méret"
-  },
-  "buttonPositionLabel": {
-    "message": "Megjelenítés helye"
-  },
-  "topRightLabel": {
-    "message": "Jobb felső"
-  },
-  "bottomRightLabel": {
-    "message": "Jobb alsó"
-  },
-  "topLeftLabel": {
-    "message": "Bal felső"
-  },
-  "bottomLeftLabel": {
-    "message": "Bal alsó"
-  },
-  "topLabel": {
-    "message": "Fent"
-  },
-  "bottomLabel": {
-    "message": "Lent"
-  },
-  "leftLabel": {
-    "message": "Balra"
-  },
-  "rightLabel": {
-    "message": "Jobbra"
-  },
-  "positionOffsetLabel": {
-    "message": "Megjelenítés helye - Eltolás"
-  },
-  "panelStyleLabel": {
-    "message": "Fordító panel"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Állítsa be a weboldalakon megjelenő fordító panel stílusát."
-  },
-  "widthLabel": {
-    "message": "Szélesség"
-  },
-  "heightLabel": {
-    "message": "Magasság"
-  },
-  "fontSizeLabel": {
-    "message": "Betűméret"
-  },
-  "referencePointLabel": {
-    "message": "Megjelenítés helye - Hivatkozási pont"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Kijelölt szöveg alatt"
-  },
-  "topSelectedTextLabel": {
-    "message": "Kijelölt szöveg fölött"
-  },
-  "clickedPointLabel": {
-    "message": "Kattintás helye"
-  },
-  "displayDirectionLabel": {
-    "message": "Megjelenítés helye - Irány"
-  },
-  "resultFontColorLabel": {
-    "message": "Fordítás színe"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
-  },
-  "candidateFontColorLabel": {
-    "message": "Fordítási javaslatok színe"
-  },
-  "bgColorLabel": {
-    "message": "Háttér színe"
-  },
-  "otherLabel": {
-    "message": "Egyéb"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Beállítás oldal megjelenítése frissítéskor"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Beállítások oldal megjelenítése amikor Simple Translate frissült. Így gyorsan áttekinthető a frissítés tartalma."
-  },
-  "isDebugModeLabel": {
-    "message": "Hibakeresési mód engedélyezése"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Ha a hibakeresési mód engedélyezve, a napló a hibakeresőbe íródik."
-  },
-  "exportSettingsLabel": {
-    "message": "Beállítások exportálása"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Beállítások mentése a számítógépre json formátumban."
-  },
-  "exportButtonLabel": {
-    "message": "Exportálás"
-  },
-  "importSettingsLabel": {
-    "message": "Beállítások importálása"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Beállítások betöltése a számítógépre mentett fájlból."
-  },
-  "importButtonLabel": {
-    "message": "Importálás"
-  },
-  "resetSettingsLabel": {
-    "message": "Alapbeállítások"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Minden beállítás visszaállítása alapértelmezettre."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Visszaállítás"
-  },
-  "shortcutsLabel": {
-    "message": "Gyorsbillentyűk"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Billentyű kombinációk"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Gyorsbillentyűk beállítása."
-  },
-  "typeShortcutMessage": {
-    "message": "Gyorsbillentyű megadása"
-  },
-  "typeLetterMessage": {
-    "message": "Betű megadása"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Ctrl vagy Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Parancs, Ctrl vagy Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "Ez a betű nem használható"
-  },
-  "invalidShortcutMessage": {
-    "message": "Ez a billentyűparancs nem használható"
-  },
-  "clear": {
-    "message": "Tisztítás"
-  },
-  "reset": {
-    "message": "Visszaállítás"
-  },
-  "informationLabel": {
-    "message": "Információ"
-  },
-  "backersLabel": {
-    "message": "Támogatók"
-  },
-  "licenseLabel": {
-    "message": "Engedély"
-  },
-  "donationLabel": {
-    "message": "Adomány"
-  },
-  "donationCaptionLabel": {
-    "message": "Köszönöm, hogy a Simple Translate bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Simple Translate, örülnék, ha megfontolhatná az adományozást."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp elektronikus ajándék kártya"
-  },
-  "sponsorsLabel": {
-    "message": "Támogatók"
-  },
-  "addonPageLabel": {
-    "message": "Bővítmény weboldala"
-  },
-  "extensionPageLabel": {
-    "message": "Kiegészítő oldala"
-  },
-  "privacyPolicyLabel": {
-    "message": "Adatvédelmi irányelvek"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=hu_HU"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Hiba: Ellenőrizze a hálózati kapcsolat állapotát."
-  },
-  "unavailableError": {
-    "message": "Hiba: Szolgáltatás elérte a használati korlátot. Kérjük, várjon egy kicsit, majd próbálja újra."
-  },
-  "deeplAuthError": {
-    "message": "Hiba: A DeepL API hitelesítés sikertelen. Adja meg a megfelelő hitelesítési kulcsot és szolgáltatást a beállítási oldalon."
-  },
-  "unknownError": {
-    "message": "Hiba: Ismeretlen hiba"
-  },
-  "translatePageMenu": {
-    "message": "Az oldal fordítása"
-  },
-  "translateTextMenu": {
-    "message": "A kijelölt szöveg fordítása"
-  },
-  "translateLinkMenu": {
-    "message": "A kijelölt hivatkozás fordítása"
-  },
-  "openPopupDescription": {
-    "message": "Eszköztár felugró ablak megnyitása"
-  },
-  "lang_af": {
-    "message": "afrikaans"
-  },
-  "lang_sq": {
-    "message": "albán"
-  },
-  "lang_am": {
-    "message": "amhara"
-  },
-  "lang_ar": {
-    "message": "arab"
-  },
-  "lang_hy": {
-    "message": "örmény"
-  },
-  "lang_az": {
-    "message": "azeri"
-  },
-  "lang_eu": {
-    "message": "baszk"
-  },
-  "lang_be": {
-    "message": "belorusz"
-  },
-  "lang_bn": {
-    "message": "bengáli"
-  },
-  "lang_bs": {
-    "message": "bosnyák"
-  },
-  "lang_bg": {
-    "message": "bolgár"
-  },
-  "lang_ca": {
-    "message": "katalán"
-  },
-  "lang_ceb": {
-    "message": "cebuano"
-  },
-  "lang_ny": {
-    "message": "cseva"
-  },
-  "lang_zh_CN": {
-    "message": "kínai (egyszerűsített)"
-  },
-  "lang_zh_TW": {
-    "message": "kínai (hagyományos)"
-  },
-  "lang_co": {
-    "message": "korzikai"
-  },
-  "lang_hr": {
-    "message": "horvát"
-  },
-  "lang_cs": {
-    "message": "cseh"
-  },
-  "lang_da": {
-    "message": "dán"
-  },
-  "lang_nl": {
-    "message": "holland"
-  },
-  "lang_en": {
-    "message": "angol"
-  },
-  "lang_eo": {
-    "message": "eszperantó"
-  },
-  "lang_et": {
-    "message": "észt"
-  },
-  "lang_fi": {
-    "message": "finn"
-  },
-  "lang_fr": {
-    "message": "francia"
-  },
-  "lang_fy": {
-    "message": "fríz"
-  },
-  "lang_gl": {
-    "message": "galíciai"
-  },
-  "lang_ka": {
-    "message": "grúz"
-  },
-  "lang_de": {
-    "message": "német"
-  },
-  "lang_el": {
-    "message": "görög"
-  },
-  "lang_gu": {
-    "message": "gudzsaráti"
-  },
-  "lang_ht": {
-    "message": "haiti kreol"
-  },
-  "lang_ha": {
-    "message": "hausza"
-  },
-  "lang_haw": {
-    "message": "hawaii"
-  },
-  "lang_he": {
-    "message": "héber"
-  },
-  "lang_hi": {
-    "message": "hindi"
-  },
-  "lang_hu": {
-    "message": "magyar"
-  },
-  "lang_is": {
-    "message": "izlandi"
-  },
-  "lang_ig": {
-    "message": "igbo"
-  },
-  "lang_id": {
-    "message": "indonéz"
-  },
-  "lang_ga": {
-    "message": "ír"
-  },
-  "lang_it": {
-    "message": "olasz"
-  },
-  "lang_ja": {
-    "message": "japán"
-  },
-  "lang_jv": {
-    "message": "jávai"
-  },
-  "lang_kn": {
-    "message": "kannada"
-  },
-  "lang_kk": {
-    "message": "kazah"
-  },
-  "lang_km": {
-    "message": "khmer"
-  },
-  "lang_rw": {
-    "message": "ruandai"
-  },
-  "lang_ky": {
-    "message": "kirgiz"
-  },
-  "lang_ko": {
-    "message": "koreai"
-  },
-  "lang_ku": {
-    "message": "kurd"
-  },
-  "lang_lo": {
-    "message": "lao"
-  },
-  "lang_la": {
-    "message": "latin"
-  },
-  "lang_lv": {
-    "message": "lett"
-  },
-  "lang_lt": {
-    "message": "litván"
-  },
-  "lang_lb": {
-    "message": "luxemburgi"
-  },
-  "lang_mk": {
-    "message": "macedón"
-  },
-  "lang_mg": {
-    "message": "malagaszi"
-  },
-  "lang_ms": {
-    "message": "maláj"
-  },
-  "lang_ml": {
-    "message": "malajálam"
-  },
-  "lang_mt": {
-    "message": "máltai"
-  },
-  "lang_mi": {
-    "message": "maori"
-  },
-  "lang_mr": {
-    "message": "maráthi"
-  },
-  "lang_mn": {
-    "message": "mongol"
-  },
-  "lang_hmn": {
-    "message": "hmong"
-  },
-  "lang_my": {
-    "message": "burmai"
-  },
-  "lang_ne": {
-    "message": "nepáli"
-  },
-  "lang_no": {
-    "message": "norvég"
-  },
-  "lang_or": {
-    "message": "odia (orija)"
-  },
-  "lang_fa": {
-    "message": "perzsa"
-  },
-  "lang_pl": {
-    "message": "lengyel"
-  },
-  "lang_pt": {
-    "message": "portugál"
-  },
-  "lang_pa": {
-    "message": "pandzsábi"
-  },
-  "lang_ps": {
-    "message": "pastu"
-  },
-  "lang_ro": {
-    "message": "román"
-  },
-  "lang_ru": {
-    "message": "orosz"
-  },
-  "lang_sm": {
-    "message": "szamoai"
-  },
-  "lang_gd": {
-    "message": "skót-gael"
-  },
-  "lang_sr": {
-    "message": "szerb"
-  },
-  "lang_st": {
-    "message": "szoto"
-  },
-  "lang_sn": {
-    "message": "sona"
-  },
-  "lang_sd": {
-    "message": "szindhi"
-  },
-  "lang_si": {
-    "message": "szinhala"
-  },
-  "lang_sk": {
-    "message": "szlovák"
-  },
-  "lang_sl": {
-    "message": "szlovén"
-  },
-  "lang_so": {
-    "message": "szomáli"
-  },
-  "lang_es": {
-    "message": "spanyol"
-  },
-  "lang_su": {
-    "message": "szundanéz"
-  },
-  "lang_sw": {
-    "message": "szuahéli"
-  },
-  "lang_sv": {
-    "message": "svéd"
-  },
-  "lang_tl": {
-    "message": "tagalog"
-  },
-  "lang_tg": {
-    "message": "tadzsik"
-  },
-  "lang_ta": {
-    "message": "tamil"
-  },
-  "lang_tt": {
-    "message": "tatár"
-  },
-  "lang_te": {
-    "message": "telugu"
-  },
-  "lang_th": {
-    "message": "thai"
-  },
-  "lang_tr": {
-    "message": "török"
-  },
-  "lang_tk": {
-    "message": "türkmén"
-  },
-  "lang_uk": {
-    "message": "ukrán"
-  },
-  "lang_ur": {
-    "message": "urdu"
-  },
-  "lang_ug": {
-    "message": "ujgur"
-  },
-  "lang_uz": {
-    "message": "üzbég"
-  },
-  "lang_vi": {
-    "message": "vietnámi"
-  },
-  "lang_cy": {
-    "message": "walesi"
-  },
-  "lang_xh": {
-    "message": "xhosza"
-  },
-  "lang_yi": {
-    "message": "jiddis"
-  },
-  "lang_yo": {
-    "message": "joruba"
-  },
-  "lang_zu": {
-    "message": "zulu"
-  },
-  "lang_en_US": {
-    "message": "angol (amerikai)"
-  },
-  "lang_en_GB": {
-    "message": "angol (brit)"
-  },
-  "lang_pt_PT": {
-    "message": "portugál"
-  },
-  "lang_pt_BR": {
-    "message": "portugál (brazil)"
-  },
-  "lang_zh": {
-    "message": "kínai"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Gyors fordító a weblapokon kijelölt vagy begépelt szövegekhez. Támogatja a Google Translate és a DeepL API szolgáltatásokat."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Adomány PayPal használatával"
+    },
+    "donateLabel": {
+        "message": "Támogatás"
+    },
+    "enableOnThisPage": {
+        "message": "Fordítás engedélyezése ezen az oldalon"
+    },
+    "disableOnThisPage": {
+        "message": "Fordítás letiltása ezen az oldalon"
+    },
+    "initialTextArea": {
+        "message": "Írja be a szöveget"
+    },
+    "showLink": {
+        "message": "Az oldal fordítása"
+    },
+    "openInGoogleLabel": {
+        "message": "Megnyitás a Google Fordítóban"
+    },
+    "openInDeeplLabel": {
+        "message": "Megnyitás a DeepL Fordítóban"
+    },
+    "copyLabel": {
+        "message": "Másolás"
+    },
+    "copiedLabel": {
+        "message": "Másolva."
+    },
+    "listenLabel": {
+        "message": "Meghallgatás"
+    },
+    "targetLangLabel": {
+        "message": "Célnyelv"
+    },
+    "allLangLabel": {
+        "message": "Minden nyelv"
+    },
+    "recentLangLabel": {
+        "message": "Legutóbbi nyelvek"
+    },
+    "settingsLabel": {
+        "message": "Beállítások"
+    },
+    "generalLabel": {
+        "message": "Általános"
+    },
+    "translationApiLabel": {
+        "message": "Fordító felület"
+    },
+    "googleApiLabel": {
+        "message": "Google translate API"
+    },
+    "googleApiCaptionLabel": {
+        "message": "A Google Translate API használata. Nincs szükség regisztrációra."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "A DeepL API használata. Regisztrációra van szükség a DeepL API Free vagy a DeepL API Pro szolgáltatásra a hitelesítő kulcs beszerzéséhez."
+    },
+    "howToUseDeeplLabel": {
+        "message": "Hogyan lehet regisztrálni a DeepL API szolgáltatásaira?"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Válassza ki azt a DeepL API szolgáltatást melyre regisztrált."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Hitelesítő kulcs"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Írja be a hitelesítő kulcsot a DeepL API használatához."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Válassza ki az alapértelmezett nyelvet."
+    },
+    "webPageLabel": {
+        "message": "Honlap"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Lehetséges fordítások megjelenítése"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Több lehetséges fordítás megjelenítése amikor csak egy szó kerül lefordításra."
+    },
+    "whenSelectTextLabel": {
+        "message": "Viselkedés a szöveg kiválasztásakor"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "A fordítópanel megjelenítése"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Közvetlenül jelenítse meg a fordítópanelt a gomb megjelenítése nélkül."
+    },
+    "ifShowButtonLabel": {
+        "message": "Fordító gomb megjelenítése"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "A fordítás gomb megnyomásával nyissa meg a panelt, ha rákattint."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Ne jelenítse meg a gombot vagy a panelt"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Ne jelenítse meg a fordító gombot vagy a fordítópanelt."
+    },
+    "ifCheckLangLabel": {
+        "message": "Ne jelenjen meg a gomb ha nincs szükség fordításra"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik a célnyelvvel akkor a gomb nem jelenik meg."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Felismeri a kijelölt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
+    },
+    "disableTranslationLabel": {
+        "message": "Fordítás kikapcsilása"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Fordítás letiltása a szövegmezőkben"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Ne jelenítse meg a fordítói gombot vagy panelt, amikor szöveget választ a szövegmezőben."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "Fordítás kikapcsolása a <code> cimkékben"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Ne jelenjen meg a fordító gomb vagy a panel amikor a kijelölt szöveg egy <code> cimkében található."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Fordítás a módosító billentyű lenyomásakor"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Fordítás megjelenítése csak a megadott módosító billentyű lenyomásakor."
+    },
+    "modifierKeyLabel": {
+        "message": "Módosító billentyű"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Parancs"
+    },
+    "disableUrlListLabel": {
+        "message": "URL-ek listája, ahol a fordítás le lesz tiltásra"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Ha az oldal URL-je illeszkedik a mintára akkor a weblapon a fordítása le lesz tiltva. A listában használható a \"*\" helyettesítőkarakter."
+    },
+    "toolbarLabel": {
+        "message": "Felugró ablak az eszköztár gombjához"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatikus váltás a második nyelvre"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Felismeri a beírt szöveg nyelvét és ha az megegyezik az alapértelmezett célnyelvvel akkor a fordítás a második nyelvre történik."
+    },
+    "secondTargetLangLabel": {
+        "message": "Második nyelv"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Válassza ki a második célnyelvet."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Fordítás kikapcsolása adott 'lang' tulajdonság esetén"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Fordítás kikapcsolása ha a weblap html elemében megadott 'lang' tulajdonság szerepel a listában. Vesszővel elválasztott listaként kell megadni a nyelvek cimkéit."
+    },
+    "waitTimeLabel": {
+        "message": "Várakozási idő fordítás előtt"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Várakozási idő a karakterek beírása és a fordítás megkezdése előtt. (ezredmásodperc)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Ha sokszor fordít rövid időn belül akkor egy időre használhatatlanná válhat."
+    },
+    "menuLabel": {
+        "message": "Helyi menü"
+    },
+    "ifShowMenuLabel": {
+        "message": "Megjelenítés a helyi menüben"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Elemek hozzáadása a helyi menübe, amikor jobb egérgombbal kattint a weboldalra vagy a lapra."
+    },
+    "pageTranslationLabel": {
+        "message": "Page translation"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Tab to display translation results"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Specify the tab to display the results of the page translation."
+    },
+    "newTabLabel": {
+        "message": "New tab"
+    },
+    "currentTabLabel": {
+        "message": "Current tab"
+    },
+    "styleLabel": {
+        "message": "Stílus"
+    },
+    "themeLabel": {
+        "message": "Téma"
+    },
+    "themeCaptionLabel": {
+        "message": "Szín séma megadása."
+    },
+    "lightLabel": {
+        "message": "Világos"
+    },
+    "darkLabel": {
+        "message": "Sötét"
+    },
+    "systemLabel": {
+        "message": "System"
+    },
+    "buttonStyleLabel": {
+        "message": "Fordító gomb"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Állítsa be a weboldalakon megjelenő fordító gomb stílusát."
+    },
+    "buttonSizeLabel": {
+        "message": "Méret"
+    },
+    "buttonPositionLabel": {
+        "message": "Megjelenítés helye"
+    },
+    "topRightLabel": {
+        "message": "Jobb felső"
+    },
+    "bottomRightLabel": {
+        "message": "Jobb alsó"
+    },
+    "topLeftLabel": {
+        "message": "Bal felső"
+    },
+    "bottomLeftLabel": {
+        "message": "Bal alsó"
+    },
+    "topLabel": {
+        "message": "Fent"
+    },
+    "bottomLabel": {
+        "message": "Lent"
+    },
+    "leftLabel": {
+        "message": "Balra"
+    },
+    "rightLabel": {
+        "message": "Jobbra"
+    },
+    "positionOffsetLabel": {
+        "message": "Megjelenítés helye - Eltolás"
+    },
+    "panelStyleLabel": {
+        "message": "Fordító panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Állítsa be a weboldalakon megjelenő fordító panel stílusát."
+    },
+    "widthLabel": {
+        "message": "Szélesség"
+    },
+    "heightLabel": {
+        "message": "Magasság"
+    },
+    "fontSizeLabel": {
+        "message": "Betűméret"
+    },
+    "referencePointLabel": {
+        "message": "Megjelenítés helye - Hivatkozási pont"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Kijelölt szöveg alatt"
+    },
+    "topSelectedTextLabel": {
+        "message": "Kijelölt szöveg fölött"
+    },
+    "clickedPointLabel": {
+        "message": "Kattintás helye"
+    },
+    "displayDirectionLabel": {
+        "message": "Megjelenítés helye - Irány"
+    },
+    "resultFontColorLabel": {
+        "message": "Fordítás színe"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Override default colors with colors below"
+    },
+    "candidateFontColorLabel": {
+        "message": "Fordítási javaslatok színe"
+    },
+    "bgColorLabel": {
+        "message": "Háttér színe"
+    },
+    "otherLabel": {
+        "message": "Egyéb"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Beállítás oldal megjelenítése frissítéskor"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Beállítások oldal megjelenítése amikor Foxi frissült. Így gyorsan áttekinthető a frissítés tartalma."
+    },
+    "isDebugModeLabel": {
+        "message": "Hibakeresési mód engedélyezése"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Ha a hibakeresési mód engedélyezve, a napló a hibakeresőbe íródik."
+    },
+    "exportSettingsLabel": {
+        "message": "Beállítások exportálása"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Beállítások mentése a számítógépre json formátumban."
+    },
+    "exportButtonLabel": {
+        "message": "Exportálás"
+    },
+    "importSettingsLabel": {
+        "message": "Beállítások importálása"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Beállítások betöltése a számítógépre mentett fájlból."
+    },
+    "importButtonLabel": {
+        "message": "Importálás"
+    },
+    "resetSettingsLabel": {
+        "message": "Alapbeállítások"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Minden beállítás visszaállítása alapértelmezettre."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Visszaállítás"
+    },
+    "shortcutsLabel": {
+        "message": "Gyorsbillentyűk"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Billentyű kombinációk"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Gyorsbillentyűk beállítása."
+    },
+    "typeShortcutMessage": {
+        "message": "Gyorsbillentyű megadása"
+    },
+    "typeLetterMessage": {
+        "message": "Betű megadása"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Ctrl vagy Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Parancs, Ctrl vagy Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "Ez a betű nem használható"
+    },
+    "invalidShortcutMessage": {
+        "message": "Ez a billentyűparancs nem használható"
+    },
+    "clear": {
+        "message": "Tisztítás"
+    },
+    "reset": {
+        "message": "Visszaállítás"
+    },
+    "informationLabel": {
+        "message": "Információ"
+    },
+    "backersLabel": {
+        "message": "Támogatók"
+    },
+    "licenseLabel": {
+        "message": "Engedély"
+    },
+    "donationLabel": {
+        "message": "Adomány"
+    },
+    "donationCaptionLabel": {
+        "message": "Köszönöm, hogy a Foxi bővítményt használja.<br>Támogatásával arra ösztönözhet, hogy tovább fejlesszem a bővítményt.<br>Ha tetszik önnek a Foxi, örülnék, ha megfontolhatná az adományozást."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp elektronikus ajándék kártya"
+    },
+    "sponsorsLabel": {
+        "message": "Támogatók"
+    },
+    "addonPageLabel": {
+        "message": "Bővítmény weboldala"
+    },
+    "extensionPageLabel": {
+        "message": "Kiegészítő oldala"
+    },
+    "privacyPolicyLabel": {
+        "message": "Adatvédelmi irányelvek"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=hu_HU"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Hiba: Ellenőrizze a hálózati kapcsolat állapotát."
+    },
+    "unavailableError": {
+        "message": "Hiba: Szolgáltatás elérte a használati korlátot. Kérjük, várjon egy kicsit, majd próbálja újra."
+    },
+    "deeplAuthError": {
+        "message": "Hiba: A DeepL API hitelesítés sikertelen. Adja meg a megfelelő hitelesítési kulcsot és szolgáltatást a beállítási oldalon."
+    },
+    "unknownError": {
+        "message": "Hiba: Ismeretlen hiba"
+    },
+    "translatePageMenu": {
+        "message": "Az oldal fordítása"
+    },
+    "translateTextMenu": {
+        "message": "A kijelölt szöveg fordítása"
+    },
+    "translateLinkMenu": {
+        "message": "A kijelölt hivatkozás fordítása"
+    },
+    "openPopupDescription": {
+        "message": "Eszköztár felugró ablak megnyitása"
+    },
+    "lang_af": {
+        "message": "afrikaans"
+    },
+    "lang_sq": {
+        "message": "albán"
+    },
+    "lang_am": {
+        "message": "amhara"
+    },
+    "lang_ar": {
+        "message": "arab"
+    },
+    "lang_hy": {
+        "message": "örmény"
+    },
+    "lang_az": {
+        "message": "azeri"
+    },
+    "lang_eu": {
+        "message": "baszk"
+    },
+    "lang_be": {
+        "message": "belorusz"
+    },
+    "lang_bn": {
+        "message": "bengáli"
+    },
+    "lang_bs": {
+        "message": "bosnyák"
+    },
+    "lang_bg": {
+        "message": "bolgár"
+    },
+    "lang_ca": {
+        "message": "katalán"
+    },
+    "lang_ceb": {
+        "message": "cebuano"
+    },
+    "lang_ny": {
+        "message": "cseva"
+    },
+    "lang_zh_CN": {
+        "message": "kínai (egyszerűsített)"
+    },
+    "lang_zh_TW": {
+        "message": "kínai (hagyományos)"
+    },
+    "lang_co": {
+        "message": "korzikai"
+    },
+    "lang_hr": {
+        "message": "horvát"
+    },
+    "lang_cs": {
+        "message": "cseh"
+    },
+    "lang_da": {
+        "message": "dán"
+    },
+    "lang_nl": {
+        "message": "holland"
+    },
+    "lang_en": {
+        "message": "angol"
+    },
+    "lang_eo": {
+        "message": "eszperantó"
+    },
+    "lang_et": {
+        "message": "észt"
+    },
+    "lang_fi": {
+        "message": "finn"
+    },
+    "lang_fr": {
+        "message": "francia"
+    },
+    "lang_fy": {
+        "message": "fríz"
+    },
+    "lang_gl": {
+        "message": "galíciai"
+    },
+    "lang_ka": {
+        "message": "grúz"
+    },
+    "lang_de": {
+        "message": "német"
+    },
+    "lang_el": {
+        "message": "görög"
+    },
+    "lang_gu": {
+        "message": "gudzsaráti"
+    },
+    "lang_ht": {
+        "message": "haiti kreol"
+    },
+    "lang_ha": {
+        "message": "hausza"
+    },
+    "lang_haw": {
+        "message": "hawaii"
+    },
+    "lang_he": {
+        "message": "héber"
+    },
+    "lang_hi": {
+        "message": "hindi"
+    },
+    "lang_hu": {
+        "message": "magyar"
+    },
+    "lang_is": {
+        "message": "izlandi"
+    },
+    "lang_ig": {
+        "message": "igbo"
+    },
+    "lang_id": {
+        "message": "indonéz"
+    },
+    "lang_ga": {
+        "message": "ír"
+    },
+    "lang_it": {
+        "message": "olasz"
+    },
+    "lang_ja": {
+        "message": "japán"
+    },
+    "lang_jv": {
+        "message": "jávai"
+    },
+    "lang_kn": {
+        "message": "kannada"
+    },
+    "lang_kk": {
+        "message": "kazah"
+    },
+    "lang_km": {
+        "message": "khmer"
+    },
+    "lang_rw": {
+        "message": "ruandai"
+    },
+    "lang_ky": {
+        "message": "kirgiz"
+    },
+    "lang_ko": {
+        "message": "koreai"
+    },
+    "lang_ku": {
+        "message": "kurd"
+    },
+    "lang_lo": {
+        "message": "lao"
+    },
+    "lang_la": {
+        "message": "latin"
+    },
+    "lang_lv": {
+        "message": "lett"
+    },
+    "lang_lt": {
+        "message": "litván"
+    },
+    "lang_lb": {
+        "message": "luxemburgi"
+    },
+    "lang_mk": {
+        "message": "macedón"
+    },
+    "lang_mg": {
+        "message": "malagaszi"
+    },
+    "lang_ms": {
+        "message": "maláj"
+    },
+    "lang_ml": {
+        "message": "malajálam"
+    },
+    "lang_mt": {
+        "message": "máltai"
+    },
+    "lang_mi": {
+        "message": "maori"
+    },
+    "lang_mr": {
+        "message": "maráthi"
+    },
+    "lang_mn": {
+        "message": "mongol"
+    },
+    "lang_hmn": {
+        "message": "hmong"
+    },
+    "lang_my": {
+        "message": "burmai"
+    },
+    "lang_ne": {
+        "message": "nepáli"
+    },
+    "lang_no": {
+        "message": "norvég"
+    },
+    "lang_or": {
+        "message": "odia (orija)"
+    },
+    "lang_fa": {
+        "message": "perzsa"
+    },
+    "lang_pl": {
+        "message": "lengyel"
+    },
+    "lang_pt": {
+        "message": "portugál"
+    },
+    "lang_pa": {
+        "message": "pandzsábi"
+    },
+    "lang_ps": {
+        "message": "pastu"
+    },
+    "lang_ro": {
+        "message": "román"
+    },
+    "lang_ru": {
+        "message": "orosz"
+    },
+    "lang_sm": {
+        "message": "szamoai"
+    },
+    "lang_gd": {
+        "message": "skót-gael"
+    },
+    "lang_sr": {
+        "message": "szerb"
+    },
+    "lang_st": {
+        "message": "szoto"
+    },
+    "lang_sn": {
+        "message": "sona"
+    },
+    "lang_sd": {
+        "message": "szindhi"
+    },
+    "lang_si": {
+        "message": "szinhala"
+    },
+    "lang_sk": {
+        "message": "szlovák"
+    },
+    "lang_sl": {
+        "message": "szlovén"
+    },
+    "lang_so": {
+        "message": "szomáli"
+    },
+    "lang_es": {
+        "message": "spanyol"
+    },
+    "lang_su": {
+        "message": "szundanéz"
+    },
+    "lang_sw": {
+        "message": "szuahéli"
+    },
+    "lang_sv": {
+        "message": "svéd"
+    },
+    "lang_tl": {
+        "message": "tagalog"
+    },
+    "lang_tg": {
+        "message": "tadzsik"
+    },
+    "lang_ta": {
+        "message": "tamil"
+    },
+    "lang_tt": {
+        "message": "tatár"
+    },
+    "lang_te": {
+        "message": "telugu"
+    },
+    "lang_th": {
+        "message": "thai"
+    },
+    "lang_tr": {
+        "message": "török"
+    },
+    "lang_tk": {
+        "message": "türkmén"
+    },
+    "lang_uk": {
+        "message": "ukrán"
+    },
+    "lang_ur": {
+        "message": "urdu"
+    },
+    "lang_ug": {
+        "message": "ujgur"
+    },
+    "lang_uz": {
+        "message": "üzbég"
+    },
+    "lang_vi": {
+        "message": "vietnámi"
+    },
+    "lang_cy": {
+        "message": "walesi"
+    },
+    "lang_xh": {
+        "message": "xhosza"
+    },
+    "lang_yi": {
+        "message": "jiddis"
+    },
+    "lang_yo": {
+        "message": "joruba"
+    },
+    "lang_zu": {
+        "message": "zulu"
+    },
+    "lang_en_US": {
+        "message": "angol (amerikai)"
+    },
+    "lang_en_GB": {
+        "message": "angol (brit)"
+    },
+    "lang_pt_PT": {
+        "message": "portugál"
+    },
+    "lang_pt_BR": {
+        "message": "portugál (brazil)"
+    },
+    "lang_zh": {
+        "message": "kínai"
+    }
 }

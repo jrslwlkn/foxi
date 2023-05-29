@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Traduceți rapid textul selectat sau tastat pe paginile web. Acceptă Google Translate și API-ul DeepL."
-  },
-  "donateWithPaypalLabel": {
-    "message": "Donează prin Paypal"
-  },
-  "donateLabel": {
-    "message": "Donează"
-  },
-  "enableOnThisPage": {
-    "message": "Activează traducerea pe această pagină"
-  },
-  "disableOnThisPage": {
-    "message": "Dezactivează traducerea pe această pagină"
-  },
-  "initialTextArea": {
-    "message": "Introduceți textul"
-  },
-  "showLink": {
-    "message": "Traduceți această pagină"
-  },
-  "openInGoogleLabel": {
-    "message": "Deschide în Google Translate"
-  },
-  "openInDeeplLabel": {
-    "message": "Deschide în DeepL Translator"
-  },
-  "copyLabel": {
-    "message": "Copiază"
-  },
-  "copiedLabel": {
-    "message": "Copiat."
-  },
-  "listenLabel": {
-    "message": "Ascultă"
-  },
-  "targetLangLabel": {
-    "message": "Limba țintă"
-  },
-  "allLangLabel": {
-    "message": "Toate limbile"
-  },
-  "recentLangLabel": {
-    "message": "Limbi recente"
-  },
-  "settingsLabel": {
-    "message": "Setări"
-  },
-  "generalLabel": {
-    "message": "General"
-  },
-  "translationApiLabel": {
-    "message": "Motor de traducere"
-  },
-  "googleApiLabel": {
-    "message": "API Traducere Google"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Utilizarea Google Translate API. Nu este necesară înregistrarea."
-  },
-  "deeplApiLabel": {
-    "message": "API DeepL"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "Folosiți DeepL API. Trebuie să vă înregistrați cu DeepL API gratuit sau DeepL API Pro pentru a obține o cheie de autentificare."
-  },
-  "howToUseDeeplLabel": {
-    "message": "Cum să înregistrezi DeepL API"
-  },
-  "deeplPlanLabel": {
-    "message": "Plan API DeepL"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Selectați planul API DeepL pentru care v-ați înregistrat."
-  },
-  "deeplFreeLabel": {
-    "message": "API DeepL gratuit"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Cheie de autentificare"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Introduceți cheia de autentificare pentru DeepL API."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Selectați limba țintă implicită."
-  },
-  "webPageLabel": {
-    "message": "Pagină web"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Arată variante de traducere"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Arată variante multiple de traducere când un singur cuvânt e tradus."
-  },
-  "whenSelectTextLabel": {
-    "message": "Comportament la selectarea textului"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Afișează panoul de traducere"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Afișează direct panoul de traducere fără a afișa butonul."
-  },
-  "ifShowButtonLabel": {
-    "message": "Afișează butonul de traducere"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Afișează butonul de traducere pentru a deschide panoul când se dă click pe el."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Nu afişa butonul sau panoul"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Nu afișa butonul de traducere sau panoul de traducere."
-  },
-  "ifCheckLangLabel": {
-    "message": "Nu afișa butonul dacă traducerea nu este necesară"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă, butonul nu este afișat."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
-  },
-  "disableTranslationLabel": {
-    "message": "Dezactivează traducerea"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Dezactivează traducerea în câmpurile de text"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Nu afișa butonul sau panoul de traducere la selectarea textului într-un câmp text."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "Dezactivați traducerea în etichetele de cod"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Nu se afișează butonul sau panoul de traducere la selectarea textului din eticheta codului."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Tradu la tasta modificator apăsată"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Afișează traducerea doar pe tasta de modificator specificată."
-  },
-  "modifierKeyLabel": {
-    "message": "Tasta de modificator"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Comandă"
-  },
-  "disableUrlListLabel": {
-    "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Dacă URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite caractere de tip „*”."
-  },
-  "toolbarLabel": {
-    "message": "Fereastra din bara de instrumente"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Comută automat la a doua limbă"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Detectează limba textului introdus, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
-  },
-  "secondTargetLangLabel": {
-    "message": "A doua limbă"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Selectează a doua limbă țintă."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Dezactivează traducerea după atributul limbii"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Dezactivează traducerea în cazul în care atributul limbii din elementul html al paginii se potrivește cu lista. Introduceți tag-uri separate prin virgulă."
-  },
-  "waitTimeLabel": {
-    "message": "Timpul de așteptare pentru traducere"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Specifică timpul de așteptare de la introducerea unui caracter, până la începutul traducerii. (milisecunde)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Dacă îl traduceți de mai multe ori într-un timp scurt, poate deveni inutilizabil pentru o vreme."
-  },
-  "menuLabel": {
-    "message": "Meniu contextual"
-  },
-  "ifShowMenuLabel": {
-    "message": "Afișează meniul contextual"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Adaugă obiecte in meniul contextual afișat atunci când se face click dreapta pe o pagină web sau pe un tab."
-  },
-  "pageTranslationLabel": {
-    "message": "Traducere pagină"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Fila pentru a afișa rezultatele traducerii"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Specificați fila pentru a afișa rezultatele traducerii paginii."
-  },
-  "newTabLabel": {
-    "message": "Filă nouă"
-  },
-  "currentTabLabel": {
-    "message": "Fila curentă"
-  },
-  "styleLabel": {
-    "message": "Stil"
-  },
-  "themeLabel": {
-    "message": "Tema"
-  },
-  "themeCaptionLabel": {
-    "message": "Specificați schema de culori."
-  },
-  "lightLabel": {
-    "message": "Luminos"
-  },
-  "darkLabel": {
-    "message": "Întunecat"
-  },
-  "systemLabel": {
-    "message": "Sistem"
-  },
-  "buttonStyleLabel": {
-    "message": "Butonul de traducere"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Specificați stilul butonului de traducere afișat pe pagina web."
-  },
-  "buttonSizeLabel": {
-    "message": "Dimensiune"
-  },
-  "buttonPositionLabel": {
-    "message": "Poziţia de afişare"
-  },
-  "topRightLabel": {
-    "message": "Dreapta sus"
-  },
-  "bottomRightLabel": {
-    "message": "Dreapta jos"
-  },
-  "topLeftLabel": {
-    "message": "Stânga sus"
-  },
-  "bottomLeftLabel": {
-    "message": "Stânga jos"
-  },
-  "topLabel": {
-    "message": "Sus"
-  },
-  "bottomLabel": {
-    "message": "Jos"
-  },
-  "leftLabel": {
-    "message": "Stânga"
-  },
-  "rightLabel": {
-    "message": "Dreapta"
-  },
-  "positionOffsetLabel": {
-    "message": "Decalaj poziție de afişare"
-  },
-  "panelStyleLabel": {
-    "message": "Panou de traducere"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Specifică stilul panoului de traducere afișat pe pagina web."
-  },
-  "widthLabel": {
-    "message": "Lațime"
-  },
-  "heightLabel": {
-    "message": "Înălțime"
-  },
-  "fontSizeLabel": {
-    "message": "Dimensiune font"
-  },
-  "referencePointLabel": {
-    "message": "Poziție de afişare - Punct de referință"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Sfârșitul textului selectat"
-  },
-  "topSelectedTextLabel": {
-    "message": "Începutul textului selectat"
-  },
-  "clickedPointLabel": {
-    "message": "Punct click-uit"
-  },
-  "displayDirectionLabel": {
-    "message": "Poziție de afişare - Direcție"
-  },
-  "resultFontColorLabel": {
-    "message": "Culoarea fontului rezultatului traducerii"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Suprascrie culorile implicite cu culori de mai jos"
-  },
-  "candidateFontColorLabel": {
-    "message": "Culoarea fontului variantelor de traducere"
-  },
-  "bgColorLabel": {
-    "message": "Culoare de fundal"
-  },
-  "otherLabel": {
-    "message": "Altele"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Afișează pagina de opțiuni la actualizare"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Afișează pagina de opțiuni când Simple Translate este actualizat. Poți afla rapid conținutul actualizării."
-  },
-  "isDebugModeLabel": {
-    "message": "Activează modul de depanare"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator."
-  },
-  "exportSettingsLabel": {
-    "message": "Exportă setările"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Salvați setările ca fișier json pe computer."
-  },
-  "exportButtonLabel": {
-    "message": "Exportare"
-  },
-  "importSettingsLabel": {
-    "message": "Importă setări"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Încărcați fișierul de setări salvat pe calculator."
-  },
-  "importButtonLabel": {
-    "message": "Importare"
-  },
-  "resetSettingsLabel": {
-    "message": "Resetare setări"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Resetează la setările implicite."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Resetează"
-  },
-  "shortcutsLabel": {
-    "message": "Comenzi rapide"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Scurtături tastatură"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Setează scurtături tastatură."
-  },
-  "typeShortcutMessage": {
-    "message": "Adăugați o scurtătură"
-  },
-  "typeLetterMessage": {
-    "message": "Tastează o literă"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Include Ctrl sau Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Include Command, Ctrl sau Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "Litera nu poate fi folosită"
-  },
-  "invalidShortcutMessage": {
-    "message": "Comanda rapidă nu poate fi folosită"
-  },
-  "clear": {
-    "message": "Golește"
-  },
-  "reset": {
-    "message": "Resetează"
-  },
-  "informationLabel": {
-    "message": "Informații"
-  },
-  "backersLabel": {
-    "message": "Susținători"
-  },
-  "licenseLabel": {
-    "message": "Licență"
-  },
-  "donationLabel": {
-    "message": "Vă rugăm să faceți o donație"
-  },
-  "donationCaptionLabel": {
-    "message": "Vă mulțumesc pentru că utilizați Simple Translate. <br>Sprijinul dumneavoastră m-ar încuraja mult pe măsură ce voi continua dezvoltarea acestei extensii. <br>Dacă vă place Simple Translate, orice donație este binevenită."
-  },
-  "amazonTitleLabel": {
-    "message": "Carduri eGift amazon.co.jp"
-  },
-  "sponsorsLabel": {
-    "message": "Sponsori"
-  },
-  "addonPageLabel": {
-    "message": "Pagină de add-on-uri"
-  },
-  "extensionPageLabel": {
-    "message": "Pagină de extensii"
-  },
-  "privacyPolicyLabel": {
-    "message": "Politica de confidenţialitate"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ro_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/ro-RO/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Eroare: Verificați conexiunea la rețea."
-  },
-  "unavailableError": {
-    "message": "Eroare: Limita utilizării serviciului a fost atinsă. Te rog așteaptă puțin, apoi încearcă din nou."
-  },
-  "deeplAuthError": {
-    "message": "Eroare: Autentificarea DeepL API a eșuat. Vă rugăm să setați corect cheia de autentificare și planul pe pagina de setări."
-  },
-  "unknownError": {
-    "message": "Eroare: Eroare necunoscută"
-  },
-  "translatePageMenu": {
-    "message": "Traduceți această pagină"
-  },
-  "translateTextMenu": {
-    "message": "Tradu textul selectat"
-  },
-  "translateLinkMenu": {
-    "message": "Tradu link-ul selectat"
-  },
-  "openPopupDescription": {
-    "message": "Deschide fereastra din bara de instrumente"
-  },
-  "lang_af": {
-    "message": "afrikaans"
-  },
-  "lang_sq": {
-    "message": "albaneză"
-  },
-  "lang_am": {
-    "message": "amhară"
-  },
-  "lang_ar": {
-    "message": "arabă"
-  },
-  "lang_hy": {
-    "message": "armeană"
-  },
-  "lang_az": {
-    "message": "azeră"
-  },
-  "lang_eu": {
-    "message": "bască"
-  },
-  "lang_be": {
-    "message": "belarusă"
-  },
-  "lang_bn": {
-    "message": "bengaleză"
-  },
-  "lang_bs": {
-    "message": "bosniacă"
-  },
-  "lang_bg": {
-    "message": "bulgară"
-  },
-  "lang_ca": {
-    "message": "catalană"
-  },
-  "lang_ceb": {
-    "message": "cebuană"
-  },
-  "lang_ny": {
-    "message": "Chewa"
-  },
-  "lang_zh_CN": {
-    "message": "Chineză (simplificată)"
-  },
-  "lang_zh_TW": {
-    "message": "Chineză (Tradițională)"
-  },
-  "lang_co": {
-    "message": "corsicană"
-  },
-  "lang_hr": {
-    "message": "esperanto"
-  },
-  "lang_cs": {
-    "message": "Cehă"
-  },
-  "lang_da": {
-    "message": "Daneză"
-  },
-  "lang_nl": {
-    "message": "Olandeză"
-  },
-  "lang_en": {
-    "message": "Engleză"
-  },
-  "lang_eo": {
-    "message": "Esperanto"
-  },
-  "lang_et": {
-    "message": "estonă"
-  },
-  "lang_fi": {
-    "message": "finlandeză"
-  },
-  "lang_fr": {
-    "message": "franceză"
-  },
-  "lang_fy": {
-    "message": "friziană"
-  },
-  "lang_gl": {
-    "message": "galiciană"
-  },
-  "lang_ka": {
-    "message": "georgiană"
-  },
-  "lang_de": {
-    "message": "germană"
-  },
-  "lang_el": {
-    "message": "greacă"
-  },
-  "lang_gu": {
-    "message": "gujarati"
-  },
-  "lang_ht": {
-    "message": "haitiană"
-  },
-  "lang_ha": {
-    "message": "hausă"
-  },
-  "lang_haw": {
-    "message": "hawaiiană"
-  },
-  "lang_he": {
-    "message": "ebraică"
-  },
-  "lang_hi": {
-    "message": "hindi"
-  },
-  "lang_hu": {
-    "message": "maghiară"
-  },
-  "lang_is": {
-    "message": "islandeză"
-  },
-  "lang_ig": {
-    "message": "igbo"
-  },
-  "lang_id": {
-    "message": "indoneziană"
-  },
-  "lang_ga": {
-    "message": "khmeră"
-  },
-  "lang_it": {
-    "message": "Italiană"
-  },
-  "lang_ja": {
-    "message": "Japoneză"
-  },
-  "lang_jv": {
-    "message": "Javaneză"
-  },
-  "lang_kn": {
-    "message": "Kannada"
-  },
-  "lang_kk": {
-    "message": "Kazahă"
-  },
-  "lang_km": {
-    "message": "Khmeră"
-  },
-  "lang_rw": {
-    "message": "Kinyarwanda"
-  },
-  "lang_ky": {
-    "message": "kirghiză"
-  },
-  "lang_ko": {
-    "message": "coreeană"
-  },
-  "lang_ku": {
-    "message": "kurdă"
-  },
-  "lang_lo": {
-    "message": "laoțiană"
-  },
-  "lang_la": {
-    "message": "latină"
-  },
-  "lang_lv": {
-    "message": "letonă"
-  },
-  "lang_lt": {
-    "message": "lituaniană"
-  },
-  "lang_lb": {
-    "message": "luxemburgheză"
-  },
-  "lang_mk": {
-    "message": "macedoneană"
-  },
-  "lang_mg": {
-    "message": "malgaşă"
-  },
-  "lang_ms": {
-    "message": "malaieză"
-  },
-  "lang_ml": {
-    "message": "malayalam"
-  },
-  "lang_mt": {
-    "message": "malteză"
-  },
-  "lang_mi": {
-    "message": "maori"
-  },
-  "lang_mr": {
-    "message": "marathi"
-  },
-  "lang_mn": {
-    "message": "mongolă"
-  },
-  "lang_hmn": {
-    "message": "Monk"
-  },
-  "lang_my": {
-    "message": "birmană"
-  },
-  "lang_ne": {
-    "message": "nepaleză"
-  },
-  "lang_no": {
-    "message": "norvegiană"
-  },
-  "lang_or": {
-    "message": "Odia (Oriya)"
-  },
-  "lang_fa": {
-    "message": "persană"
-  },
-  "lang_pl": {
-    "message": "poloneză"
-  },
-  "lang_pt": {
-    "message": "portugheză"
-  },
-  "lang_pa": {
-    "message": "punjabă"
-  },
-  "lang_ps": {
-    "message": "Pushto"
-  },
-  "lang_ro": {
-    "message": "română"
-  },
-  "lang_ru": {
-    "message": "rusă"
-  },
-  "lang_sm": {
-    "message": "samoană"
-  },
-  "lang_gd": {
-    "message": "galica scoțiană"
-  },
-  "lang_sr": {
-    "message": "sârbă"
-  },
-  "lang_st": {
-    "message": "Sesotho"
-  },
-  "lang_sn": {
-    "message": "shona"
-  },
-  "lang_sd": {
-    "message": "Sindhi"
-  },
-  "lang_si": {
-    "message": "singaleză"
-  },
-  "lang_sk": {
-    "message": "slovacă"
-  },
-  "lang_sl": {
-    "message": "slovenă"
-  },
-  "lang_so": {
-    "message": "somaleză"
-  },
-  "lang_es": {
-    "message": "spaniolă"
-  },
-  "lang_su": {
-    "message": "sundaneză"
-  },
-  "lang_sw": {
-    "message": "swahili"
-  },
-  "lang_sv": {
-    "message": "suedeză"
-  },
-  "lang_tl": {
-    "message": "tagalog"
-  },
-  "lang_tg": {
-    "message": " tadjică"
-  },
-  "lang_ta": {
-    "message": "tamilă"
-  },
-  "lang_tt": {
-    "message": "Tătară"
-  },
-  "lang_te": {
-    "message": "telugu"
-  },
-  "lang_th": {
-    "message": "tailandeză"
-  },
-  "lang_tr": {
-    "message": "turcă"
-  },
-  "lang_tk": {
-    "message": "Turkmenă"
-  },
-  "lang_uk": {
-    "message": "ucraineană"
-  },
-  "lang_ur": {
-    "message": "urdu"
-  },
-  "lang_ug": {
-    "message": "Uiguri"
-  },
-  "lang_uz": {
-    "message": "uzbecă"
-  },
-  "lang_vi": {
-    "message": "vietnameză"
-  },
-  "lang_cy": {
-    "message": "galeză"
-  },
-  "lang_xh": {
-    "message": "xosa"
-  },
-  "lang_yi": {
-    "message": "idiș"
-  },
-  "lang_yo": {
-    "message": "yoruba"
-  },
-  "lang_zu": {
-    "message": "zulu"
-  },
-  "lang_en_US": {
-    "message": "Engleză (Americană)"
-  },
-  "lang_en_GB": {
-    "message": "Engleză (Britanică)"
-  },
-  "lang_pt_PT": {
-    "message": "portugheză"
-  },
-  "lang_pt_BR": {
-    "message": "Portugheză (Braziliană)"
-  },
-  "lang_zh": {
-    "message": "Chineză"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Traduceți rapid textul selectat sau tastat pe paginile web. Acceptă Google Translate și API-ul DeepL."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Donează prin Paypal"
+    },
+    "donateLabel": {
+        "message": "Donează"
+    },
+    "enableOnThisPage": {
+        "message": "Activează traducerea pe această pagină"
+    },
+    "disableOnThisPage": {
+        "message": "Dezactivează traducerea pe această pagină"
+    },
+    "initialTextArea": {
+        "message": "Introduceți textul"
+    },
+    "showLink": {
+        "message": "Traduceți această pagină"
+    },
+    "openInGoogleLabel": {
+        "message": "Deschide în Google Translate"
+    },
+    "openInDeeplLabel": {
+        "message": "Deschide în DeepL Translator"
+    },
+    "copyLabel": {
+        "message": "Copiază"
+    },
+    "copiedLabel": {
+        "message": "Copiat."
+    },
+    "listenLabel": {
+        "message": "Ascultă"
+    },
+    "targetLangLabel": {
+        "message": "Limba țintă"
+    },
+    "allLangLabel": {
+        "message": "Toate limbile"
+    },
+    "recentLangLabel": {
+        "message": "Limbi recente"
+    },
+    "settingsLabel": {
+        "message": "Setări"
+    },
+    "generalLabel": {
+        "message": "General"
+    },
+    "translationApiLabel": {
+        "message": "Motor de traducere"
+    },
+    "googleApiLabel": {
+        "message": "API Traducere Google"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Utilizarea Google Translate API. Nu este necesară înregistrarea."
+    },
+    "deeplApiLabel": {
+        "message": "API DeepL"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "Folosiți DeepL API. Trebuie să vă înregistrați cu DeepL API gratuit sau DeepL API Pro pentru a obține o cheie de autentificare."
+    },
+    "howToUseDeeplLabel": {
+        "message": "Cum să înregistrezi DeepL API"
+    },
+    "deeplPlanLabel": {
+        "message": "Plan API DeepL"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Selectați planul API DeepL pentru care v-ați înregistrat."
+    },
+    "deeplFreeLabel": {
+        "message": "API DeepL gratuit"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Cheie de autentificare"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Introduceți cheia de autentificare pentru DeepL API."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Selectați limba țintă implicită."
+    },
+    "webPageLabel": {
+        "message": "Pagină web"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Arată variante de traducere"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Arată variante multiple de traducere când un singur cuvânt e tradus."
+    },
+    "whenSelectTextLabel": {
+        "message": "Comportament la selectarea textului"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Afișează panoul de traducere"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Afișează direct panoul de traducere fără a afișa butonul."
+    },
+    "ifShowButtonLabel": {
+        "message": "Afișează butonul de traducere"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Afișează butonul de traducere pentru a deschide panoul când se dă click pe el."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Nu afişa butonul sau panoul"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Nu afișa butonul de traducere sau panoul de traducere."
+    },
+    "ifCheckLangLabel": {
+        "message": "Nu afișa butonul dacă traducerea nu este necesară"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă, butonul nu este afișat."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Detectează limba textului selectat, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
+    },
+    "disableTranslationLabel": {
+        "message": "Dezactivează traducerea"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Dezactivează traducerea în câmpurile de text"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Nu afișa butonul sau panoul de traducere la selectarea textului într-un câmp text."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "Dezactivați traducerea în etichetele de cod"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Nu se afișează butonul sau panoul de traducere la selectarea textului din eticheta codului."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Tradu la tasta modificator apăsată"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Afișează traducerea doar pe tasta de modificator specificată."
+    },
+    "modifierKeyLabel": {
+        "message": "Tasta de modificator"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Comandă"
+    },
+    "disableUrlListLabel": {
+        "message": "Lista URL-urilor pentru care traducerea va fi dezactivată"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Dacă URL-ul paginii se potrivește in listă, traducerea pe pagina web este dezactivată. Lista permite caractere de tip „*”."
+    },
+    "toolbarLabel": {
+        "message": "Fereastra din bara de instrumente"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Comută automat la a doua limbă"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detectează limba textului introdus, iar dacă e identică cu limba țintă implicită, tradu in limba secundară."
+    },
+    "secondTargetLangLabel": {
+        "message": "A doua limbă"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Selectează a doua limbă țintă."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Dezactivează traducerea după atributul limbii"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Dezactivează traducerea în cazul în care atributul limbii din elementul html al paginii se potrivește cu lista. Introduceți tag-uri separate prin virgulă."
+    },
+    "waitTimeLabel": {
+        "message": "Timpul de așteptare pentru traducere"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Specifică timpul de așteptare de la introducerea unui caracter, până la începutul traducerii. (milisecunde)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Dacă îl traduceți de mai multe ori într-un timp scurt, poate deveni inutilizabil pentru o vreme."
+    },
+    "menuLabel": {
+        "message": "Meniu contextual"
+    },
+    "ifShowMenuLabel": {
+        "message": "Afișează meniul contextual"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Adaugă obiecte in meniul contextual afișat atunci când se face click dreapta pe o pagină web sau pe un tab."
+    },
+    "pageTranslationLabel": {
+        "message": "Traducere pagină"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Fila pentru a afișa rezultatele traducerii"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Specificați fila pentru a afișa rezultatele traducerii paginii."
+    },
+    "newTabLabel": {
+        "message": "Filă nouă"
+    },
+    "currentTabLabel": {
+        "message": "Fila curentă"
+    },
+    "styleLabel": {
+        "message": "Stil"
+    },
+    "themeLabel": {
+        "message": "Tema"
+    },
+    "themeCaptionLabel": {
+        "message": "Specificați schema de culori."
+    },
+    "lightLabel": {
+        "message": "Luminos"
+    },
+    "darkLabel": {
+        "message": "Întunecat"
+    },
+    "systemLabel": {
+        "message": "Sistem"
+    },
+    "buttonStyleLabel": {
+        "message": "Butonul de traducere"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specificați stilul butonului de traducere afișat pe pagina web."
+    },
+    "buttonSizeLabel": {
+        "message": "Dimensiune"
+    },
+    "buttonPositionLabel": {
+        "message": "Poziţia de afişare"
+    },
+    "topRightLabel": {
+        "message": "Dreapta sus"
+    },
+    "bottomRightLabel": {
+        "message": "Dreapta jos"
+    },
+    "topLeftLabel": {
+        "message": "Stânga sus"
+    },
+    "bottomLeftLabel": {
+        "message": "Stânga jos"
+    },
+    "topLabel": {
+        "message": "Sus"
+    },
+    "bottomLabel": {
+        "message": "Jos"
+    },
+    "leftLabel": {
+        "message": "Stânga"
+    },
+    "rightLabel": {
+        "message": "Dreapta"
+    },
+    "positionOffsetLabel": {
+        "message": "Decalaj poziție de afişare"
+    },
+    "panelStyleLabel": {
+        "message": "Panou de traducere"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specifică stilul panoului de traducere afișat pe pagina web."
+    },
+    "widthLabel": {
+        "message": "Lațime"
+    },
+    "heightLabel": {
+        "message": "Înălțime"
+    },
+    "fontSizeLabel": {
+        "message": "Dimensiune font"
+    },
+    "referencePointLabel": {
+        "message": "Poziție de afişare - Punct de referință"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Sfârșitul textului selectat"
+    },
+    "topSelectedTextLabel": {
+        "message": "Începutul textului selectat"
+    },
+    "clickedPointLabel": {
+        "message": "Punct click-uit"
+    },
+    "displayDirectionLabel": {
+        "message": "Poziție de afişare - Direcție"
+    },
+    "resultFontColorLabel": {
+        "message": "Culoarea fontului rezultatului traducerii"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Suprascrie culorile implicite cu culori de mai jos"
+    },
+    "candidateFontColorLabel": {
+        "message": "Culoarea fontului variantelor de traducere"
+    },
+    "bgColorLabel": {
+        "message": "Culoare de fundal"
+    },
+    "otherLabel": {
+        "message": "Altele"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Afișează pagina de opțiuni la actualizare"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Afișează pagina de opțiuni când Foxi este actualizat. Poți afla rapid conținutul actualizării."
+    },
+    "isDebugModeLabel": {
+        "message": "Activează modul de depanare"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Când modul de depanare este activat, jurnalizarea va fi scrisă in depanator."
+    },
+    "exportSettingsLabel": {
+        "message": "Exportă setările"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Salvați setările ca fișier json pe computer."
+    },
+    "exportButtonLabel": {
+        "message": "Exportare"
+    },
+    "importSettingsLabel": {
+        "message": "Importă setări"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Încărcați fișierul de setări salvat pe calculator."
+    },
+    "importButtonLabel": {
+        "message": "Importare"
+    },
+    "resetSettingsLabel": {
+        "message": "Resetare setări"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Resetează la setările implicite."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Resetează"
+    },
+    "shortcutsLabel": {
+        "message": "Comenzi rapide"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Scurtături tastatură"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Setează scurtături tastatură."
+    },
+    "typeShortcutMessage": {
+        "message": "Adăugați o scurtătură"
+    },
+    "typeLetterMessage": {
+        "message": "Tastează o literă"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Include Ctrl sau Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Include Command, Ctrl sau Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "Litera nu poate fi folosită"
+    },
+    "invalidShortcutMessage": {
+        "message": "Comanda rapidă nu poate fi folosită"
+    },
+    "clear": {
+        "message": "Golește"
+    },
+    "reset": {
+        "message": "Resetează"
+    },
+    "informationLabel": {
+        "message": "Informații"
+    },
+    "backersLabel": {
+        "message": "Susținători"
+    },
+    "licenseLabel": {
+        "message": "Licență"
+    },
+    "donationLabel": {
+        "message": "Vă rugăm să faceți o donație"
+    },
+    "donationCaptionLabel": {
+        "message": "Vă mulțumesc pentru că utilizați Foxi. <br>Sprijinul dumneavoastră m-ar încuraja mult pe măsură ce voi continua dezvoltarea acestei extensii. <br>Dacă vă place Foxi, orice donație este binevenită."
+    },
+    "amazonTitleLabel": {
+        "message": "Carduri eGift amazon.co.jp"
+    },
+    "sponsorsLabel": {
+        "message": "Sponsori"
+    },
+    "addonPageLabel": {
+        "message": "Pagină de add-on-uri"
+    },
+    "extensionPageLabel": {
+        "message": "Pagină de extensii"
+    },
+    "privacyPolicyLabel": {
+        "message": "Politica de confidenţialitate"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=ro_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/ro-RO/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Eroare: Verificați conexiunea la rețea."
+    },
+    "unavailableError": {
+        "message": "Eroare: Limita utilizării serviciului a fost atinsă. Te rog așteaptă puțin, apoi încearcă din nou."
+    },
+    "deeplAuthError": {
+        "message": "Eroare: Autentificarea DeepL API a eșuat. Vă rugăm să setați corect cheia de autentificare și planul pe pagina de setări."
+    },
+    "unknownError": {
+        "message": "Eroare: Eroare necunoscută"
+    },
+    "translatePageMenu": {
+        "message": "Traduceți această pagină"
+    },
+    "translateTextMenu": {
+        "message": "Tradu textul selectat"
+    },
+    "translateLinkMenu": {
+        "message": "Tradu link-ul selectat"
+    },
+    "openPopupDescription": {
+        "message": "Deschide fereastra din bara de instrumente"
+    },
+    "lang_af": {
+        "message": "afrikaans"
+    },
+    "lang_sq": {
+        "message": "albaneză"
+    },
+    "lang_am": {
+        "message": "amhară"
+    },
+    "lang_ar": {
+        "message": "arabă"
+    },
+    "lang_hy": {
+        "message": "armeană"
+    },
+    "lang_az": {
+        "message": "azeră"
+    },
+    "lang_eu": {
+        "message": "bască"
+    },
+    "lang_be": {
+        "message": "belarusă"
+    },
+    "lang_bn": {
+        "message": "bengaleză"
+    },
+    "lang_bs": {
+        "message": "bosniacă"
+    },
+    "lang_bg": {
+        "message": "bulgară"
+    },
+    "lang_ca": {
+        "message": "catalană"
+    },
+    "lang_ceb": {
+        "message": "cebuană"
+    },
+    "lang_ny": {
+        "message": "Chewa"
+    },
+    "lang_zh_CN": {
+        "message": "Chineză (simplificată)"
+    },
+    "lang_zh_TW": {
+        "message": "Chineză (Tradițională)"
+    },
+    "lang_co": {
+        "message": "corsicană"
+    },
+    "lang_hr": {
+        "message": "esperanto"
+    },
+    "lang_cs": {
+        "message": "Cehă"
+    },
+    "lang_da": {
+        "message": "Daneză"
+    },
+    "lang_nl": {
+        "message": "Olandeză"
+    },
+    "lang_en": {
+        "message": "Engleză"
+    },
+    "lang_eo": {
+        "message": "Esperanto"
+    },
+    "lang_et": {
+        "message": "estonă"
+    },
+    "lang_fi": {
+        "message": "finlandeză"
+    },
+    "lang_fr": {
+        "message": "franceză"
+    },
+    "lang_fy": {
+        "message": "friziană"
+    },
+    "lang_gl": {
+        "message": "galiciană"
+    },
+    "lang_ka": {
+        "message": "georgiană"
+    },
+    "lang_de": {
+        "message": "germană"
+    },
+    "lang_el": {
+        "message": "greacă"
+    },
+    "lang_gu": {
+        "message": "gujarati"
+    },
+    "lang_ht": {
+        "message": "haitiană"
+    },
+    "lang_ha": {
+        "message": "hausă"
+    },
+    "lang_haw": {
+        "message": "hawaiiană"
+    },
+    "lang_he": {
+        "message": "ebraică"
+    },
+    "lang_hi": {
+        "message": "hindi"
+    },
+    "lang_hu": {
+        "message": "maghiară"
+    },
+    "lang_is": {
+        "message": "islandeză"
+    },
+    "lang_ig": {
+        "message": "igbo"
+    },
+    "lang_id": {
+        "message": "indoneziană"
+    },
+    "lang_ga": {
+        "message": "khmeră"
+    },
+    "lang_it": {
+        "message": "Italiană"
+    },
+    "lang_ja": {
+        "message": "Japoneză"
+    },
+    "lang_jv": {
+        "message": "Javaneză"
+    },
+    "lang_kn": {
+        "message": "Kannada"
+    },
+    "lang_kk": {
+        "message": "Kazahă"
+    },
+    "lang_km": {
+        "message": "Khmeră"
+    },
+    "lang_rw": {
+        "message": "Kinyarwanda"
+    },
+    "lang_ky": {
+        "message": "kirghiză"
+    },
+    "lang_ko": {
+        "message": "coreeană"
+    },
+    "lang_ku": {
+        "message": "kurdă"
+    },
+    "lang_lo": {
+        "message": "laoțiană"
+    },
+    "lang_la": {
+        "message": "latină"
+    },
+    "lang_lv": {
+        "message": "letonă"
+    },
+    "lang_lt": {
+        "message": "lituaniană"
+    },
+    "lang_lb": {
+        "message": "luxemburgheză"
+    },
+    "lang_mk": {
+        "message": "macedoneană"
+    },
+    "lang_mg": {
+        "message": "malgaşă"
+    },
+    "lang_ms": {
+        "message": "malaieză"
+    },
+    "lang_ml": {
+        "message": "malayalam"
+    },
+    "lang_mt": {
+        "message": "malteză"
+    },
+    "lang_mi": {
+        "message": "maori"
+    },
+    "lang_mr": {
+        "message": "marathi"
+    },
+    "lang_mn": {
+        "message": "mongolă"
+    },
+    "lang_hmn": {
+        "message": "Monk"
+    },
+    "lang_my": {
+        "message": "birmană"
+    },
+    "lang_ne": {
+        "message": "nepaleză"
+    },
+    "lang_no": {
+        "message": "norvegiană"
+    },
+    "lang_or": {
+        "message": "Odia (Oriya)"
+    },
+    "lang_fa": {
+        "message": "persană"
+    },
+    "lang_pl": {
+        "message": "poloneză"
+    },
+    "lang_pt": {
+        "message": "portugheză"
+    },
+    "lang_pa": {
+        "message": "punjabă"
+    },
+    "lang_ps": {
+        "message": "Pushto"
+    },
+    "lang_ro": {
+        "message": "română"
+    },
+    "lang_ru": {
+        "message": "rusă"
+    },
+    "lang_sm": {
+        "message": "samoană"
+    },
+    "lang_gd": {
+        "message": "galica scoțiană"
+    },
+    "lang_sr": {
+        "message": "sârbă"
+    },
+    "lang_st": {
+        "message": "Sesotho"
+    },
+    "lang_sn": {
+        "message": "shona"
+    },
+    "lang_sd": {
+        "message": "Sindhi"
+    },
+    "lang_si": {
+        "message": "singaleză"
+    },
+    "lang_sk": {
+        "message": "slovacă"
+    },
+    "lang_sl": {
+        "message": "slovenă"
+    },
+    "lang_so": {
+        "message": "somaleză"
+    },
+    "lang_es": {
+        "message": "spaniolă"
+    },
+    "lang_su": {
+        "message": "sundaneză"
+    },
+    "lang_sw": {
+        "message": "swahili"
+    },
+    "lang_sv": {
+        "message": "suedeză"
+    },
+    "lang_tl": {
+        "message": "tagalog"
+    },
+    "lang_tg": {
+        "message": " tadjică"
+    },
+    "lang_ta": {
+        "message": "tamilă"
+    },
+    "lang_tt": {
+        "message": "Tătară"
+    },
+    "lang_te": {
+        "message": "telugu"
+    },
+    "lang_th": {
+        "message": "tailandeză"
+    },
+    "lang_tr": {
+        "message": "turcă"
+    },
+    "lang_tk": {
+        "message": "Turkmenă"
+    },
+    "lang_uk": {
+        "message": "ucraineană"
+    },
+    "lang_ur": {
+        "message": "urdu"
+    },
+    "lang_ug": {
+        "message": "Uiguri"
+    },
+    "lang_uz": {
+        "message": "uzbecă"
+    },
+    "lang_vi": {
+        "message": "vietnameză"
+    },
+    "lang_cy": {
+        "message": "galeză"
+    },
+    "lang_xh": {
+        "message": "xosa"
+    },
+    "lang_yi": {
+        "message": "idiș"
+    },
+    "lang_yo": {
+        "message": "yoruba"
+    },
+    "lang_zu": {
+        "message": "zulu"
+    },
+    "lang_en_US": {
+        "message": "Engleză (Americană)"
+    },
+    "lang_en_GB": {
+        "message": "Engleză (Britanică)"
+    },
+    "lang_pt_PT": {
+        "message": "portugheză"
+    },
+    "lang_pt_BR": {
+        "message": "Portugheză (Braziliană)"
+    },
+    "lang_zh": {
+        "message": "Chineză"
+    }
 }

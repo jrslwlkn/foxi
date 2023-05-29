@@ -1,6 +1,6 @@
 # BACKERS
 
-Thank you to the awesome backers who supported Simple Translate!
+Thank you to the awesome backers who supported Foxi!
 
 [<img src=https://c5.patreon.com/external/logo/become_a_patron_button.png alt="Became a patreon">](https://www.patreon.com/sienori)
 [<img src="other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/sienoriExt)

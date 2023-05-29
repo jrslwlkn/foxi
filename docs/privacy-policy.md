@@ -2,20 +2,20 @@
 title: Privacy Policy
 ---
 
-# Privacy Policy of Simple Translate
+# Privacy Policy of Foxi
 
 **Effective Date: March 3, 2022**
 
 ## 1. Introduction
 
-This page describes the Privacy Policy that applies to all information collected or submitted when you install or use Simple Translate.
+This page describes the Privacy Policy that applies to all information collected or submitted when you install or use Foxi.
 
-Simple Translate is owned and operated by [Sienori](https://github.com/sienori) - a developer from Japan (referred to herein as "we", "us", or "our"). We take the protection of your personal data very seriously and will always offer you the Simple Translate and its functionality with your privacy in mind.
+Foxi is owned and operated by [Sienori](https://github.com/sienori) - a developer from Japan (referred to herein as "we", "us", or "our"). We take the protection of your personal data very seriously and will always offer you the Foxi and its functionality with your privacy in mind.
 
-## 2. Handling user data with Simple Translate
+## 2. Handling user data with Foxi
 
-To provide translation and pronunciation functions, Simple Translate retrieves the input/selected text and page URLs and sends the request to Google's API.
-In addition, if you change the translation engine to DeepL, Simple Translate will use the DeepL API for translation.
+To provide translation and pronunciation functions, Foxi retrieves the input/selected text and page URLs and sends the request to Google's API.
+In addition, if you change the translation engine to DeepL, Foxi will use the DeepL API for translation.
 **We do not access/collect any of these data.**
 
 Please refer to the following link the privacy policy of Google and DeepL.  
@@ -24,15 +24,15 @@ Please refer to the following link the privacy policy of Google and DeepL.
 
 ## 3. External service
 
-Simple Translate uses external services in following cases:
+Foxi uses external services in following cases:
 
 #### Accessing external sites
 
-Simple Translate includes links to external sites. When accessing external sites, the privacy policy of each site is applied.
+Foxi includes links to external sites. When accessing external sites, the privacy policy of each site is applied.
 
 #### Installing and using in the browser
 
-Simple Translate is hosted on each browser's platform.
+Foxi is hosted on each browser's platform.
 Please refer to the following links for information on how to handle data when installing and using the extension.
 
 [Firefox Privacy Policy](https://www.mozilla.org/en-US/privacy/firefox/)  

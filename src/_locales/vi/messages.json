@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Dịch nhanh văn bản đã chọn hoặc đã nhập trên các trang web. Hỗ trợ Google Dịch và API DeepL."
-  },
-  "donateWithPaypalLabel": {
-    "message": "Đóng góp bằng PayPal"
-  },
-  "donateLabel": {
-    "message": "Quyên góp"
-  },
-  "enableOnThisPage": {
-    "message": "Cho phép dịch trên trang này"
-  },
-  "disableOnThisPage": {
-    "message": "Vô hiệu hóa dịch trên trang này"
-  },
-  "initialTextArea": {
-    "message": "Nhập văn bản"
-  },
-  "showLink": {
-    "message": "Dịch trang này"
-  },
-  "openInGoogleLabel": {
-    "message": "Mở trong Google Dịch"
-  },
-  "openInDeeplLabel": {
-    "message": "Mở trong Trình dịch DeepL"
-  },
-  "copyLabel": {
-    "message": "Sao chép"
-  },
-  "copiedLabel": {
-    "message": "Đã sao chép."
-  },
-  "listenLabel": {
-    "message": "Nghe"
-  },
-  "targetLangLabel": {
-    "message": "Ngôn ngữ đích"
-  },
-  "allLangLabel": {
-    "message": "Tất cả các ngôn ngữ"
-  },
-  "recentLangLabel": {
-    "message": "Các ngôn ngữ gần đây"
-  },
-  "settingsLabel": {
-    "message": "Cài đặt"
-  },
-  "generalLabel": {
-    "message": "Tổng quát"
-  },
-  "translationApiLabel": {
-    "message": "Công cụ dịch thuật"
-  },
-  "googleApiLabel": {
-    "message": "API của Google Dịch"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Sử dụng API Google Dịch. Không cần đăng ký."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "Sử dụng API DeepL. Bạn phải đăng ký với DeepL API Free hoặc DeepL API Pro để lấy khóa xác thực."
-  },
-  "howToUseDeeplLabel": {
-    "message": "Cách đăng ký DeepL API"
-  },
-  "deeplPlanLabel": {
-    "message": "Gói API DeepL"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Chọn gói DeepL API mà bạn đã đăng ký."
-  },
-  "deeplFreeLabel": {
-    "message": "API DeepL Miễn phí"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Khóa xác thực"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Nhập khóa xác thực cho DeepL API."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Chọn ngôn ngữ đích mặc định."
-  },
-  "webPageLabel": {
-    "message": "Trang Web"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Hiển thị đề cử dịch thuật"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Hiển thị nhiều đề cử dịch khi một từ duy nhất được dịch."
-  },
-  "whenSelectTextLabel": {
-    "message": "Hành động khi chọn văn bản"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Hiển thị bảng dịch"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Hiển thị trực tiếp bảng dịch mà không hiển thị nút."
-  },
-  "ifShowButtonLabel": {
-    "message": "Hiển thị nút dịch"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Hiển thị nút dịch để mở bảng điều khiển khi nhấp vào."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Không hiển thị nút hoặc bảng điều khiển"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Không hiển thị nút để dịch hoặc bảng dịch."
-  },
-  "ifCheckLangLabel": {
-    "message": "Không hiển thị nút nếu không cần dịch"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích, nút sẽ không hiển thị."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
-  },
-  "disableTranslationLabel": {
-    "message": "Tắt dịch thuật"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Tắt tính năng dịch trong các trường văn bản"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong trường văn bản."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "Tắt dịch trong các thẻ mã hiệu"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong thẻ mã."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Dịch trên phím bổ trợ được nhấn"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Chỉ hiển thị bản dịch trên phím bổ trợ được chỉ định được nhấn."
-  },
-  "modifierKeyLabel": {
-    "message": "Phím bổ trợ"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "Danh sách URL cần tắt tính năng dịch"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Nếu URL trang khớp với danh sách, trang web đó sẽ không dịch. Danh sách cho phép ký tự đại diện \"*\"."
-  },
-  "toolbarLabel": {
-    "message": "Thanh công cụ bật lên"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Tự động chuyển sang ngôn ngữ thứ hai"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Phát hiện ngôn ngữ của văn bản đầu vào và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
-  },
-  "secondTargetLangLabel": {
-    "message": "Ngôn ngữ thứ hai"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Chọn ngôn ngữ đích thứ hai."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Tắt tính năng dịch theo thuộc tính lang"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Tắt tính năng dịch nếu thuộc tính lang trong phần tử html của trang khớp với danh sách. Nhập các thẻ ngôn ngữ được phân tách bằng dấu phẩy."
-  },
-  "waitTimeLabel": {
-    "message": "Thời gian chờ để dịch"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Chỉ định thời gian chờ đợi từ đầu vào của một ký tự đến để bắt đầu dịch. (mili giây)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Nếu bạn dịch nó nhiều lần trong một thời gian ngắn, nó có thể trở nên không sử dụng được trong một thời gian."
-  },
-  "menuLabel": {
-    "message": "Menu ngữ cảnh"
-  },
-  "ifShowMenuLabel": {
-    "message": "Hiển thị menu ngữ cảnh"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Thêm các mục vào menu ngữ cảnh được hiển thị khi nhấp chuột phải vào trang web hoặc thẻ."
-  },
-  "pageTranslationLabel": {
-    "message": "Page translation"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
-  },
-  "newTabLabel": {
-    "message": "New tab"
-  },
-  "currentTabLabel": {
-    "message": "Current tab"
-  },
-  "styleLabel": {
-    "message": "Phong cách"
-  },
-  "themeLabel": {
-    "message": "Chủ Đề"
-  },
-  "themeCaptionLabel": {
-    "message": "Chỉ định bảng màu."
-  },
-  "lightLabel": {
-    "message": "Sáng"
-  },
-  "darkLabel": {
-    "message": "Tối"
-  },
-  "systemLabel": {
-    "message": "System"
-  },
-  "buttonStyleLabel": {
-    "message": "Nút dịch"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Chỉ định kiểu của nút dịch được hiển thị trên trang web."
-  },
-  "buttonSizeLabel": {
-    "message": "Kích cỡ"
-  },
-  "buttonPositionLabel": {
-    "message": "Vị trí hiển thị"
-  },
-  "topRightLabel": {
-    "message": "Phía trên bên phải"
-  },
-  "bottomRightLabel": {
-    "message": "Phía dưới bên phải"
-  },
-  "topLeftLabel": {
-    "message": "Phía trên bên trái"
-  },
-  "bottomLeftLabel": {
-    "message": "Phía dưới bên trái"
-  },
-  "topLabel": {
-    "message": "Trên"
-  },
-  "bottomLabel": {
-    "message": "Dưới"
-  },
-  "leftLabel": {
-    "message": "Trái"
-  },
-  "rightLabel": {
-    "message": "Phải"
-  },
-  "positionOffsetLabel": {
-    "message": "Vị trí hiển thị - Bù đắp"
-  },
-  "panelStyleLabel": {
-    "message": "Bảng dịch"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Chỉ định kiểu của bảng dịch được hiển thị trên trang web."
-  },
-  "widthLabel": {
-    "message": "Chiều dài"
-  },
-  "heightLabel": {
-    "message": "Chiều rộng"
-  },
-  "fontSizeLabel": {
-    "message": "Cỡ chữ"
-  },
-  "referencePointLabel": {
-    "message": "Vị trí hiển thị - Điểm tham chiếu"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Phía dưới văn bản được chọn"
-  },
-  "topSelectedTextLabel": {
-    "message": "Phía trên văn bản được chọn"
-  },
-  "clickedPointLabel": {
-    "message": "Điểm nhấp"
-  },
-  "displayDirectionLabel": {
-    "message": "Vị trí hiển thị - Hướng"
-  },
-  "resultFontColorLabel": {
-    "message": "Màu chữ của kết quả dịch"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
-  },
-  "candidateFontColorLabel": {
-    "message": "Màu chữ của đề cử dịch thuật"
-  },
-  "bgColorLabel": {
-    "message": "Màu nền"
-  },
-  "otherLabel": {
-    "message": "Khác"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Hiển thị trang tùy chọn khi cập nhật"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Hiển thị trang tùy chọn khi Simple Translate được cập nhật. Bạn có thể biết nội dung cập nhật một cách nhanh chóng."
-  },
-  "isDebugModeLabel": {
-    "message": "Bật chế độ gỡ lỗi"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Khi chế độ gỡ lỗi được bật, bản ghi sẽ được xuất ra trình gỡ lỗi."
-  },
-  "exportSettingsLabel": {
-    "message": "Xuất cài đặt"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Lưu cài đặt dưới dạng tệp json trên máy tính."
-  },
-  "exportButtonLabel": {
-    "message": "Xuất ra"
-  },
-  "importSettingsLabel": {
-    "message": "Nhập cài đặt"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Tải tệp cài đặt được lưu trên máy tính."
-  },
-  "importButtonLabel": {
-    "message": "Nhập vào"
-  },
-  "resetSettingsLabel": {
-    "message": "Đặt lại cài đặt"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Khôi phục các thiết lập về mặc định."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Đặt lại"
-  },
-  "shortcutsLabel": {
-    "message": "Phím tắt"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Phím tắt bàn phím"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Đặt phím tắt bàn phím."
-  },
-  "typeShortcutMessage": {
-    "message": "Nhập một phím tắt"
-  },
-  "typeLetterMessage": {
-    "message": "Nhập một kí tự"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Bao gồm phím Ctrl hoặc Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Bao gồm phím Command, Ctrl hoặc Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "Không thể sử dụng kí tự này"
-  },
-  "invalidShortcutMessage": {
-    "message": "Không thể sử dụng phím tắt này"
-  },
-  "clear": {
-    "message": "Xóa"
-  },
-  "reset": {
-    "message": "Đặt lại"
-  },
-  "informationLabel": {
-    "message": "Thông tin"
-  },
-  "backersLabel": {
-    "message": "Người ủng hộ"
-  },
-  "licenseLabel": {
-    "message": "Giấy phép"
-  },
-  "donationLabel": {
-    "message": "Hãy đóng góp"
-  },
-  "donationCaptionLabel": {
-    "message": "Cảm ơn bạn đã sử dụng Simple Translate.<br>Sự hỗ trợ của bạn sẽ là một sự khích lệ lớn, khi tôi tiếp tục phát triển tiện ích mở rộng.<br>Nếu bạn thích Simple Translate, tôi sẽ rất vui nếu bạn có thể xem xét quyên góp."
-  },
-  "amazonTitleLabel": {
-    "message": "Thẻ eGift của amazon.co.jp"
-  },
-  "sponsorsLabel": {
-    "message": "Nhà tài trợ"
-  },
-  "addonPageLabel": {
-    "message": "Trang tiện ích"
-  },
-  "extensionPageLabel": {
-    "message": "Trang tiện ích"
-  },
-  "privacyPolicyLabel": {
-    "message": "Chính sách bảo mật"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Lỗi: Kiểm tra trạng thái kết nối mạng."
-  },
-  "unavailableError": {
-    "message": "Lỗi: Đã đạt đến giới hạn sử dụng dịch vụ. Xin vui lòng chờ một lúc và thử lại."
-  },
-  "deeplAuthError": {
-    "message": "Lỗi: Xác thực DeepL API thất bại. Vui lòng đặt khóa xác thực và lập kế hoạch chính xác trên trang cài đặt."
-  },
-  "unknownError": {
-    "message": "Lỗi: Lỗi không xác định"
-  },
-  "translatePageMenu": {
-    "message": "Dịch trang này"
-  },
-  "translateTextMenu": {
-    "message": "Dịch văn bản đã chọn"
-  },
-  "translateLinkMenu": {
-    "message": "Dịch liên kết đã chọn"
-  },
-  "openPopupDescription": {
-    "message": "Mở thanh công cụ bật lên"
-  },
-  "lang_af": {
-    "message": "Nam Phi"
-  },
-  "lang_sq": {
-    "message": "Albania"
-  },
-  "lang_am": {
-    "message": "Amhara"
-  },
-  "lang_ar": {
-    "message": "Ả Rập"
-  },
-  "lang_hy": {
-    "message": "Armenia"
-  },
-  "lang_az": {
-    "message": "Azerbaijan"
-  },
-  "lang_eu": {
-    "message": "Basque"
-  },
-  "lang_be": {
-    "message": "Belarus"
-  },
-  "lang_bn": {
-    "message": "Bengal"
-  },
-  "lang_bs": {
-    "message": "Bosnia"
-  },
-  "lang_bg": {
-    "message": "Bulgaria"
-  },
-  "lang_ca": {
-    "message": "Catalunya"
-  },
-  "lang_ceb": {
-    "message": "Cebu"
-  },
-  "lang_ny": {
-    "message": "Chewa"
-  },
-  "lang_zh_CN": {
-    "message": "Trung Quốc (Giản thể)"
-  },
-  "lang_zh_TW": {
-    "message": "Trung Quốc (Phồn thể)"
-  },
-  "lang_co": {
-    "message": "Corse"
-  },
-  "lang_hr": {
-    "message": "Croatia"
-  },
-  "lang_cs": {
-    "message": "Séc"
-  },
-  "lang_da": {
-    "message": "Đan Mạch"
-  },
-  "lang_nl": {
-    "message": "Hà Lan"
-  },
-  "lang_en": {
-    "message": "Anh"
-  },
-  "lang_eo": {
-    "message": "Quốc tế ngữ"
-  },
-  "lang_et": {
-    "message": "Estonia"
-  },
-  "lang_fi": {
-    "message": "Phần Lan"
-  },
-  "lang_fr": {
-    "message": "Pháp"
-  },
-  "lang_fy": {
-    "message": "Frisia"
-  },
-  "lang_gl": {
-    "message": "Galicia"
-  },
-  "lang_ka": {
-    "message": "Gruzia"
-  },
-  "lang_de": {
-    "message": "Đức"
-  },
-  "lang_el": {
-    "message": "Hy Lạp"
-  },
-  "lang_gu": {
-    "message": "Gujarat"
-  },
-  "lang_ht": {
-    "message": "Haiti"
-  },
-  "lang_ha": {
-    "message": "Hausa"
-  },
-  "lang_haw": {
-    "message": "Hawaii"
-  },
-  "lang_he": {
-    "message": "Do Thái"
-  },
-  "lang_hi": {
-    "message": "Hindi"
-  },
-  "lang_hu": {
-    "message": "Hungary"
-  },
-  "lang_is": {
-    "message": "Iceland"
-  },
-  "lang_ig": {
-    "message": "Igbo"
-  },
-  "lang_id": {
-    "message": "Indonesia"
-  },
-  "lang_ga": {
-    "message": "Ireland"
-  },
-  "lang_it": {
-    "message": "Ý"
-  },
-  "lang_ja": {
-    "message": "Nhật Bản"
-  },
-  "lang_jv": {
-    "message": "Java"
-  },
-  "lang_kn": {
-    "message": "Kannada"
-  },
-  "lang_kk": {
-    "message": "Kazakh"
-  },
-  "lang_km": {
-    "message": "Khmer"
-  },
-  "lang_rw": {
-    "message": "Rwanda"
-  },
-  "lang_ky": {
-    "message": "Kyrgyz"
-  },
-  "lang_ko": {
-    "message": "Hàn Quốc"
-  },
-  "lang_ku": {
-    "message": "Kurd"
-  },
-  "lang_lo": {
-    "message": "Lào"
-  },
-  "lang_la": {
-    "message": "Latinh"
-  },
-  "lang_lv": {
-    "message": "Latvia"
-  },
-  "lang_lt": {
-    "message": "Litva"
-  },
-  "lang_lb": {
-    "message": "Luxembourg"
-  },
-  "lang_mk": {
-    "message": "Macedonia"
-  },
-  "lang_mg": {
-    "message": "Malagasy"
-  },
-  "lang_ms": {
-    "message": "Mã Lai"
-  },
-  "lang_ml": {
-    "message": "Malayalam"
-  },
-  "lang_mt": {
-    "message": "Malta"
-  },
-  "lang_mi": {
-    "message": "Māori"
-  },
-  "lang_mr": {
-    "message": "Marathi"
-  },
-  "lang_mn": {
-    "message": "Mông Cổ"
-  },
-  "lang_hmn": {
-    "message": "Monk"
-  },
-  "lang_my": {
-    "message": "Miến Điện"
-  },
-  "lang_ne": {
-    "message": "Nepal"
-  },
-  "lang_no": {
-    "message": "Na Uy"
-  },
-  "lang_or": {
-    "message": "Oriya (Odia)"
-  },
-  "lang_fa": {
-    "message": "Ba Tư"
-  },
-  "lang_pl": {
-    "message": "Ba Lan"
-  },
-  "lang_pt": {
-    "message": "Bồ Đào Nha"
-  },
-  "lang_pa": {
-    "message": "Punjab"
-  },
-  "lang_ps": {
-    "message": "Pashtun"
-  },
-  "lang_ro": {
-    "message": "România"
-  },
-  "lang_ru": {
-    "message": "Nga"
-  },
-  "lang_sm": {
-    "message": "Samoa"
-  },
-  "lang_gd": {
-    "message": "Gael Scotland"
-  },
-  "lang_sr": {
-    "message": "Serbia"
-  },
-  "lang_st": {
-    "message": "Sotho"
-  },
-  "lang_sn": {
-    "message": "Shona"
-  },
-  "lang_sd": {
-    "message": "Sindh"
-  },
-  "lang_si": {
-    "message": "Sinhala"
-  },
-  "lang_sk": {
-    "message": "Slovak"
-  },
-  "lang_sl": {
-    "message": "Slovene"
-  },
-  "lang_so": {
-    "message": "Somali"
-  },
-  "lang_es": {
-    "message": "Tây Ban Nha"
-  },
-  "lang_su": {
-    "message": "Sunda"
-  },
-  "lang_sw": {
-    "message": "Swahili"
-  },
-  "lang_sv": {
-    "message": "Thụy Điển"
-  },
-  "lang_tl": {
-    "message": "Tagalog"
-  },
-  "lang_tg": {
-    "message": "Tajik"
-  },
-  "lang_ta": {
-    "message": "Tamil"
-  },
-  "lang_tt": {
-    "message": "Tatar"
-  },
-  "lang_te": {
-    "message": "Telugu"
-  },
-  "lang_th": {
-    "message": "Thái Lan"
-  },
-  "lang_tr": {
-    "message": "Thổ Nhĩ Kỳ"
-  },
-  "lang_tk": {
-    "message": "Turkmen"
-  },
-  "lang_uk": {
-    "message": "Ukraina"
-  },
-  "lang_ur": {
-    "message": "Urdu"
-  },
-  "lang_ug": {
-    "message": "Duy Ngô Nhĩ"
-  },
-  "lang_uz": {
-    "message": "Uzbek"
-  },
-  "lang_vi": {
-    "message": "Việt Nam"
-  },
-  "lang_cy": {
-    "message": "Wales"
-  },
-  "lang_xh": {
-    "message": "Xhosa"
-  },
-  "lang_yi": {
-    "message": "Yiddish"
-  },
-  "lang_yo": {
-    "message": "Yoruba"
-  },
-  "lang_zu": {
-    "message": "Zulu"
-  },
-  "lang_en_US": {
-    "message": "Anh (Mỹ)"
-  },
-  "lang_en_GB": {
-    "message": "Anh (British)"
-  },
-  "lang_pt_PT": {
-    "message": "Bồ Đào Nha"
-  },
-  "lang_pt_BR": {
-    "message": "Bồ Đào Nha Brasil"
-  },
-  "lang_zh": {
-    "message": "Trung Quốc"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Dịch nhanh văn bản đã chọn hoặc đã nhập trên các trang web. Hỗ trợ Google Dịch và API DeepL."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Đóng góp bằng PayPal"
+    },
+    "donateLabel": {
+        "message": "Quyên góp"
+    },
+    "enableOnThisPage": {
+        "message": "Cho phép dịch trên trang này"
+    },
+    "disableOnThisPage": {
+        "message": "Vô hiệu hóa dịch trên trang này"
+    },
+    "initialTextArea": {
+        "message": "Nhập văn bản"
+    },
+    "showLink": {
+        "message": "Dịch trang này"
+    },
+    "openInGoogleLabel": {
+        "message": "Mở trong Google Dịch"
+    },
+    "openInDeeplLabel": {
+        "message": "Mở trong Trình dịch DeepL"
+    },
+    "copyLabel": {
+        "message": "Sao chép"
+    },
+    "copiedLabel": {
+        "message": "Đã sao chép."
+    },
+    "listenLabel": {
+        "message": "Nghe"
+    },
+    "targetLangLabel": {
+        "message": "Ngôn ngữ đích"
+    },
+    "allLangLabel": {
+        "message": "Tất cả các ngôn ngữ"
+    },
+    "recentLangLabel": {
+        "message": "Các ngôn ngữ gần đây"
+    },
+    "settingsLabel": {
+        "message": "Cài đặt"
+    },
+    "generalLabel": {
+        "message": "Tổng quát"
+    },
+    "translationApiLabel": {
+        "message": "Công cụ dịch thuật"
+    },
+    "googleApiLabel": {
+        "message": "API của Google Dịch"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Sử dụng API Google Dịch. Không cần đăng ký."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "Sử dụng API DeepL. Bạn phải đăng ký với DeepL API Free hoặc DeepL API Pro để lấy khóa xác thực."
+    },
+    "howToUseDeeplLabel": {
+        "message": "Cách đăng ký DeepL API"
+    },
+    "deeplPlanLabel": {
+        "message": "Gói API DeepL"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Chọn gói DeepL API mà bạn đã đăng ký."
+    },
+    "deeplFreeLabel": {
+        "message": "API DeepL Miễn phí"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Khóa xác thực"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Nhập khóa xác thực cho DeepL API."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Chọn ngôn ngữ đích mặc định."
+    },
+    "webPageLabel": {
+        "message": "Trang Web"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Hiển thị đề cử dịch thuật"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Hiển thị nhiều đề cử dịch khi một từ duy nhất được dịch."
+    },
+    "whenSelectTextLabel": {
+        "message": "Hành động khi chọn văn bản"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Hiển thị bảng dịch"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Hiển thị trực tiếp bảng dịch mà không hiển thị nút."
+    },
+    "ifShowButtonLabel": {
+        "message": "Hiển thị nút dịch"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Hiển thị nút dịch để mở bảng điều khiển khi nhấp vào."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Không hiển thị nút hoặc bảng điều khiển"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Không hiển thị nút để dịch hoặc bảng dịch."
+    },
+    "ifCheckLangLabel": {
+        "message": "Không hiển thị nút nếu không cần dịch"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích, nút sẽ không hiển thị."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Phát hiện ngôn ngữ của văn bản đã chọn và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
+    },
+    "disableTranslationLabel": {
+        "message": "Tắt dịch thuật"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Tắt tính năng dịch trong các trường văn bản"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong trường văn bản."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "Tắt dịch trong các thẻ mã hiệu"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Không hiển thị nút hoặc bảng dịch khi chọn văn bản trong thẻ mã."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Dịch trên phím bổ trợ được nhấn"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Chỉ hiển thị bản dịch trên phím bổ trợ được chỉ định được nhấn."
+    },
+    "modifierKeyLabel": {
+        "message": "Phím bổ trợ"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "Danh sách URL cần tắt tính năng dịch"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Nếu URL trang khớp với danh sách, trang web đó sẽ không dịch. Danh sách cho phép ký tự đại diện \"*\"."
+    },
+    "toolbarLabel": {
+        "message": "Thanh công cụ bật lên"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Tự động chuyển sang ngôn ngữ thứ hai"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Phát hiện ngôn ngữ của văn bản đầu vào và nếu nó giống với ngôn ngữ đích mặc định, hãy dịch nó sang ngôn ngữ thứ hai."
+    },
+    "secondTargetLangLabel": {
+        "message": "Ngôn ngữ thứ hai"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Chọn ngôn ngữ đích thứ hai."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Tắt tính năng dịch theo thuộc tính lang"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Tắt tính năng dịch nếu thuộc tính lang trong phần tử html của trang khớp với danh sách. Nhập các thẻ ngôn ngữ được phân tách bằng dấu phẩy."
+    },
+    "waitTimeLabel": {
+        "message": "Thời gian chờ để dịch"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Chỉ định thời gian chờ đợi từ đầu vào của một ký tự đến để bắt đầu dịch. (mili giây)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Nếu bạn dịch nó nhiều lần trong một thời gian ngắn, nó có thể trở nên không sử dụng được trong một thời gian."
+    },
+    "menuLabel": {
+        "message": "Menu ngữ cảnh"
+    },
+    "ifShowMenuLabel": {
+        "message": "Hiển thị menu ngữ cảnh"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Thêm các mục vào menu ngữ cảnh được hiển thị khi nhấp chuột phải vào trang web hoặc thẻ."
+    },
+    "pageTranslationLabel": {
+        "message": "Page translation"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Tab to display translation results"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Specify the tab to display the results of the page translation."
+    },
+    "newTabLabel": {
+        "message": "New tab"
+    },
+    "currentTabLabel": {
+        "message": "Current tab"
+    },
+    "styleLabel": {
+        "message": "Phong cách"
+    },
+    "themeLabel": {
+        "message": "Chủ Đề"
+    },
+    "themeCaptionLabel": {
+        "message": "Chỉ định bảng màu."
+    },
+    "lightLabel": {
+        "message": "Sáng"
+    },
+    "darkLabel": {
+        "message": "Tối"
+    },
+    "systemLabel": {
+        "message": "System"
+    },
+    "buttonStyleLabel": {
+        "message": "Nút dịch"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Chỉ định kiểu của nút dịch được hiển thị trên trang web."
+    },
+    "buttonSizeLabel": {
+        "message": "Kích cỡ"
+    },
+    "buttonPositionLabel": {
+        "message": "Vị trí hiển thị"
+    },
+    "topRightLabel": {
+        "message": "Phía trên bên phải"
+    },
+    "bottomRightLabel": {
+        "message": "Phía dưới bên phải"
+    },
+    "topLeftLabel": {
+        "message": "Phía trên bên trái"
+    },
+    "bottomLeftLabel": {
+        "message": "Phía dưới bên trái"
+    },
+    "topLabel": {
+        "message": "Trên"
+    },
+    "bottomLabel": {
+        "message": "Dưới"
+    },
+    "leftLabel": {
+        "message": "Trái"
+    },
+    "rightLabel": {
+        "message": "Phải"
+    },
+    "positionOffsetLabel": {
+        "message": "Vị trí hiển thị - Bù đắp"
+    },
+    "panelStyleLabel": {
+        "message": "Bảng dịch"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Chỉ định kiểu của bảng dịch được hiển thị trên trang web."
+    },
+    "widthLabel": {
+        "message": "Chiều dài"
+    },
+    "heightLabel": {
+        "message": "Chiều rộng"
+    },
+    "fontSizeLabel": {
+        "message": "Cỡ chữ"
+    },
+    "referencePointLabel": {
+        "message": "Vị trí hiển thị - Điểm tham chiếu"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Phía dưới văn bản được chọn"
+    },
+    "topSelectedTextLabel": {
+        "message": "Phía trên văn bản được chọn"
+    },
+    "clickedPointLabel": {
+        "message": "Điểm nhấp"
+    },
+    "displayDirectionLabel": {
+        "message": "Vị trí hiển thị - Hướng"
+    },
+    "resultFontColorLabel": {
+        "message": "Màu chữ của kết quả dịch"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Override default colors with colors below"
+    },
+    "candidateFontColorLabel": {
+        "message": "Màu chữ của đề cử dịch thuật"
+    },
+    "bgColorLabel": {
+        "message": "Màu nền"
+    },
+    "otherLabel": {
+        "message": "Khác"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Hiển thị trang tùy chọn khi cập nhật"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Hiển thị trang tùy chọn khi Foxi được cập nhật. Bạn có thể biết nội dung cập nhật một cách nhanh chóng."
+    },
+    "isDebugModeLabel": {
+        "message": "Bật chế độ gỡ lỗi"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Khi chế độ gỡ lỗi được bật, bản ghi sẽ được xuất ra trình gỡ lỗi."
+    },
+    "exportSettingsLabel": {
+        "message": "Xuất cài đặt"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Lưu cài đặt dưới dạng tệp json trên máy tính."
+    },
+    "exportButtonLabel": {
+        "message": "Xuất ra"
+    },
+    "importSettingsLabel": {
+        "message": "Nhập cài đặt"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Tải tệp cài đặt được lưu trên máy tính."
+    },
+    "importButtonLabel": {
+        "message": "Nhập vào"
+    },
+    "resetSettingsLabel": {
+        "message": "Đặt lại cài đặt"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Khôi phục các thiết lập về mặc định."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Đặt lại"
+    },
+    "shortcutsLabel": {
+        "message": "Phím tắt"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Phím tắt bàn phím"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Đặt phím tắt bàn phím."
+    },
+    "typeShortcutMessage": {
+        "message": "Nhập một phím tắt"
+    },
+    "typeLetterMessage": {
+        "message": "Nhập một kí tự"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Bao gồm phím Ctrl hoặc Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Bao gồm phím Command, Ctrl hoặc Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "Không thể sử dụng kí tự này"
+    },
+    "invalidShortcutMessage": {
+        "message": "Không thể sử dụng phím tắt này"
+    },
+    "clear": {
+        "message": "Xóa"
+    },
+    "reset": {
+        "message": "Đặt lại"
+    },
+    "informationLabel": {
+        "message": "Thông tin"
+    },
+    "backersLabel": {
+        "message": "Người ủng hộ"
+    },
+    "licenseLabel": {
+        "message": "Giấy phép"
+    },
+    "donationLabel": {
+        "message": "Hãy đóng góp"
+    },
+    "donationCaptionLabel": {
+        "message": "Cảm ơn bạn đã sử dụng Foxi.<br>Sự hỗ trợ của bạn sẽ là một sự khích lệ lớn, khi tôi tiếp tục phát triển tiện ích mở rộng.<br>Nếu bạn thích Foxi, tôi sẽ rất vui nếu bạn có thể xem xét quyên góp."
+    },
+    "amazonTitleLabel": {
+        "message": "Thẻ eGift của amazon.co.jp"
+    },
+    "sponsorsLabel": {
+        "message": "Nhà tài trợ"
+    },
+    "addonPageLabel": {
+        "message": "Trang tiện ích"
+    },
+    "extensionPageLabel": {
+        "message": "Trang tiện ích"
+    },
+    "privacyPolicyLabel": {
+        "message": "Chính sách bảo mật"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Lỗi: Kiểm tra trạng thái kết nối mạng."
+    },
+    "unavailableError": {
+        "message": "Lỗi: Đã đạt đến giới hạn sử dụng dịch vụ. Xin vui lòng chờ một lúc và thử lại."
+    },
+    "deeplAuthError": {
+        "message": "Lỗi: Xác thực DeepL API thất bại. Vui lòng đặt khóa xác thực và lập kế hoạch chính xác trên trang cài đặt."
+    },
+    "unknownError": {
+        "message": "Lỗi: Lỗi không xác định"
+    },
+    "translatePageMenu": {
+        "message": "Dịch trang này"
+    },
+    "translateTextMenu": {
+        "message": "Dịch văn bản đã chọn"
+    },
+    "translateLinkMenu": {
+        "message": "Dịch liên kết đã chọn"
+    },
+    "openPopupDescription": {
+        "message": "Mở thanh công cụ bật lên"
+    },
+    "lang_af": {
+        "message": "Nam Phi"
+    },
+    "lang_sq": {
+        "message": "Albania"
+    },
+    "lang_am": {
+        "message": "Amhara"
+    },
+    "lang_ar": {
+        "message": "Ả Rập"
+    },
+    "lang_hy": {
+        "message": "Armenia"
+    },
+    "lang_az": {
+        "message": "Azerbaijan"
+    },
+    "lang_eu": {
+        "message": "Basque"
+    },
+    "lang_be": {
+        "message": "Belarus"
+    },
+    "lang_bn": {
+        "message": "Bengal"
+    },
+    "lang_bs": {
+        "message": "Bosnia"
+    },
+    "lang_bg": {
+        "message": "Bulgaria"
+    },
+    "lang_ca": {
+        "message": "Catalunya"
+    },
+    "lang_ceb": {
+        "message": "Cebu"
+    },
+    "lang_ny": {
+        "message": "Chewa"
+    },
+    "lang_zh_CN": {
+        "message": "Trung Quốc (Giản thể)"
+    },
+    "lang_zh_TW": {
+        "message": "Trung Quốc (Phồn thể)"
+    },
+    "lang_co": {
+        "message": "Corse"
+    },
+    "lang_hr": {
+        "message": "Croatia"
+    },
+    "lang_cs": {
+        "message": "Séc"
+    },
+    "lang_da": {
+        "message": "Đan Mạch"
+    },
+    "lang_nl": {
+        "message": "Hà Lan"
+    },
+    "lang_en": {
+        "message": "Anh"
+    },
+    "lang_eo": {
+        "message": "Quốc tế ngữ"
+    },
+    "lang_et": {
+        "message": "Estonia"
+    },
+    "lang_fi": {
+        "message": "Phần Lan"
+    },
+    "lang_fr": {
+        "message": "Pháp"
+    },
+    "lang_fy": {
+        "message": "Frisia"
+    },
+    "lang_gl": {
+        "message": "Galicia"
+    },
+    "lang_ka": {
+        "message": "Gruzia"
+    },
+    "lang_de": {
+        "message": "Đức"
+    },
+    "lang_el": {
+        "message": "Hy Lạp"
+    },
+    "lang_gu": {
+        "message": "Gujarat"
+    },
+    "lang_ht": {
+        "message": "Haiti"
+    },
+    "lang_ha": {
+        "message": "Hausa"
+    },
+    "lang_haw": {
+        "message": "Hawaii"
+    },
+    "lang_he": {
+        "message": "Do Thái"
+    },
+    "lang_hi": {
+        "message": "Hindi"
+    },
+    "lang_hu": {
+        "message": "Hungary"
+    },
+    "lang_is": {
+        "message": "Iceland"
+    },
+    "lang_ig": {
+        "message": "Igbo"
+    },
+    "lang_id": {
+        "message": "Indonesia"
+    },
+    "lang_ga": {
+        "message": "Ireland"
+    },
+    "lang_it": {
+        "message": "Ý"
+    },
+    "lang_ja": {
+        "message": "Nhật Bản"
+    },
+    "lang_jv": {
+        "message": "Java"
+    },
+    "lang_kn": {
+        "message": "Kannada"
+    },
+    "lang_kk": {
+        "message": "Kazakh"
+    },
+    "lang_km": {
+        "message": "Khmer"
+    },
+    "lang_rw": {
+        "message": "Rwanda"
+    },
+    "lang_ky": {
+        "message": "Kyrgyz"
+    },
+    "lang_ko": {
+        "message": "Hàn Quốc"
+    },
+    "lang_ku": {
+        "message": "Kurd"
+    },
+    "lang_lo": {
+        "message": "Lào"
+    },
+    "lang_la": {
+        "message": "Latinh"
+    },
+    "lang_lv": {
+        "message": "Latvia"
+    },
+    "lang_lt": {
+        "message": "Litva"
+    },
+    "lang_lb": {
+        "message": "Luxembourg"
+    },
+    "lang_mk": {
+        "message": "Macedonia"
+    },
+    "lang_mg": {
+        "message": "Malagasy"
+    },
+    "lang_ms": {
+        "message": "Mã Lai"
+    },
+    "lang_ml": {
+        "message": "Malayalam"
+    },
+    "lang_mt": {
+        "message": "Malta"
+    },
+    "lang_mi": {
+        "message": "Māori"
+    },
+    "lang_mr": {
+        "message": "Marathi"
+    },
+    "lang_mn": {
+        "message": "Mông Cổ"
+    },
+    "lang_hmn": {
+        "message": "Monk"
+    },
+    "lang_my": {
+        "message": "Miến Điện"
+    },
+    "lang_ne": {
+        "message": "Nepal"
+    },
+    "lang_no": {
+        "message": "Na Uy"
+    },
+    "lang_or": {
+        "message": "Oriya (Odia)"
+    },
+    "lang_fa": {
+        "message": "Ba Tư"
+    },
+    "lang_pl": {
+        "message": "Ba Lan"
+    },
+    "lang_pt": {
+        "message": "Bồ Đào Nha"
+    },
+    "lang_pa": {
+        "message": "Punjab"
+    },
+    "lang_ps": {
+        "message": "Pashtun"
+    },
+    "lang_ro": {
+        "message": "România"
+    },
+    "lang_ru": {
+        "message": "Nga"
+    },
+    "lang_sm": {
+        "message": "Samoa"
+    },
+    "lang_gd": {
+        "message": "Gael Scotland"
+    },
+    "lang_sr": {
+        "message": "Serbia"
+    },
+    "lang_st": {
+        "message": "Sotho"
+    },
+    "lang_sn": {
+        "message": "Shona"
+    },
+    "lang_sd": {
+        "message": "Sindh"
+    },
+    "lang_si": {
+        "message": "Sinhala"
+    },
+    "lang_sk": {
+        "message": "Slovak"
+    },
+    "lang_sl": {
+        "message": "Slovene"
+    },
+    "lang_so": {
+        "message": "Somali"
+    },
+    "lang_es": {
+        "message": "Tây Ban Nha"
+    },
+    "lang_su": {
+        "message": "Sunda"
+    },
+    "lang_sw": {
+        "message": "Swahili"
+    },
+    "lang_sv": {
+        "message": "Thụy Điển"
+    },
+    "lang_tl": {
+        "message": "Tagalog"
+    },
+    "lang_tg": {
+        "message": "Tajik"
+    },
+    "lang_ta": {
+        "message": "Tamil"
+    },
+    "lang_tt": {
+        "message": "Tatar"
+    },
+    "lang_te": {
+        "message": "Telugu"
+    },
+    "lang_th": {
+        "message": "Thái Lan"
+    },
+    "lang_tr": {
+        "message": "Thổ Nhĩ Kỳ"
+    },
+    "lang_tk": {
+        "message": "Turkmen"
+    },
+    "lang_uk": {
+        "message": "Ukraina"
+    },
+    "lang_ur": {
+        "message": "Urdu"
+    },
+    "lang_ug": {
+        "message": "Duy Ngô Nhĩ"
+    },
+    "lang_uz": {
+        "message": "Uzbek"
+    },
+    "lang_vi": {
+        "message": "Việt Nam"
+    },
+    "lang_cy": {
+        "message": "Wales"
+    },
+    "lang_xh": {
+        "message": "Xhosa"
+    },
+    "lang_yi": {
+        "message": "Yiddish"
+    },
+    "lang_yo": {
+        "message": "Yoruba"
+    },
+    "lang_zu": {
+        "message": "Zulu"
+    },
+    "lang_en_US": {
+        "message": "Anh (Mỹ)"
+    },
+    "lang_en_GB": {
+        "message": "Anh (British)"
+    },
+    "lang_pt_PT": {
+        "message": "Bồ Đào Nha"
+    },
+    "lang_pt_BR": {
+        "message": "Bồ Đào Nha Brasil"
+    },
+    "lang_zh": {
+        "message": "Trung Quốc"
+    }
 }

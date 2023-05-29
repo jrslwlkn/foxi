@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Käännä valittu tai kirjoitettu teksti verkkosivuilla nopeasti. Tukee Google Kääntäjän ja DeepL:n API:a."
-  },
-  "donateWithPaypalLabel": {
-    "message": "Lahjoita PayPalilla"
-  },
-  "donateLabel": {
-    "message": "Lahjoita"
-  },
-  "enableOnThisPage": {
-    "message": "Käytä käännöstä tällä sivulla"
-  },
-  "disableOnThisPage": {
-    "message": "Älä käytä käännöstä tällä sivulla"
-  },
-  "initialTextArea": {
-    "message": "Syötä teksti"
-  },
-  "showLink": {
-    "message": "Käännä tämä sivu"
-  },
-  "openInGoogleLabel": {
-    "message": "Avaa Google Kääntäjä -palvelussa"
-  },
-  "openInDeeplLabel": {
-    "message": "Avaa DeepL Translator -palvelussa"
-  },
-  "copyLabel": {
-    "message": "Kopioi"
-  },
-  "copiedLabel": {
-    "message": "Kopioitu."
-  },
-  "listenLabel": {
-    "message": "Kuuntele"
-  },
-  "targetLangLabel": {
-    "message": "Kohdekieli"
-  },
-  "allLangLabel": {
-    "message": "Kaikki kielet"
-  },
-  "recentLangLabel": {
-    "message": "Viimeisimmät kielet"
-  },
-  "settingsLabel": {
-    "message": "Asetukset"
-  },
-  "generalLabel": {
-    "message": "Yleiset"
-  },
-  "translationApiLabel": {
-    "message": "Käännösmoottori"
-  },
-  "googleApiLabel": {
-    "message": "Google Kääntäjä API"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Käytä Google Kääntäjä API:a. Ei vaadi rekisteröitymistä."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "Käytä DeepL API:a. Todennusavaimen hankinta edellyttää DeepL API Free tai DeepL API Pro -rekisteröintiä."
-  },
-  "howToUseDeeplLabel": {
-    "message": "Miten DeepL API rekisteröidään"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API -tilaus"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Valitse rekisteröimäsi DeepL API -tilaus."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Todennusavain"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Syötä DeepL API:n todennusavain."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Valitse oletusarvoinen kohdekieli."
-  },
-  "webPageLabel": {
-    "message": "Verkkosivu"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Näytä käännösehdokkaat"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Näytä useita käännösehdokkaita käännettäessä yksittäinen sana."
-  },
-  "whenSelectTextLabel": {
-    "message": "Toiminta tekstiä valittaessa"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Näytä käännöspaneeli"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Näytä käännöspaneeli suoraan näyttämättä painiketta."
-  },
-  "ifShowButtonLabel": {
-    "message": "Näytä käännöspainike"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Näytä käännöspainike paneelin avaamiseksi sitä painamalla."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Älä näytä painiketta tai paneelia"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Älä näytä käännöspainiketta tai käännöspaneelia."
-  },
-  "ifCheckLangLabel": {
-    "message": "Älä näytä painiketta, jos käännöstä ei tarvita"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Tunnistaa valitun tekstin kielen, eikä painiketta näytetä, jos kieli vastaa kohdekieltä."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Tunnistaa valitun tekstin kielen ja jos se vastaa oletusarvoista kohdekieltä, käännetään se toissijaiselle kielelle."
-  },
-  "disableTranslationLabel": {
-    "message": "Poista käännös käytöstä"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Älä käytä käännöstä tekstikentissä"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Älä näytä käännöspainiketta tai -paneelia valittaessa tekstiä tekstikentistä."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "Älä käytä käännöstä kooditageissa"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Älä näytä käännöspainiketta tai -paneelia valittaessa tekstiä kooditageista."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Käännä painettaessa vaihtonäppäintä"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Näytä käännös vain painettaessa määritettyä vaihtonäppäintä."
-  },
-  "modifierKeyLabel": {
-    "message": "Vaihtonäppäin"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "URL-lista käännöksen käytöstä poistoon"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Jos sivun URL-osoite löytyy listalta, poistetaan käännös verkkosivulla käytöstä. Listalla voidaan käyttää \"*\"-jokerimerkkiä."
-  },
-  "toolbarLabel": {
-    "message": "Työkalupalkin ponnahdus"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Vaihda toissijaiseen kieleen automaattisesti"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Tunnistaa syötetyn tekstin kielen ja jos se vastaa oletusarvoista kohdekieltä, käännetään se toissijaiselle kielelle."
-  },
-  "secondTargetLangLabel": {
-    "message": "Toissijainen kieli"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Valitse toissijainen kohdekieli."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Älä käännä kieliattribuutin perusteella"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Poista käännös käytöstä, jos sivun HTML-elementin kieli-attribuutti löytyy listalta. Syötä kielitagit pilkulla eroteltuna."
-  },
-  "waitTimeLabel": {
-    "message": "Käännöksen odotusaika"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Määritä merkin syötöstä käännöksen alkuun odotettava aika (millisekuntia)."
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Jos käännät sen useita kertoja lyhyen ajan sisällä, voi sitä olla jonkin aikaa mahdoton käyttää."
-  },
-  "menuLabel": {
-    "message": "Sisältövalikko"
-  },
-  "ifShowMenuLabel": {
-    "message": "Näytä sisältövalikko"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Lisää kohteet verkkosivua tai välilehteä hiiren kakkospainikkeella painettaessa avautuvaan kontekstivalikkoon."
-  },
-  "pageTranslationLabel": {
-    "message": "Sivun käännös"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Välilehti käännöstuloksille"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Määritä sivun käännöstulosten näyttöön käytettävä välilehti."
-  },
-  "newTabLabel": {
-    "message": "Uusi välilehti"
-  },
-  "currentTabLabel": {
-    "message": "Nykyinen välilehti"
-  },
-  "styleLabel": {
-    "message": "Tyyli"
-  },
-  "themeLabel": {
-    "message": "Teema"
-  },
-  "themeCaptionLabel": {
-    "message": "Määritä väriteema."
-  },
-  "lightLabel": {
-    "message": "Vaalea"
-  },
-  "darkLabel": {
-    "message": "Tumma"
-  },
-  "systemLabel": {
-    "message": "Järjestelmä"
-  },
-  "buttonStyleLabel": {
-    "message": "Käännöspainike"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Määritä verkkosivulla näytettävän käännöspainikkeen tyyli."
-  },
-  "buttonSizeLabel": {
-    "message": "Koko"
-  },
-  "buttonPositionLabel": {
-    "message": "Sijainti näytöllä"
-  },
-  "topRightLabel": {
-    "message": "Yläoikealla"
-  },
-  "bottomRightLabel": {
-    "message": "Alaoikealla"
-  },
-  "topLeftLabel": {
-    "message": "Ylävasemmalla"
-  },
-  "bottomLeftLabel": {
-    "message": "Alavasemmalla"
-  },
-  "topLabel": {
-    "message": "Ylhäällä"
-  },
-  "bottomLabel": {
-    "message": "Alhaalla"
-  },
-  "leftLabel": {
-    "message": "Vasemmalla"
-  },
-  "rightLabel": {
-    "message": "Oikealla"
-  },
-  "positionOffsetLabel": {
-    "message": "Sijainti näytöllä - Poikkeama"
-  },
-  "panelStyleLabel": {
-    "message": "Käännöspaneeli"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Määritä verkkosivulla näytettävän käännöspaneelin tyyli."
-  },
-  "widthLabel": {
-    "message": "Leveys"
-  },
-  "heightLabel": {
-    "message": "Korkeus"
-  },
-  "fontSizeLabel": {
-    "message": "Tekstin koko"
-  },
-  "referencePointLabel": {
-    "message": "Sijainti näytöllä - Viitepiste"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Valitun tekstin alareunassa"
-  },
-  "topSelectedTextLabel": {
-    "message": "Valitun tekstin yläreunassa"
-  },
-  "clickedPointLabel": {
-    "message": "Painetulla pisteellä"
-  },
-  "displayDirectionLabel": {
-    "message": "Sijainti näytöllä - Suunta"
-  },
-  "resultFontColorLabel": {
-    "message": "Käännöstuloksen tekstin väri"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Korvaa oletusvärit alla olevilla väreillä"
-  },
-  "candidateFontColorLabel": {
-    "message": "Käännösehdokkaiden tekstin väri"
-  },
-  "bgColorLabel": {
-    "message": "Taustan väri"
-  },
-  "otherLabel": {
-    "message": "Muu"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Avaa asetussivu päivityksen yhteydessä"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Avaa asetusivu Simple Translaten päivittyessä. Näet päivityksen sisällön nopeasti."
-  },
-  "isDebugModeLabel": {
-    "message": "Käytä vianetsintätilaa"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Kun vianetsintätila on käytössä, toimitetaan loki vianetsijälle."
-  },
-  "exportSettingsLabel": {
-    "message": "Vie asetukset"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Tallenna asetukset tietokoneelle JSON-tiedostona."
-  },
-  "exportButtonLabel": {
-    "message": "Vie"
-  },
-  "importSettingsLabel": {
-    "message": "Tuo asetukset"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Lataa tietokoneelle tallennettu asetustiedosto."
-  },
-  "importButtonLabel": {
-    "message": "Tuo"
-  },
-  "resetSettingsLabel": {
-    "message": "Palauta asetukset"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Palauta kaikkien asetusten oletukset."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Palauta"
-  },
-  "shortcutsLabel": {
-    "message": "Näppäinyhdistelmät"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Näppäinyhdistelmät"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Määritä näppäinyhdistelmät."
-  },
-  "typeShortcutMessage": {
-    "message": "Syötä näppäinyhdistelmä"
-  },
-  "typeLetterMessage": {
-    "message": "Syötä kirjain"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Sisällytä joko Ctrl tai Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Sisällytä joko Command, Ctrl tai Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "Kirjain ei ole käytettävissä"
-  },
-  "invalidShortcutMessage": {
-    "message": "Näppäinyhdistelmä ei ole käytettävissä"
-  },
-  "clear": {
-    "message": "Tyhjennä"
-  },
-  "reset": {
-    "message": "Palauta"
-  },
-  "informationLabel": {
-    "message": "Tiedot"
-  },
-  "backersLabel": {
-    "message": "Tukijat"
-  },
-  "licenseLabel": {
-    "message": "Lisenssi"
-  },
-  "donationLabel": {
-    "message": "Tee lahjoitus, kiitos"
-  },
-  "donationCaptionLabel": {
-    "message": "Kiitos Simple Translaten käytöstä.<br>Tukesi merkitsee paljon, koska kehitän lisäosaa edelleen.<br>Jos pidät Simple Translatesta, olisin kiitollinen, jos harkitsisit lahjoittamista."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift-lahjakortit"
-  },
-  "sponsorsLabel": {
-    "message": "Sponsorit"
-  },
-  "addonPageLabel": {
-    "message": "Lisäosan sivu"
-  },
-  "extensionPageLabel": {
-    "message": "Laajennuksen sivu"
-  },
-  "privacyPolicyLabel": {
-    "message": "Tietosuojakäytäntö"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=fi_FI"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/fi/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Virhe: Tarkista verkkoyhteyden tila."
-  },
-  "unavailableError": {
-    "message": "Virhe: Palvelun käyttörajoitus on saavutettu. Odota hetki ja yritä uudelleen."
-  },
-  "deeplAuthError": {
-    "message": "Virhe: DeepL API -todennus epäonnistui. Määritä todennusavain ja tilaus asetussivulta oikein."
-  },
-  "unknownError": {
-    "message": "Virhe: Tuntematon virhe"
-  },
-  "translatePageMenu": {
-    "message": "Käännä tämä sivu"
-  },
-  "translateTextMenu": {
-    "message": "Käännä valittu teksti"
-  },
-  "translateLinkMenu": {
-    "message": "Käännä valittu linkki"
-  },
-  "openPopupDescription": {
-    "message": "Avaa työkalupalkin ponnahdus"
-  },
-  "lang_af": {
-    "message": "Afrikaans"
-  },
-  "lang_sq": {
-    "message": "Albania"
-  },
-  "lang_am": {
-    "message": "Amhara"
-  },
-  "lang_ar": {
-    "message": "Arabia"
-  },
-  "lang_hy": {
-    "message": "Armenia"
-  },
-  "lang_az": {
-    "message": "Azeri"
-  },
-  "lang_eu": {
-    "message": "Baski"
-  },
-  "lang_be": {
-    "message": "Valkovenäjä"
-  },
-  "lang_bn": {
-    "message": "Bengali"
-  },
-  "lang_bs": {
-    "message": "Bosnia"
-  },
-  "lang_bg": {
-    "message": "Bulgaria"
-  },
-  "lang_ca": {
-    "message": "Katalaani"
-  },
-  "lang_ceb": {
-    "message": "Cebuano"
-  },
-  "lang_ny": {
-    "message": "Njandža"
-  },
-  "lang_zh_CN": {
-    "message": "Kiina (yksinkertaistettu)"
-  },
-  "lang_zh_TW": {
-    "message": "Kiina (perinteinen)"
-  },
-  "lang_co": {
-    "message": "Korsika"
-  },
-  "lang_hr": {
-    "message": "Kroaatti"
-  },
-  "lang_cs": {
-    "message": "Tšekki"
-  },
-  "lang_da": {
-    "message": "Tanska"
-  },
-  "lang_nl": {
-    "message": "Hollanti"
-  },
-  "lang_en": {
-    "message": "Englanti"
-  },
-  "lang_eo": {
-    "message": "Esperanto"
-  },
-  "lang_et": {
-    "message": "Viro"
-  },
-  "lang_fi": {
-    "message": "Suomi"
-  },
-  "lang_fr": {
-    "message": "Ranska"
-  },
-  "lang_fy": {
-    "message": "Friisi"
-  },
-  "lang_gl": {
-    "message": "Galicia"
-  },
-  "lang_ka": {
-    "message": "Georgia"
-  },
-  "lang_de": {
-    "message": "Saksa"
-  },
-  "lang_el": {
-    "message": "Kreikka"
-  },
-  "lang_gu": {
-    "message": "Gudžarati"
-  },
-  "lang_ht": {
-    "message": "Haiti"
-  },
-  "lang_ha": {
-    "message": "Hausa"
-  },
-  "lang_haw": {
-    "message": "Havaiji"
-  },
-  "lang_he": {
-    "message": "Heprea"
-  },
-  "lang_hi": {
-    "message": "Hindi"
-  },
-  "lang_hu": {
-    "message": "Unkari"
-  },
-  "lang_is": {
-    "message": "Islanti"
-  },
-  "lang_ig": {
-    "message": "Igbo"
-  },
-  "lang_id": {
-    "message": "Indonesia"
-  },
-  "lang_ga": {
-    "message": "Iiri"
-  },
-  "lang_it": {
-    "message": "Italia"
-  },
-  "lang_ja": {
-    "message": "Japani"
-  },
-  "lang_jv": {
-    "message": "Jaava"
-  },
-  "lang_kn": {
-    "message": "Kanada"
-  },
-  "lang_kk": {
-    "message": "Kazakki"
-  },
-  "lang_km": {
-    "message": "Khmer"
-  },
-  "lang_rw": {
-    "message": "Ruanda"
-  },
-  "lang_ky": {
-    "message": "Kirgiisi"
-  },
-  "lang_ko": {
-    "message": "Korea"
-  },
-  "lang_ku": {
-    "message": "Kurdi"
-  },
-  "lang_lo": {
-    "message": "Lao"
-  },
-  "lang_la": {
-    "message": "Latina"
-  },
-  "lang_lv": {
-    "message": "Latvia"
-  },
-  "lang_lt": {
-    "message": "Liettua"
-  },
-  "lang_lb": {
-    "message": "Luxemburg"
-  },
-  "lang_mk": {
-    "message": "Makedonia"
-  },
-  "lang_mg": {
-    "message": "Malagassi"
-  },
-  "lang_ms": {
-    "message": "Malaiji"
-  },
-  "lang_ml": {
-    "message": "Malajalam"
-  },
-  "lang_mt": {
-    "message": "Malta"
-  },
-  "lang_mi": {
-    "message": "Maori"
-  },
-  "lang_mr": {
-    "message": "Marathi"
-  },
-  "lang_mn": {
-    "message": "Mongolia"
-  },
-  "lang_hmn": {
-    "message": "Hmong"
-  },
-  "lang_my": {
-    "message": "Burma"
-  },
-  "lang_ne": {
-    "message": "Nepali"
-  },
-  "lang_no": {
-    "message": "Norja"
-  },
-  "lang_or": {
-    "message": "Orija (oriya)"
-  },
-  "lang_fa": {
-    "message": "Persia"
-  },
-  "lang_pl": {
-    "message": "Puola"
-  },
-  "lang_pt": {
-    "message": "Portugali"
-  },
-  "lang_pa": {
-    "message": "Punjabi"
-  },
-  "lang_ps": {
-    "message": "Paštu"
-  },
-  "lang_ro": {
-    "message": "Romania"
-  },
-  "lang_ru": {
-    "message": "Venäjä"
-  },
-  "lang_sm": {
-    "message": "Samoa"
-  },
-  "lang_gd": {
-    "message": "Gaeli"
-  },
-  "lang_sr": {
-    "message": "Serbia"
-  },
-  "lang_st": {
-    "message": "Sesotho"
-  },
-  "lang_sn": {
-    "message": "Šona"
-  },
-  "lang_sd": {
-    "message": "Sindhi"
-  },
-  "lang_si": {
-    "message": "Sinhala"
-  },
-  "lang_sk": {
-    "message": "Slovakki"
-  },
-  "lang_sl": {
-    "message": "Slovenia"
-  },
-  "lang_so": {
-    "message": "Somali"
-  },
-  "lang_es": {
-    "message": "Espanja"
-  },
-  "lang_su": {
-    "message": "Sunda"
-  },
-  "lang_sw": {
-    "message": "Swahili"
-  },
-  "lang_sv": {
-    "message": "Ruotsi"
-  },
-  "lang_tl": {
-    "message": "Tagalog"
-  },
-  "lang_tg": {
-    "message": "Tadžikki"
-  },
-  "lang_ta": {
-    "message": "Tamil"
-  },
-  "lang_tt": {
-    "message": "Tataari"
-  },
-  "lang_te": {
-    "message": "Telugu"
-  },
-  "lang_th": {
-    "message": "Thai"
-  },
-  "lang_tr": {
-    "message": "Turkki"
-  },
-  "lang_tk": {
-    "message": "Turkmeeni"
-  },
-  "lang_uk": {
-    "message": "Ukraina"
-  },
-  "lang_ur": {
-    "message": "Urdu"
-  },
-  "lang_ug": {
-    "message": "Uiguuri"
-  },
-  "lang_uz": {
-    "message": "Uzbekki"
-  },
-  "lang_vi": {
-    "message": "Vietnam"
-  },
-  "lang_cy": {
-    "message": "Kymri"
-  },
-  "lang_xh": {
-    "message": "Xhosa"
-  },
-  "lang_yi": {
-    "message": "Jiddiš"
-  },
-  "lang_yo": {
-    "message": "Joruba"
-  },
-  "lang_zu": {
-    "message": "Zulu"
-  },
-  "lang_en_US": {
-    "message": "Amerikanenglanti"
-  },
-  "lang_en_GB": {
-    "message": "Brittienglanti"
-  },
-  "lang_pt_PT": {
-    "message": "Portugali"
-  },
-  "lang_pt_BR": {
-    "message": "Portugali (Brasilia)"
-  },
-  "lang_zh": {
-    "message": "Kiina"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Käännä valittu tai kirjoitettu teksti verkkosivuilla nopeasti. Tukee Google Kääntäjän ja DeepL:n API:a."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Lahjoita PayPalilla"
+    },
+    "donateLabel": {
+        "message": "Lahjoita"
+    },
+    "enableOnThisPage": {
+        "message": "Käytä käännöstä tällä sivulla"
+    },
+    "disableOnThisPage": {
+        "message": "Älä käytä käännöstä tällä sivulla"
+    },
+    "initialTextArea": {
+        "message": "Syötä teksti"
+    },
+    "showLink": {
+        "message": "Käännä tämä sivu"
+    },
+    "openInGoogleLabel": {
+        "message": "Avaa Google Kääntäjä -palvelussa"
+    },
+    "openInDeeplLabel": {
+        "message": "Avaa DeepL Translator -palvelussa"
+    },
+    "copyLabel": {
+        "message": "Kopioi"
+    },
+    "copiedLabel": {
+        "message": "Kopioitu."
+    },
+    "listenLabel": {
+        "message": "Kuuntele"
+    },
+    "targetLangLabel": {
+        "message": "Kohdekieli"
+    },
+    "allLangLabel": {
+        "message": "Kaikki kielet"
+    },
+    "recentLangLabel": {
+        "message": "Viimeisimmät kielet"
+    },
+    "settingsLabel": {
+        "message": "Asetukset"
+    },
+    "generalLabel": {
+        "message": "Yleiset"
+    },
+    "translationApiLabel": {
+        "message": "Käännösmoottori"
+    },
+    "googleApiLabel": {
+        "message": "Google Kääntäjä API"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Käytä Google Kääntäjä API:a. Ei vaadi rekisteröitymistä."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "Käytä DeepL API:a. Todennusavaimen hankinta edellyttää DeepL API Free tai DeepL API Pro -rekisteröintiä."
+    },
+    "howToUseDeeplLabel": {
+        "message": "Miten DeepL API rekisteröidään"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API -tilaus"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Valitse rekisteröimäsi DeepL API -tilaus."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Todennusavain"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Syötä DeepL API:n todennusavain."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Valitse oletusarvoinen kohdekieli."
+    },
+    "webPageLabel": {
+        "message": "Verkkosivu"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Näytä käännösehdokkaat"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Näytä useita käännösehdokkaita käännettäessä yksittäinen sana."
+    },
+    "whenSelectTextLabel": {
+        "message": "Toiminta tekstiä valittaessa"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Näytä käännöspaneeli"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Näytä käännöspaneeli suoraan näyttämättä painiketta."
+    },
+    "ifShowButtonLabel": {
+        "message": "Näytä käännöspainike"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Näytä käännöspainike paneelin avaamiseksi sitä painamalla."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Älä näytä painiketta tai paneelia"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Älä näytä käännöspainiketta tai käännöspaneelia."
+    },
+    "ifCheckLangLabel": {
+        "message": "Älä näytä painiketta, jos käännöstä ei tarvita"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Tunnistaa valitun tekstin kielen, eikä painiketta näytetä, jos kieli vastaa kohdekieltä."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Tunnistaa valitun tekstin kielen ja jos se vastaa oletusarvoista kohdekieltä, käännetään se toissijaiselle kielelle."
+    },
+    "disableTranslationLabel": {
+        "message": "Poista käännös käytöstä"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Älä käytä käännöstä tekstikentissä"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Älä näytä käännöspainiketta tai -paneelia valittaessa tekstiä tekstikentistä."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "Älä käytä käännöstä kooditageissa"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Älä näytä käännöspainiketta tai -paneelia valittaessa tekstiä kooditageista."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Käännä painettaessa vaihtonäppäintä"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Näytä käännös vain painettaessa määritettyä vaihtonäppäintä."
+    },
+    "modifierKeyLabel": {
+        "message": "Vaihtonäppäin"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "URL-lista käännöksen käytöstä poistoon"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Jos sivun URL-osoite löytyy listalta, poistetaan käännös verkkosivulla käytöstä. Listalla voidaan käyttää \"*\"-jokerimerkkiä."
+    },
+    "toolbarLabel": {
+        "message": "Työkalupalkin ponnahdus"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Vaihda toissijaiseen kieleen automaattisesti"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Tunnistaa syötetyn tekstin kielen ja jos se vastaa oletusarvoista kohdekieltä, käännetään se toissijaiselle kielelle."
+    },
+    "secondTargetLangLabel": {
+        "message": "Toissijainen kieli"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Valitse toissijainen kohdekieli."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Älä käännä kieliattribuutin perusteella"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Poista käännös käytöstä, jos sivun HTML-elementin kieli-attribuutti löytyy listalta. Syötä kielitagit pilkulla eroteltuna."
+    },
+    "waitTimeLabel": {
+        "message": "Käännöksen odotusaika"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Määritä merkin syötöstä käännöksen alkuun odotettava aika (millisekuntia)."
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Jos käännät sen useita kertoja lyhyen ajan sisällä, voi sitä olla jonkin aikaa mahdoton käyttää."
+    },
+    "menuLabel": {
+        "message": "Sisältövalikko"
+    },
+    "ifShowMenuLabel": {
+        "message": "Näytä sisältövalikko"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Lisää kohteet verkkosivua tai välilehteä hiiren kakkospainikkeella painettaessa avautuvaan kontekstivalikkoon."
+    },
+    "pageTranslationLabel": {
+        "message": "Sivun käännös"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Välilehti käännöstuloksille"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Määritä sivun käännöstulosten näyttöön käytettävä välilehti."
+    },
+    "newTabLabel": {
+        "message": "Uusi välilehti"
+    },
+    "currentTabLabel": {
+        "message": "Nykyinen välilehti"
+    },
+    "styleLabel": {
+        "message": "Tyyli"
+    },
+    "themeLabel": {
+        "message": "Teema"
+    },
+    "themeCaptionLabel": {
+        "message": "Määritä väriteema."
+    },
+    "lightLabel": {
+        "message": "Vaalea"
+    },
+    "darkLabel": {
+        "message": "Tumma"
+    },
+    "systemLabel": {
+        "message": "Järjestelmä"
+    },
+    "buttonStyleLabel": {
+        "message": "Käännöspainike"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Määritä verkkosivulla näytettävän käännöspainikkeen tyyli."
+    },
+    "buttonSizeLabel": {
+        "message": "Koko"
+    },
+    "buttonPositionLabel": {
+        "message": "Sijainti näytöllä"
+    },
+    "topRightLabel": {
+        "message": "Yläoikealla"
+    },
+    "bottomRightLabel": {
+        "message": "Alaoikealla"
+    },
+    "topLeftLabel": {
+        "message": "Ylävasemmalla"
+    },
+    "bottomLeftLabel": {
+        "message": "Alavasemmalla"
+    },
+    "topLabel": {
+        "message": "Ylhäällä"
+    },
+    "bottomLabel": {
+        "message": "Alhaalla"
+    },
+    "leftLabel": {
+        "message": "Vasemmalla"
+    },
+    "rightLabel": {
+        "message": "Oikealla"
+    },
+    "positionOffsetLabel": {
+        "message": "Sijainti näytöllä - Poikkeama"
+    },
+    "panelStyleLabel": {
+        "message": "Käännöspaneeli"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Määritä verkkosivulla näytettävän käännöspaneelin tyyli."
+    },
+    "widthLabel": {
+        "message": "Leveys"
+    },
+    "heightLabel": {
+        "message": "Korkeus"
+    },
+    "fontSizeLabel": {
+        "message": "Tekstin koko"
+    },
+    "referencePointLabel": {
+        "message": "Sijainti näytöllä - Viitepiste"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Valitun tekstin alareunassa"
+    },
+    "topSelectedTextLabel": {
+        "message": "Valitun tekstin yläreunassa"
+    },
+    "clickedPointLabel": {
+        "message": "Painetulla pisteellä"
+    },
+    "displayDirectionLabel": {
+        "message": "Sijainti näytöllä - Suunta"
+    },
+    "resultFontColorLabel": {
+        "message": "Käännöstuloksen tekstin väri"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Korvaa oletusvärit alla olevilla väreillä"
+    },
+    "candidateFontColorLabel": {
+        "message": "Käännösehdokkaiden tekstin väri"
+    },
+    "bgColorLabel": {
+        "message": "Taustan väri"
+    },
+    "otherLabel": {
+        "message": "Muu"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Avaa asetussivu päivityksen yhteydessä"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Avaa asetusivu Foxin päivittyessä. Näet päivityksen sisällön nopeasti."
+    },
+    "isDebugModeLabel": {
+        "message": "Käytä vianetsintätilaa"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Kun vianetsintätila on käytössä, toimitetaan loki vianetsijälle."
+    },
+    "exportSettingsLabel": {
+        "message": "Vie asetukset"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Tallenna asetukset tietokoneelle JSON-tiedostona."
+    },
+    "exportButtonLabel": {
+        "message": "Vie"
+    },
+    "importSettingsLabel": {
+        "message": "Tuo asetukset"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Lataa tietokoneelle tallennettu asetustiedosto."
+    },
+    "importButtonLabel": {
+        "message": "Tuo"
+    },
+    "resetSettingsLabel": {
+        "message": "Palauta asetukset"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Palauta kaikkien asetusten oletukset."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Palauta"
+    },
+    "shortcutsLabel": {
+        "message": "Näppäinyhdistelmät"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Näppäinyhdistelmät"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Määritä näppäinyhdistelmät."
+    },
+    "typeShortcutMessage": {
+        "message": "Syötä näppäinyhdistelmä"
+    },
+    "typeLetterMessage": {
+        "message": "Syötä kirjain"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Sisällytä joko Ctrl tai Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Sisällytä joko Command, Ctrl tai Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "Kirjain ei ole käytettävissä"
+    },
+    "invalidShortcutMessage": {
+        "message": "Näppäinyhdistelmä ei ole käytettävissä"
+    },
+    "clear": {
+        "message": "Tyhjennä"
+    },
+    "reset": {
+        "message": "Palauta"
+    },
+    "informationLabel": {
+        "message": "Tiedot"
+    },
+    "backersLabel": {
+        "message": "Tukijat"
+    },
+    "licenseLabel": {
+        "message": "Lisenssi"
+    },
+    "donationLabel": {
+        "message": "Tee lahjoitus, kiitos"
+    },
+    "donationCaptionLabel": {
+        "message": "Kiitos Foxin käytöstä.<br>Tukesi merkitsee paljon, koska kehitän lisäosaa edelleen.<br>Jos pidät Foxista, olisin kiitollinen, jos harkitsisit lahjoittamista."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift-lahjakortit"
+    },
+    "sponsorsLabel": {
+        "message": "Sponsorit"
+    },
+    "addonPageLabel": {
+        "message": "Lisäosan sivu"
+    },
+    "extensionPageLabel": {
+        "message": "Laajennuksen sivu"
+    },
+    "privacyPolicyLabel": {
+        "message": "Tietosuojakäytäntö"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=fi_FI"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/fi/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Virhe: Tarkista verkkoyhteyden tila."
+    },
+    "unavailableError": {
+        "message": "Virhe: Palvelun käyttörajoitus on saavutettu. Odota hetki ja yritä uudelleen."
+    },
+    "deeplAuthError": {
+        "message": "Virhe: DeepL API -todennus epäonnistui. Määritä todennusavain ja tilaus asetussivulta oikein."
+    },
+    "unknownError": {
+        "message": "Virhe: Tuntematon virhe"
+    },
+    "translatePageMenu": {
+        "message": "Käännä tämä sivu"
+    },
+    "translateTextMenu": {
+        "message": "Käännä valittu teksti"
+    },
+    "translateLinkMenu": {
+        "message": "Käännä valittu linkki"
+    },
+    "openPopupDescription": {
+        "message": "Avaa työkalupalkin ponnahdus"
+    },
+    "lang_af": {
+        "message": "Afrikaans"
+    },
+    "lang_sq": {
+        "message": "Albania"
+    },
+    "lang_am": {
+        "message": "Amhara"
+    },
+    "lang_ar": {
+        "message": "Arabia"
+    },
+    "lang_hy": {
+        "message": "Armenia"
+    },
+    "lang_az": {
+        "message": "Azeri"
+    },
+    "lang_eu": {
+        "message": "Baski"
+    },
+    "lang_be": {
+        "message": "Valkovenäjä"
+    },
+    "lang_bn": {
+        "message": "Bengali"
+    },
+    "lang_bs": {
+        "message": "Bosnia"
+    },
+    "lang_bg": {
+        "message": "Bulgaria"
+    },
+    "lang_ca": {
+        "message": "Katalaani"
+    },
+    "lang_ceb": {
+        "message": "Cebuano"
+    },
+    "lang_ny": {
+        "message": "Njandža"
+    },
+    "lang_zh_CN": {
+        "message": "Kiina (yksinkertaistettu)"
+    },
+    "lang_zh_TW": {
+        "message": "Kiina (perinteinen)"
+    },
+    "lang_co": {
+        "message": "Korsika"
+    },
+    "lang_hr": {
+        "message": "Kroaatti"
+    },
+    "lang_cs": {
+        "message": "Tšekki"
+    },
+    "lang_da": {
+        "message": "Tanska"
+    },
+    "lang_nl": {
+        "message": "Hollanti"
+    },
+    "lang_en": {
+        "message": "Englanti"
+    },
+    "lang_eo": {
+        "message": "Esperanto"
+    },
+    "lang_et": {
+        "message": "Viro"
+    },
+    "lang_fi": {
+        "message": "Suomi"
+    },
+    "lang_fr": {
+        "message": "Ranska"
+    },
+    "lang_fy": {
+        "message": "Friisi"
+    },
+    "lang_gl": {
+        "message": "Galicia"
+    },
+    "lang_ka": {
+        "message": "Georgia"
+    },
+    "lang_de": {
+        "message": "Saksa"
+    },
+    "lang_el": {
+        "message": "Kreikka"
+    },
+    "lang_gu": {
+        "message": "Gudžarati"
+    },
+    "lang_ht": {
+        "message": "Haiti"
+    },
+    "lang_ha": {
+        "message": "Hausa"
+    },
+    "lang_haw": {
+        "message": "Havaiji"
+    },
+    "lang_he": {
+        "message": "Heprea"
+    },
+    "lang_hi": {
+        "message": "Hindi"
+    },
+    "lang_hu": {
+        "message": "Unkari"
+    },
+    "lang_is": {
+        "message": "Islanti"
+    },
+    "lang_ig": {
+        "message": "Igbo"
+    },
+    "lang_id": {
+        "message": "Indonesia"
+    },
+    "lang_ga": {
+        "message": "Iiri"
+    },
+    "lang_it": {
+        "message": "Italia"
+    },
+    "lang_ja": {
+        "message": "Japani"
+    },
+    "lang_jv": {
+        "message": "Jaava"
+    },
+    "lang_kn": {
+        "message": "Kanada"
+    },
+    "lang_kk": {
+        "message": "Kazakki"
+    },
+    "lang_km": {
+        "message": "Khmer"
+    },
+    "lang_rw": {
+        "message": "Ruanda"
+    },
+    "lang_ky": {
+        "message": "Kirgiisi"
+    },
+    "lang_ko": {
+        "message": "Korea"
+    },
+    "lang_ku": {
+        "message": "Kurdi"
+    },
+    "lang_lo": {
+        "message": "Lao"
+    },
+    "lang_la": {
+        "message": "Latina"
+    },
+    "lang_lv": {
+        "message": "Latvia"
+    },
+    "lang_lt": {
+        "message": "Liettua"
+    },
+    "lang_lb": {
+        "message": "Luxemburg"
+    },
+    "lang_mk": {
+        "message": "Makedonia"
+    },
+    "lang_mg": {
+        "message": "Malagassi"
+    },
+    "lang_ms": {
+        "message": "Malaiji"
+    },
+    "lang_ml": {
+        "message": "Malajalam"
+    },
+    "lang_mt": {
+        "message": "Malta"
+    },
+    "lang_mi": {
+        "message": "Maori"
+    },
+    "lang_mr": {
+        "message": "Marathi"
+    },
+    "lang_mn": {
+        "message": "Mongolia"
+    },
+    "lang_hmn": {
+        "message": "Hmong"
+    },
+    "lang_my": {
+        "message": "Burma"
+    },
+    "lang_ne": {
+        "message": "Nepali"
+    },
+    "lang_no": {
+        "message": "Norja"
+    },
+    "lang_or": {
+        "message": "Orija (oriya)"
+    },
+    "lang_fa": {
+        "message": "Persia"
+    },
+    "lang_pl": {
+        "message": "Puola"
+    },
+    "lang_pt": {
+        "message": "Portugali"
+    },
+    "lang_pa": {
+        "message": "Punjabi"
+    },
+    "lang_ps": {
+        "message": "Paštu"
+    },
+    "lang_ro": {
+        "message": "Romania"
+    },
+    "lang_ru": {
+        "message": "Venäjä"
+    },
+    "lang_sm": {
+        "message": "Samoa"
+    },
+    "lang_gd": {
+        "message": "Gaeli"
+    },
+    "lang_sr": {
+        "message": "Serbia"
+    },
+    "lang_st": {
+        "message": "Sesotho"
+    },
+    "lang_sn": {
+        "message": "Šona"
+    },
+    "lang_sd": {
+        "message": "Sindhi"
+    },
+    "lang_si": {
+        "message": "Sinhala"
+    },
+    "lang_sk": {
+        "message": "Slovakki"
+    },
+    "lang_sl": {
+        "message": "Slovenia"
+    },
+    "lang_so": {
+        "message": "Somali"
+    },
+    "lang_es": {
+        "message": "Espanja"
+    },
+    "lang_su": {
+        "message": "Sunda"
+    },
+    "lang_sw": {
+        "message": "Swahili"
+    },
+    "lang_sv": {
+        "message": "Ruotsi"
+    },
+    "lang_tl": {
+        "message": "Tagalog"
+    },
+    "lang_tg": {
+        "message": "Tadžikki"
+    },
+    "lang_ta": {
+        "message": "Tamil"
+    },
+    "lang_tt": {
+        "message": "Tataari"
+    },
+    "lang_te": {
+        "message": "Telugu"
+    },
+    "lang_th": {
+        "message": "Thai"
+    },
+    "lang_tr": {
+        "message": "Turkki"
+    },
+    "lang_tk": {
+        "message": "Turkmeeni"
+    },
+    "lang_uk": {
+        "message": "Ukraina"
+    },
+    "lang_ur": {
+        "message": "Urdu"
+    },
+    "lang_ug": {
+        "message": "Uiguuri"
+    },
+    "lang_uz": {
+        "message": "Uzbekki"
+    },
+    "lang_vi": {
+        "message": "Vietnam"
+    },
+    "lang_cy": {
+        "message": "Kymri"
+    },
+    "lang_xh": {
+        "message": "Xhosa"
+    },
+    "lang_yi": {
+        "message": "Jiddiš"
+    },
+    "lang_yo": {
+        "message": "Joruba"
+    },
+    "lang_zu": {
+        "message": "Zulu"
+    },
+    "lang_en_US": {
+        "message": "Amerikanenglanti"
+    },
+    "lang_en_GB": {
+        "message": "Brittienglanti"
+    },
+    "lang_pt_PT": {
+        "message": "Portugali"
+    },
+    "lang_pt_BR": {
+        "message": "Portugali (Brasilia)"
+    },
+    "lang_zh": {
+        "message": "Kiina"
+    }
 }

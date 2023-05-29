@@ -1,6 +1,6 @@
 {
     "extName": {
-        "message": "Simple Translate"
+        "message": "Foxi"
     },
     "extDescription": {
         "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
@@ -345,7 +345,7 @@
         "message": "Display option page when updating"
     },
     "isShowOptionsPageWhenUpdatedCaptionLabel": {
-        "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
+        "message": "Display the options page when Foxi is updated. You can know the update contents quickly."
     },
     "isDebugModeLabel": {
         "message": "Enable debug mode"
@@ -426,7 +426,7 @@
         "message": "Please make a donation"
     },
     "donationCaptionLabel": {
-        "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
+        "message": "Thank you for using Foxi.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Foxi, I would be pleased if you could consider donating."
     },
     "amazonTitleLabel": {
         "message": "amazon.co.jp eGift Cards"

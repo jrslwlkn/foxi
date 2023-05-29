@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/sienori/simple-translate/master/src/icons/64.png" align="left" height="64px" style="margin-inline-end:10px">
 
-# Simple Translate
+# Foxi
 
 Quickly translate selected text on web page. In toolbar popup, you can translate input text.
 
@@ -14,14 +14,14 @@ Quickly translate selected text on web page. In toolbar popup, you can translate
 
 ## Backers
 
-Thank you to the awesome **[backers](https://github.com/sienori/simple-translate/blob/master/BACKERS.md)** who supported Simple Translate!
+Thank you to the awesome **[backers](https://github.com/sienori/simple-translate/blob/master/BACKERS.md)** who supported Foxi!
 
 [<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/patreon.png" alt="Became a Patreon" height="44px">](https://www.patreon.com/sienori)
 [<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/other/promotion/badges/paypal.png" alt="Check out with PayPal">](https://www.paypal.me/sienoriExt)
 
 ## Sponsors
 
-Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/sienori). Thank you to our wonderful sponsors!
+Support Foxi by [becoming a sponsor](https://www.patreon.com/join/sienori). Thank you to our wonderful sponsors!
 
 [<img src="https://raw.githubusercontent.com/sienori/simple-translate/master/docs/img/usechatgpt_1000_440.png" alt="UseChatGPT.AI" height=110px align="left">](https://www.usechatgpt.ai/install?ref=simpletranslate)
 &ensp;
@@ -31,7 +31,7 @@ Support Simple Translate by [becoming a sponsor](https://www.patreon.com/join/si
 
 ## Translation
 
-You can contribute by translating Simple Translate on **[Crowdin](https://crowdin.com/project/simple-translate)**.
+You can contribute by translating Foxi on **[Crowdin](https://crowdin.com/project/simple-translate)**.
 
 ## Developing
 
@@ -52,4 +52,4 @@ You can contribute by translating Simple Translate on **[Crowdin](https://crowdi
 
 ## Privacy Policy
 
-[Privacy Policy](https://simple-translate.sienori.com/privacy-policy) of Simple Translate
+[Privacy Policy](https://simple-translate.sienori.com/privacy-policy) of Foxi

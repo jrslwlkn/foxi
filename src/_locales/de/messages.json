@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Ausgewählten oder eingegebenen Text schnell auf Webseiten übersetzen. Unterstützt Google Translate und DeepL API."
-  },
-  "donateWithPaypalLabel": {
-    "message": "Spenden via PayPal"
-  },
-  "donateLabel": {
-    "message": "Spenden"
-  },
-  "enableOnThisPage": {
-    "message": "Übersetzung auf dieser Seite aktivieren"
-  },
-  "disableOnThisPage": {
-    "message": "Übersetzung auf dieser Seite deaktivieren"
-  },
-  "initialTextArea": {
-    "message": "Text eingeben"
-  },
-  "showLink": {
-    "message": "Diese Seite übersetzen"
-  },
-  "openInGoogleLabel": {
-    "message": "Öffne in Google Translate"
-  },
-  "openInDeeplLabel": {
-    "message": "In DeepL-Übersetzer öffnen"
-  },
-  "copyLabel": {
-    "message": "Kopieren"
-  },
-  "copiedLabel": {
-    "message": "Kopiert."
-  },
-  "listenLabel": {
-    "message": "Anhören"
-  },
-  "targetLangLabel": {
-    "message": "Zielsprache"
-  },
-  "allLangLabel": {
-    "message": "Alle Sprachen"
-  },
-  "recentLangLabel": {
-    "message": "Kürzlich verwendete Sprachen"
-  },
-  "settingsLabel": {
-    "message": "Einstellungen"
-  },
-  "generalLabel": {
-    "message": "Allgemein"
-  },
-  "translationApiLabel": {
-    "message": "Übersetzungs-Engine"
-  },
-  "googleApiLabel": {
-    "message": "Google Translate API"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Google Translate API verwenden. Keine Registrierung erforderlich."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "Verwenden Sie die DeepL API. Sie müssen sich bei DeepL API Free oder DeepL API Pro registrieren, um einen Authentifizierungsschlüssel zu erhalten."
-  },
-  "howToUseDeeplLabel": {
-    "message": "Wie man die DeepL API registriert"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API Plan"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Wählen Sie den DeepL API Plan aus, für den Sie sich registriert haben."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Authentifizierungsschlüssel"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Geben Sie den Authentifizierungsschlüssel für die DeepL-API ein."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Standardzielsprache wählen."
-  },
-  "webPageLabel": {
-    "message": "Internetseite"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Weitere Übersetzungsvorschläge anzeigen"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Zeige weitere Übersetzungsvorschläge an, wenn ein einzelnes Wort übersetzt wird."
-  },
-  "whenSelectTextLabel": {
-    "message": "Verhalten beim Auswählen von Text"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Übersetzungsfeld anzeigen"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Übersetzungsfeld direkt anzeigen, ohne den Knopf dafür anzuzeigen."
-  },
-  "ifShowButtonLabel": {
-    "message": "Übersetzungsbutton anzeigen"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Zeige den Übersetzen-Knopf an, um beim Klick darauf das Feld mit der Übersetzung anzuzeigen."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Übersetzen-Knopf und Übersetzungsfeld nicht anzeigen"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Zeige den Übersetzen-Knopf sowie das Feld mit der Übersetzung nicht an."
-  },
-  "ifCheckLangLabel": {
-    "message": "Den Übersetzen-Knopf nicht anzeigen, wenn keine Übersetzung notwendig ist"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Erkennt die Sprache des ausgewählten Textes, und wenn sie mit der Standard-Zielsprache übereinstimmt, übersetzen Sie sie in die zweite Sprache."
-  },
-  "disableTranslationLabel": {
-    "message": "Übersetzung ausschalten"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Übersetzung in Textfeldern deaktivieren"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Zeigt keine Übersetzungsschaltfläche oder -panel an, wenn ein Text in einem Textfeld markiert wird."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "Übersetzung in Code-Tags deaktivieren"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Übersetzungsschaltfläche und -panel nicht anzeigen, wenn Text im Code-Tag ausgewählt wird."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Bei gedrückter Modifikator-Taste übersetzen"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Übersetzung nur bei gedrückter Modifikator-Taste anzeigen."
-  },
-  "modifierKeyLabel": {
-    "message": "Modifikator-Taste"
-  },
-  "shiftLabel": {
-    "message": "Umschalttaste"
-  },
-  "ctrlLabel": {
-    "message": "Strg"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "URL-Liste zum Deaktivieren der Übersetzung"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Wenn die Seiten-URL mit der Liste übereinstimmt, ist die Übersetzung auf der Webseite deaktiviert. Die Liste erlaubt \"*\" Wildcards."
-  },
-  "toolbarLabel": {
-    "message": "Werkzeugleistenfenster"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Automatisch zur Zweitsprache wechseln"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt ihn in die Zweitsprache, falls der eingegebene Text bereits in der Standardzielsprache ist."
-  },
-  "secondTargetLangLabel": {
-    "message": "Zweitsprache"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Zweitsprache wählen."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Übersetzung je nach lang-Attribut deaktivieren"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Übersetzung deaktivieren, wenn das lang-Attribut im HTML-Element der Seite in der Liste enthalten ist. Sprachenkürzel durch Kommas getrennt eingeben."
-  },
-  "waitTimeLabel": {
-    "message": "Wartezeit bis zur Übersetzung"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Geben Sie die Wartezeit von der Eingabe eines Zeichens bis zum Beginn der Übersetzung an. (Millisekunde)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Wenn Sie es in kurzer Zeit mehrmals übersetzen, kann es für eine Weile unbrauchbar werden."
-  },
-  "menuLabel": {
-    "message": "Kontextmenü"
-  },
-  "ifShowMenuLabel": {
-    "message": "Kontextmenü anzeigen"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Fügen Sie Elemente zu dem Kontextmenü hinzu, das beim Rechtsklick auf die Webseite oder dem Tab angezeigt wird."
-  },
-  "pageTranslationLabel": {
-    "message": "Page translation"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
-  },
-  "newTabLabel": {
-    "message": "New tab"
-  },
-  "currentTabLabel": {
-    "message": "Current tab"
-  },
-  "styleLabel": {
-    "message": "Erscheinungsbild"
-  },
-  "themeLabel": {
-    "message": "Theme"
-  },
-  "themeCaptionLabel": {
-    "message": "Farbschema festlegen."
-  },
-  "lightLabel": {
-    "message": "Hell"
-  },
-  "darkLabel": {
-    "message": "Dunkel"
-  },
-  "systemLabel": {
-    "message": "System"
-  },
-  "buttonStyleLabel": {
-    "message": "Übersetzen-Knopf"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Erscheinungsbild des Übersetzen-Knopfes anpassen, der auf den Internetseiten angezeigt wird."
-  },
-  "buttonSizeLabel": {
-    "message": "Größe"
-  },
-  "buttonPositionLabel": {
-    "message": "Anzeigeposition"
-  },
-  "topRightLabel": {
-    "message": "Oben rechts"
-  },
-  "bottomRightLabel": {
-    "message": "Unten rechts"
-  },
-  "topLeftLabel": {
-    "message": "Oben links"
-  },
-  "bottomLeftLabel": {
-    "message": "Unten links"
-  },
-  "topLabel": {
-    "message": "Oben"
-  },
-  "bottomLabel": {
-    "message": "Unten"
-  },
-  "leftLabel": {
-    "message": "Links"
-  },
-  "rightLabel": {
-    "message": "Rechts"
-  },
-  "positionOffsetLabel": {
-    "message": "Anzeigeposition - Versatz"
-  },
-  "panelStyleLabel": {
-    "message": "Übersetzungsfeld"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Konfiguriere das Layout des Werkzeugleistenfensters, das auf Webseiten angezeigt wird."
-  },
-  "widthLabel": {
-    "message": "Breite"
-  },
-  "heightLabel": {
-    "message": "Höhe"
-  },
-  "fontSizeLabel": {
-    "message": "Schriftgröße"
-  },
-  "referencePointLabel": {
-    "message": "Anzeigeposition - Orientierungspunkt"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Unterer Teil des ausgewählten Textes"
-  },
-  "topSelectedTextLabel": {
-    "message": "Oberer Teil des ausgewählten Textes"
-  },
-  "clickedPointLabel": {
-    "message": "Angeklickter Punkt"
-  },
-  "displayDirectionLabel": {
-    "message": "Anzeigeposition - Richtung"
-  },
-  "resultFontColorLabel": {
-    "message": "Schriftfarbe des Übersetzungsergebnisses"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
-  },
-  "candidateFontColorLabel": {
-    "message": "Schriftfarbe der Übersetzungskandidaten"
-  },
-  "bgColorLabel": {
-    "message": "Hintergrundfarbe"
-  },
-  "otherLabel": {
-    "message": "Andere"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Öffne die Einstellungen bei Aktualisierungen"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Zeigt die Einstellugen an, wenn Simple Translate aktualisiert wird. Sie können den Inhalt des Updates schnell erkennen."
-  },
-  "isDebugModeLabel": {
-    "message": "Debugs-Modus aktivieren"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Wenn der Debug-Modus aktiviert ist, wird das Protokoll an den Debugger ausgegeben."
-  },
-  "exportSettingsLabel": {
-    "message": "Einstellungen Exportieren"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Einstellungen als json-Datei auf dem Computer speichern."
-  },
-  "exportButtonLabel": {
-    "message": "Exportieren"
-  },
-  "importSettingsLabel": {
-    "message": "Import-Einstellungen"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Auf dem Computer gespeicherte Einstellungsdatei laden."
-  },
-  "importButtonLabel": {
-    "message": "Importieren"
-  },
-  "resetSettingsLabel": {
-    "message": "Einstellungen zurücksetzen"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Alle Einstellungen auf den Standardwert zurücksetzen."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Zurücksetzen"
-  },
-  "shortcutsLabel": {
-    "message": "Tastenkürzel"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Tastenkombinationen"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Definiere Tastenkürzel."
-  },
-  "typeShortcutMessage": {
-    "message": "Tastenkürzel eingeben"
-  },
-  "typeLetterMessage": {
-    "message": "Geben Sie einen Buchstaben ein"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Binden Sie entweder Strg oder Alt ein"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Binden Sie entweder Befehl, Strg oder Alt ein"
-  },
-  "invalidLetterMessage": {
-    "message": "Dieser Buchstabe kann nicht verwendet werden"
-  },
-  "invalidShortcutMessage": {
-    "message": "Dieser Tastenkürzel kann nicht verwendet werden"
-  },
-  "clear": {
-    "message": "Löschen"
-  },
-  "reset": {
-    "message": "Zurücksetzen"
-  },
-  "informationLabel": {
-    "message": "Information"
-  },
-  "backersLabel": {
-    "message": "Unterstützer"
-  },
-  "licenseLabel": {
-    "message": "Lizenz"
-  },
-  "donationLabel": {
-    "message": "Bitte spende"
-  },
-  "donationCaptionLabel": {
-    "message": "Danke für das Benutzen von Simple Translate.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Simple Translate magst, wäre es schön, wenn du etwas spenden würdest."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp eGeschenkekarten"
-  },
-  "sponsorsLabel": {
-    "message": "Sponsoren"
-  },
-  "addonPageLabel": {
-    "message": "Add-on-Seite"
-  },
-  "extensionPageLabel": {
-    "message": "Erweiterungs Seite"
-  },
-  "privacyPolicyLabel": {
-    "message": "Datenschutzrichtlinien"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/de/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Fehler: Überprüfen Sie den Netzwerkstatus."
-  },
-  "unavailableError": {
-    "message": "Fehler: Service-Nutzungslimit erreicht. Bitte warten Sie einen Moment und versuchen Sie es erneut."
-  },
-  "deeplAuthError": {
-    "message": "Fehler: Authentifizierung der DeepL-API fehlgeschlagen. Bitte erstellen Sie den Authentifizierungsschlüssel korrekt auf der Einstellungsseite."
-  },
-  "unknownError": {
-    "message": "Fehler: Unbekannter Fehler"
-  },
-  "translatePageMenu": {
-    "message": "Diese Seite übersetzen"
-  },
-  "translateTextMenu": {
-    "message": "Ausgewählten Text übersetzen"
-  },
-  "translateLinkMenu": {
-    "message": "Ausgewählten Link übersetzen"
-  },
-  "openPopupDescription": {
-    "message": "Toolbar-Popup öffnen"
-  },
-  "lang_af": {
-    "message": "Afrikaans"
-  },
-  "lang_sq": {
-    "message": "Albanisch"
-  },
-  "lang_am": {
-    "message": "Amharisch"
-  },
-  "lang_ar": {
-    "message": "Arabisch"
-  },
-  "lang_hy": {
-    "message": "Armenisch"
-  },
-  "lang_az": {
-    "message": "Aserbeidschanisch"
-  },
-  "lang_eu": {
-    "message": "Baskisch"
-  },
-  "lang_be": {
-    "message": "Weißrussisch"
-  },
-  "lang_bn": {
-    "message": "Bengalisch"
-  },
-  "lang_bs": {
-    "message": "Bosnisch"
-  },
-  "lang_bg": {
-    "message": "Bulgarisch"
-  },
-  "lang_ca": {
-    "message": "Katalanisch"
-  },
-  "lang_ceb": {
-    "message": "Cebuano"
-  },
-  "lang_ny": {
-    "message": "Nyanja"
-  },
-  "lang_zh_CN": {
-    "message": "Chinesisch (vereinfacht)"
-  },
-  "lang_zh_TW": {
-    "message": "Chinesisch (traditionell)"
-  },
-  "lang_co": {
-    "message": "Korsisch"
-  },
-  "lang_hr": {
-    "message": "Kroatisch"
-  },
-  "lang_cs": {
-    "message": "Tschechisch"
-  },
-  "lang_da": {
-    "message": "Dänisch"
-  },
-  "lang_nl": {
-    "message": "Niederländisch"
-  },
-  "lang_en": {
-    "message": "Englisch"
-  },
-  "lang_eo": {
-    "message": "Esperanto"
-  },
-  "lang_et": {
-    "message": "Estnisch"
-  },
-  "lang_fi": {
-    "message": "Finnisch"
-  },
-  "lang_fr": {
-    "message": "Französisch"
-  },
-  "lang_fy": {
-    "message": "Friesisch"
-  },
-  "lang_gl": {
-    "message": "Galicisch"
-  },
-  "lang_ka": {
-    "message": "Georgisch"
-  },
-  "lang_de": {
-    "message": "Deutsch"
-  },
-  "lang_el": {
-    "message": "Griechisch"
-  },
-  "lang_gu": {
-    "message": "Gujarati"
-  },
-  "lang_ht": {
-    "message": "Haitien"
-  },
-  "lang_ha": {
-    "message": "Haussa"
-  },
-  "lang_haw": {
-    "message": "Hawaiisch"
-  },
-  "lang_he": {
-    "message": "Hebräisch"
-  },
-  "lang_hi": {
-    "message": "Hindi"
-  },
-  "lang_hu": {
-    "message": "Ungarisch"
-  },
-  "lang_is": {
-    "message": "Isländisch"
-  },
-  "lang_ig": {
-    "message": "Ibo"
-  },
-  "lang_id": {
-    "message": "Indonesisch"
-  },
-  "lang_ga": {
-    "message": "Irisch"
-  },
-  "lang_it": {
-    "message": "Italienisch"
-  },
-  "lang_ja": {
-    "message": "Japanisch"
-  },
-  "lang_jv": {
-    "message": "Javanisch"
-  },
-  "lang_kn": {
-    "message": "Kanadisch"
-  },
-  "lang_kk": {
-    "message": "Kasachisch"
-  },
-  "lang_km": {
-    "message": "Khmerisch"
-  },
-  "lang_rw": {
-    "message": "Kinyarwanda"
-  },
-  "lang_ky": {
-    "message": "Kirgisisch"
-  },
-  "lang_ko": {
-    "message": "Koreanisch"
-  },
-  "lang_ku": {
-    "message": "Kurdisch"
-  },
-  "lang_lo": {
-    "message": "Laotisch"
-  },
-  "lang_la": {
-    "message": "Latein"
-  },
-  "lang_lv": {
-    "message": "Lettisch"
-  },
-  "lang_lt": {
-    "message": "Litauisch"
-  },
-  "lang_lb": {
-    "message": "Luxemburgisch"
-  },
-  "lang_mk": {
-    "message": "Makedonisch"
-  },
-  "lang_mg": {
-    "message": "Malagassi"
-  },
-  "lang_ms": {
-    "message": "Malaiisch"
-  },
-  "lang_ml": {
-    "message": "Malayalam"
-  },
-  "lang_mt": {
-    "message": "Maltesisch"
-  },
-  "lang_mi": {
-    "message": "Maori"
-  },
-  "lang_mr": {
-    "message": "Marathi"
-  },
-  "lang_mn": {
-    "message": "Mongolisch"
-  },
-  "lang_hmn": {
-    "message": "Miao"
-  },
-  "lang_my": {
-    "message": "Birmanisch"
-  },
-  "lang_ne": {
-    "message": "Nepalesisch"
-  },
-  "lang_no": {
-    "message": "Norwegisch"
-  },
-  "lang_or": {
-    "message": "Odia (Oriya)"
-  },
-  "lang_fa": {
-    "message": "Persisch"
-  },
-  "lang_pl": {
-    "message": "Polnisch"
-  },
-  "lang_pt": {
-    "message": "Portugiesisch"
-  },
-  "lang_pa": {
-    "message": "Pandschabi"
-  },
-  "lang_ps": {
-    "message": "Paschtu"
-  },
-  "lang_ro": {
-    "message": "Rumänisch"
-  },
-  "lang_ru": {
-    "message": "Russisch"
-  },
-  "lang_sm": {
-    "message": "Samoanisch"
-  },
-  "lang_gd": {
-    "message": "Gälisch-Schottisch"
-  },
-  "lang_sr": {
-    "message": "Serbisch"
-  },
-  "lang_st": {
-    "message": "Sesotho"
-  },
-  "lang_sn": {
-    "message": "Schona"
-  },
-  "lang_sd": {
-    "message": "Sindhi"
-  },
-  "lang_si": {
-    "message": "Singhalesisch"
-  },
-  "lang_sk": {
-    "message": "Slowakisch"
-  },
-  "lang_sl": {
-    "message": "Slowenisch"
-  },
-  "lang_so": {
-    "message": "Somalisch"
-  },
-  "lang_es": {
-    "message": "Spanisch"
-  },
-  "lang_su": {
-    "message": "Sundanesisch"
-  },
-  "lang_sw": {
-    "message": "Suaheli"
-  },
-  "lang_sv": {
-    "message": "Schwedisch"
-  },
-  "lang_tl": {
-    "message": "Tagalog"
-  },
-  "lang_tg": {
-    "message": "Tadschikisch"
-  },
-  "lang_ta": {
-    "message": "Tamilisch"
-  },
-  "lang_tt": {
-    "message": "Tatarisch"
-  },
-  "lang_te": {
-    "message": "Teluguisisch"
-  },
-  "lang_th": {
-    "message": "Thailändisch"
-  },
-  "lang_tr": {
-    "message": "Türkisch"
-  },
-  "lang_tk": {
-    "message": "Turkmenisch"
-  },
-  "lang_uk": {
-    "message": "Ukrainisch"
-  },
-  "lang_ur": {
-    "message": "Urdu"
-  },
-  "lang_ug": {
-    "message": "Uigurisch"
-  },
-  "lang_uz": {
-    "message": "Usbekisch"
-  },
-  "lang_vi": {
-    "message": "Vietnamesisch"
-  },
-  "lang_cy": {
-    "message": "Kymrisch"
-  },
-  "lang_xh": {
-    "message": "Xhosa"
-  },
-  "lang_yi": {
-    "message": "Jiddisch"
-  },
-  "lang_yo": {
-    "message": "Yoruba"
-  },
-  "lang_zu": {
-    "message": "Zulu"
-  },
-  "lang_en_US": {
-    "message": "Englisch (USA)"
-  },
-  "lang_en_GB": {
-    "message": "Englisch (Großbritannien)"
-  },
-  "lang_pt_PT": {
-    "message": "Portugiesisch"
-  },
-  "lang_pt_BR": {
-    "message": "Portugiesisch (Brasilianisch)"
-  },
-  "lang_zh": {
-    "message": "Chinesisch"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Ausgewählten oder eingegebenen Text schnell auf Webseiten übersetzen. Unterstützt Google Translate und DeepL API."
+    },
+    "donateWithPaypalLabel": {
+        "message": "Spenden via PayPal"
+    },
+    "donateLabel": {
+        "message": "Spenden"
+    },
+    "enableOnThisPage": {
+        "message": "Übersetzung auf dieser Seite aktivieren"
+    },
+    "disableOnThisPage": {
+        "message": "Übersetzung auf dieser Seite deaktivieren"
+    },
+    "initialTextArea": {
+        "message": "Text eingeben"
+    },
+    "showLink": {
+        "message": "Diese Seite übersetzen"
+    },
+    "openInGoogleLabel": {
+        "message": "Öffne in Google Translate"
+    },
+    "openInDeeplLabel": {
+        "message": "In DeepL-Übersetzer öffnen"
+    },
+    "copyLabel": {
+        "message": "Kopieren"
+    },
+    "copiedLabel": {
+        "message": "Kopiert."
+    },
+    "listenLabel": {
+        "message": "Anhören"
+    },
+    "targetLangLabel": {
+        "message": "Zielsprache"
+    },
+    "allLangLabel": {
+        "message": "Alle Sprachen"
+    },
+    "recentLangLabel": {
+        "message": "Kürzlich verwendete Sprachen"
+    },
+    "settingsLabel": {
+        "message": "Einstellungen"
+    },
+    "generalLabel": {
+        "message": "Allgemein"
+    },
+    "translationApiLabel": {
+        "message": "Übersetzungs-Engine"
+    },
+    "googleApiLabel": {
+        "message": "Google Translate API"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Google Translate API verwenden. Keine Registrierung erforderlich."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "Verwenden Sie die DeepL API. Sie müssen sich bei DeepL API Free oder DeepL API Pro registrieren, um einen Authentifizierungsschlüssel zu erhalten."
+    },
+    "howToUseDeeplLabel": {
+        "message": "Wie man die DeepL API registriert"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API Plan"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Wählen Sie den DeepL API Plan aus, für den Sie sich registriert haben."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Authentifizierungsschlüssel"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Geben Sie den Authentifizierungsschlüssel für die DeepL-API ein."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Standardzielsprache wählen."
+    },
+    "webPageLabel": {
+        "message": "Internetseite"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Weitere Übersetzungsvorschläge anzeigen"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Zeige weitere Übersetzungsvorschläge an, wenn ein einzelnes Wort übersetzt wird."
+    },
+    "whenSelectTextLabel": {
+        "message": "Verhalten beim Auswählen von Text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Übersetzungsfeld anzeigen"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Übersetzungsfeld direkt anzeigen, ohne den Knopf dafür anzuzeigen."
+    },
+    "ifShowButtonLabel": {
+        "message": "Übersetzungsbutton anzeigen"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Zeige den Übersetzen-Knopf an, um beim Klick darauf das Feld mit der Übersetzung anzuzeigen."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Übersetzen-Knopf und Übersetzungsfeld nicht anzeigen"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Zeige den Übersetzen-Knopf sowie das Feld mit der Übersetzung nicht an."
+    },
+    "ifCheckLangLabel": {
+        "message": "Den Übersetzen-Knopf nicht anzeigen, wenn keine Übersetzung notwendig ist"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Erkennt die Sprache des ausgewählten Textes und zeigt den Übersetzen-Knopf nicht an, wenn der Text bereits in der Zielsprache ist."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Erkennt die Sprache des ausgewählten Textes, und wenn sie mit der Standard-Zielsprache übereinstimmt, übersetzen Sie sie in die zweite Sprache."
+    },
+    "disableTranslationLabel": {
+        "message": "Übersetzung ausschalten"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Übersetzung in Textfeldern deaktivieren"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Zeigt keine Übersetzungsschaltfläche oder -panel an, wenn ein Text in einem Textfeld markiert wird."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "Übersetzung in Code-Tags deaktivieren"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Übersetzungsschaltfläche und -panel nicht anzeigen, wenn Text im Code-Tag ausgewählt wird."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Bei gedrückter Modifikator-Taste übersetzen"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Übersetzung nur bei gedrückter Modifikator-Taste anzeigen."
+    },
+    "modifierKeyLabel": {
+        "message": "Modifikator-Taste"
+    },
+    "shiftLabel": {
+        "message": "Umschalttaste"
+    },
+    "ctrlLabel": {
+        "message": "Strg"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "URL-Liste zum Deaktivieren der Übersetzung"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Wenn die Seiten-URL mit der Liste übereinstimmt, ist die Übersetzung auf der Webseite deaktiviert. Die Liste erlaubt \"*\" Wildcards."
+    },
+    "toolbarLabel": {
+        "message": "Werkzeugleistenfenster"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatisch zur Zweitsprache wechseln"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Erkennt die Sprache des eingegebenen Textes und übersetzt ihn in die Zweitsprache, falls der eingegebene Text bereits in der Standardzielsprache ist."
+    },
+    "secondTargetLangLabel": {
+        "message": "Zweitsprache"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Zweitsprache wählen."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Übersetzung je nach lang-Attribut deaktivieren"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Übersetzung deaktivieren, wenn das lang-Attribut im HTML-Element der Seite in der Liste enthalten ist. Sprachenkürzel durch Kommas getrennt eingeben."
+    },
+    "waitTimeLabel": {
+        "message": "Wartezeit bis zur Übersetzung"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Geben Sie die Wartezeit von der Eingabe eines Zeichens bis zum Beginn der Übersetzung an. (Millisekunde)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Wenn Sie es in kurzer Zeit mehrmals übersetzen, kann es für eine Weile unbrauchbar werden."
+    },
+    "menuLabel": {
+        "message": "Kontextmenü"
+    },
+    "ifShowMenuLabel": {
+        "message": "Kontextmenü anzeigen"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Fügen Sie Elemente zu dem Kontextmenü hinzu, das beim Rechtsklick auf die Webseite oder dem Tab angezeigt wird."
+    },
+    "pageTranslationLabel": {
+        "message": "Page translation"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Tab to display translation results"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Specify the tab to display the results of the page translation."
+    },
+    "newTabLabel": {
+        "message": "New tab"
+    },
+    "currentTabLabel": {
+        "message": "Current tab"
+    },
+    "styleLabel": {
+        "message": "Erscheinungsbild"
+    },
+    "themeLabel": {
+        "message": "Theme"
+    },
+    "themeCaptionLabel": {
+        "message": "Farbschema festlegen."
+    },
+    "lightLabel": {
+        "message": "Hell"
+    },
+    "darkLabel": {
+        "message": "Dunkel"
+    },
+    "systemLabel": {
+        "message": "System"
+    },
+    "buttonStyleLabel": {
+        "message": "Übersetzen-Knopf"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Erscheinungsbild des Übersetzen-Knopfes anpassen, der auf den Internetseiten angezeigt wird."
+    },
+    "buttonSizeLabel": {
+        "message": "Größe"
+    },
+    "buttonPositionLabel": {
+        "message": "Anzeigeposition"
+    },
+    "topRightLabel": {
+        "message": "Oben rechts"
+    },
+    "bottomRightLabel": {
+        "message": "Unten rechts"
+    },
+    "topLeftLabel": {
+        "message": "Oben links"
+    },
+    "bottomLeftLabel": {
+        "message": "Unten links"
+    },
+    "topLabel": {
+        "message": "Oben"
+    },
+    "bottomLabel": {
+        "message": "Unten"
+    },
+    "leftLabel": {
+        "message": "Links"
+    },
+    "rightLabel": {
+        "message": "Rechts"
+    },
+    "positionOffsetLabel": {
+        "message": "Anzeigeposition - Versatz"
+    },
+    "panelStyleLabel": {
+        "message": "Übersetzungsfeld"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Konfiguriere das Layout des Werkzeugleistenfensters, das auf Webseiten angezeigt wird."
+    },
+    "widthLabel": {
+        "message": "Breite"
+    },
+    "heightLabel": {
+        "message": "Höhe"
+    },
+    "fontSizeLabel": {
+        "message": "Schriftgröße"
+    },
+    "referencePointLabel": {
+        "message": "Anzeigeposition - Orientierungspunkt"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Unterer Teil des ausgewählten Textes"
+    },
+    "topSelectedTextLabel": {
+        "message": "Oberer Teil des ausgewählten Textes"
+    },
+    "clickedPointLabel": {
+        "message": "Angeklickter Punkt"
+    },
+    "displayDirectionLabel": {
+        "message": "Anzeigeposition - Richtung"
+    },
+    "resultFontColorLabel": {
+        "message": "Schriftfarbe des Übersetzungsergebnisses"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Override default colors with colors below"
+    },
+    "candidateFontColorLabel": {
+        "message": "Schriftfarbe der Übersetzungskandidaten"
+    },
+    "bgColorLabel": {
+        "message": "Hintergrundfarbe"
+    },
+    "otherLabel": {
+        "message": "Andere"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Öffne die Einstellungen bei Aktualisierungen"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Zeigt die Einstellugen an, wenn Foxi aktualisiert wird. Sie können den Inhalt des Updates schnell erkennen."
+    },
+    "isDebugModeLabel": {
+        "message": "Debugs-Modus aktivieren"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Wenn der Debug-Modus aktiviert ist, wird das Protokoll an den Debugger ausgegeben."
+    },
+    "exportSettingsLabel": {
+        "message": "Einstellungen Exportieren"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Einstellungen als json-Datei auf dem Computer speichern."
+    },
+    "exportButtonLabel": {
+        "message": "Exportieren"
+    },
+    "importSettingsLabel": {
+        "message": "Import-Einstellungen"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Auf dem Computer gespeicherte Einstellungsdatei laden."
+    },
+    "importButtonLabel": {
+        "message": "Importieren"
+    },
+    "resetSettingsLabel": {
+        "message": "Einstellungen zurücksetzen"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Alle Einstellungen auf den Standardwert zurücksetzen."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Zurücksetzen"
+    },
+    "shortcutsLabel": {
+        "message": "Tastenkürzel"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Tastenkombinationen"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Definiere Tastenkürzel."
+    },
+    "typeShortcutMessage": {
+        "message": "Tastenkürzel eingeben"
+    },
+    "typeLetterMessage": {
+        "message": "Geben Sie einen Buchstaben ein"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Binden Sie entweder Strg oder Alt ein"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Binden Sie entweder Befehl, Strg oder Alt ein"
+    },
+    "invalidLetterMessage": {
+        "message": "Dieser Buchstabe kann nicht verwendet werden"
+    },
+    "invalidShortcutMessage": {
+        "message": "Dieser Tastenkürzel kann nicht verwendet werden"
+    },
+    "clear": {
+        "message": "Löschen"
+    },
+    "reset": {
+        "message": "Zurücksetzen"
+    },
+    "informationLabel": {
+        "message": "Information"
+    },
+    "backersLabel": {
+        "message": "Unterstützer"
+    },
+    "licenseLabel": {
+        "message": "Lizenz"
+    },
+    "donationLabel": {
+        "message": "Bitte spende"
+    },
+    "donationCaptionLabel": {
+        "message": "Danke für das Benutzen von Foxi.<br>Deine Unterstützung wird ein großer Ansporn bei der Weiterentwicklung dieses Add-ons sein.<br>Wenn du Foxi magst, wäre es schön, wenn du etwas spenden würdest."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGeschenkekarten"
+    },
+    "sponsorsLabel": {
+        "message": "Sponsoren"
+    },
+    "addonPageLabel": {
+        "message": "Add-on-Seite"
+    },
+    "extensionPageLabel": {
+        "message": "Erweiterungs Seite"
+    },
+    "privacyPolicyLabel": {
+        "message": "Datenschutzrichtlinien"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/de/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Fehler: Überprüfen Sie den Netzwerkstatus."
+    },
+    "unavailableError": {
+        "message": "Fehler: Service-Nutzungslimit erreicht. Bitte warten Sie einen Moment und versuchen Sie es erneut."
+    },
+    "deeplAuthError": {
+        "message": "Fehler: Authentifizierung der DeepL-API fehlgeschlagen. Bitte erstellen Sie den Authentifizierungsschlüssel korrekt auf der Einstellungsseite."
+    },
+    "unknownError": {
+        "message": "Fehler: Unbekannter Fehler"
+    },
+    "translatePageMenu": {
+        "message": "Diese Seite übersetzen"
+    },
+    "translateTextMenu": {
+        "message": "Ausgewählten Text übersetzen"
+    },
+    "translateLinkMenu": {
+        "message": "Ausgewählten Link übersetzen"
+    },
+    "openPopupDescription": {
+        "message": "Toolbar-Popup öffnen"
+    },
+    "lang_af": {
+        "message": "Afrikaans"
+    },
+    "lang_sq": {
+        "message": "Albanisch"
+    },
+    "lang_am": {
+        "message": "Amharisch"
+    },
+    "lang_ar": {
+        "message": "Arabisch"
+    },
+    "lang_hy": {
+        "message": "Armenisch"
+    },
+    "lang_az": {
+        "message": "Aserbeidschanisch"
+    },
+    "lang_eu": {
+        "message": "Baskisch"
+    },
+    "lang_be": {
+        "message": "Weißrussisch"
+    },
+    "lang_bn": {
+        "message": "Bengalisch"
+    },
+    "lang_bs": {
+        "message": "Bosnisch"
+    },
+    "lang_bg": {
+        "message": "Bulgarisch"
+    },
+    "lang_ca": {
+        "message": "Katalanisch"
+    },
+    "lang_ceb": {
+        "message": "Cebuano"
+    },
+    "lang_ny": {
+        "message": "Nyanja"
+    },
+    "lang_zh_CN": {
+        "message": "Chinesisch (vereinfacht)"
+    },
+    "lang_zh_TW": {
+        "message": "Chinesisch (traditionell)"
+    },
+    "lang_co": {
+        "message": "Korsisch"
+    },
+    "lang_hr": {
+        "message": "Kroatisch"
+    },
+    "lang_cs": {
+        "message": "Tschechisch"
+    },
+    "lang_da": {
+        "message": "Dänisch"
+    },
+    "lang_nl": {
+        "message": "Niederländisch"
+    },
+    "lang_en": {
+        "message": "Englisch"
+    },
+    "lang_eo": {
+        "message": "Esperanto"
+    },
+    "lang_et": {
+        "message": "Estnisch"
+    },
+    "lang_fi": {
+        "message": "Finnisch"
+    },
+    "lang_fr": {
+        "message": "Französisch"
+    },
+    "lang_fy": {
+        "message": "Friesisch"
+    },
+    "lang_gl": {
+        "message": "Galicisch"
+    },
+    "lang_ka": {
+        "message": "Georgisch"
+    },
+    "lang_de": {
+        "message": "Deutsch"
+    },
+    "lang_el": {
+        "message": "Griechisch"
+    },
+    "lang_gu": {
+        "message": "Gujarati"
+    },
+    "lang_ht": {
+        "message": "Haitien"
+    },
+    "lang_ha": {
+        "message": "Haussa"
+    },
+    "lang_haw": {
+        "message": "Hawaiisch"
+    },
+    "lang_he": {
+        "message": "Hebräisch"
+    },
+    "lang_hi": {
+        "message": "Hindi"
+    },
+    "lang_hu": {
+        "message": "Ungarisch"
+    },
+    "lang_is": {
+        "message": "Isländisch"
+    },
+    "lang_ig": {
+        "message": "Ibo"
+    },
+    "lang_id": {
+        "message": "Indonesisch"
+    },
+    "lang_ga": {
+        "message": "Irisch"
+    },
+    "lang_it": {
+        "message": "Italienisch"
+    },
+    "lang_ja": {
+        "message": "Japanisch"
+    },
+    "lang_jv": {
+        "message": "Javanisch"
+    },
+    "lang_kn": {
+        "message": "Kanadisch"
+    },
+    "lang_kk": {
+        "message": "Kasachisch"
+    },
+    "lang_km": {
+        "message": "Khmerisch"
+    },
+    "lang_rw": {
+        "message": "Kinyarwanda"
+    },
+    "lang_ky": {
+        "message": "Kirgisisch"
+    },
+    "lang_ko": {
+        "message": "Koreanisch"
+    },
+    "lang_ku": {
+        "message": "Kurdisch"
+    },
+    "lang_lo": {
+        "message": "Laotisch"
+    },
+    "lang_la": {
+        "message": "Latein"
+    },
+    "lang_lv": {
+        "message": "Lettisch"
+    },
+    "lang_lt": {
+        "message": "Litauisch"
+    },
+    "lang_lb": {
+        "message": "Luxemburgisch"
+    },
+    "lang_mk": {
+        "message": "Makedonisch"
+    },
+    "lang_mg": {
+        "message": "Malagassi"
+    },
+    "lang_ms": {
+        "message": "Malaiisch"
+    },
+    "lang_ml": {
+        "message": "Malayalam"
+    },
+    "lang_mt": {
+        "message": "Maltesisch"
+    },
+    "lang_mi": {
+        "message": "Maori"
+    },
+    "lang_mr": {
+        "message": "Marathi"
+    },
+    "lang_mn": {
+        "message": "Mongolisch"
+    },
+    "lang_hmn": {
+        "message": "Miao"
+    },
+    "lang_my": {
+        "message": "Birmanisch"
+    },
+    "lang_ne": {
+        "message": "Nepalesisch"
+    },
+    "lang_no": {
+        "message": "Norwegisch"
+    },
+    "lang_or": {
+        "message": "Odia (Oriya)"
+    },
+    "lang_fa": {
+        "message": "Persisch"
+    },
+    "lang_pl": {
+        "message": "Polnisch"
+    },
+    "lang_pt": {
+        "message": "Portugiesisch"
+    },
+    "lang_pa": {
+        "message": "Pandschabi"
+    },
+    "lang_ps": {
+        "message": "Paschtu"
+    },
+    "lang_ro": {
+        "message": "Rumänisch"
+    },
+    "lang_ru": {
+        "message": "Russisch"
+    },
+    "lang_sm": {
+        "message": "Samoanisch"
+    },
+    "lang_gd": {
+        "message": "Gälisch-Schottisch"
+    },
+    "lang_sr": {
+        "message": "Serbisch"
+    },
+    "lang_st": {
+        "message": "Sesotho"
+    },
+    "lang_sn": {
+        "message": "Schona"
+    },
+    "lang_sd": {
+        "message": "Sindhi"
+    },
+    "lang_si": {
+        "message": "Singhalesisch"
+    },
+    "lang_sk": {
+        "message": "Slowakisch"
+    },
+    "lang_sl": {
+        "message": "Slowenisch"
+    },
+    "lang_so": {
+        "message": "Somalisch"
+    },
+    "lang_es": {
+        "message": "Spanisch"
+    },
+    "lang_su": {
+        "message": "Sundanesisch"
+    },
+    "lang_sw": {
+        "message": "Suaheli"
+    },
+    "lang_sv": {
+        "message": "Schwedisch"
+    },
+    "lang_tl": {
+        "message": "Tagalog"
+    },
+    "lang_tg": {
+        "message": "Tadschikisch"
+    },
+    "lang_ta": {
+        "message": "Tamilisch"
+    },
+    "lang_tt": {
+        "message": "Tatarisch"
+    },
+    "lang_te": {
+        "message": "Teluguisisch"
+    },
+    "lang_th": {
+        "message": "Thailändisch"
+    },
+    "lang_tr": {
+        "message": "Türkisch"
+    },
+    "lang_tk": {
+        "message": "Turkmenisch"
+    },
+    "lang_uk": {
+        "message": "Ukrainisch"
+    },
+    "lang_ur": {
+        "message": "Urdu"
+    },
+    "lang_ug": {
+        "message": "Uigurisch"
+    },
+    "lang_uz": {
+        "message": "Usbekisch"
+    },
+    "lang_vi": {
+        "message": "Vietnamesisch"
+    },
+    "lang_cy": {
+        "message": "Kymrisch"
+    },
+    "lang_xh": {
+        "message": "Xhosa"
+    },
+    "lang_yi": {
+        "message": "Jiddisch"
+    },
+    "lang_yo": {
+        "message": "Yoruba"
+    },
+    "lang_zu": {
+        "message": "Zulu"
+    },
+    "lang_en_US": {
+        "message": "Englisch (USA)"
+    },
+    "lang_en_GB": {
+        "message": "Englisch (Großbritannien)"
+    },
+    "lang_pt_PT": {
+        "message": "Portugiesisch"
+    },
+    "lang_pt_BR": {
+        "message": "Portugiesisch (Brasilianisch)"
+    },
+    "lang_zh": {
+        "message": "Chinesisch"
+    }
 }

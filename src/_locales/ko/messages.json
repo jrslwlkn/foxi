@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "웹 페이지에서 선택하거나 입력한 텍스트를 빠르게 번역합니다. Google 번역 및 DeepL API를 지원합니다."
-  },
-  "donateWithPaypalLabel": {
-    "message": "PayPal로 기부"
-  },
-  "donateLabel": {
-    "message": "기부"
-  },
-  "enableOnThisPage": {
-    "message": "이 페이지에서 번역 사용"
-  },
-  "disableOnThisPage": {
-    "message": "이 페이지에서 번역 사용 안 함"
-  },
-  "initialTextArea": {
-    "message": "텍스트 입력"
-  },
-  "showLink": {
-    "message": "이 페이지 번역"
-  },
-  "openInGoogleLabel": {
-    "message": "Google 번역으로 열기"
-  },
-  "openInDeeplLabel": {
-    "message": "DeepL 번역으로 열기"
-  },
-  "copyLabel": {
-    "message": "복사"
-  },
-  "copiedLabel": {
-    "message": "복사 완료"
-  },
-  "listenLabel": {
-    "message": "듣기"
-  },
-  "targetLangLabel": {
-    "message": "도착 언어"
-  },
-  "allLangLabel": {
-    "message": "모든 언어"
-  },
-  "recentLangLabel": {
-    "message": "최근 언어"
-  },
-  "settingsLabel": {
-    "message": "설정"
-  },
-  "generalLabel": {
-    "message": "일반"
-  },
-  "translationApiLabel": {
-    "message": "번역 엔진"
-  },
-  "googleApiLabel": {
-    "message": "Google 번역 API"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Google 번역 API를 사용합니다. 가입이 필요하지 않습니다."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "DeepL API를 사용합니다. 인증 키를 받으려면 DeepL API Free 또는 DeepL API Pro에 가입해야 합니다."
-  },
-  "howToUseDeeplLabel": {
-    "message": "DeepL API 가입 방법"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API 요금제"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "가입한 DeepL API 요금제를 선택하세요."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "인증 키"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "DeepL API 인증 키를 입력하세요."
-  },
-  "targetLangCaptionLabel": {
-    "message": "기본 도착 언어를 선택하세요."
-  },
-  "webPageLabel": {
-    "message": "웹 페이지"
-  },
-  "ifShowCandidateLabel": {
-    "message": "다른 번역 보기"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "단어 번역 시 여러 번역 결과를 함께 표시합니다."
-  },
-  "whenSelectTextLabel": {
-    "message": "텍스트 선택 시 동작"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "번역 결과 창 표시하기"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "버튼을 표시하지 않고 바로 번역 결과 창을 표시합니다."
-  },
-  "ifShowButtonLabel": {
-    "message": "번역 버튼 표시하기"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "클릭할 시 창을 열 수 있는 번역 버튼을 표시합니다."
-  },
-  "dontshowbuttonlabel": {
-    "message": "버튼 또는 창 표시 안 함"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "번역 버튼 또는 번역 창을 표시하지 않습니다."
-  },
-  "ifCheckLangLabel": {
-    "message": "번역이 필요 없을 시 버튼 표시 안 함"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "선택한 텍스트의 언어를 감지하여 도착 언어와 동일할 시 버튼을 표시하지 않습니다."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "선택한 텍스트의 언어를 감지하여 기본 도착 언어와 동일할 시 두 번째 언어로 번역합니다."
-  },
-  "disableTranslationLabel": {
-    "message": "번역 사용 안 함"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "텍스트 입력란에서 번역 사용 안 함"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "텍스트 입력란에서 텍스트를 선택할 때 번역 버튼 또는 창 표시 안 함"
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "코드 태그에서 번역 사용 안 함"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "코드 태그에서 텍스트를 선택할 때 번역 버튼 또는 창 표시 안 함"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "보조 키를 눌렀을 때 번역"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "지정한 보조 키를 눌렀을 때만 번역을 표시합니다."
-  },
-  "modifierKeyLabel": {
-    "message": "보조 키"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "번역을 사용하지 않을 URL 목록"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "페이지 URL이 목록과 일치할 시 해당 웹 페이지에서 번역을 사용하지 않습니다. \"*\" 와일드 카드를 지원합니다."
-  },
-  "toolbarLabel": {
-    "message": "툴바 팝업"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "자동으로 두 번째 언어로 바꾸기"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "입력한 텍스트의 언어를 감지하여 기본 도착 언어와 동일할 시 두 번째 언어로 번역합니다."
-  },
-  "secondTargetLangLabel": {
-    "message": "두 번째 언어"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "두 번째 도착 언어를 선택하세요."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "lang 속성 기반으로 번역 사용 안 함"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "페이지의 html 요소에 포함된 lang 속성이 목록과 일치할 시 번역을 사용하지 않습니다. 쉼표로 구분하여 언어 태그를 입력하세요."
-  },
-  "waitTimeLabel": {
-    "message": "번역 대기 시간"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "문자 입력 후 번역 시작까지의 대기 시간을 설정합니다. (밀리초)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "짧은 시간 동안 너무 여러 번 번역하면 잠시 동안 사용이 불가능할 수 있습니다."
-  },
-  "menuLabel": {
-    "message": "컨텍스트 메뉴"
-  },
-  "ifShowMenuLabel": {
-    "message": "컨텍스트 메뉴 표시"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "웹 페이지 또는 탭에 마우스 오른쪽 버튼으로 클릭하면 표시되는 컨텍스트 메뉴에 항목을 추가합니다."
-  },
-  "pageTranslationLabel": {
-    "message": "페이지 번역"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "번역 결과 표시 탭"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "페이지 번역 결과를 표시할 탭을 지정합니다."
-  },
-  "newTabLabel": {
-    "message": "새 탭"
-  },
-  "currentTabLabel": {
-    "message": "현재 탭"
-  },
-  "styleLabel": {
-    "message": "디자인"
-  },
-  "themeLabel": {
-    "message": "테마"
-  },
-  "themeCaptionLabel": {
-    "message": "색 구성표를 설정합니다."
-  },
-  "lightLabel": {
-    "message": "밝은 테마"
-  },
-  "darkLabel": {
-    "message": "어두운 테마"
-  },
-  "systemLabel": {
-    "message": "시스템"
-  },
-  "buttonStyleLabel": {
-    "message": "번역 버튼"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "웹 페이지에 표시되는 번역 버튼의 디자인을 설정합니다."
-  },
-  "buttonSizeLabel": {
-    "message": "크기"
-  },
-  "buttonPositionLabel": {
-    "message": "표시 위치"
-  },
-  "topRightLabel": {
-    "message": "오른쪽 상단"
-  },
-  "bottomRightLabel": {
-    "message": "오른쪽 하단"
-  },
-  "topLeftLabel": {
-    "message": "왼쪽 상단"
-  },
-  "bottomLeftLabel": {
-    "message": "왼쪽 하단"
-  },
-  "topLabel": {
-    "message": "상단"
-  },
-  "bottomLabel": {
-    "message": "하단"
-  },
-  "leftLabel": {
-    "message": "왼쪽"
-  },
-  "rightLabel": {
-    "message": "오른쪽"
-  },
-  "positionOffsetLabel": {
-    "message": "표시 위치 - 오프셋"
-  },
-  "panelStyleLabel": {
-    "message": "번역 결과 창"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "웹 페이지에 표시되는 번역 결과 창의 디자인을 설정합니다."
-  },
-  "widthLabel": {
-    "message": "너비"
-  },
-  "heightLabel": {
-    "message": "높이"
-  },
-  "fontSizeLabel": {
-    "message": "글꼴 크기"
-  },
-  "referencePointLabel": {
-    "message": "표시 위치 - 기준점"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "선택한 텍스트 하단"
-  },
-  "topSelectedTextLabel": {
-    "message": "선택한 텍스트 상단"
-  },
-  "clickedPointLabel": {
-    "message": "클릭한 위치"
-  },
-  "displayDirectionLabel": {
-    "message": "표시 위치 - 방향"
-  },
-  "resultFontColorLabel": {
-    "message": "번역 결과의 글꼴 색"
-  },
-  "isOverrideColorsLabel": {
-    "message": "아래 색상으로 기본 색상 덮어쓰기"
-  },
-  "candidateFontColorLabel": {
-    "message": "다른 번역의 글꼴 색"
-  },
-  "bgColorLabel": {
-    "message": "배경 색상"
-  },
-  "otherLabel": {
-    "message": "기타"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "업데이트 시 설정 페이지 표시"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate가 업데이트된 경우 설정 페이지를 표시합니다. 업데이트 내용을 빠르게 접할 수 있습니다."
-  },
-  "isDebugModeLabel": {
-    "message": "디버그 모드 사용 설정"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "디버그 모드를 사용 설정하면 디버거로 로그가 출력됩니다."
-  },
-  "exportSettingsLabel": {
-    "message": "설정 내보내기"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "설정을 컴퓨터에 json 파일로 저장합니다."
-  },
-  "exportButtonLabel": {
-    "message": "내보내기"
-  },
-  "importSettingsLabel": {
-    "message": "설정 가져오기"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "컴퓨터에 저장된 설정 파일을 불러옵니다."
-  },
-  "importButtonLabel": {
-    "message": "가져오기"
-  },
-  "resetSettingsLabel": {
-    "message": "설정 초기화"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "모든 설정을 기본값으로 복원합니다."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "초기화"
-  },
-  "shortcutsLabel": {
-    "message": "단축키"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "키보드 단축키"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "키보드 단축키를 설정합니다."
-  },
-  "typeShortcutMessage": {
-    "message": "단축키를 입력하세요"
-  },
-  "typeLetterMessage": {
-    "message": "글자를 입력하세요"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Ctrl 또는 Alt 키와 함께 누르세요"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Command 또는 Ctrl 또는 Alt 키와 함께 누르세요"
-  },
-  "invalidLetterMessage": {
-    "message": "사용할 수 없는 글자입니다"
-  },
-  "invalidShortcutMessage": {
-    "message": "사용할 수 없는 단축키입니다"
-  },
-  "clear": {
-    "message": "지우기"
-  },
-  "reset": {
-    "message": "초기화"
-  },
-  "informationLabel": {
-    "message": "정보"
-  },
-  "backersLabel": {
-    "message": "도움을 주신 분"
-  },
-  "licenseLabel": {
-    "message": "라이선스"
-  },
-  "donationLabel": {
-    "message": "기부해 주세요"
-  },
-  "donationCaptionLabel": {
-    "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>지원해 주시면 이 확장 프로그램을 개발하는 데 큰 도움이 됩니다.<br>Simple Translator가 마음에 든다면 기부해 보시는 것은 어떨까요?"
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift 카드"
-  },
-  "sponsorsLabel": {
-    "message": "스폰서"
-  },
-  "addonPageLabel": {
-    "message": "부가 기능 페이지"
-  },
-  "extensionPageLabel": {
-    "message": "확장 프로그램 페이지"
-  },
-  "privacyPolicyLabel": {
-    "message": "개인정보처리방침"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/ko/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "오류: 네트워크 연결 상태를 확인하세요."
-  },
-  "unavailableError": {
-    "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후에 다시 시도해 주세요."
-  },
-  "deeplAuthError": {
-    "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 요금제를 설정하세요."
-  },
-  "unknownError": {
-    "message": "오류: 알 수 없는 오류"
-  },
-  "translatePageMenu": {
-    "message": "이 페이지 번역"
-  },
-  "translateTextMenu": {
-    "message": "선택한 문자 번역"
-  },
-  "translateLinkMenu": {
-    "message": "선택한 링크 번역"
-  },
-  "openPopupDescription": {
-    "message": "툴바 팝업 열기"
-  },
-  "lang_af": {
-    "message": "아프리칸스어"
-  },
-  "lang_sq": {
-    "message": "알바니아어"
-  },
-  "lang_am": {
-    "message": "암하라어"
-  },
-  "lang_ar": {
-    "message": "아랍어"
-  },
-  "lang_hy": {
-    "message": "아르메니아어"
-  },
-  "lang_az": {
-    "message": "아제르바이잔어"
-  },
-  "lang_eu": {
-    "message": "바스크어"
-  },
-  "lang_be": {
-    "message": "벨라루스어"
-  },
-  "lang_bn": {
-    "message": "벵골어"
-  },
-  "lang_bs": {
-    "message": "보스니아어"
-  },
-  "lang_bg": {
-    "message": "불가리아어"
-  },
-  "lang_ca": {
-    "message": "카탈루냐어"
-  },
-  "lang_ceb": {
-    "message": "세부아노어"
-  },
-  "lang_ny": {
-    "message": "체와어"
-  },
-  "lang_zh_CN": {
-    "message": "중국어(간체)"
-  },
-  "lang_zh_TW": {
-    "message": "중국어(번체)"
-  },
-  "lang_co": {
-    "message": "코르시카어"
-  },
-  "lang_hr": {
-    "message": "크로아티아어"
-  },
-  "lang_cs": {
-    "message": "체코어"
-  },
-  "lang_da": {
-    "message": "덴마크어"
-  },
-  "lang_nl": {
-    "message": "네덜란드어"
-  },
-  "lang_en": {
-    "message": "영어"
-  },
-  "lang_eo": {
-    "message": "에스페란토어"
-  },
-  "lang_et": {
-    "message": "에스토니아어"
-  },
-  "lang_fi": {
-    "message": "핀란드어"
-  },
-  "lang_fr": {
-    "message": "프랑스어"
-  },
-  "lang_fy": {
-    "message": "프리지아어"
-  },
-  "lang_gl": {
-    "message": "갈리시아어"
-  },
-  "lang_ka": {
-    "message": "조지아어"
-  },
-  "lang_de": {
-    "message": "독일어"
-  },
-  "lang_el": {
-    "message": "그리스어"
-  },
-  "lang_gu": {
-    "message": "구자라트어"
-  },
-  "lang_ht": {
-    "message": "아이티어"
-  },
-  "lang_ha": {
-    "message": "하우사어"
-  },
-  "lang_haw": {
-    "message": "하와이어"
-  },
-  "lang_he": {
-    "message": "히브리어"
-  },
-  "lang_hi": {
-    "message": "힌디어"
-  },
-  "lang_hu": {
-    "message": "헝가리어"
-  },
-  "lang_is": {
-    "message": "아이슬란드어"
-  },
-  "lang_ig": {
-    "message": "이보어"
-  },
-  "lang_id": {
-    "message": "인도네시아어"
-  },
-  "lang_ga": {
-    "message": "아일랜드어"
-  },
-  "lang_it": {
-    "message": "이탈리아어"
-  },
-  "lang_ja": {
-    "message": "일본어"
-  },
-  "lang_jv": {
-    "message": "자바어"
-  },
-  "lang_kn": {
-    "message": "칸나다어"
-  },
-  "lang_kk": {
-    "message": "카자흐어"
-  },
-  "lang_km": {
-    "message": "크메르어"
-  },
-  "lang_rw": {
-    "message": "키냐르완다어"
-  },
-  "lang_ky": {
-    "message": "키르기스어"
-  },
-  "lang_ko": {
-    "message": "한국어"
-  },
-  "lang_ku": {
-    "message": "쿠르드어"
-  },
-  "lang_lo": {
-    "message": "라오스어"
-  },
-  "lang_la": {
-    "message": "라틴어"
-  },
-  "lang_lv": {
-    "message": "라트비아어"
-  },
-  "lang_lt": {
-    "message": "리투아니아어"
-  },
-  "lang_lb": {
-    "message": "룩셈부르크어"
-  },
-  "lang_mk": {
-    "message": "마케도니아어"
-  },
-  "lang_mg": {
-    "message": "말라가시어"
-  },
-  "lang_ms": {
-    "message": "말레이어"
-  },
-  "lang_ml": {
-    "message": "말라얄람어"
-  },
-  "lang_mt": {
-    "message": "몰타어"
-  },
-  "lang_mi": {
-    "message": "마오리어"
-  },
-  "lang_mr": {
-    "message": "마라티어"
-  },
-  "lang_mn": {
-    "message": "몽골어"
-  },
-  "lang_hmn": {
-    "message": "몽크어"
-  },
-  "lang_my": {
-    "message": "미얀마어"
-  },
-  "lang_ne": {
-    "message": "네팔어"
-  },
-  "lang_no": {
-    "message": "노르웨이어"
-  },
-  "lang_or": {
-    "message": "오리야어(오리야)"
-  },
-  "lang_fa": {
-    "message": "페르시아어"
-  },
-  "lang_pl": {
-    "message": "폴란드어"
-  },
-  "lang_pt": {
-    "message": "포르투갈어"
-  },
-  "lang_pa": {
-    "message": "펀자브어"
-  },
-  "lang_ps": {
-    "message": "파슈토어"
-  },
-  "lang_ro": {
-    "message": "루마니아어"
-  },
-  "lang_ru": {
-    "message": "러시아어"
-  },
-  "lang_sm": {
-    "message": "사모아어"
-  },
-  "lang_gd": {
-    "message": "스코틀랜드 게일어"
-  },
-  "lang_sr": {
-    "message": "세르비아어"
-  },
-  "lang_st": {
-    "message": "북소토어"
-  },
-  "lang_sn": {
-    "message": "쇼나어"
-  },
-  "lang_sd": {
-    "message": "신드어"
-  },
-  "lang_si": {
-    "message": "싱할라어"
-  },
-  "lang_sk": {
-    "message": "슬로바키아어"
-  },
-  "lang_sl": {
-    "message": "슬로베니아어"
-  },
-  "lang_so": {
-    "message": "소말리아어"
-  },
-  "lang_es": {
-    "message": "스페인어"
-  },
-  "lang_su": {
-    "message": "순다어"
-  },
-  "lang_sw": {
-    "message": "스와힐리어"
-  },
-  "lang_sv": {
-    "message": "스웨덴어"
-  },
-  "lang_tl": {
-    "message": "타갈로그어"
-  },
-  "lang_tg": {
-    "message": "타지크어"
-  },
-  "lang_ta": {
-    "message": "타밀어"
-  },
-  "lang_tt": {
-    "message": "타타르어"
-  },
-  "lang_te": {
-    "message": "텔루구어"
-  },
-  "lang_th": {
-    "message": "태국어"
-  },
-  "lang_tr": {
-    "message": "터키어"
-  },
-  "lang_tk": {
-    "message": "투르크멘어"
-  },
-  "lang_uk": {
-    "message": "우크라이나어"
-  },
-  "lang_ur": {
-    "message": "우르두어"
-  },
-  "lang_ug": {
-    "message": "위구르어"
-  },
-  "lang_uz": {
-    "message": "우즈베크어"
-  },
-  "lang_vi": {
-    "message": "베트남어"
-  },
-  "lang_cy": {
-    "message": "웨일스어"
-  },
-  "lang_xh": {
-    "message": "코사어"
-  },
-  "lang_yi": {
-    "message": "이디시어"
-  },
-  "lang_yo": {
-    "message": "요루바어"
-  },
-  "lang_zu": {
-    "message": "줄루어"
-  },
-  "lang_en_US": {
-    "message": "영어(미국)"
-  },
-  "lang_en_GB": {
-    "message": "영어(영국)"
-  },
-  "lang_pt_PT": {
-    "message": "포르투갈어"
-  },
-  "lang_pt_BR": {
-    "message": "포르투갈어(브라질)"
-  },
-  "lang_zh": {
-    "message": "중국어"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "웹 페이지에서 선택하거나 입력한 텍스트를 빠르게 번역합니다. Google 번역 및 DeepL API를 지원합니다."
+    },
+    "donateWithPaypalLabel": {
+        "message": "PayPal로 기부"
+    },
+    "donateLabel": {
+        "message": "기부"
+    },
+    "enableOnThisPage": {
+        "message": "이 페이지에서 번역 사용"
+    },
+    "disableOnThisPage": {
+        "message": "이 페이지에서 번역 사용 안 함"
+    },
+    "initialTextArea": {
+        "message": "텍스트 입력"
+    },
+    "showLink": {
+        "message": "이 페이지 번역"
+    },
+    "openInGoogleLabel": {
+        "message": "Google 번역으로 열기"
+    },
+    "openInDeeplLabel": {
+        "message": "DeepL 번역으로 열기"
+    },
+    "copyLabel": {
+        "message": "복사"
+    },
+    "copiedLabel": {
+        "message": "복사 완료"
+    },
+    "listenLabel": {
+        "message": "듣기"
+    },
+    "targetLangLabel": {
+        "message": "도착 언어"
+    },
+    "allLangLabel": {
+        "message": "모든 언어"
+    },
+    "recentLangLabel": {
+        "message": "최근 언어"
+    },
+    "settingsLabel": {
+        "message": "설정"
+    },
+    "generalLabel": {
+        "message": "일반"
+    },
+    "translationApiLabel": {
+        "message": "번역 엔진"
+    },
+    "googleApiLabel": {
+        "message": "Google 번역 API"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Google 번역 API를 사용합니다. 가입이 필요하지 않습니다."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "DeepL API를 사용합니다. 인증 키를 받으려면 DeepL API Free 또는 DeepL API Pro에 가입해야 합니다."
+    },
+    "howToUseDeeplLabel": {
+        "message": "DeepL API 가입 방법"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API 요금제"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "가입한 DeepL API 요금제를 선택하세요."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "인증 키"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "DeepL API 인증 키를 입력하세요."
+    },
+    "targetLangCaptionLabel": {
+        "message": "기본 도착 언어를 선택하세요."
+    },
+    "webPageLabel": {
+        "message": "웹 페이지"
+    },
+    "ifShowCandidateLabel": {
+        "message": "다른 번역 보기"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "단어 번역 시 여러 번역 결과를 함께 표시합니다."
+    },
+    "whenSelectTextLabel": {
+        "message": "텍스트 선택 시 동작"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "번역 결과 창 표시하기"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "버튼을 표시하지 않고 바로 번역 결과 창을 표시합니다."
+    },
+    "ifShowButtonLabel": {
+        "message": "번역 버튼 표시하기"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "클릭할 시 창을 열 수 있는 번역 버튼을 표시합니다."
+    },
+    "dontshowbuttonlabel": {
+        "message": "버튼 또는 창 표시 안 함"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "번역 버튼 또는 번역 창을 표시하지 않습니다."
+    },
+    "ifCheckLangLabel": {
+        "message": "번역이 필요 없을 시 버튼 표시 안 함"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "선택한 텍스트의 언어를 감지하여 도착 언어와 동일할 시 버튼을 표시하지 않습니다."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "선택한 텍스트의 언어를 감지하여 기본 도착 언어와 동일할 시 두 번째 언어로 번역합니다."
+    },
+    "disableTranslationLabel": {
+        "message": "번역 사용 안 함"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "텍스트 입력란에서 번역 사용 안 함"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "텍스트 입력란에서 텍스트를 선택할 때 번역 버튼 또는 창 표시 안 함"
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "코드 태그에서 번역 사용 안 함"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "코드 태그에서 텍스트를 선택할 때 번역 버튼 또는 창 표시 안 함"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "보조 키를 눌렀을 때 번역"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "지정한 보조 키를 눌렀을 때만 번역을 표시합니다."
+    },
+    "modifierKeyLabel": {
+        "message": "보조 키"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "번역을 사용하지 않을 URL 목록"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "페이지 URL이 목록과 일치할 시 해당 웹 페이지에서 번역을 사용하지 않습니다. \"*\" 와일드 카드를 지원합니다."
+    },
+    "toolbarLabel": {
+        "message": "툴바 팝업"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "자동으로 두 번째 언어로 바꾸기"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "입력한 텍스트의 언어를 감지하여 기본 도착 언어와 동일할 시 두 번째 언어로 번역합니다."
+    },
+    "secondTargetLangLabel": {
+        "message": "두 번째 언어"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "두 번째 도착 언어를 선택하세요."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "lang 속성 기반으로 번역 사용 안 함"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "페이지의 html 요소에 포함된 lang 속성이 목록과 일치할 시 번역을 사용하지 않습니다. 쉼표로 구분하여 언어 태그를 입력하세요."
+    },
+    "waitTimeLabel": {
+        "message": "번역 대기 시간"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "문자 입력 후 번역 시작까지의 대기 시간을 설정합니다. (밀리초)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "짧은 시간 동안 너무 여러 번 번역하면 잠시 동안 사용이 불가능할 수 있습니다."
+    },
+    "menuLabel": {
+        "message": "컨텍스트 메뉴"
+    },
+    "ifShowMenuLabel": {
+        "message": "컨텍스트 메뉴 표시"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "웹 페이지 또는 탭에 마우스 오른쪽 버튼으로 클릭하면 표시되는 컨텍스트 메뉴에 항목을 추가합니다."
+    },
+    "pageTranslationLabel": {
+        "message": "페이지 번역"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "번역 결과 표시 탭"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "페이지 번역 결과를 표시할 탭을 지정합니다."
+    },
+    "newTabLabel": {
+        "message": "새 탭"
+    },
+    "currentTabLabel": {
+        "message": "현재 탭"
+    },
+    "styleLabel": {
+        "message": "디자인"
+    },
+    "themeLabel": {
+        "message": "테마"
+    },
+    "themeCaptionLabel": {
+        "message": "색 구성표를 설정합니다."
+    },
+    "lightLabel": {
+        "message": "밝은 테마"
+    },
+    "darkLabel": {
+        "message": "어두운 테마"
+    },
+    "systemLabel": {
+        "message": "시스템"
+    },
+    "buttonStyleLabel": {
+        "message": "번역 버튼"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "웹 페이지에 표시되는 번역 버튼의 디자인을 설정합니다."
+    },
+    "buttonSizeLabel": {
+        "message": "크기"
+    },
+    "buttonPositionLabel": {
+        "message": "표시 위치"
+    },
+    "topRightLabel": {
+        "message": "오른쪽 상단"
+    },
+    "bottomRightLabel": {
+        "message": "오른쪽 하단"
+    },
+    "topLeftLabel": {
+        "message": "왼쪽 상단"
+    },
+    "bottomLeftLabel": {
+        "message": "왼쪽 하단"
+    },
+    "topLabel": {
+        "message": "상단"
+    },
+    "bottomLabel": {
+        "message": "하단"
+    },
+    "leftLabel": {
+        "message": "왼쪽"
+    },
+    "rightLabel": {
+        "message": "오른쪽"
+    },
+    "positionOffsetLabel": {
+        "message": "표시 위치 - 오프셋"
+    },
+    "panelStyleLabel": {
+        "message": "번역 결과 창"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "웹 페이지에 표시되는 번역 결과 창의 디자인을 설정합니다."
+    },
+    "widthLabel": {
+        "message": "너비"
+    },
+    "heightLabel": {
+        "message": "높이"
+    },
+    "fontSizeLabel": {
+        "message": "글꼴 크기"
+    },
+    "referencePointLabel": {
+        "message": "표시 위치 - 기준점"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "선택한 텍스트 하단"
+    },
+    "topSelectedTextLabel": {
+        "message": "선택한 텍스트 상단"
+    },
+    "clickedPointLabel": {
+        "message": "클릭한 위치"
+    },
+    "displayDirectionLabel": {
+        "message": "표시 위치 - 방향"
+    },
+    "resultFontColorLabel": {
+        "message": "번역 결과의 글꼴 색"
+    },
+    "isOverrideColorsLabel": {
+        "message": "아래 색상으로 기본 색상 덮어쓰기"
+    },
+    "candidateFontColorLabel": {
+        "message": "다른 번역의 글꼴 색"
+    },
+    "bgColorLabel": {
+        "message": "배경 색상"
+    },
+    "otherLabel": {
+        "message": "기타"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "업데이트 시 설정 페이지 표시"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Foxi가 업데이트된 경우 설정 페이지를 표시합니다. 업데이트 내용을 빠르게 접할 수 있습니다."
+    },
+    "isDebugModeLabel": {
+        "message": "디버그 모드 사용 설정"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "디버그 모드를 사용 설정하면 디버거로 로그가 출력됩니다."
+    },
+    "exportSettingsLabel": {
+        "message": "설정 내보내기"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "설정을 컴퓨터에 json 파일로 저장합니다."
+    },
+    "exportButtonLabel": {
+        "message": "내보내기"
+    },
+    "importSettingsLabel": {
+        "message": "설정 가져오기"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "컴퓨터에 저장된 설정 파일을 불러옵니다."
+    },
+    "importButtonLabel": {
+        "message": "가져오기"
+    },
+    "resetSettingsLabel": {
+        "message": "설정 초기화"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "모든 설정을 기본값으로 복원합니다."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "초기화"
+    },
+    "shortcutsLabel": {
+        "message": "단축키"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "키보드 단축키"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "키보드 단축키를 설정합니다."
+    },
+    "typeShortcutMessage": {
+        "message": "단축키를 입력하세요"
+    },
+    "typeLetterMessage": {
+        "message": "글자를 입력하세요"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Ctrl 또는 Alt 키와 함께 누르세요"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Command 또는 Ctrl 또는 Alt 키와 함께 누르세요"
+    },
+    "invalidLetterMessage": {
+        "message": "사용할 수 없는 글자입니다"
+    },
+    "invalidShortcutMessage": {
+        "message": "사용할 수 없는 단축키입니다"
+    },
+    "clear": {
+        "message": "지우기"
+    },
+    "reset": {
+        "message": "초기화"
+    },
+    "informationLabel": {
+        "message": "정보"
+    },
+    "backersLabel": {
+        "message": "도움을 주신 분"
+    },
+    "licenseLabel": {
+        "message": "라이선스"
+    },
+    "donationLabel": {
+        "message": "기부해 주세요"
+    },
+    "donationCaptionLabel": {
+        "message": "Simple Translator를 사용해 주셔서 감사합니다.<br>지원해 주시면 이 확장 프로그램을 개발하는 데 큰 도움이 됩니다.<br>Simple Translator가 마음에 든다면 기부해 보시는 것은 어떨까요?"
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift 카드"
+    },
+    "sponsorsLabel": {
+        "message": "스폰서"
+    },
+    "addonPageLabel": {
+        "message": "부가 기능 페이지"
+    },
+    "extensionPageLabel": {
+        "message": "확장 프로그램 페이지"
+    },
+    "privacyPolicyLabel": {
+        "message": "개인정보처리방침"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/ko/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "오류: 네트워크 연결 상태를 확인하세요."
+    },
+    "unavailableError": {
+        "message": "오류: 서비스 이용 제한에 도달했습니다. 잠시 후에 다시 시도해 주세요."
+    },
+    "deeplAuthError": {
+        "message": "오류: DeepL API 인증에 실패했습니다. 설정 페이지에서 올바른 인증 키와 요금제를 설정하세요."
+    },
+    "unknownError": {
+        "message": "오류: 알 수 없는 오류"
+    },
+    "translatePageMenu": {
+        "message": "이 페이지 번역"
+    },
+    "translateTextMenu": {
+        "message": "선택한 문자 번역"
+    },
+    "translateLinkMenu": {
+        "message": "선택한 링크 번역"
+    },
+    "openPopupDescription": {
+        "message": "툴바 팝업 열기"
+    },
+    "lang_af": {
+        "message": "아프리칸스어"
+    },
+    "lang_sq": {
+        "message": "알바니아어"
+    },
+    "lang_am": {
+        "message": "암하라어"
+    },
+    "lang_ar": {
+        "message": "아랍어"
+    },
+    "lang_hy": {
+        "message": "아르메니아어"
+    },
+    "lang_az": {
+        "message": "아제르바이잔어"
+    },
+    "lang_eu": {
+        "message": "바스크어"
+    },
+    "lang_be": {
+        "message": "벨라루스어"
+    },
+    "lang_bn": {
+        "message": "벵골어"
+    },
+    "lang_bs": {
+        "message": "보스니아어"
+    },
+    "lang_bg": {
+        "message": "불가리아어"
+    },
+    "lang_ca": {
+        "message": "카탈루냐어"
+    },
+    "lang_ceb": {
+        "message": "세부아노어"
+    },
+    "lang_ny": {
+        "message": "체와어"
+    },
+    "lang_zh_CN": {
+        "message": "중국어(간체)"
+    },
+    "lang_zh_TW": {
+        "message": "중국어(번체)"
+    },
+    "lang_co": {
+        "message": "코르시카어"
+    },
+    "lang_hr": {
+        "message": "크로아티아어"
+    },
+    "lang_cs": {
+        "message": "체코어"
+    },
+    "lang_da": {
+        "message": "덴마크어"
+    },
+    "lang_nl": {
+        "message": "네덜란드어"
+    },
+    "lang_en": {
+        "message": "영어"
+    },
+    "lang_eo": {
+        "message": "에스페란토어"
+    },
+    "lang_et": {
+        "message": "에스토니아어"
+    },
+    "lang_fi": {
+        "message": "핀란드어"
+    },
+    "lang_fr": {
+        "message": "프랑스어"
+    },
+    "lang_fy": {
+        "message": "프리지아어"
+    },
+    "lang_gl": {
+        "message": "갈리시아어"
+    },
+    "lang_ka": {
+        "message": "조지아어"
+    },
+    "lang_de": {
+        "message": "독일어"
+    },
+    "lang_el": {
+        "message": "그리스어"
+    },
+    "lang_gu": {
+        "message": "구자라트어"
+    },
+    "lang_ht": {
+        "message": "아이티어"
+    },
+    "lang_ha": {
+        "message": "하우사어"
+    },
+    "lang_haw": {
+        "message": "하와이어"
+    },
+    "lang_he": {
+        "message": "히브리어"
+    },
+    "lang_hi": {
+        "message": "힌디어"
+    },
+    "lang_hu": {
+        "message": "헝가리어"
+    },
+    "lang_is": {
+        "message": "아이슬란드어"
+    },
+    "lang_ig": {
+        "message": "이보어"
+    },
+    "lang_id": {
+        "message": "인도네시아어"
+    },
+    "lang_ga": {
+        "message": "아일랜드어"
+    },
+    "lang_it": {
+        "message": "이탈리아어"
+    },
+    "lang_ja": {
+        "message": "일본어"
+    },
+    "lang_jv": {
+        "message": "자바어"
+    },
+    "lang_kn": {
+        "message": "칸나다어"
+    },
+    "lang_kk": {
+        "message": "카자흐어"
+    },
+    "lang_km": {
+        "message": "크메르어"
+    },
+    "lang_rw": {
+        "message": "키냐르완다어"
+    },
+    "lang_ky": {
+        "message": "키르기스어"
+    },
+    "lang_ko": {
+        "message": "한국어"
+    },
+    "lang_ku": {
+        "message": "쿠르드어"
+    },
+    "lang_lo": {
+        "message": "라오스어"
+    },
+    "lang_la": {
+        "message": "라틴어"
+    },
+    "lang_lv": {
+        "message": "라트비아어"
+    },
+    "lang_lt": {
+        "message": "리투아니아어"
+    },
+    "lang_lb": {
+        "message": "룩셈부르크어"
+    },
+    "lang_mk": {
+        "message": "마케도니아어"
+    },
+    "lang_mg": {
+        "message": "말라가시어"
+    },
+    "lang_ms": {
+        "message": "말레이어"
+    },
+    "lang_ml": {
+        "message": "말라얄람어"
+    },
+    "lang_mt": {
+        "message": "몰타어"
+    },
+    "lang_mi": {
+        "message": "마오리어"
+    },
+    "lang_mr": {
+        "message": "마라티어"
+    },
+    "lang_mn": {
+        "message": "몽골어"
+    },
+    "lang_hmn": {
+        "message": "몽크어"
+    },
+    "lang_my": {
+        "message": "미얀마어"
+    },
+    "lang_ne": {
+        "message": "네팔어"
+    },
+    "lang_no": {
+        "message": "노르웨이어"
+    },
+    "lang_or": {
+        "message": "오리야어(오리야)"
+    },
+    "lang_fa": {
+        "message": "페르시아어"
+    },
+    "lang_pl": {
+        "message": "폴란드어"
+    },
+    "lang_pt": {
+        "message": "포르투갈어"
+    },
+    "lang_pa": {
+        "message": "펀자브어"
+    },
+    "lang_ps": {
+        "message": "파슈토어"
+    },
+    "lang_ro": {
+        "message": "루마니아어"
+    },
+    "lang_ru": {
+        "message": "러시아어"
+    },
+    "lang_sm": {
+        "message": "사모아어"
+    },
+    "lang_gd": {
+        "message": "스코틀랜드 게일어"
+    },
+    "lang_sr": {
+        "message": "세르비아어"
+    },
+    "lang_st": {
+        "message": "북소토어"
+    },
+    "lang_sn": {
+        "message": "쇼나어"
+    },
+    "lang_sd": {
+        "message": "신드어"
+    },
+    "lang_si": {
+        "message": "싱할라어"
+    },
+    "lang_sk": {
+        "message": "슬로바키아어"
+    },
+    "lang_sl": {
+        "message": "슬로베니아어"
+    },
+    "lang_so": {
+        "message": "소말리아어"
+    },
+    "lang_es": {
+        "message": "스페인어"
+    },
+    "lang_su": {
+        "message": "순다어"
+    },
+    "lang_sw": {
+        "message": "스와힐리어"
+    },
+    "lang_sv": {
+        "message": "스웨덴어"
+    },
+    "lang_tl": {
+        "message": "타갈로그어"
+    },
+    "lang_tg": {
+        "message": "타지크어"
+    },
+    "lang_ta": {
+        "message": "타밀어"
+    },
+    "lang_tt": {
+        "message": "타타르어"
+    },
+    "lang_te": {
+        "message": "텔루구어"
+    },
+    "lang_th": {
+        "message": "태국어"
+    },
+    "lang_tr": {
+        "message": "터키어"
+    },
+    "lang_tk": {
+        "message": "투르크멘어"
+    },
+    "lang_uk": {
+        "message": "우크라이나어"
+    },
+    "lang_ur": {
+        "message": "우르두어"
+    },
+    "lang_ug": {
+        "message": "위구르어"
+    },
+    "lang_uz": {
+        "message": "우즈베크어"
+    },
+    "lang_vi": {
+        "message": "베트남어"
+    },
+    "lang_cy": {
+        "message": "웨일스어"
+    },
+    "lang_xh": {
+        "message": "코사어"
+    },
+    "lang_yi": {
+        "message": "이디시어"
+    },
+    "lang_yo": {
+        "message": "요루바어"
+    },
+    "lang_zu": {
+        "message": "줄루어"
+    },
+    "lang_en_US": {
+        "message": "영어(미국)"
+    },
+    "lang_en_GB": {
+        "message": "영어(영국)"
+    },
+    "lang_pt_PT": {
+        "message": "포르투갈어"
+    },
+    "lang_pt_BR": {
+        "message": "포르투갈어(브라질)"
+    },
+    "lang_zh": {
+        "message": "중국어"
+    }
 }

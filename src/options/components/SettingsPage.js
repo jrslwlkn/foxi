@@ -48,7 +48,7 @@ export default class SettingsPage extends Component {
                 </a>{" "}
                 is Anki-enabled fork of{" "}
                 <a href="https://github.com/sienori/simple-translate" className="bottomLink">
-                    Simple Translate
+                    Foxi
                 </a>
                 .
             </div>

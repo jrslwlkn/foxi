@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
-  },
-  "donateWithPaypalLabel": {
-    "message": "PayPal ᱥᱟᱶ ᱫᱟᱱ ᱢᱮ"
-  },
-  "donateLabel": {
-    "message": "ᱫᱟᱱ"
-  },
-  "enableOnThisPage": {
-    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱮᱱᱟᱵᱞ ᱢᱮ"
-  },
-  "disableOnThisPage": {
-    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
-  },
-  "initialTextArea": {
-    "message": "ᱚᱱᱚᱞ ᱵᱚᱞᱚᱭ ᱢᱮ"
-  },
-  "showLink": {
-    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
-  },
-  "openInGoogleLabel": {
-    "message": "ᱱᱚᱣᱟ ᱜᱩᱜᱟᱹᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ"
-  },
-  "openInDeeplLabel": {
-    "message": "Open in DeepL Translator"
-  },
-  "copyLabel": {
-    "message": "ᱱᱚᱠᱚᱞ ᱢᱮ"
-  },
-  "copiedLabel": {
-    "message": "ᱱᱚᱠᱚᱞ ᱟᱠᱟᱱᱟ ᱾"
-  },
-  "listenLabel": {
-    "message": "ᱟᱧᱚᱢ ᱢᱮ"
-  },
-  "targetLangLabel": {
-    "message": "ᱯᱟᱹᱨᱥᱤ ᱡᱚᱥ ᱢᱮ"
-  },
-  "allLangLabel": {
-    "message": "ᱥᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
-  },
-  "recentLangLabel": {
-    "message": "ᱦᱟᱹᱞᱤᱦᱟᱹᱞᱤ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
-  },
-  "settingsLabel": {
-    "message": "ᱥᱟᱡᱟᱣ ᱠᱚ"
-  },
-  "generalLabel": {
-    "message": "ᱥᱟᱫᱷᱟᱨᱚᱱ"
-  },
-  "translationApiLabel": {
-    "message": "Translation engine"
-  },
-  "googleApiLabel": {
-    "message": "Google translate API"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Use Google Translate API. No registration is required."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
-  },
-  "howToUseDeeplLabel": {
-    "message": "How to register DeepL API"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API plan"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Select the DeepL API plan for which you registered."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Authentication key"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
-  },
-  "targetLangCaptionLabel": {
-    "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
-  },
-  "webPageLabel": {
-    "message": "ᱣᱮᱵᱽ ᱥᱟᱦᱴᱟ"
-  },
-  "ifShowCandidateLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱫᱷᱮᱠᱟᱣ"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "ᱢᱤᱫ ᱢᱤᱫᱴᱤᱡ ᱜᱟᱱ ᱟᱹᱲᱟᱹ ᱛᱚᱨᱡᱚᱢᱟᱜ ᱡᱷᱚᱜ ᱵᱟᱹᱲᱛᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱫᱮᱠᱷᱟᱣ ᱾"
-  },
-  "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱷᱮᱠᱟᱣ"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "ᱵᱤᱱ ᱫᱮᱠᱷᱟᱣ ᱛᱮ ᱵᱚᱴᱚᱱ ᱥᱚᱡᱷᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱮᱠᱷᱟᱣ ᱾"
-  },
-  "ifShowButtonLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "ᱯᱭᱟᱱᱮᱞ ᱟᱨ ᱠᱞᱤᱠ ᱟᱠᱟᱱ ᱡᱷᱤᱡᱽ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
-  },
-  "dontshowbuttonlabel": {
-    "message": "ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
-  },
-  "ifCheckLangLabel": {
-    "message": "ᱡᱩᱫᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱝ ᱛᱟᱦᱮᱱ ᱠᱷᱟᱱ ᱵᱚᱴᱚᱱ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱵᱚᱴᱴᱚᱱ ᱵᱟᱝ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾"
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
-  },
-  "disableTranslationLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "ᱪᱤᱠᱤ ᱢᱤᱫ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱨᱮ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱰ ᱴᱭᱟᱜᱽ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "ᱠᱳᱰ ᱴᱭᱟᱜᱽ ᱨᱮ ᱪᱤᱠᱤ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ ᱚᱛᱟᱠᱟᱱ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "ᱱᱤᱨᱫᱷᱤᱥᱴ ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱠᱤ ᱯᱨᱮᱥᱰ ᱨᱮ ᱮᱠᱟᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
-  },
-  "modifierKeyLabel": {
-    "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱞᱟᱹᱜᱤᱫ URL ᱥᱩᱪᱤ"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
-  },
-  "toolbarLabel": {
-    "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "ᱟᱡᱛᱮ ᱥᱣᱤᱪᱚᱜᱼᱟ ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "ᱟᱹᱢᱫᱟᱹᱱᱤ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
-  },
-  "secondTargetLangLabel": {
-    "message": "ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "ᱫᱚᱥᱟᱨ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
-  },
-  "waitTimeLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱛᱚ ᱛᱟᱹᱝᱜᱤᱭ ᱢᱮ"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
-  },
-  "menuLabel": {
-    "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ"
-  },
-  "ifShowMenuLabel": {
-    "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ ᱫᱮᱠᱷᱟᱣ ᱢᱮ"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
-  },
-  "pageTranslationLabel": {
-    "message": "ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
-  },
-  "newTabLabel": {
-    "message": "ᱱᱟᱶᱟ ᱴᱮᱵᱽ"
-  },
-  "currentTabLabel": {
-    "message": "Current tab"
-  },
-  "styleLabel": {
-    "message": "ᱰᱷᱚᱝ"
-  },
-  "themeLabel": {
-    "message": "ᱛᱷᱤᱢ"
-  },
-  "themeCaptionLabel": {
-    "message": "Specify the color scheme."
-  },
-  "lightLabel": {
-    "message": "ᱦᱟᱹᱞᱠᱟᱹ"
-  },
-  "darkLabel": {
-    "message": "ᱜᱟᱰ"
-  },
-  "systemLabel": {
-    "message": "System"
-  },
-  "buttonStyleLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
-  },
-  "buttonSizeLabel": {
-    "message": "ᱟᱠᱟᱨ"
-  },
-  "buttonPositionLabel": {
-    "message": "ᱯᱚᱡᱤᱥᱚᱱ ᱫᱮᱠᱷᱟᱣ"
-  },
-  "topRightLabel": {
-    "message": "Top right"
-  },
-  "bottomRightLabel": {
-    "message": "Bottom right"
-  },
-  "topLeftLabel": {
-    "message": "Top left"
-  },
-  "bottomLeftLabel": {
-    "message": "Bottom left"
-  },
-  "topLabel": {
-    "message": "ᱪᱚᱴ"
-  },
-  "bottomLabel": {
-    "message": "ᱞᱟᱛᱟᱨ"
-  },
-  "leftLabel": {
-    "message": "ᱞᱮᱝᱜᱟ"
-  },
-  "rightLabel": {
-    "message": "ᱡᱚᱡᱚᱢ"
-  },
-  "positionOffsetLabel": {
-    "message": "Display position - Offset"
-  },
-  "panelStyleLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
-  },
-  "widthLabel": {
-    "message": "Width"
-  },
-  "heightLabel": {
-    "message": "Height"
-  },
-  "fontSizeLabel": {
-    "message": "ᱯᱷᱚᱸᱴ ᱟᱠᱟᱨ"
-  },
-  "referencePointLabel": {
-    "message": "Display position - Reference point"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Bottom of selected text"
-  },
-  "topSelectedTextLabel": {
-    "message": "ᱪᱚᱴ ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ "
-  },
-  "clickedPointLabel": {
-    "message": "ᱯᱚᱮᱸᱴ ᱚᱛᱟᱠᱟᱱᱟ"
-  },
-  "displayDirectionLabel": {
-    "message": "Display position - Direction"
-  },
-  "resultFontColorLabel": {
-    "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮᱡᱚᱞᱴ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱚᱸᱴ ᱨᱚᱝ"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
-  },
-  "candidateFontColorLabel": {
-    "message": "ᱯᱷᱚᱸᱴ ᱨᱚᱝ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ"
-  },
-  "bgColorLabel": {
-    "message": "ᱚᱱᱚᱰ ᱨᱚᱝ"
-  },
-  "otherLabel": {
-    "message": "ᱮᱴᱟᱜ"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "ᱚᱯᱰᱮᱴᱚᱜ ᱡᱷᱚᱜ ᱚᱯᱥᱚᱱ ᱥᱟᱦᱴᱟ ᱫᱮᱠᱷᱟᱣ"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
-  },
-  "isDebugModeLabel": {
-    "message": "ᱰᱮᱵᱩᱜᱽ ᱢᱚᱰ ᱮᱱᱟᱵᱟᱹᱞ ᱢᱮ"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
-  },
-  "exportSettingsLabel": {
-    "message": "ᱥᱮᱴᱤᱝ ᱮᱠᱥᱯᱚᱨᱴ ᱢᱮ"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
-  },
-  "exportButtonLabel": {
-    "message": "ᱮᱠᱥᱯᱚᱨᱴ"
-  },
-  "importSettingsLabel": {
-    "message": "ᱥᱮᱴᱤᱝ ᱤᱢᱯᱚᱨᱴ ᱢᱮ"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
-  },
-  "importButtonLabel": {
-    "message": "ᱤᱢᱯᱚᱨᱴ"
-  },
-  "resetSettingsLabel": {
-    "message": "ᱥᱟᱡᱟᱣ ᱠᱚ ᱫᱚᱦᱲᱟ ᱥᱟᱡᱟᱣ ᱢᱮ"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱨᱮ ᱥᱟᱱᱟᱢ ᱥᱟᱡᱟᱣ ᱠᱚ ᱨᱤᱥᱴᱚᱨ ᱢᱮ ᱾"
-  },
-  "resetSettingsButtonLabel": {
-    "message": "ᱨᱤᱥᱮᱴ"
-  },
-  "shortcutsLabel": {
-    "message": "Shortcuts"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Keyboard shortcuts"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Set keyboard shortcuts."
-  },
-  "typeShortcutMessage": {
-    "message": "Type a shortcut"
-  },
-  "typeLetterMessage": {
-    "message": "Type a letter"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Include either Ctrl or Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "The letter can not be used"
-  },
-  "invalidShortcutMessage": {
-    "message": "The shortcut can not be used"
-  },
-  "clear": {
-    "message": "ᱥᱟᱯᱷᱟ"
-  },
-  "reset": {
-    "message": "ᱨᱤᱥᱮᱴ"
-  },
-  "informationLabel": {
-    "message": "ᱵᱤᱵᱨᱚᱬ"
-  },
-  "backersLabel": {
-    "message": "ᱵᱮᱠᱚᱨᱥ"
-  },
-  "licenseLabel": {
-    "message": "ᱞᱚᱭᱥᱮᱱᱥ"
-  },
-  "donationLabel": {
-    "message": "ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱴᱟᱠᱟ ᱫᱟᱱ ᱢᱮ"
-  },
-  "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift ᱠᱟᱰ ᱠᱚ"
-  },
-  "sponsorsLabel": {
-    "message": "ᱥᱯᱚᱱᱥᱚᱨᱠᱚ"
-  },
-  "addonPageLabel": {
-    "message": "ᱮᱰᱼᱚᱱ ᱥᱟᱦᱴᱟ"
-  },
-  "extensionPageLabel": {
-    "message": "ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱥᱟᱦᱴᱟ"
-  },
-  "privacyPolicyLabel": {
-    "message": "ᱱᱤᱥᱚᱱ ᱱᱤᱛᱤ"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "ᱵᱷᱩᱞ : ᱱᱮᱴᱣᱟᱨᱠ ᱡᱩᱲᱟᱹᱣ ᱧᱮᱞ ᱢᱮ ᱾"
-  },
-  "unavailableError": {
-    "message": "ᱵᱷᱩᱞ: ᱥᱟᱹᱨᱵᱷᱤᱥ ᱨᱮᱭᱟᱜ ᱥᱤᱢᱟᱸ ᱥᱮᱴᱮᱨ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱥᱚᱢᱚᱭ ᱛᱟᱹᱝᱜᱤ ᱠᱟᱛᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾"
-  },
-  "deeplAuthError": {
-    "message": "ᱵᱷᱩᱞ: DeepL API ᱟᱫᱮᱨ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱫᱮᱨ ᱪᱟᱹᱵᱤ ᱥᱮᱴ ᱢᱮ ᱟᱨ ᱥᱟᱡᱟᱣ ᱥᱟᱦᱴᱟ ᱨᱮ ᱵᱮᱥ ᱪᱚᱨᱚᱠ ᱥᱮᱴ ᱠᱟᱜ ᱢᱮ ᱾"
-  },
-  "unknownError": {
-    "message": "ᱵᱷᱩᱞ : ᱵᱟᱝ ᱵᱟᱰᱟᱭ ᱵᱷᱩᱞ"
-  },
-  "translatePageMenu": {
-    "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
-  },
-  "translateTextMenu": {
-    "message": "ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱚᱞ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
-  },
-  "translateLinkMenu": {
-    "message": "ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱞᱤᱝᱠ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
-  },
-  "openPopupDescription": {
-    "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ ᱡᱷᱤᱡᱽ ᱢᱮ"
-  },
-  "lang_af": {
-    "message": "ᱟᱯᱷᱨᱤᱠᱟᱱᱤᱭᱟᱹ"
-  },
-  "lang_sq": {
-    "message": "ᱟᱞᱵᱟᱹᱱᱤᱭᱟᱹ"
-  },
-  "lang_am": {
-    "message": "ᱟᱢᱦᱟᱨᱤᱭᱟᱹ"
-  },
-  "lang_ar": {
-    "message": "ᱟᱨᱚᱵᱤᱭᱟᱹ"
-  },
-  "lang_hy": {
-    "message": "ᱟᱨᱢᱟᱹᱱᱤᱭᱟᱹ"
-  },
-  "lang_az": {
-    "message": "ᱟᱡᱮᱹᱨᱵᱟᱹᱱᱤ"
-  },
-  "lang_eu": {
-    "message": "ᱵᱟᱥᱠᱣᱩ"
-  },
-  "lang_be": {
-    "message": "ᱵᱮᱞᱟᱨᱩᱥᱤᱭᱟᱹ"
-  },
-  "lang_bn": {
-    "message": "ᱵᱮᱝᱜᱚᱞᱤ"
-  },
-  "lang_bs": {
-    "message": "ᱵᱳᱥᱱᱤᱭᱟᱱ"
-  },
-  "lang_bg": {
-    "message": "ᱵᱩᱞᱜᱟᱹᱨᱤᱭᱟᱹ"
-  },
-  "lang_ca": {
-    "message": "ᱠᱟᱴᱟᱞᱟᱱ"
-  },
-  "lang_ceb": {
-    "message": "ᱠᱮᱵᱭᱩᱟᱱᱚ"
-  },
-  "lang_ny": {
-    "message": "ᱪᱮᱣᱟ"
-  },
-  "lang_zh_CN": {
-    "message": "ᱪᱟᱤᱱᱤᱡᱽ (ᱥᱤᱢᱯᱞᱤᱯᱷᱟᱭᱮᱰ)"
-  },
-  "lang_zh_TW": {
-    "message": "ᱪᱟᱤᱱᱤᱡᱽ (ᱴᱨᱟᱰᱤᱥᱱᱟᱞ)"
-  },
-  "lang_co": {
-    "message": "ᱠᱳᱨᱤᱥᱤᱭᱟᱱ"
-  },
-  "lang_hr": {
-    "message": "ᱠᱨᱚᱴᱤᱭᱟᱱ"
-  },
-  "lang_cs": {
-    "message": "ᱠᱡᱮᱪ"
-  },
-  "lang_da": {
-    "message": "ᱫᱟᱱᱤᱥ"
-  },
-  "lang_nl": {
-    "message": "ᱰᱚᱪ"
-  },
-  "lang_en": {
-    "message": "ᱤᱝᱞᱤᱥ"
-  },
-  "lang_eo": {
-    "message": "ᱮᱥᱯᱮᱨᱟᱸᱴᱚ"
-  },
-  "lang_et": {
-    "message": "ᱮᱥᱴᱚᱭᱟ"
-  },
-  "lang_fi": {
-    "message": "ᱯᱷᱤᱱᱤᱥ"
-  },
-  "lang_fr": {
-    "message": "ᱯᱨᱮᱸᱪ"
-  },
-  "lang_fy": {
-    "message": "ᱯᱷᱨᱤᱥᱤᱭᱟᱱ"
-  },
-  "lang_gl": {
-    "message": " ᱜᱟᱞᱤᱥᱤᱭᱟᱱ"
-  },
-  "lang_ka": {
-    "message": "ᱡᱚᱨᱡᱤᱭᱟᱱ"
-  },
-  "lang_de": {
-    "message": "ᱡᱚᱨᱢᱟᱱ"
-  },
-  "lang_el": {
-    "message": "ᱜᱨᱤᱠ"
-  },
-  "lang_gu": {
-    "message": "ᱜᱩᱡᱨᱟᱹᱛᱤ"
-  },
-  "lang_ht": {
-    "message": "ᱦᱟᱤᱴᱤᱭᱟᱱ"
-  },
-  "lang_ha": {
-    "message": "ᱦᱟᱩᱥᱟ"
-  },
-  "lang_haw": {
-    "message": "ᱦᱟᱭᱟᱣᱤᱟᱱ"
-  },
-  "lang_he": {
-    "message": "ᱦᱩᱵᱽᱨᱩ"
-  },
-  "lang_hi": {
-    "message": " ᱦᱤᱸᱫᱤ"
-  },
-  "lang_hu": {
-    "message": "ᱦᱚᱝᱜᱟᱨᱤᱭᱟᱱ"
-  },
-  "lang_is": {
-    "message": "ᱤᱭᱤᱥᱞᱟᱸᱰᱤᱠ"
-  },
-  "lang_ig": {
-    "message": "ᱤᱜᱽᱵᱚ"
-  },
-  "lang_id": {
-    "message": "ᱤᱸᱰᱚᱱᱮᱥᱤᱭᱟᱱ"
-  },
-  "lang_ga": {
-    "message": "ᱤᱨᱤᱥ"
-  },
-  "lang_it": {
-    "message": "ᱤᱴᱟᱞᱤᱭᱟᱱ"
-  },
-  "lang_ja": {
-    "message": "ᱡᱟᱯᱟᱱᱤᱡᱽ"
-  },
-  "lang_jv": {
-    "message": "ᱡᱟᱵᱷᱟᱱᱤᱡᱽ"
-  },
-  "lang_kn": {
-    "message": "ᱠᱟᱱᱱᱟᱰᱟ"
-  },
-  "lang_kk": {
-    "message": "ᱠᱟᱡᱟᱠ"
-  },
-  "lang_km": {
-    "message": "ᱠᱷᱢᱮᱨ"
-  },
-  "lang_rw": {
-    "message": "ᱠᱤᱱᱭᱟᱨᱣᱟᱱᱰᱟ"
-  },
-  "lang_ky": {
-    "message": " ᱠᱤᱨᱜᱤᱡᱽ"
-  },
-  "lang_ko": {
-    "message": "ᱠᱚᱨᱤᱭᱟᱹᱱ"
-  },
-  "lang_ku": {
-    "message": "ᱠᱩᱨᱫᱤᱥ"
-  },
-  "lang_lo": {
-    "message": "ᱞᱟᱣᱚᱴᱤᱭᱟᱱ"
-  },
-  "lang_la": {
-    "message": "ᱞᱟᱴᱤᱱ"
-  },
-  "lang_lv": {
-    "message": "ᱞᱟᱴᱵᱷᱤᱭᱟᱱ"
-  },
-  "lang_lt": {
-    "message": "ᱞᱤᱛᱷᱩᱞᱤᱭᱟᱱ"
-  },
-  "lang_lb": {
-    "message": "ᱞᱤᱠᱥᱮᱢᱵᱚᱨᱜᱤᱥ"
-  },
-  "lang_mk": {
-    "message": "ᱢᱟᱠᱮᱰᱚᱭᱟᱹ"
-  },
-  "lang_mg": {
-    "message": "ᱢᱟᱞᱟᱜᱟᱥᱤ"
-  },
-  "lang_ms": {
-    "message": "ᱢᱟᱞᱟᱭ"
-  },
-  "lang_ml": {
-    "message": " ᱢᱟᱞᱟᱭᱟᱞᱚᱢ"
-  },
-  "lang_mt": {
-    "message": "ᱢᱟᱞᱴᱤᱡᱽ"
-  },
-  "lang_mi": {
-    "message": "ᱢᱟᱣᱨᱤ"
-  },
-  "lang_mr": {
-    "message": "ᱢᱟᱨᱟᱴᱷᱤ"
-  },
-  "lang_mn": {
-    "message": "ᱢᱚᱸᱜᱚᱞᱤᱭᱟᱱ"
-  },
-  "lang_hmn": {
-    "message": "ᱢᱳᱸᱠ"
-  },
-  "lang_my": {
-    "message": "ᱢᱟᱭᱟᱸᱢᱟᱨ"
-  },
-  "lang_ne": {
-    "message": " ᱱᱮᱯᱮᱲᱤ"
-  },
-  "lang_no": {
-    "message": "ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ"
-  },
-  "lang_or": {
-    "message": "ᱳᱰᱤᱭᱟ (ᱳᱨᱤᱭᱟ)"
-  },
-  "lang_fa": {
-    "message": "ᱯᱟᱨᱥᱤᱭᱟᱱ"
-  },
-  "lang_pl": {
-    "message": " ᱯᱚᱞᱤᱥ"
-  },
-  "lang_pt": {
-    "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
-  },
-  "lang_pa": {
-    "message": "ᱯᱚᱸᱡᱟᱵᱤ"
-  },
-  "lang_ps": {
-    "message": "ᱯᱩᱥᱛᱚ"
-  },
-  "lang_ro": {
-    "message": "ᱨᱚᱢᱟᱱᱤᱭᱟᱱ"
-  },
-  "lang_ru": {
-    "message": " ᱨᱟᱹᱥᱤᱭᱟᱹᱱ"
-  },
-  "lang_sm": {
-    "message": "ᱥᱚᱢᱚᱣᱟᱱ"
-  },
-  "lang_gd": {
-    "message": "ᱥᱠᱚᱴᱤᱥ ᱜᱟᱞᱤᱠ"
-  },
-  "lang_sr": {
-    "message": "ᱥᱟᱭᱵᱮᱨᱤᱭᱟ "
-  },
-  "lang_st": {
-    "message": "ᱥᱮᱥᱳᱛᱷᱳ"
-  },
-  "lang_sn": {
-    "message": "ᱥᱚᱱᱟ"
-  },
-  "lang_sd": {
-    "message": "ᱥᱤᱸᱫᱷᱤ"
-  },
-  "lang_si": {
-    "message": "ᱥᱤᱝᱦᱟᱞᱟ"
-  },
-  "lang_sk": {
-    "message": "ᱥᱞᱚᱵᱷᱟᱠ"
-  },
-  "lang_sl": {
-    "message": "ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱱ"
-  },
-  "lang_so": {
-    "message": "ᱥᱚᱢᱟᱞ"
-  },
-  "lang_es": {
-    "message": "ᱥᱯᱟᱱᱤᱥ"
-  },
-  "lang_su": {
-    "message": "ᱥᱚᱺᱰᱟᱱᱤᱡᱽ"
-  },
-  "lang_sw": {
-    "message": "ᱥᱣᱟᱦᱤᱞᱤ"
-  },
-  "lang_sv": {
-    "message": "ᱥᱣᱮᱫᱤᱥ"
-  },
-  "lang_tl": {
-    "message": "ᱴᱟᱜᱟᱞᱚᱜᱽ"
-  },
-  "lang_tg": {
-    "message": "ᱛᱟᱡᱤᱠᱤ"
-  },
-  "lang_ta": {
-    "message": "ᱛᱟᱢᱤᱞ"
-  },
-  "lang_tt": {
-    "message": "ᱴᱟᱴᱟᱨ"
-  },
-  "lang_te": {
-    "message": "ᱛᱮᱞᱩᱜᱩ"
-  },
-  "lang_th": {
-    "message": "ᱛᱷᱟᱭᱤ"
-  },
-  "lang_tr": {
-    "message": "ᱛᱩᱨᱠᱤᱥ"
-  },
-  "lang_tk": {
-    "message": "ᱛᱩᱨᱠᱢᱮᱱ"
-  },
-  "lang_uk": {
-    "message": "ᱭᱩᱠᱨᱮᱱ"
-  },
-  "lang_ur": {
-    "message": "ᱩᱨᱫᱩ"
-  },
-  "lang_ug": {
-    "message": "ᱩᱭᱜᱷᱩᱨ"
-  },
-  "lang_uz": {
-    "message": "ᱩᱡᱽᱵᱮᱠ"
-  },
-  "lang_vi": {
-    "message": "ᱵᱷᱤᱭᱮᱛᱱᱟᱢᱤᱡᱽ"
-  },
-  "lang_cy": {
-    "message": "ᱣᱮᱞᱥ"
-  },
-  "lang_xh": {
-    "message": "ᱠᱳᱥᱟ"
-  },
-  "lang_yi": {
-    "message": "ᱣᱤᱫᱤᱥ"
-  },
-  "lang_yo": {
-    "message": "ᱭᱚᱨᱩᱵᱟ"
-  },
-  "lang_zu": {
-    "message": "ᱡᱩᱹᱞᱩ"
-  },
-  "lang_en_US": {
-    "message": "ᱤᱝᱜᱽᱨᱟᱡᱤ (ᱟᱢᱮᱨᱤᱠᱤᱭᱚ)"
-  },
-  "lang_en_GB": {
-    "message": "ᱤᱝᱜᱽᱨᱟᱡᱤ (ᱵᱽᱨᱤᱴᱤᱥ)"
-  },
-  "lang_pt_PT": {
-    "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
-  },
-  "lang_pt_BR": {
-    "message": "ᱯᱚᱨᱛᱩᱜᱤᱡᱽ (ᱵᱽᱨᱟᱡᱤᱞᱤᱭᱟᱱ)"
-  },
-  "lang_zh": {
-    "message": "ᱪᱟᱭᱱᱤᱡᱽ"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    },
+    "donateWithPaypalLabel": {
+        "message": "PayPal ᱥᱟᱶ ᱫᱟᱱ ᱢᱮ"
+    },
+    "donateLabel": {
+        "message": "ᱫᱟᱱ"
+    },
+    "enableOnThisPage": {
+        "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱮᱱᱟᱵᱞ ᱢᱮ"
+    },
+    "disableOnThisPage": {
+        "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
+    },
+    "initialTextArea": {
+        "message": "ᱚᱱᱚᱞ ᱵᱚᱞᱚᱭ ᱢᱮ"
+    },
+    "showLink": {
+        "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+    },
+    "openInGoogleLabel": {
+        "message": "ᱱᱚᱣᱟ ᱜᱩᱜᱟᱹᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮ ᱡᱷᱤᱡᱽ ᱢᱮ"
+    },
+    "openInDeeplLabel": {
+        "message": "Open in DeepL Translator"
+    },
+    "copyLabel": {
+        "message": "ᱱᱚᱠᱚᱞ ᱢᱮ"
+    },
+    "copiedLabel": {
+        "message": "ᱱᱚᱠᱚᱞ ᱟᱠᱟᱱᱟ ᱾"
+    },
+    "listenLabel": {
+        "message": "ᱟᱧᱚᱢ ᱢᱮ"
+    },
+    "targetLangLabel": {
+        "message": "ᱯᱟᱹᱨᱥᱤ ᱡᱚᱥ ᱢᱮ"
+    },
+    "allLangLabel": {
+        "message": "ᱥᱟᱱᱟᱢ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
+    },
+    "recentLangLabel": {
+        "message": "ᱦᱟᱹᱞᱤᱦᱟᱹᱞᱤ ᱯᱟᱹᱨᱥᱤ ᱠᱚ"
+    },
+    "settingsLabel": {
+        "message": "ᱥᱟᱡᱟᱣ ᱠᱚ"
+    },
+    "generalLabel": {
+        "message": "ᱥᱟᱫᱷᱟᱨᱚᱱ"
+    },
+    "translationApiLabel": {
+        "message": "Translation engine"
+    },
+    "googleApiLabel": {
+        "message": "Google translate API"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Use Google Translate API. No registration is required."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "Use DeepL API. You must register with DeepL API Free or DeepL API Pro to obtain an authentication key."
+    },
+    "howToUseDeeplLabel": {
+        "message": "How to register DeepL API"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API plan"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Select the DeepL API plan for which you registered."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Authentication key"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Enter the authentication key for the DeepL API."
+    },
+    "targetLangCaptionLabel": {
+        "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
+    },
+    "webPageLabel": {
+        "message": "ᱣᱮᱵᱽ ᱥᱟᱦᱴᱟ"
+    },
+    "ifShowCandidateLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱫᱷᱮᱠᱟᱣ"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "ᱢᱤᱫ ᱢᱤᱫᱴᱤᱡ ᱜᱟᱱ ᱟᱹᱲᱟᱹ ᱛᱚᱨᱡᱚᱢᱟᱜ ᱡᱷᱚᱜ ᱵᱟᱹᱲᱛᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱫᱮᱠᱷᱟᱣ ᱾"
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱷᱮᱠᱟᱣ"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "ᱵᱤᱱ ᱫᱮᱠᱷᱟᱣ ᱛᱮ ᱵᱚᱴᱚᱱ ᱥᱚᱡᱷᱮ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱫᱮᱠᱷᱟᱣ ᱾"
+    },
+    "ifShowButtonLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "ᱯᱭᱟᱱᱮᱞ ᱟᱨ ᱠᱞᱤᱠ ᱟᱠᱟᱱ ᱡᱷᱤᱡᱽ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
+    },
+    "dontshowbuttonlabel": {
+        "message": "ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
+    },
+    "ifCheckLangLabel": {
+        "message": "ᱡᱩᱫᱤ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱝ ᱛᱟᱦᱮᱱ ᱠᱷᱟᱱ ᱵᱚᱴᱚᱱ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱵᱚᱴᱴᱚᱱ ᱵᱟᱝ ᱧᱮᱞᱧᱟᱢᱚᱜᱼᱟ ᱾"
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
+    },
+    "disableTranslationLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "ᱪᱤᱠᱤ ᱢᱤᱫ ᱪᱤᱠᱤ ᱴᱷᱟᱶ ᱨᱮ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚᱰ ᱴᱭᱟᱜᱽ ᱠᱚ ᱨᱮ ᱰᱤᱥᱟᱵᱞ ᱢᱮ"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "ᱠᱳᱰ ᱴᱭᱟᱜᱽ ᱨᱮ ᱪᱤᱠᱤ ᱪᱚᱭᱚᱱ ᱡᱷᱚᱜ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱟᱨ ᱯᱭᱟᱱᱮᱞ ᱟᱞᱚᱢ ᱫᱮᱠᱷᱟᱣᱟ ᱾"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ ᱚᱛᱟᱠᱟᱱ ᱨᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "ᱱᱤᱨᱫᱷᱤᱥᱴ ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱠᱤ ᱯᱨᱮᱥᱰ ᱨᱮ ᱮᱠᱟᱞ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱫᱮᱠᱷᱟᱣ ᱾"
+    },
+    "modifierKeyLabel": {
+        "message": "ᱢᱚᱰᱤᱯᱷᱟᱭᱟᱨ ᱪᱟᱹᱵᱤ"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱰᱤᱥᱟᱵᱞ ᱞᱟᱹᱜᱤᱫ URL ᱥᱩᱪᱤ"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    },
+    "toolbarLabel": {
+        "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "ᱟᱡᱛᱮ ᱥᱣᱤᱪᱚᱜᱼᱟ ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "ᱟᱹᱢᱫᱟᱹᱱᱤ ᱚᱱᱚᱞ ᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱪᱤᱸᱦᱟᱹᱣᱟ, ᱟᱨ ᱡᱩᱫᱤ ᱱᱚᱣᱟ ᱰᱤᱯᱷᱚᱞᱴ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱥᱟᱶ ᱢᱤᱫ ᱜᱮ ᱠᱷᱟᱱᱫᱚ, ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ ᱾"
+    },
+    "secondTargetLangLabel": {
+        "message": "ᱫᱚᱥᱟᱨ ᱯᱟᱹᱨᱥᱤ"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "ᱫᱚᱥᱟᱨ ᱡᱚᱥ ᱯᱟᱹᱨᱥᱤ ᱪᱚᱭᱚᱱ ᱢᱮ ᱾"
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Disable translation by lang attribute"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    },
+    "waitTimeLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱞᱟᱹᱜᱤᱫ ᱚᱠᱛᱚ ᱛᱟᱹᱝᱜᱤᱭ ᱢᱮ"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "If you translate it many times in a short time, it may become unusable for a while."
+    },
+    "menuLabel": {
+        "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ"
+    },
+    "ifShowMenuLabel": {
+        "message": "ᱥᱟᱛᱟᱢ ᱢᱮᱱᱩ ᱫᱮᱠᱷᱟᱣ ᱢᱮ"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    },
+    "pageTranslationLabel": {
+        "message": "ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱛᱚᱨᱡᱚᱢᱟ"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Tab to display translation results"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Specify the tab to display the results of the page translation."
+    },
+    "newTabLabel": {
+        "message": "ᱱᱟᱶᱟ ᱴᱮᱵᱽ"
+    },
+    "currentTabLabel": {
+        "message": "Current tab"
+    },
+    "styleLabel": {
+        "message": "ᱰᱷᱚᱝ"
+    },
+    "themeLabel": {
+        "message": "ᱛᱷᱤᱢ"
+    },
+    "themeCaptionLabel": {
+        "message": "Specify the color scheme."
+    },
+    "lightLabel": {
+        "message": "ᱦᱟᱹᱞᱠᱟᱹ"
+    },
+    "darkLabel": {
+        "message": "ᱜᱟᱰ"
+    },
+    "systemLabel": {
+        "message": "System"
+    },
+    "buttonStyleLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱚᱴᱚᱱ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
+    },
+    "buttonSizeLabel": {
+        "message": "ᱟᱠᱟᱨ"
+    },
+    "buttonPositionLabel": {
+        "message": "ᱯᱚᱡᱤᱥᱚᱱ ᱫᱮᱠᱷᱟᱣ"
+    },
+    "topRightLabel": {
+        "message": "Top right"
+    },
+    "bottomRightLabel": {
+        "message": "Bottom right"
+    },
+    "topLeftLabel": {
+        "message": "Top left"
+    },
+    "bottomLeftLabel": {
+        "message": "Bottom left"
+    },
+    "topLabel": {
+        "message": "ᱪᱚᱴ"
+    },
+    "bottomLabel": {
+        "message": "ᱞᱟᱛᱟᱨ"
+    },
+    "leftLabel": {
+        "message": "ᱞᱮᱝᱜᱟ"
+    },
+    "rightLabel": {
+        "message": "ᱡᱚᱡᱚᱢ"
+    },
+    "positionOffsetLabel": {
+        "message": "Display position - Offset"
+    },
+    "panelStyleLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "ᱣᱮᱵᱽ ᱨᱮ ᱫᱮᱠᱷᱟᱣᱟᱱ ᱞᱟᱹᱜᱤᱫ ᱛᱚᱨᱡᱚᱢᱟ ᱯᱭᱟᱱᱮᱞ ᱰᱷᱚᱝ ᱴᱷᱟᱹᱣᱠᱟᱹᱭ ᱢᱮ ᱾"
+    },
+    "widthLabel": {
+        "message": "Width"
+    },
+    "heightLabel": {
+        "message": "Height"
+    },
+    "fontSizeLabel": {
+        "message": "ᱯᱷᱚᱸᱴ ᱟᱠᱟᱨ"
+    },
+    "referencePointLabel": {
+        "message": "Display position - Reference point"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Bottom of selected text"
+    },
+    "topSelectedTextLabel": {
+        "message": "ᱪᱚᱴ ᱪᱚᱭᱚᱱᱟᱱ ᱚᱱᱚᱞ "
+    },
+    "clickedPointLabel": {
+        "message": "ᱯᱚᱮᱸᱴ ᱚᱛᱟᱠᱟᱱᱟ"
+    },
+    "displayDirectionLabel": {
+        "message": "Display position - Direction"
+    },
+    "resultFontColorLabel": {
+        "message": "ᱛᱚᱨᱡᱚᱢᱟ ᱨᱮᱡᱚᱞᱴ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱚᱸᱴ ᱨᱚᱝ"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Override default colors with colors below"
+    },
+    "candidateFontColorLabel": {
+        "message": "ᱯᱷᱚᱸᱴ ᱨᱚᱝ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱷᱟᱹᱜᱤᱫᱟᱹᱨ ᱠᱚ ᱞᱟᱹᱜᱤᱫ"
+    },
+    "bgColorLabel": {
+        "message": "ᱚᱱᱚᱰ ᱨᱚᱝ"
+    },
+    "otherLabel": {
+        "message": "ᱮᱴᱟᱜ"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "ᱚᱯᱰᱮᱴᱚᱜ ᱡᱷᱚᱜ ᱚᱯᱥᱚᱱ ᱥᱟᱦᱴᱟ ᱫᱮᱠᱷᱟᱣ"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Display the options page when Foxi is updated. You can know the update contents quickly."
+    },
+    "isDebugModeLabel": {
+        "message": "ᱰᱮᱵᱩᱜᱽ ᱢᱚᱰ ᱮᱱᱟᱵᱟᱹᱞ ᱢᱮ"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "When debug mode is enabled, the log is output to the debugger."
+    },
+    "exportSettingsLabel": {
+        "message": "ᱥᱮᱴᱤᱝ ᱮᱠᱥᱯᱚᱨᱴ ᱢᱮ"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Save the settings as a json file on the computer."
+    },
+    "exportButtonLabel": {
+        "message": "ᱮᱠᱥᱯᱚᱨᱴ"
+    },
+    "importSettingsLabel": {
+        "message": "ᱥᱮᱴᱤᱝ ᱤᱢᱯᱚᱨᱴ ᱢᱮ"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Load the settings file saved on the computer."
+    },
+    "importButtonLabel": {
+        "message": "ᱤᱢᱯᱚᱨᱴ"
+    },
+    "resetSettingsLabel": {
+        "message": "ᱥᱟᱡᱟᱣ ᱠᱚ ᱫᱚᱦᱲᱟ ᱥᱟᱡᱟᱣ ᱢᱮ"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "ᱰᱤᱯᱷᱚᱞᱴ ᱨᱮ ᱥᱟᱱᱟᱢ ᱥᱟᱡᱟᱣ ᱠᱚ ᱨᱤᱥᱴᱚᱨ ᱢᱮ ᱾"
+    },
+    "resetSettingsButtonLabel": {
+        "message": "ᱨᱤᱥᱮᱴ"
+    },
+    "shortcutsLabel": {
+        "message": "Shortcuts"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Keyboard shortcuts"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Set keyboard shortcuts."
+    },
+    "typeShortcutMessage": {
+        "message": "Type a shortcut"
+    },
+    "typeLetterMessage": {
+        "message": "Type a letter"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Include either Ctrl or Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Include either Command, Ctrl or Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "The letter can not be used"
+    },
+    "invalidShortcutMessage": {
+        "message": "The shortcut can not be used"
+    },
+    "clear": {
+        "message": "ᱥᱟᱯᱷᱟ"
+    },
+    "reset": {
+        "message": "ᱨᱤᱥᱮᱴ"
+    },
+    "informationLabel": {
+        "message": "ᱵᱤᱵᱨᱚᱬ"
+    },
+    "backersLabel": {
+        "message": "ᱵᱮᱠᱚᱨᱥ"
+    },
+    "licenseLabel": {
+        "message": "ᱞᱚᱭᱥᱮᱱᱥ"
+    },
+    "donationLabel": {
+        "message": "ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱴᱟᱠᱟ ᱫᱟᱱ ᱢᱮ"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Foxi.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Foxi, I would be pleased if you could consider donating."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift ᱠᱟᱰ ᱠᱚ"
+    },
+    "sponsorsLabel": {
+        "message": "ᱥᱯᱚᱱᱥᱚᱨᱠᱚ"
+    },
+    "addonPageLabel": {
+        "message": "ᱮᱰᱼᱚᱱ ᱥᱟᱦᱴᱟ"
+    },
+    "extensionPageLabel": {
+        "message": "ᱮᱠᱥᱴᱮᱱᱥᱚᱱ ᱥᱟᱦᱴᱟ"
+    },
+    "privacyPolicyLabel": {
+        "message": "ᱱᱤᱥᱚᱱ ᱱᱤᱛᱤ"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "ᱵᱷᱩᱞ : ᱱᱮᱴᱣᱟᱨᱠ ᱡᱩᱲᱟᱹᱣ ᱧᱮᱞ ᱢᱮ ᱾"
+    },
+    "unavailableError": {
+        "message": "ᱵᱷᱩᱞ: ᱥᱟᱹᱨᱵᱷᱤᱥ ᱨᱮᱭᱟᱜ ᱥᱤᱢᱟᱸ ᱥᱮᱴᱮᱨ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱛᱤᱱᱟᱹᱜ ᱜᱟᱱ ᱥᱚᱢᱚᱭ ᱛᱟᱹᱝᱜᱤ ᱠᱟᱛᱮ ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾"
+    },
+    "deeplAuthError": {
+        "message": "ᱵᱷᱩᱞ: DeepL API ᱟᱫᱮᱨ ᱰᱤᱜᱟᱹᱣ ᱮᱱᱟ ᱾ ᱫᱟᱭᱟᱠᱟᱛᱮ ᱟᱫᱮᱨ ᱪᱟᱹᱵᱤ ᱥᱮᱴ ᱢᱮ ᱟᱨ ᱥᱟᱡᱟᱣ ᱥᱟᱦᱴᱟ ᱨᱮ ᱵᱮᱥ ᱪᱚᱨᱚᱠ ᱥᱮᱴ ᱠᱟᱜ ᱢᱮ ᱾"
+    },
+    "unknownError": {
+        "message": "ᱵᱷᱩᱞ : ᱵᱟᱝ ᱵᱟᱰᱟᱭ ᱵᱷᱩᱞ"
+    },
+    "translatePageMenu": {
+        "message": "ᱱᱚᱣᱟ ᱥᱟᱦᱴᱟ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+    },
+    "translateTextMenu": {
+        "message": "ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱚᱞ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+    },
+    "translateLinkMenu": {
+        "message": "ᱵᱟᱪᱷᱟᱣ ᱠᱟᱱ ᱞᱤᱝᱠ ᱛᱚᱨᱡᱚᱢᱟᱭ ᱢᱮ"
+    },
+    "openPopupDescription": {
+        "message": "ᱴᱩᱞᱵᱟᱨ ᱯᱚᱯᱚᱯ ᱡᱷᱤᱡᱽ ᱢᱮ"
+    },
+    "lang_af": {
+        "message": "ᱟᱯᱷᱨᱤᱠᱟᱱᱤᱭᱟᱹ"
+    },
+    "lang_sq": {
+        "message": "ᱟᱞᱵᱟᱹᱱᱤᱭᱟᱹ"
+    },
+    "lang_am": {
+        "message": "ᱟᱢᱦᱟᱨᱤᱭᱟᱹ"
+    },
+    "lang_ar": {
+        "message": "ᱟᱨᱚᱵᱤᱭᱟᱹ"
+    },
+    "lang_hy": {
+        "message": "ᱟᱨᱢᱟᱹᱱᱤᱭᱟᱹ"
+    },
+    "lang_az": {
+        "message": "ᱟᱡᱮᱹᱨᱵᱟᱹᱱᱤ"
+    },
+    "lang_eu": {
+        "message": "ᱵᱟᱥᱠᱣᱩ"
+    },
+    "lang_be": {
+        "message": "ᱵᱮᱞᱟᱨᱩᱥᱤᱭᱟᱹ"
+    },
+    "lang_bn": {
+        "message": "ᱵᱮᱝᱜᱚᱞᱤ"
+    },
+    "lang_bs": {
+        "message": "ᱵᱳᱥᱱᱤᱭᱟᱱ"
+    },
+    "lang_bg": {
+        "message": "ᱵᱩᱞᱜᱟᱹᱨᱤᱭᱟᱹ"
+    },
+    "lang_ca": {
+        "message": "ᱠᱟᱴᱟᱞᱟᱱ"
+    },
+    "lang_ceb": {
+        "message": "ᱠᱮᱵᱭᱩᱟᱱᱚ"
+    },
+    "lang_ny": {
+        "message": "ᱪᱮᱣᱟ"
+    },
+    "lang_zh_CN": {
+        "message": "ᱪᱟᱤᱱᱤᱡᱽ (ᱥᱤᱢᱯᱞᱤᱯᱷᱟᱭᱮᱰ)"
+    },
+    "lang_zh_TW": {
+        "message": "ᱪᱟᱤᱱᱤᱡᱽ (ᱴᱨᱟᱰᱤᱥᱱᱟᱞ)"
+    },
+    "lang_co": {
+        "message": "ᱠᱳᱨᱤᱥᱤᱭᱟᱱ"
+    },
+    "lang_hr": {
+        "message": "ᱠᱨᱚᱴᱤᱭᱟᱱ"
+    },
+    "lang_cs": {
+        "message": "ᱠᱡᱮᱪ"
+    },
+    "lang_da": {
+        "message": "ᱫᱟᱱᱤᱥ"
+    },
+    "lang_nl": {
+        "message": "ᱰᱚᱪ"
+    },
+    "lang_en": {
+        "message": "ᱤᱝᱞᱤᱥ"
+    },
+    "lang_eo": {
+        "message": "ᱮᱥᱯᱮᱨᱟᱸᱴᱚ"
+    },
+    "lang_et": {
+        "message": "ᱮᱥᱴᱚᱭᱟ"
+    },
+    "lang_fi": {
+        "message": "ᱯᱷᱤᱱᱤᱥ"
+    },
+    "lang_fr": {
+        "message": "ᱯᱨᱮᱸᱪ"
+    },
+    "lang_fy": {
+        "message": "ᱯᱷᱨᱤᱥᱤᱭᱟᱱ"
+    },
+    "lang_gl": {
+        "message": " ᱜᱟᱞᱤᱥᱤᱭᱟᱱ"
+    },
+    "lang_ka": {
+        "message": "ᱡᱚᱨᱡᱤᱭᱟᱱ"
+    },
+    "lang_de": {
+        "message": "ᱡᱚᱨᱢᱟᱱ"
+    },
+    "lang_el": {
+        "message": "ᱜᱨᱤᱠ"
+    },
+    "lang_gu": {
+        "message": "ᱜᱩᱡᱨᱟᱹᱛᱤ"
+    },
+    "lang_ht": {
+        "message": "ᱦᱟᱤᱴᱤᱭᱟᱱ"
+    },
+    "lang_ha": {
+        "message": "ᱦᱟᱩᱥᱟ"
+    },
+    "lang_haw": {
+        "message": "ᱦᱟᱭᱟᱣᱤᱟᱱ"
+    },
+    "lang_he": {
+        "message": "ᱦᱩᱵᱽᱨᱩ"
+    },
+    "lang_hi": {
+        "message": " ᱦᱤᱸᱫᱤ"
+    },
+    "lang_hu": {
+        "message": "ᱦᱚᱝᱜᱟᱨᱤᱭᱟᱱ"
+    },
+    "lang_is": {
+        "message": "ᱤᱭᱤᱥᱞᱟᱸᱰᱤᱠ"
+    },
+    "lang_ig": {
+        "message": "ᱤᱜᱽᱵᱚ"
+    },
+    "lang_id": {
+        "message": "ᱤᱸᱰᱚᱱᱮᱥᱤᱭᱟᱱ"
+    },
+    "lang_ga": {
+        "message": "ᱤᱨᱤᱥ"
+    },
+    "lang_it": {
+        "message": "ᱤᱴᱟᱞᱤᱭᱟᱱ"
+    },
+    "lang_ja": {
+        "message": "ᱡᱟᱯᱟᱱᱤᱡᱽ"
+    },
+    "lang_jv": {
+        "message": "ᱡᱟᱵᱷᱟᱱᱤᱡᱽ"
+    },
+    "lang_kn": {
+        "message": "ᱠᱟᱱᱱᱟᱰᱟ"
+    },
+    "lang_kk": {
+        "message": "ᱠᱟᱡᱟᱠ"
+    },
+    "lang_km": {
+        "message": "ᱠᱷᱢᱮᱨ"
+    },
+    "lang_rw": {
+        "message": "ᱠᱤᱱᱭᱟᱨᱣᱟᱱᱰᱟ"
+    },
+    "lang_ky": {
+        "message": " ᱠᱤᱨᱜᱤᱡᱽ"
+    },
+    "lang_ko": {
+        "message": "ᱠᱚᱨᱤᱭᱟᱹᱱ"
+    },
+    "lang_ku": {
+        "message": "ᱠᱩᱨᱫᱤᱥ"
+    },
+    "lang_lo": {
+        "message": "ᱞᱟᱣᱚᱴᱤᱭᱟᱱ"
+    },
+    "lang_la": {
+        "message": "ᱞᱟᱴᱤᱱ"
+    },
+    "lang_lv": {
+        "message": "ᱞᱟᱴᱵᱷᱤᱭᱟᱱ"
+    },
+    "lang_lt": {
+        "message": "ᱞᱤᱛᱷᱩᱞᱤᱭᱟᱱ"
+    },
+    "lang_lb": {
+        "message": "ᱞᱤᱠᱥᱮᱢᱵᱚᱨᱜᱤᱥ"
+    },
+    "lang_mk": {
+        "message": "ᱢᱟᱠᱮᱰᱚᱭᱟᱹ"
+    },
+    "lang_mg": {
+        "message": "ᱢᱟᱞᱟᱜᱟᱥᱤ"
+    },
+    "lang_ms": {
+        "message": "ᱢᱟᱞᱟᱭ"
+    },
+    "lang_ml": {
+        "message": " ᱢᱟᱞᱟᱭᱟᱞᱚᱢ"
+    },
+    "lang_mt": {
+        "message": "ᱢᱟᱞᱴᱤᱡᱽ"
+    },
+    "lang_mi": {
+        "message": "ᱢᱟᱣᱨᱤ"
+    },
+    "lang_mr": {
+        "message": "ᱢᱟᱨᱟᱴᱷᱤ"
+    },
+    "lang_mn": {
+        "message": "ᱢᱚᱸᱜᱚᱞᱤᱭᱟᱱ"
+    },
+    "lang_hmn": {
+        "message": "ᱢᱳᱸᱠ"
+    },
+    "lang_my": {
+        "message": "ᱢᱟᱭᱟᱸᱢᱟᱨ"
+    },
+    "lang_ne": {
+        "message": " ᱱᱮᱯᱮᱲᱤ"
+    },
+    "lang_no": {
+        "message": "ᱱᱚᱨᱣᱮᱜᱤᱭᱟᱱ"
+    },
+    "lang_or": {
+        "message": "ᱳᱰᱤᱭᱟ (ᱳᱨᱤᱭᱟ)"
+    },
+    "lang_fa": {
+        "message": "ᱯᱟᱨᱥᱤᱭᱟᱱ"
+    },
+    "lang_pl": {
+        "message": " ᱯᱚᱞᱤᱥ"
+    },
+    "lang_pt": {
+        "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
+    },
+    "lang_pa": {
+        "message": "ᱯᱚᱸᱡᱟᱵᱤ"
+    },
+    "lang_ps": {
+        "message": "ᱯᱩᱥᱛᱚ"
+    },
+    "lang_ro": {
+        "message": "ᱨᱚᱢᱟᱱᱤᱭᱟᱱ"
+    },
+    "lang_ru": {
+        "message": " ᱨᱟᱹᱥᱤᱭᱟᱹᱱ"
+    },
+    "lang_sm": {
+        "message": "ᱥᱚᱢᱚᱣᱟᱱ"
+    },
+    "lang_gd": {
+        "message": "ᱥᱠᱚᱴᱤᱥ ᱜᱟᱞᱤᱠ"
+    },
+    "lang_sr": {
+        "message": "ᱥᱟᱭᱵᱮᱨᱤᱭᱟ "
+    },
+    "lang_st": {
+        "message": "ᱥᱮᱥᱳᱛᱷᱳ"
+    },
+    "lang_sn": {
+        "message": "ᱥᱚᱱᱟ"
+    },
+    "lang_sd": {
+        "message": "ᱥᱤᱸᱫᱷᱤ"
+    },
+    "lang_si": {
+        "message": "ᱥᱤᱝᱦᱟᱞᱟ"
+    },
+    "lang_sk": {
+        "message": "ᱥᱞᱚᱵᱷᱟᱠ"
+    },
+    "lang_sl": {
+        "message": "ᱥᱞᱚᱵᱷᱮᱱᱤᱭᱟᱱ"
+    },
+    "lang_so": {
+        "message": "ᱥᱚᱢᱟᱞ"
+    },
+    "lang_es": {
+        "message": "ᱥᱯᱟᱱᱤᱥ"
+    },
+    "lang_su": {
+        "message": "ᱥᱚᱺᱰᱟᱱᱤᱡᱽ"
+    },
+    "lang_sw": {
+        "message": "ᱥᱣᱟᱦᱤᱞᱤ"
+    },
+    "lang_sv": {
+        "message": "ᱥᱣᱮᱫᱤᱥ"
+    },
+    "lang_tl": {
+        "message": "ᱴᱟᱜᱟᱞᱚᱜᱽ"
+    },
+    "lang_tg": {
+        "message": "ᱛᱟᱡᱤᱠᱤ"
+    },
+    "lang_ta": {
+        "message": "ᱛᱟᱢᱤᱞ"
+    },
+    "lang_tt": {
+        "message": "ᱴᱟᱴᱟᱨ"
+    },
+    "lang_te": {
+        "message": "ᱛᱮᱞᱩᱜᱩ"
+    },
+    "lang_th": {
+        "message": "ᱛᱷᱟᱭᱤ"
+    },
+    "lang_tr": {
+        "message": "ᱛᱩᱨᱠᱤᱥ"
+    },
+    "lang_tk": {
+        "message": "ᱛᱩᱨᱠᱢᱮᱱ"
+    },
+    "lang_uk": {
+        "message": "ᱭᱩᱠᱨᱮᱱ"
+    },
+    "lang_ur": {
+        "message": "ᱩᱨᱫᱩ"
+    },
+    "lang_ug": {
+        "message": "ᱩᱭᱜᱷᱩᱨ"
+    },
+    "lang_uz": {
+        "message": "ᱩᱡᱽᱵᱮᱠ"
+    },
+    "lang_vi": {
+        "message": "ᱵᱷᱤᱭᱮᱛᱱᱟᱢᱤᱡᱽ"
+    },
+    "lang_cy": {
+        "message": "ᱣᱮᱞᱥ"
+    },
+    "lang_xh": {
+        "message": "ᱠᱳᱥᱟ"
+    },
+    "lang_yi": {
+        "message": "ᱣᱤᱫᱤᱥ"
+    },
+    "lang_yo": {
+        "message": "ᱭᱚᱨᱩᱵᱟ"
+    },
+    "lang_zu": {
+        "message": "ᱡᱩᱹᱞᱩ"
+    },
+    "lang_en_US": {
+        "message": "ᱤᱝᱜᱽᱨᱟᱡᱤ (ᱟᱢᱮᱨᱤᱠᱤᱭᱚ)"
+    },
+    "lang_en_GB": {
+        "message": "ᱤᱝᱜᱽᱨᱟᱡᱤ (ᱵᱽᱨᱤᱴᱤᱥ)"
+    },
+    "lang_pt_PT": {
+        "message": " ᱯᱚᱨᱛᱩᱜᱤᱡᱽ"
+    },
+    "lang_pt_BR": {
+        "message": "ᱯᱚᱨᱛᱩᱜᱤᱡᱽ (ᱵᱽᱨᱟᱡᱤᱞᱤᱭᱟᱱ)"
+    },
+    "lang_zh": {
+        "message": "ᱪᱟᱭᱱᱤᱡᱽ"
+    }
 }

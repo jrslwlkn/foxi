@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
-  },
-  "donateWithPaypalLabel": {
-    "message": "පේපෑල් මගින් පරිත්‍යාග කරන්න"
-  },
-  "donateLabel": {
-    "message": "පරිත්‍යාග කරන්න"
-  },
-  "enableOnThisPage": {
-    "message": "මෙම පිටුවට පරිවර්තනය සබල කරන්න"
-  },
-  "disableOnThisPage": {
-    "message": "මෙම පිටුවට පරිවර්තනය අබල කරන්න"
-  },
-  "initialTextArea": {
-    "message": "පාඨය යොදන්න"
-  },
-  "showLink": {
-    "message": "මෙම පිටුව පරිවර්තනය කරන්න"
-  },
-  "openInGoogleLabel": {
-    "message": "ගූගල් ට්‍රාන්ස්ලේට් හි අරින්න"
-  },
-  "openInDeeplLabel": {
-    "message": "ඩීපල්එල් හි අරින්න"
-  },
-  "copyLabel": {
-    "message": "පිටපත්"
-  },
-  "copiedLabel": {
-    "message": "පිටපත් විය."
-  },
-  "listenLabel": {
-    "message": "සවන්දෙන්න"
-  },
-  "targetLangLabel": {
-    "message": "ඉලක්කගත භාෂාව"
-  },
-  "allLangLabel": {
-    "message": "සියළු භාෂා"
-  },
-  "recentLangLabel": {
-    "message": "මෑත භාෂා"
-  },
-  "settingsLabel": {
-    "message": "සැකසුම්"
-  },
-  "generalLabel": {
-    "message": "පොදු"
-  },
-  "translationApiLabel": {
-    "message": "පරිවර්තන යන්ත්‍රය"
-  },
-  "googleApiLabel": {
-    "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු."
-  },
-  "googleApiCaptionLabel": {
-    "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු. භාවිතා කරන්න. ලියාපදිංචිය අනවශ්‍යයි."
-  },
-  "deeplApiLabel": {
-    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු."
-  },
-  "deeplApiCaptionLabel": {
-    "message": "ඩීප්එල් යෙ.ක්‍ර.මු. භාවිතයට ඔබ ඩීප්එල් යෙ.ක්‍ර.මු. නොමිලේ හෝ ප්‍රෝ වෙත ලියාපදිංචිව සත්‍යාපන යතුරක් අත් කරගත යුතුය."
-  },
-  "howToUseDeeplLabel": {
-    "message": "ඩීප්එල් යෙ.ක්‍ර.මු. ලියාපදිංචි කරන්නේ කෙසේද?"
-  },
-  "deeplPlanLabel": {
-    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. සැලසුම"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "ඔබ ලියාපදිංචි වූ ඩීප්එල් යෙ.ක්‍ර.මු. සැලසුම තෝරන්න."
-  },
-  "deeplFreeLabel": {
-    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. නොමිලේ"
-  },
-  "deeplProLabel": {
-    "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. ප්‍රෝ"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "සත්‍යාපන යතුර"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "Enter the authentication key for the DeepL API."
-  },
-  "targetLangCaptionLabel": {
-    "message": "පෙරනිමි ඉලක්කගත භාෂාව තෝරන්න."
-  },
-  "webPageLabel": {
-    "message": "වියමන පිටුව"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Show translation candidates"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Show multiple translation candidates when a single word is translated."
-  },
-  "whenSelectTextLabel": {
-    "message": "Behavior when selecting text"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Display translation panel"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Directly display the translation panel without displaying the button."
-  },
-  "ifShowButtonLabel": {
-    "message": "පරිවර්තන බොත්තම පෙන්වන්න"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Display the translation button to open the panel when clicked."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Don't display button or panel"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Don't display the translation button or the translation panel."
-  },
-  "ifCheckLangLabel": {
-    "message": "Do not display the button if translation is not required"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
-  },
-  "disableTranslationLabel": {
-    "message": "පරිවර්තනය අබල කරන්න"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "පාඨ ක්‍ෂේත්‍රවල පරිවර්තනය අබල කරන්න"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in a text field."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "කේත අනන්‍යනවල පරිවර්තනය අබල කරන්න"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Don't display translation button or panel when selecting text in code tag."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Translate on modifier key pressed"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Only display translation on specified modifier key pressed."
-  },
-  "modifierKeyLabel": {
-    "message": "සංශෝධන යතුර"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "විධානය"
-  },
-  "disableUrlListLabel": {
-    "message": "පරිවර්තනය අබල කිරීමට ඒ.ස.නි. ලේඛනය"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
-  },
-  "toolbarLabel": {
-    "message": "Toolbar popup"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "Automatically switch to the second language"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
-  },
-  "secondTargetLangLabel": {
-    "message": "දෙවන භාෂාව"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "Select the second target language."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Disable translation by lang attribute"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
-  },
-  "waitTimeLabel": {
-    "message": "Waiting time to translate"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "If you translate it many times in a short time, it may become unusable for a while."
-  },
-  "menuLabel": {
-    "message": "Context menu"
-  },
-  "ifShowMenuLabel": {
-    "message": "Display the context menu"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
-  },
-  "pageTranslationLabel": {
-    "message": "Page translation"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Tab to display translation results"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Specify the tab to display the results of the page translation."
-  },
-  "newTabLabel": {
-    "message": "New tab"
-  },
-  "currentTabLabel": {
-    "message": "Current tab"
-  },
-  "styleLabel": {
-    "message": "මෝස්තරය"
-  },
-  "themeLabel": {
-    "message": "තේමාව"
-  },
-  "themeCaptionLabel": {
-    "message": "වර්ණාවලිය දක්වන්න."
-  },
-  "lightLabel": {
-    "message": "දීප්ත"
-  },
-  "darkLabel": {
-    "message": "අඳුරු"
-  },
-  "systemLabel": {
-    "message": "System"
-  },
-  "buttonStyleLabel": {
-    "message": "පරිවර්තන බොත්තම"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Specify the style of the translation button displayed on the web page."
-  },
-  "buttonSizeLabel": {
-    "message": "ප්‍රමාණය"
-  },
-  "buttonPositionLabel": {
-    "message": "පිහිටුම දර්ශනය"
-  },
-  "topRightLabel": {
-    "message": "මුදුනේ දකුණ"
-  },
-  "bottomRightLabel": {
-    "message": "පාදමේ දකුණ"
-  },
-  "topLeftLabel": {
-    "message": "මුදුනේ වම"
-  },
-  "bottomLeftLabel": {
-    "message": "පාදමේ වම"
-  },
-  "topLabel": {
-    "message": "ඉහළ"
-  },
-  "bottomLabel": {
-    "message": "පහළ"
-  },
-  "leftLabel": {
-    "message": "වම"
-  },
-  "rightLabel": {
-    "message": "දකුණ"
-  },
-  "positionOffsetLabel": {
-    "message": "Display position - Offset"
-  },
-  "panelStyleLabel": {
-    "message": "Translation panel"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Specify the style of the translation panel displayed on the web page."
-  },
-  "widthLabel": {
-    "message": "පළල"
-  },
-  "heightLabel": {
-    "message": "උස"
-  },
-  "fontSizeLabel": {
-    "message": "මුද්‍රණාක්ෂරයේ ප්‍රමාණය"
-  },
-  "referencePointLabel": {
-    "message": "Display position - Reference point"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "තෝරාගත් පාඨයෙහි පාදම"
-  },
-  "topSelectedTextLabel": {
-    "message": "තෝරාගත් පාඨයෙහි මුදුන"
-  },
-  "clickedPointLabel": {
-    "message": "Clicked point"
-  },
-  "displayDirectionLabel": {
-    "message": "Display position - Direction"
-  },
-  "resultFontColorLabel": {
-    "message": "Font color of translation result"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Override default colors with colors below"
-  },
-  "candidateFontColorLabel": {
-    "message": "Font color of translation candidates"
-  },
-  "bgColorLabel": {
-    "message": "පසුබිම් වර්ණය"
-  },
-  "otherLabel": {
-    "message": "වෙනත්"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Display option page when updating"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Display the options page when Simple Translate is updated. You can know the update contents quickly."
-  },
-  "isDebugModeLabel": {
-    "message": "Enable debug mode"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "When debug mode is enabled, the log is output to the debugger."
-  },
-  "exportSettingsLabel": {
-    "message": "නිර්යාත සැකසුම්"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Save the settings as a json file on the computer."
-  },
-  "exportButtonLabel": {
-    "message": "නිර්යාතය"
-  },
-  "importSettingsLabel": {
-    "message": "සැකසුම් ආයාතය"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Load the settings file saved on the computer."
-  },
-  "importButtonLabel": {
-    "message": "ආයාතය"
-  },
-  "resetSettingsLabel": {
-    "message": "සැකසුම් යළි පිහිටුවන්න"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "සියළු සැකසුම් පෙරනිමියට ප්‍රත්‍යර්පණය."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "යළි පිහිටුවන්න"
-  },
-  "shortcutsLabel": {
-    "message": "කෙටිමං"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "යතුරුපුවරුවේ කෙටිමං"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "යතුරුපුවරුවේ කෙටිමං සකසන්න."
-  },
-  "typeShortcutMessage": {
-    "message": "කෙටිමඟක් ලියන්න"
-  },
-  "typeLetterMessage": {
-    "message": "Type a letter"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Ctrl හෝ Alt අඩංගු කරන්න"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Include either Command, Ctrl or Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "The letter can not be used"
-  },
-  "invalidShortcutMessage": {
-    "message": "කෙටිමඟ භාවිතා කළ නොහැකිය"
-  },
-  "clear": {
-    "message": "හිස් කරන්න"
-  },
-  "reset": {
-    "message": "යලි පිහිටුවන්න"
-  },
-  "informationLabel": {
-    "message": "තොරතුරු"
-  },
-  "backersLabel": {
-    "message": "Backers"
-  },
-  "licenseLabel": {
-    "message": "බලපත්‍රය"
-  },
-  "donationLabel": {
-    "message": "පරිත්‍යාගයක් කරන්න"
-  },
-  "donationCaptionLabel": {
-    "message": "Thank you for using Simple Translate.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Simple Translate, I would be pleased if you could consider donating."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp වි-ත්‍යාග පත්"
-  },
-  "sponsorsLabel": {
-    "message": "අනුග්‍රාහකයින්"
-  },
-  "addonPageLabel": {
-    "message": "Add-on page"
-  },
-  "extensionPageLabel": {
-    "message": "Extension page"
-  },
-  "privacyPolicyLabel": {
-    "message": "රහස්‍යතා ප්‍රතිපත්තිය"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "දෝෂයකි: ජාලයේ සම්බන්ධතා තත්‍වය බලන්න."
-  },
-  "unavailableError": {
-    "message": "දෝෂයකි: සේවාව භාවිතයේ සීමාවට පැමිණුනි. පසුව උත්සාහ කරන්න."
-  },
-  "deeplAuthError": {
-    "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
-  },
-  "unknownError": {
-    "message": "දෝෂය: නොදන්නා දෝෂයකි"
-  },
-  "translatePageMenu": {
-    "message": "මෙම පිටුව පරිවර්තනය කරන්න"
-  },
-  "translateTextMenu": {
-    "message": "තේරූ භාෂාව පරිවර්තනය"
-  },
-  "translateLinkMenu": {
-    "message": "තේරූ සබැඳිය පරිවර්තනය"
-  },
-  "openPopupDescription": {
-    "message": "Open toolbar popup"
-  },
-  "lang_af": {
-    "message": "අප්‍රිකානු"
-  },
-  "lang_sq": {
-    "message": "ඇල්බේනියානු"
-  },
-  "lang_am": {
-    "message": "ඇම්හැරික්"
-  },
-  "lang_ar": {
-    "message": "අරාබි"
-  },
-  "lang_hy": {
-    "message": "ආර්මේනියානු"
-  },
-  "lang_az": {
-    "message": "අසර්බයිජානු"
-  },
-  "lang_eu": {
-    "message": "බොස්කෝ"
-  },
-  "lang_be": {
-    "message": "බෙලරුසියානු"
-  },
-  "lang_bn": {
-    "message": "බෙංගාලි"
-  },
-  "lang_bs": {
-    "message": "බොස්නියානු"
-  },
-  "lang_bg": {
-    "message": "බල්ගේරියානු"
-  },
-  "lang_ca": {
-    "message": "කැටලන්"
-  },
-  "lang_ceb": {
-    "message": "සෙබුආනෝ"
-  },
-  "lang_ny": {
-    "message": "චිචෙවා"
-  },
-  "lang_zh_CN": {
-    "message": "චීන (සරල)"
-  },
-  "lang_zh_TW": {
-    "message": "චීන (සාම්ප්‍රදායික)"
-  },
-  "lang_co": {
-    "message": "කෝර්සිකානු"
-  },
-  "lang_hr": {
-    "message": "ක්‍රෝයේශියානු"
-  },
-  "lang_cs": {
-    "message": "චෙක්"
-  },
-  "lang_da": {
-    "message": "ඩෙන්මාර්ක"
-  },
-  "lang_nl": {
-    "message": "ලන්දේසි"
-  },
-  "lang_en": {
-    "message": "ඉංග්‍රීසි"
-  },
-  "lang_eo": {
-    "message": "එස්පැරන්ටෝ"
-  },
-  "lang_et": {
-    "message": "එස්තෝනියානු"
-  },
-  "lang_fi": {
-    "message": "ෆින්ශ්"
-  },
-  "lang_fr": {
-    "message": "ප්‍රංශ"
-  },
-  "lang_fy": {
-    "message": "ෆ්‍රීසියානු"
-  },
-  "lang_gl": {
-    "message": "ගැලීසියානු"
-  },
-  "lang_ka": {
-    "message": "ජෝර්ජියානු"
-  },
-  "lang_de": {
-    "message": "ජර්මානු"
-  },
-  "lang_el": {
-    "message": "ග්‍රීක"
-  },
-  "lang_gu": {
-    "message": "ගුජරාටි"
-  },
-  "lang_ht": {
-    "message": "හයිටි"
-  },
-  "lang_ha": {
-    "message": "හෝසා"
-  },
-  "lang_haw": {
-    "message": "හවායි"
-  },
-  "lang_he": {
-    "message": "හීබෲ"
-  },
-  "lang_hi": {
-    "message": "හින්දි"
-  },
-  "lang_hu": {
-    "message": "හංගේරියානු"
-  },
-  "lang_is": {
-    "message": "අයිස්ලන්ත"
-  },
-  "lang_ig": {
-    "message": "ඉග්බෝ"
-  },
-  "lang_id": {
-    "message": "ඉන්දුනීසියානු"
-  },
-  "lang_ga": {
-    "message": "අයිරිෂ්"
-  },
-  "lang_it": {
-    "message": "ඉතාලි"
-  },
-  "lang_ja": {
-    "message": "ජපන්"
-  },
-  "lang_jv": {
-    "message": "ජාවා"
-  },
-  "lang_kn": {
-    "message": "කණ්ණඩ"
-  },
-  "lang_kk": {
-    "message": "කශාහ්"
-  },
-  "lang_km": {
-    "message": "කාම්බෝජියානු"
-  },
-  "lang_rw": {
-    "message": "කින්යාර්වන්ඩා"
-  },
-  "lang_ky": {
-    "message": "කිර්ගිස්"
-  },
-  "lang_ko": {
-    "message": "කොරියානු"
-  },
-  "lang_ku": {
-    "message": "කුර්දීෂ්"
-  },
-  "lang_lo": {
-    "message": "ලාඕ"
-  },
-  "lang_la": {
-    "message": "ලතින්"
-  },
-  "lang_lv": {
-    "message": "ලැට්වියානු"
-  },
-  "lang_lt": {
-    "message": "ලිතුවේනියානු"
-  },
-  "lang_lb": {
-    "message": "ලක්‍සෙම්බර්ග්"
-  },
-  "lang_mk": {
-    "message": "මැසදෝනියානු"
-  },
-  "lang_mg": {
-    "message": "මලගාසි"
-  },
-  "lang_ms": {
-    "message": "මැලේ"
-  },
-  "lang_ml": {
-    "message": "මලයාලම්"
-  },
-  "lang_mt": {
-    "message": "මොල්ටිස්"
-  },
-  "lang_mi": {
-    "message": "මඕරි"
-  },
-  "lang_mr": {
-    "message": "මරාති"
-  },
-  "lang_mn": {
-    "message": "මොංගෝලියානු"
-  },
-  "lang_hmn": {
-    "message": "මන්ක්"
-  },
-  "lang_my": {
-    "message": "බුරුම"
-  },
-  "lang_ne": {
-    "message": "නේපාල"
-  },
-  "lang_no": {
-    "message": "නෝර්වීජියානු"
-  },
-  "lang_or": {
-    "message": "ඔඩියා (ඔරියා)"
-  },
-  "lang_fa": {
-    "message": "පර්සියානු"
-  },
-  "lang_pl": {
-    "message": "පෝලන්ත"
-  },
-  "lang_pt": {
-    "message": "පෘතුගීසි"
-  },
-  "lang_pa": {
-    "message": "පංජාබි"
-  },
-  "lang_ps": {
-    "message": "පෂ්ටෝ"
-  },
-  "lang_ro": {
-    "message": "රොමේනියානු"
-  },
-  "lang_ru": {
-    "message": "රුසියානු"
-  },
-  "lang_sm": {
-    "message": "සමෝආ"
-  },
-  "lang_gd": {
-    "message": "ස්කොට් ගැලික්"
-  },
-  "lang_sr": {
-    "message": "සර්බියානු"
-  },
-  "lang_st": {
-    "message": "සෙසෝතෝ"
-  },
-  "lang_sn": {
-    "message": "ෂෝනා"
-  },
-  "lang_sd": {
-    "message": "සින්ධි"
-  },
-  "lang_si": {
-    "message": "සිංහල"
-  },
-  "lang_sk": {
-    "message": "ස්ලෝවැක්"
-  },
-  "lang_sl": {
-    "message": "ස්ලෝවේනියානු"
-  },
-  "lang_so": {
-    "message": "සෝමාලි"
-  },
-  "lang_es": {
-    "message": "ස්පාඤ්ඤ"
-  },
-  "lang_su": {
-    "message": "සන්ඩා"
-  },
-  "lang_sw": {
-    "message": "ස්වාහිලි"
-  },
-  "lang_sv": {
-    "message": "ස්වීඩන්"
-  },
-  "lang_tl": {
-    "message": "ටැගලොග්"
-  },
-  "lang_tg": {
-    "message": "ටජික්"
-  },
-  "lang_ta": {
-    "message": "දෙමළ"
-  },
-  "lang_tt": {
-    "message": "ටටාර්"
-  },
-  "lang_te": {
-    "message": "තෙලිඟු"
-  },
-  "lang_th": {
-    "message": "තායි"
-  },
-  "lang_tr": {
-    "message": "තුර්කි"
-  },
-  "lang_tk": {
-    "message": "ටර්මෙන්"
-  },
-  "lang_uk": {
-    "message": "යුක්රේනියානු"
-  },
-  "lang_ur": {
-    "message": "උර්දු"
-  },
-  "lang_ug": {
-    "message": "උයිඝුර්"
-  },
-  "lang_uz": {
-    "message": "උස්බෙක්"
-  },
-  "lang_vi": {
-    "message": "වියට්නාම"
-  },
-  "lang_cy": {
-    "message": "වෙල්ස්"
-  },
-  "lang_xh": {
-    "message": "ශෝසා"
-  },
-  "lang_yi": {
-    "message": "යුදෙව්"
-  },
-  "lang_yo": {
-    "message": "යොරුබා"
-  },
-  "lang_zu": {
-    "message": "සුලු"
-  },
-  "lang_en_US": {
-    "message": "ඉංග්‍රීසි (ඇමෙරිකානු)"
-  },
-  "lang_en_GB": {
-    "message": "ඉංග්‍රීසි (බ්‍රිතාන්‍ය)"
-  },
-  "lang_pt_PT": {
-    "message": "පෘතුගීසි"
-  },
-  "lang_pt_BR": {
-    "message": "පෘතුගීසි (බ්‍රසීලය)"
-  },
-  "lang_zh": {
-    "message": "චීන"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Quickly translate selected or typed text on web pages. Supports Google Translate and DeepL API."
+    },
+    "donateWithPaypalLabel": {
+        "message": "පේපෑල් මගින් පරිත්‍යාග කරන්න"
+    },
+    "donateLabel": {
+        "message": "පරිත්‍යාග කරන්න"
+    },
+    "enableOnThisPage": {
+        "message": "මෙම පිටුවට පරිවර්තනය සබල කරන්න"
+    },
+    "disableOnThisPage": {
+        "message": "මෙම පිටුවට පරිවර්තනය අබල කරන්න"
+    },
+    "initialTextArea": {
+        "message": "පාඨය යොදන්න"
+    },
+    "showLink": {
+        "message": "මෙම පිටුව පරිවර්තනය කරන්න"
+    },
+    "openInGoogleLabel": {
+        "message": "ගූගල් ට්‍රාන්ස්ලේට් හි අරින්න"
+    },
+    "openInDeeplLabel": {
+        "message": "ඩීපල්එල් හි අරින්න"
+    },
+    "copyLabel": {
+        "message": "පිටපත්"
+    },
+    "copiedLabel": {
+        "message": "පිටපත් විය."
+    },
+    "listenLabel": {
+        "message": "සවන්දෙන්න"
+    },
+    "targetLangLabel": {
+        "message": "ඉලක්කගත භාෂාව"
+    },
+    "allLangLabel": {
+        "message": "සියළු භාෂා"
+    },
+    "recentLangLabel": {
+        "message": "මෑත භාෂා"
+    },
+    "settingsLabel": {
+        "message": "සැකසුම්"
+    },
+    "generalLabel": {
+        "message": "පොදු"
+    },
+    "translationApiLabel": {
+        "message": "පරිවර්තන යන්ත්‍රය"
+    },
+    "googleApiLabel": {
+        "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු."
+    },
+    "googleApiCaptionLabel": {
+        "message": "ගූගල් ට්‍රාන්ස්ලේට් යෙ.ක්‍ර.මු. භාවිතා කරන්න. ලියාපදිංචිය අනවශ්‍යයි."
+    },
+    "deeplApiLabel": {
+        "message": "ඩීපල්එල් යෙ.ක්‍ර.මු."
+    },
+    "deeplApiCaptionLabel": {
+        "message": "ඩීප්එල් යෙ.ක්‍ර.මු. භාවිතයට ඔබ ඩීප්එල් යෙ.ක්‍ර.මු. නොමිලේ හෝ ප්‍රෝ වෙත ලියාපදිංචිව සත්‍යාපන යතුරක් අත් කරගත යුතුය."
+    },
+    "howToUseDeeplLabel": {
+        "message": "ඩීප්එල් යෙ.ක්‍ර.මු. ලියාපදිංචි කරන්නේ කෙසේද?"
+    },
+    "deeplPlanLabel": {
+        "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. සැලසුම"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "ඔබ ලියාපදිංචි වූ ඩීප්එල් යෙ.ක්‍ර.මු. සැලසුම තෝරන්න."
+    },
+    "deeplFreeLabel": {
+        "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. නොමිලේ"
+    },
+    "deeplProLabel": {
+        "message": "ඩීපල්එල් යෙ.ක්‍ර.මු. ප්‍රෝ"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "සත්‍යාපන යතුර"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "Enter the authentication key for the DeepL API."
+    },
+    "targetLangCaptionLabel": {
+        "message": "පෙරනිමි ඉලක්කගත භාෂාව තෝරන්න."
+    },
+    "webPageLabel": {
+        "message": "වියමන පිටුව"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Show translation candidates"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Show multiple translation candidates when a single word is translated."
+    },
+    "whenSelectTextLabel": {
+        "message": "Behavior when selecting text"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Display translation panel"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Directly display the translation panel without displaying the button."
+    },
+    "ifShowButtonLabel": {
+        "message": "පරිවර්තන බොත්තම පෙන්වන්න"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Display the translation button to open the panel when clicked."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Don't display button or panel"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Don't display the translation button or the translation panel."
+    },
+    "ifCheckLangLabel": {
+        "message": "Do not display the button if translation is not required"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the target language, the button is not displayed."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Detects the language of the selected text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "disableTranslationLabel": {
+        "message": "පරිවර්තනය අබල කරන්න"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "පාඨ ක්‍ෂේත්‍රවල පරිවර්තනය අබල කරන්න"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Don't display translation button or panel when selecting text in a text field."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "කේත අනන්‍යනවල පරිවර්තනය අබල කරන්න"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Don't display translation button or panel when selecting text in code tag."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Translate on modifier key pressed"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Only display translation on specified modifier key pressed."
+    },
+    "modifierKeyLabel": {
+        "message": "සංශෝධන යතුර"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "විධානය"
+    },
+    "disableUrlListLabel": {
+        "message": "පරිවර්තනය අබල කිරීමට ඒ.ස.නි. ලේඛනය"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "If the page URL matches the list, translation on the web page is disabled. The list allows \"*\" wildcards."
+    },
+    "toolbarLabel": {
+        "message": "Toolbar popup"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "Automatically switch to the second language"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Detects the language of the input text, and if it is the same as the default target language, translate it into the second language."
+    },
+    "secondTargetLangLabel": {
+        "message": "දෙවන භාෂාව"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "Select the second target language."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Disable translation by lang attribute"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Disable translation if the lang attribute in the html element of the page matches the list. Enter comma-separated language tags."
+    },
+    "waitTimeLabel": {
+        "message": "Waiting time to translate"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Specify the waiting time from the input of a character to the start of translation. (millisecond)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "If you translate it many times in a short time, it may become unusable for a while."
+    },
+    "menuLabel": {
+        "message": "Context menu"
+    },
+    "ifShowMenuLabel": {
+        "message": "Display the context menu"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Add items to the context menu displayed when right clicking on the web page or the tab."
+    },
+    "pageTranslationLabel": {
+        "message": "Page translation"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Tab to display translation results"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Specify the tab to display the results of the page translation."
+    },
+    "newTabLabel": {
+        "message": "New tab"
+    },
+    "currentTabLabel": {
+        "message": "Current tab"
+    },
+    "styleLabel": {
+        "message": "මෝස්තරය"
+    },
+    "themeLabel": {
+        "message": "තේමාව"
+    },
+    "themeCaptionLabel": {
+        "message": "වර්ණාවලිය දක්වන්න."
+    },
+    "lightLabel": {
+        "message": "දීප්ත"
+    },
+    "darkLabel": {
+        "message": "අඳුරු"
+    },
+    "systemLabel": {
+        "message": "System"
+    },
+    "buttonStyleLabel": {
+        "message": "පරිවර්තන බොත්තම"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Specify the style of the translation button displayed on the web page."
+    },
+    "buttonSizeLabel": {
+        "message": "ප්‍රමාණය"
+    },
+    "buttonPositionLabel": {
+        "message": "පිහිටුම දර්ශනය"
+    },
+    "topRightLabel": {
+        "message": "මුදුනේ දකුණ"
+    },
+    "bottomRightLabel": {
+        "message": "පාදමේ දකුණ"
+    },
+    "topLeftLabel": {
+        "message": "මුදුනේ වම"
+    },
+    "bottomLeftLabel": {
+        "message": "පාදමේ වම"
+    },
+    "topLabel": {
+        "message": "ඉහළ"
+    },
+    "bottomLabel": {
+        "message": "පහළ"
+    },
+    "leftLabel": {
+        "message": "වම"
+    },
+    "rightLabel": {
+        "message": "දකුණ"
+    },
+    "positionOffsetLabel": {
+        "message": "Display position - Offset"
+    },
+    "panelStyleLabel": {
+        "message": "Translation panel"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Specify the style of the translation panel displayed on the web page."
+    },
+    "widthLabel": {
+        "message": "පළල"
+    },
+    "heightLabel": {
+        "message": "උස"
+    },
+    "fontSizeLabel": {
+        "message": "මුද්‍රණාක්ෂරයේ ප්‍රමාණය"
+    },
+    "referencePointLabel": {
+        "message": "Display position - Reference point"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "තෝරාගත් පාඨයෙහි පාදම"
+    },
+    "topSelectedTextLabel": {
+        "message": "තෝරාගත් පාඨයෙහි මුදුන"
+    },
+    "clickedPointLabel": {
+        "message": "Clicked point"
+    },
+    "displayDirectionLabel": {
+        "message": "Display position - Direction"
+    },
+    "resultFontColorLabel": {
+        "message": "Font color of translation result"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Override default colors with colors below"
+    },
+    "candidateFontColorLabel": {
+        "message": "Font color of translation candidates"
+    },
+    "bgColorLabel": {
+        "message": "පසුබිම් වර්ණය"
+    },
+    "otherLabel": {
+        "message": "වෙනත්"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Display option page when updating"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Display the options page when Foxi is updated. You can know the update contents quickly."
+    },
+    "isDebugModeLabel": {
+        "message": "Enable debug mode"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "When debug mode is enabled, the log is output to the debugger."
+    },
+    "exportSettingsLabel": {
+        "message": "නිර්යාත සැකසුම්"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Save the settings as a json file on the computer."
+    },
+    "exportButtonLabel": {
+        "message": "නිර්යාතය"
+    },
+    "importSettingsLabel": {
+        "message": "සැකසුම් ආයාතය"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Load the settings file saved on the computer."
+    },
+    "importButtonLabel": {
+        "message": "ආයාතය"
+    },
+    "resetSettingsLabel": {
+        "message": "සැකසුම් යළි පිහිටුවන්න"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "සියළු සැකසුම් පෙරනිමියට ප්‍රත්‍යර්පණය."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "යළි පිහිටුවන්න"
+    },
+    "shortcutsLabel": {
+        "message": "කෙටිමං"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "යතුරුපුවරුවේ කෙටිමං"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "යතුරුපුවරුවේ කෙටිමං සකසන්න."
+    },
+    "typeShortcutMessage": {
+        "message": "කෙටිමඟක් ලියන්න"
+    },
+    "typeLetterMessage": {
+        "message": "Type a letter"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Ctrl හෝ Alt අඩංගු කරන්න"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Include either Command, Ctrl or Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "The letter can not be used"
+    },
+    "invalidShortcutMessage": {
+        "message": "කෙටිමඟ භාවිතා කළ නොහැකිය"
+    },
+    "clear": {
+        "message": "හිස් කරන්න"
+    },
+    "reset": {
+        "message": "යලි පිහිටුවන්න"
+    },
+    "informationLabel": {
+        "message": "තොරතුරු"
+    },
+    "backersLabel": {
+        "message": "Backers"
+    },
+    "licenseLabel": {
+        "message": "බලපත්‍රය"
+    },
+    "donationLabel": {
+        "message": "පරිත්‍යාගයක් කරන්න"
+    },
+    "donationCaptionLabel": {
+        "message": "Thank you for using Foxi.<br>Your support will be a big encouragement, as I continue to develop the add-on.<br>If you like Foxi, I would be pleased if you could consider donating."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp වි-ත්‍යාග පත්"
+    },
+    "sponsorsLabel": {
+        "message": "අනුග්‍රාහකයින්"
+    },
+    "addonPageLabel": {
+        "message": "Add-on page"
+    },
+    "extensionPageLabel": {
+        "message": "Extension page"
+    },
+    "privacyPolicyLabel": {
+        "message": "රහස්‍යතා ප්‍රතිපත්තිය"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "දෝෂයකි: ජාලයේ සම්බන්ධතා තත්‍වය බලන්න."
+    },
+    "unavailableError": {
+        "message": "දෝෂයකි: සේවාව භාවිතයේ සීමාවට පැමිණුනි. පසුව උත්සාහ කරන්න."
+    },
+    "deeplAuthError": {
+        "message": "Error: Authentication of DeepL API failed. Please set the authentication key and plan correctly on the settings page."
+    },
+    "unknownError": {
+        "message": "දෝෂය: නොදන්නා දෝෂයකි"
+    },
+    "translatePageMenu": {
+        "message": "මෙම පිටුව පරිවර්තනය කරන්න"
+    },
+    "translateTextMenu": {
+        "message": "තේරූ භාෂාව පරිවර්තනය"
+    },
+    "translateLinkMenu": {
+        "message": "තේරූ සබැඳිය පරිවර්තනය"
+    },
+    "openPopupDescription": {
+        "message": "Open toolbar popup"
+    },
+    "lang_af": {
+        "message": "අප්‍රිකානු"
+    },
+    "lang_sq": {
+        "message": "ඇල්බේනියානු"
+    },
+    "lang_am": {
+        "message": "ඇම්හැරික්"
+    },
+    "lang_ar": {
+        "message": "අරාබි"
+    },
+    "lang_hy": {
+        "message": "ආර්මේනියානු"
+    },
+    "lang_az": {
+        "message": "අසර්බයිජානු"
+    },
+    "lang_eu": {
+        "message": "බොස්කෝ"
+    },
+    "lang_be": {
+        "message": "බෙලරුසියානු"
+    },
+    "lang_bn": {
+        "message": "බෙංගාලි"
+    },
+    "lang_bs": {
+        "message": "බොස්නියානු"
+    },
+    "lang_bg": {
+        "message": "බල්ගේරියානු"
+    },
+    "lang_ca": {
+        "message": "කැටලන්"
+    },
+    "lang_ceb": {
+        "message": "සෙබුආනෝ"
+    },
+    "lang_ny": {
+        "message": "චිචෙවා"
+    },
+    "lang_zh_CN": {
+        "message": "චීන (සරල)"
+    },
+    "lang_zh_TW": {
+        "message": "චීන (සාම්ප්‍රදායික)"
+    },
+    "lang_co": {
+        "message": "කෝර්සිකානු"
+    },
+    "lang_hr": {
+        "message": "ක්‍රෝයේශියානු"
+    },
+    "lang_cs": {
+        "message": "චෙක්"
+    },
+    "lang_da": {
+        "message": "ඩෙන්මාර්ක"
+    },
+    "lang_nl": {
+        "message": "ලන්දේසි"
+    },
+    "lang_en": {
+        "message": "ඉංග්‍රීසි"
+    },
+    "lang_eo": {
+        "message": "එස්පැරන්ටෝ"
+    },
+    "lang_et": {
+        "message": "එස්තෝනියානු"
+    },
+    "lang_fi": {
+        "message": "ෆින්ශ්"
+    },
+    "lang_fr": {
+        "message": "ප්‍රංශ"
+    },
+    "lang_fy": {
+        "message": "ෆ්‍රීසියානු"
+    },
+    "lang_gl": {
+        "message": "ගැලීසියානු"
+    },
+    "lang_ka": {
+        "message": "ජෝර්ජියානු"
+    },
+    "lang_de": {
+        "message": "ජර්මානු"
+    },
+    "lang_el": {
+        "message": "ග්‍රීක"
+    },
+    "lang_gu": {
+        "message": "ගුජරාටි"
+    },
+    "lang_ht": {
+        "message": "හයිටි"
+    },
+    "lang_ha": {
+        "message": "හෝසා"
+    },
+    "lang_haw": {
+        "message": "හවායි"
+    },
+    "lang_he": {
+        "message": "හීබෲ"
+    },
+    "lang_hi": {
+        "message": "හින්දි"
+    },
+    "lang_hu": {
+        "message": "හංගේරියානු"
+    },
+    "lang_is": {
+        "message": "අයිස්ලන්ත"
+    },
+    "lang_ig": {
+        "message": "ඉග්බෝ"
+    },
+    "lang_id": {
+        "message": "ඉන්දුනීසියානු"
+    },
+    "lang_ga": {
+        "message": "අයිරිෂ්"
+    },
+    "lang_it": {
+        "message": "ඉතාලි"
+    },
+    "lang_ja": {
+        "message": "ජපන්"
+    },
+    "lang_jv": {
+        "message": "ජාවා"
+    },
+    "lang_kn": {
+        "message": "කණ්ණඩ"
+    },
+    "lang_kk": {
+        "message": "කශාහ්"
+    },
+    "lang_km": {
+        "message": "කාම්බෝජියානු"
+    },
+    "lang_rw": {
+        "message": "කින්යාර්වන්ඩා"
+    },
+    "lang_ky": {
+        "message": "කිර්ගිස්"
+    },
+    "lang_ko": {
+        "message": "කොරියානු"
+    },
+    "lang_ku": {
+        "message": "කුර්දීෂ්"
+    },
+    "lang_lo": {
+        "message": "ලාඕ"
+    },
+    "lang_la": {
+        "message": "ලතින්"
+    },
+    "lang_lv": {
+        "message": "ලැට්වියානු"
+    },
+    "lang_lt": {
+        "message": "ලිතුවේනියානු"
+    },
+    "lang_lb": {
+        "message": "ලක්‍සෙම්බර්ග්"
+    },
+    "lang_mk": {
+        "message": "මැසදෝනියානු"
+    },
+    "lang_mg": {
+        "message": "මලගාසි"
+    },
+    "lang_ms": {
+        "message": "මැලේ"
+    },
+    "lang_ml": {
+        "message": "මලයාලම්"
+    },
+    "lang_mt": {
+        "message": "මොල්ටිස්"
+    },
+    "lang_mi": {
+        "message": "මඕරි"
+    },
+    "lang_mr": {
+        "message": "මරාති"
+    },
+    "lang_mn": {
+        "message": "මොංගෝලියානු"
+    },
+    "lang_hmn": {
+        "message": "මන්ක්"
+    },
+    "lang_my": {
+        "message": "බුරුම"
+    },
+    "lang_ne": {
+        "message": "නේපාල"
+    },
+    "lang_no": {
+        "message": "නෝර්වීජියානු"
+    },
+    "lang_or": {
+        "message": "ඔඩියා (ඔරියා)"
+    },
+    "lang_fa": {
+        "message": "පර්සියානු"
+    },
+    "lang_pl": {
+        "message": "පෝලන්ත"
+    },
+    "lang_pt": {
+        "message": "පෘතුගීසි"
+    },
+    "lang_pa": {
+        "message": "පංජාබි"
+    },
+    "lang_ps": {
+        "message": "පෂ්ටෝ"
+    },
+    "lang_ro": {
+        "message": "රොමේනියානු"
+    },
+    "lang_ru": {
+        "message": "රුසියානු"
+    },
+    "lang_sm": {
+        "message": "සමෝආ"
+    },
+    "lang_gd": {
+        "message": "ස්කොට් ගැලික්"
+    },
+    "lang_sr": {
+        "message": "සර්බියානු"
+    },
+    "lang_st": {
+        "message": "සෙසෝතෝ"
+    },
+    "lang_sn": {
+        "message": "ෂෝනා"
+    },
+    "lang_sd": {
+        "message": "සින්ධි"
+    },
+    "lang_si": {
+        "message": "සිංහල"
+    },
+    "lang_sk": {
+        "message": "ස්ලෝවැක්"
+    },
+    "lang_sl": {
+        "message": "ස්ලෝවේනියානු"
+    },
+    "lang_so": {
+        "message": "සෝමාලි"
+    },
+    "lang_es": {
+        "message": "ස්පාඤ්ඤ"
+    },
+    "lang_su": {
+        "message": "සන්ඩා"
+    },
+    "lang_sw": {
+        "message": "ස්වාහිලි"
+    },
+    "lang_sv": {
+        "message": "ස්වීඩන්"
+    },
+    "lang_tl": {
+        "message": "ටැගලොග්"
+    },
+    "lang_tg": {
+        "message": "ටජික්"
+    },
+    "lang_ta": {
+        "message": "දෙමළ"
+    },
+    "lang_tt": {
+        "message": "ටටාර්"
+    },
+    "lang_te": {
+        "message": "තෙලිඟු"
+    },
+    "lang_th": {
+        "message": "තායි"
+    },
+    "lang_tr": {
+        "message": "තුර්කි"
+    },
+    "lang_tk": {
+        "message": "ටර්මෙන්"
+    },
+    "lang_uk": {
+        "message": "යුක්රේනියානු"
+    },
+    "lang_ur": {
+        "message": "උර්දු"
+    },
+    "lang_ug": {
+        "message": "උයිඝුර්"
+    },
+    "lang_uz": {
+        "message": "උස්බෙක්"
+    },
+    "lang_vi": {
+        "message": "වියට්නාම"
+    },
+    "lang_cy": {
+        "message": "වෙල්ස්"
+    },
+    "lang_xh": {
+        "message": "ශෝසා"
+    },
+    "lang_yi": {
+        "message": "යුදෙව්"
+    },
+    "lang_yo": {
+        "message": "යොරුබා"
+    },
+    "lang_zu": {
+        "message": "සුලු"
+    },
+    "lang_en_US": {
+        "message": "ඉංග්‍රීසි (ඇමෙරිකානු)"
+    },
+    "lang_en_GB": {
+        "message": "ඉංග්‍රීසි (බ්‍රිතාන්‍ය)"
+    },
+    "lang_pt_PT": {
+        "message": "පෘතුගීසි"
+    },
+    "lang_pt_BR": {
+        "message": "පෘතුගීසි (බ්‍රසීලය)"
+    },
+    "lang_zh": {
+        "message": "චීන"
+    }
 }

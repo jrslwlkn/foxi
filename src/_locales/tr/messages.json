@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "Web sayfalarında seçtğiniz metni hızlıca çevirin. Google Translate ve DeepL API'yi destekler."
-  },
-  "donateWithPaypalLabel": {
-    "message": "PayPal ile bağış yapın"
-  },
-  "donateLabel": {
-    "message": "Bağış"
-  },
-  "enableOnThisPage": {
-    "message": "Çeviriyi bu sayfada etkinleştirin"
-  },
-  "disableOnThisPage": {
-    "message": "Çeviriyi bu sayfada devre dışı bırakın"
-  },
-  "initialTextArea": {
-    "message": "Metin girin"
-  },
-  "showLink": {
-    "message": "Bu sayfayı çevir"
-  },
-  "openInGoogleLabel": {
-    "message": "Google Translate'de aç"
-  },
-  "openInDeeplLabel": {
-    "message": "DeepL Translator'da Aç"
-  },
-  "copyLabel": {
-    "message": "Kopyala"
-  },
-  "copiedLabel": {
-    "message": "Kopyalandı."
-  },
-  "listenLabel": {
-    "message": "Dinle"
-  },
-  "targetLangLabel": {
-    "message": "Hedef dil"
-  },
-  "allLangLabel": {
-    "message": "Tüm Diller"
-  },
-  "recentLangLabel": {
-    "message": "Son kullanılan diller"
-  },
-  "settingsLabel": {
-    "message": "Ayarlar"
-  },
-  "generalLabel": {
-    "message": "Genel"
-  },
-  "translationApiLabel": {
-    "message": "Çeviri motoru"
-  },
-  "googleApiLabel": {
-    "message": "Google Translate API'si"
-  },
-  "googleApiCaptionLabel": {
-    "message": "Google Translate API'sini kullanın. Üyelik gerekli değildir."
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "DeepL API'sini kullanın. Kimlik doğrulama anahtarı almak için DeepL API Free veya DeepL API Pro'ya kaydolmalısınız."
-  },
-  "howToUseDeeplLabel": {
-    "message": "DeepL API'ye nasıl üye olunur"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API hizmet planı"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "Kaydolduğunuz DeepL API planını seçin."
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Ücretsiz"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "Doğrulama anahtarı"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "DeepL API için kimlik doğrulama anahtarını girin."
-  },
-  "targetLangCaptionLabel": {
-    "message": "Varsayılan hedef dilini seçin."
-  },
-  "webPageLabel": {
-    "message": "İnternet sayfası"
-  },
-  "ifShowCandidateLabel": {
-    "message": "Kelimenin diğer anlamlarını da göster"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "Çevirmek için tek kelime seçildiğinde o kelimenin mevcut olan birden fazla anlamını da göster."
-  },
-  "whenSelectTextLabel": {
-    "message": "Metin seçerken beklenen davranış"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "Çeviri panelini görüntüle"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "Butonu görüntülemeden çeviri panelini doğrudan görüntüleyin."
-  },
-  "ifShowButtonLabel": {
-    "message": "Çeviri butonunu göster"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "Paneli göstermesi için tıklayabileceğim simgeyi görüntüle."
-  },
-  "dontshowbuttonlabel": {
-    "message": "Butonu veya paneli görüntüleme"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "Çeviri butonunu veya çeviri panelini görüntülemeyin."
-  },
-  "ifCheckLangLabel": {
-    "message": "Çeviri gerekli değilse butonu görüntülemeyin"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa buton görüntülenmez."
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
-  },
-  "disableTranslationLabel": {
-    "message": "Çeviriyi devre dışı bırak"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "HTML kod etiketlerinde çeviriyi devre dışı bırak"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "Kod etiketinde metin seçerken çeviri butonunu veya paneli görüntülemeyin."
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "Değiştirici tuşa basıldığında çevir"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "Çeviriyi yalnızca belirtilen değiştirici tuşa basıldığında görüntüleyin."
-  },
-  "modifierKeyLabel": {
-    "message": "Değiştirici Tuş"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "Bu URL'lerde çeviriyi devre dışı bırak"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "Sayfa URL'si listeyle eşleşiyorsa sayfadaki çeviri devre dışı bırakılır. Liste \"*\" joker karaktere izin verir."
-  },
-  "toolbarLabel": {
-    "message": "Tarayıcı araç çubuğu penceresi"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "İkinci dile otomatik geç"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "Seçilen metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
-  },
-  "secondTargetLangLabel": {
-    "message": "İkinci dil"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "İkinci hedef dilini seçin."
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "Lang özniteliğine göre çeviriyi devre dışı bırak"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketleri girin."
-  },
-  "waitTimeLabel": {
-    "message": "Çevirmek için bekleme süresi"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "Kısa sürede birçok kez çevirirseniz bir süreliğine sistem kullanım dışı kalabilir."
-  },
-  "menuLabel": {
-    "message": "İçerik menüsü"
-  },
-  "ifShowMenuLabel": {
-    "message": "İçerik menüsünde göster"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "Sayfaya ya da sekmeye sağ tıklandığında içerik menüsüne ekle."
-  },
-  "pageTranslationLabel": {
-    "message": "Sayfa çevirisi"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "Çeviri sonuçlarını görüntülemek için sekme"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "Sayfa çeviri sonuçlarını görüntülemek için sekmeyi belirleyin."
-  },
-  "newTabLabel": {
-    "message": "Yeni sekme"
-  },
-  "currentTabLabel": {
-    "message": "Mevcut sekme"
-  },
-  "styleLabel": {
-    "message": "Görünüm"
-  },
-  "themeLabel": {
-    "message": "Tema"
-  },
-  "themeCaptionLabel": {
-    "message": "Renk düzenini seçin."
-  },
-  "lightLabel": {
-    "message": "Açık"
-  },
-  "darkLabel": {
-    "message": "Koyu"
-  },
-  "systemLabel": {
-    "message": "Sistem"
-  },
-  "buttonStyleLabel": {
-    "message": "Çeviri butonu"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri butonunun stilini belirleyin."
-  },
-  "buttonSizeLabel": {
-    "message": "Boyut"
-  },
-  "buttonPositionLabel": {
-    "message": "Ekran konumu"
-  },
-  "topRightLabel": {
-    "message": "Sağ üst"
-  },
-  "bottomRightLabel": {
-    "message": "Sağ alt"
-  },
-  "topLeftLabel": {
-    "message": "Sol üst"
-  },
-  "bottomLeftLabel": {
-    "message": "Sol alt"
-  },
-  "topLabel": {
-    "message": "Üst"
-  },
-  "bottomLabel": {
-    "message": "Alt"
-  },
-  "leftLabel": {
-    "message": "Sol"
-  },
-  "rightLabel": {
-    "message": "Sağ"
-  },
-  "positionOffsetLabel": {
-    "message": "Ekran konumu - Kenardan uzaklık"
-  },
-  "panelStyleLabel": {
-    "message": "Çeviri paneli"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "Web sayfasında görüntülenen çeviri panelinin stilini belirleyin."
-  },
-  "widthLabel": {
-    "message": "Genişlik"
-  },
-  "heightLabel": {
-    "message": "Yükseklik"
-  },
-  "fontSizeLabel": {
-    "message": "Yazı tipi boyutu"
-  },
-  "referencePointLabel": {
-    "message": "Ekran konumu - Referans noktası"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "Seçili metnin altı"
-  },
-  "topSelectedTextLabel": {
-    "message": "Seçili metnin üstü"
-  },
-  "clickedPointLabel": {
-    "message": "Tıklanan nokta"
-  },
-  "displayDirectionLabel": {
-    "message": "Ekran konumu - Yön"
-  },
-  "resultFontColorLabel": {
-    "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
-  },
-  "isOverrideColorsLabel": {
-    "message": "Varsayılan renkleri alttaki renklerle geçersiz kıl"
-  },
-  "candidateFontColorLabel": {
-    "message": "Kelimeye ait diğer anlamların yazı tipi rengi"
-  },
-  "bgColorLabel": {
-    "message": "Çeviri panelinin arka plan rengi"
-  },
-  "otherLabel": {
-    "message": "Diğer"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate güncellendiğinde ayarlar sayfasını görüntüleyerek değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
-  },
-  "isDebugModeLabel": {
-    "message": "Hata ayıklama modunu etkinleştir"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "Hata ayıklama modu etkinleştirildiğinde günlük hata ayıklayıcıya gönderilir."
-  },
-  "exportSettingsLabel": {
-    "message": "Ayarları dışa aktar"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "Ayarları json dosyası olarak kaydedin."
-  },
-  "exportButtonLabel": {
-    "message": "Dışa aktar"
-  },
-  "importSettingsLabel": {
-    "message": "Ayarları içe aktar"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "Bilgisayara indirilen ayarlar dosyasını yükleyin."
-  },
-  "importButtonLabel": {
-    "message": "İçe aktar"
-  },
-  "resetSettingsLabel": {
-    "message": "Ayarları sıfırla"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "Tüm ayarları varsayılana sıfırla."
-  },
-  "resetSettingsButtonLabel": {
-    "message": "Sıfırla"
-  },
-  "shortcutsLabel": {
-    "message": "Kısayollar"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "Klavye kısayolları"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "Klavye kısayollarını ayarlayın."
-  },
-  "typeShortcutMessage": {
-    "message": "Bir kısayol yazın"
-  },
-  "typeLetterMessage": {
-    "message": "Bir harf yazın"
-  },
-  "includeModifierKeysMessage": {
-    "message": "Ctrl veya Alt’ı dahil et"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "Command tuşunu, Ctrl veya Alt'ı dahil edin"
-  },
-  "invalidLetterMessage": {
-    "message": "Harf kullanılamaz"
-  },
-  "invalidShortcutMessage": {
-    "message": "Kısayol kullanılamaz"
-  },
-  "clear": {
-    "message": "Temizle"
-  },
-  "reset": {
-    "message": "Sıfırla"
-  },
-  "informationLabel": {
-    "message": "Bilgi"
-  },
-  "backersLabel": {
-    "message": "Destekleyenler"
-  },
-  "licenseLabel": {
-    "message": "Lisans"
-  },
-  "donationLabel": {
-    "message": "Lütfen bağış yapın"
-  },
-  "donationCaptionLabel": {
-    "message": "Simple Translate'i kullandığınız için teşekkür ederiz.<br>Desteğiniz eklentiyi geliştirmeye devam etmemiz için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz bağış yaparak bizi mutlu edebilirsiniz."
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp eGift Cards"
-  },
-  "sponsorsLabel": {
-    "message": "Sponsorlar"
-  },
-  "addonPageLabel": {
-    "message": "Eklenti sayfası"
-  },
-  "extensionPageLabel": {
-    "message": "Uzantı sayfası"
-  },
-  "privacyPolicyLabel": {
-    "message": "Gizlilik politikası"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "Hata: Ağ bağlantısı durumunu kontrol edin."
-  },
-  "unavailableError": {
-    "message": "Hata: Servis kullanım limitine ulaşıldı. Lütfen biraz bekleyin ve tekrar deneyin."
-  },
-  "deeplAuthError": {
-    "message": "Hata: DeepL API'nin kimlik doğrulaması başarısız oldu. Lütfen kimlik doğrulama anahtarını ayarlar altında doğru şekilde ayarlayıp planlayın."
-  },
-  "unknownError": {
-    "message": "Hata: Bilinmeyen hata"
-  },
-  "translatePageMenu": {
-    "message": "Bu sayfayı çevir"
-  },
-  "translateTextMenu": {
-    "message": "Seçilen metni çevir"
-  },
-  "translateLinkMenu": {
-    "message": "Seçilen linki çevir"
-  },
-  "openPopupDescription": {
-    "message": "Tarayıcı araç çubuğu penceresini aç"
-  },
-  "lang_af": {
-    "message": "Afrikaanca"
-  },
-  "lang_sq": {
-    "message": "Arnavutça"
-  },
-  "lang_am": {
-    "message": "Amharca"
-  },
-  "lang_ar": {
-    "message": "Arapça"
-  },
-  "lang_hy": {
-    "message": "Ermenice"
-  },
-  "lang_az": {
-    "message": "Azerice"
-  },
-  "lang_eu": {
-    "message": "Baskça"
-  },
-  "lang_be": {
-    "message": "Belarusça"
-  },
-  "lang_bn": {
-    "message": "Bengalce"
-  },
-  "lang_bs": {
-    "message": "Boşnakça"
-  },
-  "lang_bg": {
-    "message": "Bulgarca"
-  },
-  "lang_ca": {
-    "message": "Katalanca"
-  },
-  "lang_ceb": {
-    "message": "Sabuanca"
-  },
-  "lang_ny": {
-    "message": "Çevaca"
-  },
-  "lang_zh_CN": {
-    "message": "Çince (Basitleştirilmiş)"
-  },
-  "lang_zh_TW": {
-    "message": "Çince (Geleneksel)"
-  },
-  "lang_co": {
-    "message": "Korsikaca"
-  },
-  "lang_hr": {
-    "message": "Hırvatça"
-  },
-  "lang_cs": {
-    "message": "Çekçe"
-  },
-  "lang_da": {
-    "message": "Danimarkaca"
-  },
-  "lang_nl": {
-    "message": "Flemenkçe"
-  },
-  "lang_en": {
-    "message": "İngilizce"
-  },
-  "lang_eo": {
-    "message": "Esperanto Dili"
-  },
-  "lang_et": {
-    "message": "Estonca"
-  },
-  "lang_fi": {
-    "message": "Fince"
-  },
-  "lang_fr": {
-    "message": "Fransızca"
-  },
-  "lang_fy": {
-    "message": "Frizce"
-  },
-  "lang_gl": {
-    "message": "Galiçyaca"
-  },
-  "lang_ka": {
-    "message": "Gürcüce"
-  },
-  "lang_de": {
-    "message": "Almanca"
-  },
-  "lang_el": {
-    "message": "Yunanca"
-  },
-  "lang_gu": {
-    "message": "Guceratça"
-  },
-  "lang_ht": {
-    "message": "Haitice"
-  },
-  "lang_ha": {
-    "message": "Hausaca"
-  },
-  "lang_haw": {
-    "message": "Hawai Dili"
-  },
-  "lang_he": {
-    "message": "İbranice"
-  },
-  "lang_hi": {
-    "message": "Hintçe"
-  },
-  "lang_hu": {
-    "message": "Macarca"
-  },
-  "lang_is": {
-    "message": "İzlandaca"
-  },
-  "lang_ig": {
-    "message": "İgbo Dili"
-  },
-  "lang_id": {
-    "message": "Endonezyaca"
-  },
-  "lang_ga": {
-    "message": "İrlandaca"
-  },
-  "lang_it": {
-    "message": "İtalyanca"
-  },
-  "lang_ja": {
-    "message": "Japonca"
-  },
-  "lang_jv": {
-    "message": "Cavaca"
-  },
-  "lang_kn": {
-    "message": "Kannada Dili"
-  },
-  "lang_kk": {
-    "message": "Kazakça"
-  },
-  "lang_km": {
-    "message": "Kmerce"
-  },
-  "lang_rw": {
-    "message": "Kinyarvanda Dili"
-  },
-  "lang_ky": {
-    "message": "Kırgızca"
-  },
-  "lang_ko": {
-    "message": "Korece"
-  },
-  "lang_ku": {
-    "message": "Kürtçe"
-  },
-  "lang_lo": {
-    "message": "Laoca"
-  },
-  "lang_la": {
-    "message": "Latince"
-  },
-  "lang_lv": {
-    "message": "Letonca"
-  },
-  "lang_lt": {
-    "message": "Litvanca"
-  },
-  "lang_lb": {
-    "message": "Lüksemburgca"
-  },
-  "lang_mk": {
-    "message": "Makedonca"
-  },
-  "lang_mg": {
-    "message": "Malgaşça"
-  },
-  "lang_ms": {
-    "message": "Malayca"
-  },
-  "lang_ml": {
-    "message": "Malayalamca"
-  },
-  "lang_mt": {
-    "message": "Maltaca"
-  },
-  "lang_mi": {
-    "message": "Maorice"
-  },
-  "lang_mr": {
-    "message": "Marathi Dili"
-  },
-  "lang_mn": {
-    "message": "Moğolca"
-  },
-  "lang_hmn": {
-    "message": "Monk Dili"
-  },
-  "lang_my": {
-    "message": "Birmanca"
-  },
-  "lang_ne": {
-    "message": "Nepalce"
-  },
-  "lang_no": {
-    "message": "Norveççe"
-  },
-  "lang_or": {
-    "message": "Oriya Dili"
-  },
-  "lang_fa": {
-    "message": "Farsça"
-  },
-  "lang_pl": {
-    "message": "Polonyaca"
-  },
-  "lang_pt": {
-    "message": "Portekizce"
-  },
-  "lang_pa": {
-    "message": "Pencapça"
-  },
-  "lang_ps": {
-    "message": "Peştuca"
-  },
-  "lang_ro": {
-    "message": "Rumence"
-  },
-  "lang_ru": {
-    "message": "Rusça"
-  },
-  "lang_sm": {
-    "message": "Samoaca"
-  },
-  "lang_gd": {
-    "message": "İskoçça"
-  },
-  "lang_sr": {
-    "message": "Sırpça"
-  },
-  "lang_st": {
-    "message": "Sotho Dili"
-  },
-  "lang_sn": {
-    "message": "Shona Dili"
-  },
-  "lang_sd": {
-    "message": "Sindhi"
-  },
-  "lang_si": {
-    "message": "Seylanca"
-  },
-  "lang_sk": {
-    "message": "Slovakça"
-  },
-  "lang_sl": {
-    "message": "Slovence"
-  },
-  "lang_so": {
-    "message": "Somalice"
-  },
-  "lang_es": {
-    "message": "İspanyolca"
-  },
-  "lang_su": {
-    "message": "Sundaca"
-  },
-  "lang_sw": {
-    "message": "Svahili"
-  },
-  "lang_sv": {
-    "message": "İsveççe"
-  },
-  "lang_tl": {
-    "message": "Tagalogca"
-  },
-  "lang_tg": {
-    "message": "Tacikçe"
-  },
-  "lang_ta": {
-    "message": "Tamilce"
-  },
-  "lang_tt": {
-    "message": "Tatarca"
-  },
-  "lang_te": {
-    "message": "Teluguca"
-  },
-  "lang_th": {
-    "message": "Tayca"
-  },
-  "lang_tr": {
-    "message": "Türkçe"
-  },
-  "lang_tk": {
-    "message": "Türkmence"
-  },
-  "lang_uk": {
-    "message": "Ukraynaca"
-  },
-  "lang_ur": {
-    "message": "Urduca"
-  },
-  "lang_ug": {
-    "message": "Uygurca"
-  },
-  "lang_uz": {
-    "message": "Özbekçe"
-  },
-  "lang_vi": {
-    "message": "Vietnamca"
-  },
-  "lang_cy": {
-    "message": "Galce"
-  },
-  "lang_xh": {
-    "message": "Xosa Dili"
-  },
-  "lang_yi": {
-    "message": "Yidiş"
-  },
-  "lang_yo": {
-    "message": "Yoruba Dili"
-  },
-  "lang_zu": {
-    "message": "Zuluca"
-  },
-  "lang_en_US": {
-    "message": "İngilizce (Amerika)"
-  },
-  "lang_en_GB": {
-    "message": "İngilizce (İngiltere)"
-  },
-  "lang_pt_PT": {
-    "message": "Portekizce"
-  },
-  "lang_pt_BR": {
-    "message": "Portekizce (Brezilya)"
-  },
-  "lang_zh": {
-    "message": "Çince"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "Web sayfalarında seçtğiniz metni hızlıca çevirin. Google Translate ve DeepL API'yi destekler."
+    },
+    "donateWithPaypalLabel": {
+        "message": "PayPal ile bağış yapın"
+    },
+    "donateLabel": {
+        "message": "Bağış"
+    },
+    "enableOnThisPage": {
+        "message": "Çeviriyi bu sayfada etkinleştirin"
+    },
+    "disableOnThisPage": {
+        "message": "Çeviriyi bu sayfada devre dışı bırakın"
+    },
+    "initialTextArea": {
+        "message": "Metin girin"
+    },
+    "showLink": {
+        "message": "Bu sayfayı çevir"
+    },
+    "openInGoogleLabel": {
+        "message": "Google Translate'de aç"
+    },
+    "openInDeeplLabel": {
+        "message": "DeepL Translator'da Aç"
+    },
+    "copyLabel": {
+        "message": "Kopyala"
+    },
+    "copiedLabel": {
+        "message": "Kopyalandı."
+    },
+    "listenLabel": {
+        "message": "Dinle"
+    },
+    "targetLangLabel": {
+        "message": "Hedef dil"
+    },
+    "allLangLabel": {
+        "message": "Tüm Diller"
+    },
+    "recentLangLabel": {
+        "message": "Son kullanılan diller"
+    },
+    "settingsLabel": {
+        "message": "Ayarlar"
+    },
+    "generalLabel": {
+        "message": "Genel"
+    },
+    "translationApiLabel": {
+        "message": "Çeviri motoru"
+    },
+    "googleApiLabel": {
+        "message": "Google Translate API'si"
+    },
+    "googleApiCaptionLabel": {
+        "message": "Google Translate API'sini kullanın. Üyelik gerekli değildir."
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "DeepL API'sini kullanın. Kimlik doğrulama anahtarı almak için DeepL API Free veya DeepL API Pro'ya kaydolmalısınız."
+    },
+    "howToUseDeeplLabel": {
+        "message": "DeepL API'ye nasıl üye olunur"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API hizmet planı"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "Kaydolduğunuz DeepL API planını seçin."
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Ücretsiz"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "Doğrulama anahtarı"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "DeepL API için kimlik doğrulama anahtarını girin."
+    },
+    "targetLangCaptionLabel": {
+        "message": "Varsayılan hedef dilini seçin."
+    },
+    "webPageLabel": {
+        "message": "İnternet sayfası"
+    },
+    "ifShowCandidateLabel": {
+        "message": "Kelimenin diğer anlamlarını da göster"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "Çevirmek için tek kelime seçildiğinde o kelimenin mevcut olan birden fazla anlamını da göster."
+    },
+    "whenSelectTextLabel": {
+        "message": "Metin seçerken beklenen davranış"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "Çeviri panelini görüntüle"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "Butonu görüntülemeden çeviri panelini doğrudan görüntüleyin."
+    },
+    "ifShowButtonLabel": {
+        "message": "Çeviri butonunu göster"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "Paneli göstermesi için tıklayabileceğim simgeyi görüntüle."
+    },
+    "dontshowbuttonlabel": {
+        "message": "Butonu veya paneli görüntüleme"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "Çeviri butonunu veya çeviri panelini görüntülemeyin."
+    },
+    "ifCheckLangLabel": {
+        "message": "Çeviri gerekli değilse butonu görüntülemeyin"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "Seçilen metnin dilini algılar ve hedef dil ile aynıysa buton görüntülenmez."
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "Seçili metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
+    },
+    "disableTranslationLabel": {
+        "message": "Çeviriyi devre dışı bırak"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "Metin alanlarındaki çeviriyi devre dışı bırakın"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "Bir metin alanında metin seçerken çeviri butonunu veya paneli görüntülemeyin."
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "HTML kod etiketlerinde çeviriyi devre dışı bırak"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "Kod etiketinde metin seçerken çeviri butonunu veya paneli görüntülemeyin."
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "Değiştirici tuşa basıldığında çevir"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "Çeviriyi yalnızca belirtilen değiştirici tuşa basıldığında görüntüleyin."
+    },
+    "modifierKeyLabel": {
+        "message": "Değiştirici Tuş"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "Bu URL'lerde çeviriyi devre dışı bırak"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "Sayfa URL'si listeyle eşleşiyorsa sayfadaki çeviri devre dışı bırakılır. Liste \"*\" joker karaktere izin verir."
+    },
+    "toolbarLabel": {
+        "message": "Tarayıcı araç çubuğu penceresi"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "İkinci dile otomatik geç"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "Seçilen metnin dilini algılar ve varsayılan hedef dille aynıysa ikinci dile çevirir."
+    },
+    "secondTargetLangLabel": {
+        "message": "İkinci dil"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "İkinci hedef dilini seçin."
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "Lang özniteliğine göre çeviriyi devre dışı bırak"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "Sayfanın html öğesindeki lang özniteliği listeyle eşleşiyorsa çeviriyi devre dışı bırakın. Virgülle ayrılmış dil etiketleri girin."
+    },
+    "waitTimeLabel": {
+        "message": "Çevirmek için bekleme süresi"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "Bir karakterin girişinden çevirinin başlangıcına kadar olan bekleme süresini belirtin. (milisaniye)"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "Kısa sürede birçok kez çevirirseniz bir süreliğine sistem kullanım dışı kalabilir."
+    },
+    "menuLabel": {
+        "message": "İçerik menüsü"
+    },
+    "ifShowMenuLabel": {
+        "message": "İçerik menüsünde göster"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "Sayfaya ya da sekmeye sağ tıklandığında içerik menüsüne ekle."
+    },
+    "pageTranslationLabel": {
+        "message": "Sayfa çevirisi"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "Çeviri sonuçlarını görüntülemek için sekme"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "Sayfa çeviri sonuçlarını görüntülemek için sekmeyi belirleyin."
+    },
+    "newTabLabel": {
+        "message": "Yeni sekme"
+    },
+    "currentTabLabel": {
+        "message": "Mevcut sekme"
+    },
+    "styleLabel": {
+        "message": "Görünüm"
+    },
+    "themeLabel": {
+        "message": "Tema"
+    },
+    "themeCaptionLabel": {
+        "message": "Renk düzenini seçin."
+    },
+    "lightLabel": {
+        "message": "Açık"
+    },
+    "darkLabel": {
+        "message": "Koyu"
+    },
+    "systemLabel": {
+        "message": "Sistem"
+    },
+    "buttonStyleLabel": {
+        "message": "Çeviri butonu"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "Web sayfasında görüntülenen çeviri butonunun stilini belirleyin."
+    },
+    "buttonSizeLabel": {
+        "message": "Boyut"
+    },
+    "buttonPositionLabel": {
+        "message": "Ekran konumu"
+    },
+    "topRightLabel": {
+        "message": "Sağ üst"
+    },
+    "bottomRightLabel": {
+        "message": "Sağ alt"
+    },
+    "topLeftLabel": {
+        "message": "Sol üst"
+    },
+    "bottomLeftLabel": {
+        "message": "Sol alt"
+    },
+    "topLabel": {
+        "message": "Üst"
+    },
+    "bottomLabel": {
+        "message": "Alt"
+    },
+    "leftLabel": {
+        "message": "Sol"
+    },
+    "rightLabel": {
+        "message": "Sağ"
+    },
+    "positionOffsetLabel": {
+        "message": "Ekran konumu - Kenardan uzaklık"
+    },
+    "panelStyleLabel": {
+        "message": "Çeviri paneli"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "Web sayfasında görüntülenen çeviri panelinin stilini belirleyin."
+    },
+    "widthLabel": {
+        "message": "Genişlik"
+    },
+    "heightLabel": {
+        "message": "Yükseklik"
+    },
+    "fontSizeLabel": {
+        "message": "Yazı tipi boyutu"
+    },
+    "referencePointLabel": {
+        "message": "Ekran konumu - Referans noktası"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "Seçili metnin altı"
+    },
+    "topSelectedTextLabel": {
+        "message": "Seçili metnin üstü"
+    },
+    "clickedPointLabel": {
+        "message": "Tıklanan nokta"
+    },
+    "displayDirectionLabel": {
+        "message": "Ekran konumu - Yön"
+    },
+    "resultFontColorLabel": {
+        "message": "Paneldeki çevrilmiş metnin yazı tipi rengi"
+    },
+    "isOverrideColorsLabel": {
+        "message": "Varsayılan renkleri alttaki renklerle geçersiz kıl"
+    },
+    "candidateFontColorLabel": {
+        "message": "Kelimeye ait diğer anlamların yazı tipi rengi"
+    },
+    "bgColorLabel": {
+        "message": "Çeviri panelinin arka plan rengi"
+    },
+    "otherLabel": {
+        "message": "Diğer"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "Güncelleme sırasında ayarlar sayfasını görüntüler"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Foxi güncellendiğinde ayarlar sayfasını görüntüleyerek değişiklikleri hızlı bir şekilde öğrenebilirsiniz."
+    },
+    "isDebugModeLabel": {
+        "message": "Hata ayıklama modunu etkinleştir"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "Hata ayıklama modu etkinleştirildiğinde günlük hata ayıklayıcıya gönderilir."
+    },
+    "exportSettingsLabel": {
+        "message": "Ayarları dışa aktar"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "Ayarları json dosyası olarak kaydedin."
+    },
+    "exportButtonLabel": {
+        "message": "Dışa aktar"
+    },
+    "importSettingsLabel": {
+        "message": "Ayarları içe aktar"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "Bilgisayara indirilen ayarlar dosyasını yükleyin."
+    },
+    "importButtonLabel": {
+        "message": "İçe aktar"
+    },
+    "resetSettingsLabel": {
+        "message": "Ayarları sıfırla"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "Tüm ayarları varsayılana sıfırla."
+    },
+    "resetSettingsButtonLabel": {
+        "message": "Sıfırla"
+    },
+    "shortcutsLabel": {
+        "message": "Kısayollar"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "Klavye kısayolları"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "Klavye kısayollarını ayarlayın."
+    },
+    "typeShortcutMessage": {
+        "message": "Bir kısayol yazın"
+    },
+    "typeLetterMessage": {
+        "message": "Bir harf yazın"
+    },
+    "includeModifierKeysMessage": {
+        "message": "Ctrl veya Alt’ı dahil et"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "Command tuşunu, Ctrl veya Alt'ı dahil edin"
+    },
+    "invalidLetterMessage": {
+        "message": "Harf kullanılamaz"
+    },
+    "invalidShortcutMessage": {
+        "message": "Kısayol kullanılamaz"
+    },
+    "clear": {
+        "message": "Temizle"
+    },
+    "reset": {
+        "message": "Sıfırla"
+    },
+    "informationLabel": {
+        "message": "Bilgi"
+    },
+    "backersLabel": {
+        "message": "Destekleyenler"
+    },
+    "licenseLabel": {
+        "message": "Lisans"
+    },
+    "donationLabel": {
+        "message": "Lütfen bağış yapın"
+    },
+    "donationCaptionLabel": {
+        "message": "Foxi'i kullandığınız için teşekkür ederiz.<br>Desteğiniz eklentiyi geliştirmeye devam etmemiz için büyük bir teşvik olacaktır.<br>Simpe Translate'i beğendiyseniz bağış yaparak bizi mutlu edebilirsiniz."
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp eGift Cards"
+    },
+    "sponsorsLabel": {
+        "message": "Sponsorlar"
+    },
+    "addonPageLabel": {
+        "message": "Eklenti sayfası"
+    },
+    "extensionPageLabel": {
+        "message": "Uzantı sayfası"
+    },
+    "privacyPolicyLabel": {
+        "message": "Gizlilik politikası"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=en_US"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "Hata: Ağ bağlantısı durumunu kontrol edin."
+    },
+    "unavailableError": {
+        "message": "Hata: Servis kullanım limitine ulaşıldı. Lütfen biraz bekleyin ve tekrar deneyin."
+    },
+    "deeplAuthError": {
+        "message": "Hata: DeepL API'nin kimlik doğrulaması başarısız oldu. Lütfen kimlik doğrulama anahtarını ayarlar altında doğru şekilde ayarlayıp planlayın."
+    },
+    "unknownError": {
+        "message": "Hata: Bilinmeyen hata"
+    },
+    "translatePageMenu": {
+        "message": "Bu sayfayı çevir"
+    },
+    "translateTextMenu": {
+        "message": "Seçilen metni çevir"
+    },
+    "translateLinkMenu": {
+        "message": "Seçilen linki çevir"
+    },
+    "openPopupDescription": {
+        "message": "Tarayıcı araç çubuğu penceresini aç"
+    },
+    "lang_af": {
+        "message": "Afrikaanca"
+    },
+    "lang_sq": {
+        "message": "Arnavutça"
+    },
+    "lang_am": {
+        "message": "Amharca"
+    },
+    "lang_ar": {
+        "message": "Arapça"
+    },
+    "lang_hy": {
+        "message": "Ermenice"
+    },
+    "lang_az": {
+        "message": "Azerice"
+    },
+    "lang_eu": {
+        "message": "Baskça"
+    },
+    "lang_be": {
+        "message": "Belarusça"
+    },
+    "lang_bn": {
+        "message": "Bengalce"
+    },
+    "lang_bs": {
+        "message": "Boşnakça"
+    },
+    "lang_bg": {
+        "message": "Bulgarca"
+    },
+    "lang_ca": {
+        "message": "Katalanca"
+    },
+    "lang_ceb": {
+        "message": "Sabuanca"
+    },
+    "lang_ny": {
+        "message": "Çevaca"
+    },
+    "lang_zh_CN": {
+        "message": "Çince (Basitleştirilmiş)"
+    },
+    "lang_zh_TW": {
+        "message": "Çince (Geleneksel)"
+    },
+    "lang_co": {
+        "message": "Korsikaca"
+    },
+    "lang_hr": {
+        "message": "Hırvatça"
+    },
+    "lang_cs": {
+        "message": "Çekçe"
+    },
+    "lang_da": {
+        "message": "Danimarkaca"
+    },
+    "lang_nl": {
+        "message": "Flemenkçe"
+    },
+    "lang_en": {
+        "message": "İngilizce"
+    },
+    "lang_eo": {
+        "message": "Esperanto Dili"
+    },
+    "lang_et": {
+        "message": "Estonca"
+    },
+    "lang_fi": {
+        "message": "Fince"
+    },
+    "lang_fr": {
+        "message": "Fransızca"
+    },
+    "lang_fy": {
+        "message": "Frizce"
+    },
+    "lang_gl": {
+        "message": "Galiçyaca"
+    },
+    "lang_ka": {
+        "message": "Gürcüce"
+    },
+    "lang_de": {
+        "message": "Almanca"
+    },
+    "lang_el": {
+        "message": "Yunanca"
+    },
+    "lang_gu": {
+        "message": "Guceratça"
+    },
+    "lang_ht": {
+        "message": "Haitice"
+    },
+    "lang_ha": {
+        "message": "Hausaca"
+    },
+    "lang_haw": {
+        "message": "Hawai Dili"
+    },
+    "lang_he": {
+        "message": "İbranice"
+    },
+    "lang_hi": {
+        "message": "Hintçe"
+    },
+    "lang_hu": {
+        "message": "Macarca"
+    },
+    "lang_is": {
+        "message": "İzlandaca"
+    },
+    "lang_ig": {
+        "message": "İgbo Dili"
+    },
+    "lang_id": {
+        "message": "Endonezyaca"
+    },
+    "lang_ga": {
+        "message": "İrlandaca"
+    },
+    "lang_it": {
+        "message": "İtalyanca"
+    },
+    "lang_ja": {
+        "message": "Japonca"
+    },
+    "lang_jv": {
+        "message": "Cavaca"
+    },
+    "lang_kn": {
+        "message": "Kannada Dili"
+    },
+    "lang_kk": {
+        "message": "Kazakça"
+    },
+    "lang_km": {
+        "message": "Kmerce"
+    },
+    "lang_rw": {
+        "message": "Kinyarvanda Dili"
+    },
+    "lang_ky": {
+        "message": "Kırgızca"
+    },
+    "lang_ko": {
+        "message": "Korece"
+    },
+    "lang_ku": {
+        "message": "Kürtçe"
+    },
+    "lang_lo": {
+        "message": "Laoca"
+    },
+    "lang_la": {
+        "message": "Latince"
+    },
+    "lang_lv": {
+        "message": "Letonca"
+    },
+    "lang_lt": {
+        "message": "Litvanca"
+    },
+    "lang_lb": {
+        "message": "Lüksemburgca"
+    },
+    "lang_mk": {
+        "message": "Makedonca"
+    },
+    "lang_mg": {
+        "message": "Malgaşça"
+    },
+    "lang_ms": {
+        "message": "Malayca"
+    },
+    "lang_ml": {
+        "message": "Malayalamca"
+    },
+    "lang_mt": {
+        "message": "Maltaca"
+    },
+    "lang_mi": {
+        "message": "Maorice"
+    },
+    "lang_mr": {
+        "message": "Marathi Dili"
+    },
+    "lang_mn": {
+        "message": "Moğolca"
+    },
+    "lang_hmn": {
+        "message": "Monk Dili"
+    },
+    "lang_my": {
+        "message": "Birmanca"
+    },
+    "lang_ne": {
+        "message": "Nepalce"
+    },
+    "lang_no": {
+        "message": "Norveççe"
+    },
+    "lang_or": {
+        "message": "Oriya Dili"
+    },
+    "lang_fa": {
+        "message": "Farsça"
+    },
+    "lang_pl": {
+        "message": "Polonyaca"
+    },
+    "lang_pt": {
+        "message": "Portekizce"
+    },
+    "lang_pa": {
+        "message": "Pencapça"
+    },
+    "lang_ps": {
+        "message": "Peştuca"
+    },
+    "lang_ro": {
+        "message": "Rumence"
+    },
+    "lang_ru": {
+        "message": "Rusça"
+    },
+    "lang_sm": {
+        "message": "Samoaca"
+    },
+    "lang_gd": {
+        "message": "İskoçça"
+    },
+    "lang_sr": {
+        "message": "Sırpça"
+    },
+    "lang_st": {
+        "message": "Sotho Dili"
+    },
+    "lang_sn": {
+        "message": "Shona Dili"
+    },
+    "lang_sd": {
+        "message": "Sindhi"
+    },
+    "lang_si": {
+        "message": "Seylanca"
+    },
+    "lang_sk": {
+        "message": "Slovakça"
+    },
+    "lang_sl": {
+        "message": "Slovence"
+    },
+    "lang_so": {
+        "message": "Somalice"
+    },
+    "lang_es": {
+        "message": "İspanyolca"
+    },
+    "lang_su": {
+        "message": "Sundaca"
+    },
+    "lang_sw": {
+        "message": "Svahili"
+    },
+    "lang_sv": {
+        "message": "İsveççe"
+    },
+    "lang_tl": {
+        "message": "Tagalogca"
+    },
+    "lang_tg": {
+        "message": "Tacikçe"
+    },
+    "lang_ta": {
+        "message": "Tamilce"
+    },
+    "lang_tt": {
+        "message": "Tatarca"
+    },
+    "lang_te": {
+        "message": "Teluguca"
+    },
+    "lang_th": {
+        "message": "Tayca"
+    },
+    "lang_tr": {
+        "message": "Türkçe"
+    },
+    "lang_tk": {
+        "message": "Türkmence"
+    },
+    "lang_uk": {
+        "message": "Ukraynaca"
+    },
+    "lang_ur": {
+        "message": "Urduca"
+    },
+    "lang_ug": {
+        "message": "Uygurca"
+    },
+    "lang_uz": {
+        "message": "Özbekçe"
+    },
+    "lang_vi": {
+        "message": "Vietnamca"
+    },
+    "lang_cy": {
+        "message": "Galce"
+    },
+    "lang_xh": {
+        "message": "Xosa Dili"
+    },
+    "lang_yi": {
+        "message": "Yidiş"
+    },
+    "lang_yo": {
+        "message": "Yoruba Dili"
+    },
+    "lang_zu": {
+        "message": "Zuluca"
+    },
+    "lang_en_US": {
+        "message": "İngilizce (Amerika)"
+    },
+    "lang_en_GB": {
+        "message": "İngilizce (İngiltere)"
+    },
+    "lang_pt_PT": {
+        "message": "Portekizce"
+    },
+    "lang_pt_BR": {
+        "message": "Portekizce (Brezilya)"
+    },
+    "lang_zh": {
+        "message": "Çince"
+    }
 }

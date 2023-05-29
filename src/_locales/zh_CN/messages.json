@@ -1,806 +1,806 @@
 {
-  "extName": {
-    "message": "Simple Translate"
-  },
-  "extDescription": {
-    "message": "在网页上快速翻译选定或输入的文本。支持 Google 翻译和DeepL API。"
-  },
-  "donateWithPaypalLabel": {
-    "message": "使用 PayPal 捐赠"
-  },
-  "donateLabel": {
-    "message": "捐助"
-  },
-  "enableOnThisPage": {
-    "message": "在此页面启用翻译"
-  },
-  "disableOnThisPage": {
-    "message": "在此页面禁用翻译"
-  },
-  "initialTextArea": {
-    "message": "输入文字"
-  },
-  "showLink": {
-    "message": "翻译此页面"
-  },
-  "openInGoogleLabel": {
-    "message": "在 Google 翻译中打开"
-  },
-  "openInDeeplLabel": {
-    "message": "在 DeepL 翻译器中打开"
-  },
-  "copyLabel": {
-    "message": "复制"
-  },
-  "copiedLabel": {
-    "message": "已复制。"
-  },
-  "listenLabel": {
-    "message": "朗读"
-  },
-  "targetLangLabel": {
-    "message": "目标语言"
-  },
-  "allLangLabel": {
-    "message": "所有语言"
-  },
-  "recentLangLabel": {
-    "message": "最近的语言"
-  },
-  "settingsLabel": {
-    "message": "设置"
-  },
-  "generalLabel": {
-    "message": "常规"
-  },
-  "translationApiLabel": {
-    "message": "翻译引擎"
-  },
-  "googleApiLabel": {
-    "message": "Google 翻译 API"
-  },
-  "googleApiCaptionLabel": {
-    "message": "使用 Google 翻译 API。无需注册。"
-  },
-  "deeplApiLabel": {
-    "message": "DeepL API"
-  },
-  "deeplApiCaptionLabel": {
-    "message": "使用 DeepL API。您必须用 DeepL API Free 或 DeepL API Pro 注册才能获得验证密钥。"
-  },
-  "howToUseDeeplLabel": {
-    "message": "如何注册 DeepL API"
-  },
-  "deeplPlanLabel": {
-    "message": "DeepL API 订阅计划"
-  },
-  "deeplPlanCaptionLabel": {
-    "message": "选择您注册的 DeepL API 计划。"
-  },
-  "deeplFreeLabel": {
-    "message": "DeepL API Free"
-  },
-  "deeplProLabel": {
-    "message": "DeepL API Pro"
-  },
-  "deeplAuthKeyLabel": {
-    "message": "认证密钥"
-  },
-  "deeplAuthKeyCaptionLabel": {
-    "message": "请输入 DeepL API 的认证密钥。"
-  },
-  "targetLangCaptionLabel": {
-    "message": "选择默认的目标语言"
-  },
-  "webPageLabel": {
-    "message": "网页"
-  },
-  "ifShowCandidateLabel": {
-    "message": "显示候选译文"
-  },
-  "ifShowCandidateCaptionLabel": {
-    "message": "翻译单词时显示多项候选翻译。"
-  },
-  "whenSelectTextLabel": {
-    "message": "选中文本时的行为"
-  },
-  "ifAutoTranslateLabel": {
-    "message": "显示翻译面板"
-  },
-  "ifAutoTranslateCaptionLabel": {
-    "message": "直接显示翻译面板而不显示按钮。"
-  },
-  "ifShowButtonLabel": {
-    "message": "显示翻译按钮"
-  },
-  "ifShowButtonCaptionLabel": {
-    "message": "显示翻译按钮以便在单击时打开面板。"
-  },
-  "dontshowbuttonlabel": {
-    "message": "不显示按钮或面板"
-  },
-  "dontshowbuttonCaptionlabel": {
-    "message": "不显示翻译按钮或翻译面板。"
-  },
-  "ifCheckLangLabel": {
-    "message": "不需要翻译时，不要显示按钮"
-  },
-  "ifCheckLangCaptionLabel": {
-    "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
-  },
-  "ifChangeSecondLangOnPageCaptionLabel": {
-    "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
-  },
-  "disableTranslationLabel": {
-    "message": "禁用翻译"
-  },
-  "isDisabledInTextFieldsLabel": {
-    "message": "禁用文本字段中的翻译"
-  },
-  "isDisabledInTextFieldsCaptionLabel": {
-    "message": "在文本字段中选择文本时，不显示翻译按钮或面板。"
-  },
-  "isDisabledInCodeElementLabel": {
-    "message": "在 <code> 标签中禁用翻译"
-  },
-  "isDisabledInCodeElementCaptionLabel": {
-    "message": "在 <code> 标签中选择文本时，不显示翻译按钮或面板。"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedLabel": {
-    "message": "按下修饰键时进行翻译"
-  },
-  "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
-    "message": "仅在按住指定的修饰键时显示翻译。"
-  },
-  "modifierKeyLabel": {
-    "message": "修饰键"
-  },
-  "shiftLabel": {
-    "message": "Shift"
-  },
-  "ctrlLabel": {
-    "message": "Ctrl"
-  },
-  "altLabel": {
-    "message": "Alt"
-  },
-  "cmdLabel": {
-    "message": "Command"
-  },
-  "disableUrlListLabel": {
-    "message": "要禁用翻译的 URL 列表"
-  },
-  "disableUrlListCaptionLabel": {
-    "message": "如果页面的URL匹配该白名单，该页面的翻译将被禁用。你可以使用“*”通配符。"
-  },
-  "toolbarLabel": {
-    "message": "工具栏弹出窗口"
-  },
-  "ifChangeSecondLangLabel": {
-    "message": "自动切换到第二语言"
-  },
-  "ifChangeSecondLangCaptionLabel": {
-    "message": "侦测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
-  },
-  "secondTargetLangLabel": {
-    "message": "第二语言:"
-  },
-  "secondTargetLangCaptionLabel": {
-    "message": "选择第二种目标语言。"
-  },
-  "ignoredDocumentLangLabel": {
-    "message": "元素带有 lang 属性时禁用翻译"
-  },
-  "ignoredDocumentLangCaptionLabel": {
-    "message": "HTML 元素的 lang 属性的值与语言列表中的某个标签匹配时，禁用翻译。请输入用逗号分隔的语言标签。"
-  },
-  "waitTimeLabel": {
-    "message": "翻译等待时间"
-  },
-  "waitTimeCaptionLabel": {
-    "message": "指定从字符输入到翻译开始的等待时间。（毫秒）"
-  },
-  "waitTime2CaptionLabel": {
-    "message": "如果您在短时间内翻译太多次，可能会暂时无法使用翻译功能。"
-  },
-  "menuLabel": {
-    "message": "右键菜单"
-  },
-  "ifShowMenuLabel": {
-    "message": "显示上下文菜单"
-  },
-  "ifShowMenuCaptionLabel": {
-    "message": "在网页或者标签页上右击时，将项目添加到显示的上下文菜单中。"
-  },
-  "pageTranslationLabel": {
-    "message": "页面翻译"
-  },
-  "pageTranslationOpenToLabel": {
-    "message": "用于显示翻译结果的标签页"
-  },
-  "pageTranslationOpenToCaptionLabel": {
-    "message": "指定用于显示翻译结果的标签页。"
-  },
-  "newTabLabel": {
-    "message": "新标签页"
-  },
-  "currentTabLabel": {
-    "message": "当前标签页"
-  },
-  "styleLabel": {
-    "message": "样式"
-  },
-  "themeLabel": {
-    "message": "主题"
-  },
-  "themeCaptionLabel": {
-    "message": "指定配色方案。"
-  },
-  "lightLabel": {
-    "message": "浅色"
-  },
-  "darkLabel": {
-    "message": "深色"
-  },
-  "systemLabel": {
-    "message": "系统"
-  },
-  "buttonStyleLabel": {
-    "message": "翻译按钮"
-  },
-  "buttonStyleCaptionLabel": {
-    "message": "指定在网页上显示的翻译按钮的样式。"
-  },
-  "buttonSizeLabel": {
-    "message": "大小"
-  },
-  "buttonPositionLabel": {
-    "message": "显示位置"
-  },
-  "topRightLabel": {
-    "message": "右上角"
-  },
-  "bottomRightLabel": {
-    "message": "右下角"
-  },
-  "topLeftLabel": {
-    "message": "左上角"
-  },
-  "bottomLeftLabel": {
-    "message": "左下角"
-  },
-  "topLabel": {
-    "message": "顶部"
-  },
-  "bottomLabel": {
-    "message": "底部"
-  },
-  "leftLabel": {
-    "message": "左侧"
-  },
-  "rightLabel": {
-    "message": "右侧"
-  },
-  "positionOffsetLabel": {
-    "message": "显示位置 - 偏移"
-  },
-  "panelStyleLabel": {
-    "message": "翻译面板"
-  },
-  "panelStyleCaptionLabel": {
-    "message": "指定在网页上显示的翻译面板的样式。"
-  },
-  "widthLabel": {
-    "message": "宽度"
-  },
-  "heightLabel": {
-    "message": "高度"
-  },
-  "fontSizeLabel": {
-    "message": "字体大小"
-  },
-  "referencePointLabel": {
-    "message": "显示位置 - 参考点"
-  },
-  "bottomSelectedTextLabel": {
-    "message": "所选文本的底部"
-  },
-  "topSelectedTextLabel": {
-    "message": "所选文本的顶部"
-  },
-  "clickedPointLabel": {
-    "message": "点击的位置"
-  },
-  "displayDirectionLabel": {
-    "message": "显示位置 - 方向"
-  },
-  "resultFontColorLabel": {
-    "message": "翻译结果的字体颜色"
-  },
-  "isOverrideColorsLabel": {
-    "message": "用下面的颜色覆盖默认颜色"
-  },
-  "candidateFontColorLabel": {
-    "message": "翻译候选的字体颜色"
-  },
-  "bgColorLabel": {
-    "message": "背景色"
-  },
-  "otherLabel": {
-    "message": "其他"
-  },
-  "isShowOptionsPageWhenUpdatedLabel": {
-    "message": "更新时显示选项页面"
-  },
-  "isShowOptionsPageWhenUpdatedCaptionLabel": {
-    "message": "Simple Translate 更新后显示选项页面从而快速了解更新内容。"
-  },
-  "isDebugModeLabel": {
-    "message": "启用调试模式"
-  },
-  "isDebugModeCaptionLabel": {
-    "message": "启用调试模式后, 日志将输出到调试器。"
-  },
-  "exportSettingsLabel": {
-    "message": "导出配置"
-  },
-  "exportSettingsCaptionLabel": {
-    "message": "将配置保存为 json 文件。"
-  },
-  "exportButtonLabel": {
-    "message": "导出"
-  },
-  "importSettingsLabel": {
-    "message": "导入配置"
-  },
-  "importSettingsCaptionLabel": {
-    "message": "加载计算机上保存的配置文件。"
-  },
-  "importButtonLabel": {
-    "message": "导入"
-  },
-  "resetSettingsLabel": {
-    "message": "重置设置"
-  },
-  "resetSettingsCaptionLabel": {
-    "message": "恢复所有设置为默认值。"
-  },
-  "resetSettingsButtonLabel": {
-    "message": "重置"
-  },
-  "shortcutsLabel": {
-    "message": "快捷键"
-  },
-  "keyboardShortcutsLabel": {
-    "message": "键盘快捷键"
-  },
-  "setKeyboardShortCutsMessage": {
-    "message": "设置键盘快捷键。"
-  },
-  "typeShortcutMessage": {
-    "message": "输入快捷键"
-  },
-  "typeLetterMessage": {
-    "message": "输入一个字母"
-  },
-  "includeModifierKeysMessage": {
-    "message": "必须包含 Ctrl 或 Alt"
-  },
-  "includeMacModifierKeysMessage": {
-    "message": "必须包含 Command，Ctrl 或 Alt"
-  },
-  "invalidLetterMessage": {
-    "message": "不能使用这个字母"
-  },
-  "invalidShortcutMessage": {
-    "message": "不能使用这个快捷键"
-  },
-  "clear": {
-    "message": "清除"
-  },
-  "reset": {
-    "message": "重置"
-  },
-  "informationLabel": {
-    "message": "信息"
-  },
-  "backersLabel": {
-    "message": "支持者"
-  },
-  "licenseLabel": {
-    "message": "授权条款"
-  },
-  "donationLabel": {
-    "message": "请捐助"
-  },
-  "donationCaptionLabel": {
-    "message": "感谢您使用Simple Translate！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Simple Translate，希望您可以考虑捐助。"
-  },
-  "amazonTitleLabel": {
-    "message": "amazon.co.jp 电子礼品卡"
-  },
-  "sponsorsLabel": {
-    "message": "赞助者"
-  },
-  "addonPageLabel": {
-    "message": "附加组件页面"
-  },
-  "extensionPageLabel": {
-    "message": "拓展页面"
-  },
-  "privacyPolicyLabel": {
-    "message": "隐私政策"
-  },
-  "amazonUrl": {
-    "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
-  },
-  "addonUrl": {
-    "message": "https://addons.mozilla.org/zh-CN/firefox/addon/simple-translate/?src=optionpage"
-  },
-  "networkError": {
-    "message": "错误：请检查您的网络连接状态"
-  },
-  "unavailableError": {
-    "message": "错误：已达服务使用限制。请稍后再试。"
-  },
-  "deeplAuthError": {
-    "message": "错误：DeepL API 认证失败。请在设置页面检查认证密钥和订阅计划是否输入和设置正确。"
-  },
-  "unknownError": {
-    "message": "错误：未知错误"
-  },
-  "translatePageMenu": {
-    "message": "翻译此页面"
-  },
-  "translateTextMenu": {
-    "message": "翻译选中的文本"
-  },
-  "translateLinkMenu": {
-    "message": "翻译选中的链接"
-  },
-  "openPopupDescription": {
-    "message": "打开工具栏弹出窗口"
-  },
-  "lang_af": {
-    "message": "南非荷兰语"
-  },
-  "lang_sq": {
-    "message": "阿尔巴尼亚语"
-  },
-  "lang_am": {
-    "message": "阿姆哈拉语"
-  },
-  "lang_ar": {
-    "message": "阿拉伯语"
-  },
-  "lang_hy": {
-    "message": "亚美尼亚语"
-  },
-  "lang_az": {
-    "message": "阿塞拜疆语"
-  },
-  "lang_eu": {
-    "message": "巴斯克语"
-  },
-  "lang_be": {
-    "message": "白俄罗斯语"
-  },
-  "lang_bn": {
-    "message": "孟加拉语"
-  },
-  "lang_bs": {
-    "message": "波斯尼亚语"
-  },
-  "lang_bg": {
-    "message": "保加利亚语"
-  },
-  "lang_ca": {
-    "message": "加泰罗尼亚语"
-  },
-  "lang_ceb": {
-    "message": "宿雾语"
-  },
-  "lang_ny": {
-    "message": "齐切瓦语"
-  },
-  "lang_zh_CN": {
-    "message": "中文（简体）"
-  },
-  "lang_zh_TW": {
-    "message": "中文（繁体）"
-  },
-  "lang_co": {
-    "message": "科西嘉语"
-  },
-  "lang_hr": {
-    "message": "克罗地亚语"
-  },
-  "lang_cs": {
-    "message": "捷克语"
-  },
-  "lang_da": {
-    "message": "丹麦语"
-  },
-  "lang_nl": {
-    "message": "荷兰语"
-  },
-  "lang_en": {
-    "message": "英语"
-  },
-  "lang_eo": {
-    "message": "世界语"
-  },
-  "lang_et": {
-    "message": "爱沙尼亚语"
-  },
-  "lang_fi": {
-    "message": "芬兰 语"
-  },
-  "lang_fr": {
-    "message": "法语"
-  },
-  "lang_fy": {
-    "message": "弗里斯兰语"
-  },
-  "lang_gl": {
-    "message": "加利西亚语"
-  },
-  "lang_ka": {
-    "message": "格鲁吉亚语"
-  },
-  "lang_de": {
-    "message": "德语"
-  },
-  "lang_el": {
-    "message": "希腊语"
-  },
-  "lang_gu": {
-    "message": "古吉拉特语"
-  },
-  "lang_ht": {
-    "message": "海地语"
-  },
-  "lang_ha": {
-    "message": "豪萨语"
-  },
-  "lang_haw": {
-    "message": "夏威夷语"
-  },
-  "lang_he": {
-    "message": "希伯来语"
-  },
-  "lang_hi": {
-    "message": "印地语"
-  },
-  "lang_hu": {
-    "message": "匈牙利 语"
-  },
-  "lang_is": {
-    "message": "冰岛语"
-  },
-  "lang_ig": {
-    "message": "伊博语"
-  },
-  "lang_id": {
-    "message": "印度尼西亚语"
-  },
-  "lang_ga": {
-    "message": "爱尔兰语"
-  },
-  "lang_it": {
-    "message": "意大利语"
-  },
-  "lang_ja": {
-    "message": "日语"
-  },
-  "lang_jv": {
-    "message": "爪哇语"
-  },
-  "lang_kn": {
-    "message": "埃纳德语"
-  },
-  "lang_kk": {
-    "message": "哈萨克语"
-  },
-  "lang_km": {
-    "message": "高棉语"
-  },
-  "lang_rw": {
-    "message": "基尼亚卢旺达语"
-  },
-  "lang_ky": {
-    "message": "吉尔吉斯语"
-  },
-  "lang_ko": {
-    "message": "韩语"
-  },
-  "lang_ku": {
-    "message": "库尔德语"
-  },
-  "lang_lo": {
-    "message": "老挝语"
-  },
-  "lang_la": {
-    "message": "拉丁语"
-  },
-  "lang_lv": {
-    "message": "拉脱维亚语"
-  },
-  "lang_lt": {
-    "message": "立陶宛语"
-  },
-  "lang_lb": {
-    "message": "卢森堡语"
-  },
-  "lang_mk": {
-    "message": "马其顿语"
-  },
-  "lang_mg": {
-    "message": "马尔加什语"
-  },
-  "lang_ms": {
-    "message": "马来语"
-  },
-  "lang_ml": {
-    "message": "马拉雅拉姆"
-  },
-  "lang_mt": {
-    "message": "马耳他语"
-  },
-  "lang_mi": {
-    "message": "毛利语"
-  },
-  "lang_mr": {
-    "message": "马拉地语"
-  },
-  "lang_mn": {
-    "message": "蒙古语"
-  },
-  "lang_hmn": {
-    "message": "苗语"
-  },
-  "lang_my": {
-    "message": "缅甸语"
-  },
-  "lang_ne": {
-    "message": "尼泊尔语"
-  },
-  "lang_no": {
-    "message": "挪威语"
-  },
-  "lang_or": {
-    "message": "奥迪亚语（奥里亚文）"
-  },
-  "lang_fa": {
-    "message": "波斯语"
-  },
-  "lang_pl": {
-    "message": "波兰语"
-  },
-  "lang_pt": {
-    "message": "葡萄牙语"
-  },
-  "lang_pa": {
-    "message": "旁遮普语"
-  },
-  "lang_ps": {
-    "message": "普什图语"
-  },
-  "lang_ro": {
-    "message": "罗马尼亚语"
-  },
-  "lang_ru": {
-    "message": "俄语"
-  },
-  "lang_sm": {
-    "message": "萨摩亚语"
-  },
-  "lang_gd": {
-    "message": "苏格兰盖尔语"
-  },
-  "lang_sr": {
-    "message": "塞尔维亚语"
-  },
-  "lang_st": {
-    "message": "塞索托语"
-  },
-  "lang_sn": {
-    "message": "修纳语"
-  },
-  "lang_sd": {
-    "message": "信德语"
-  },
-  "lang_si": {
-    "message": "僧伽罗语"
-  },
-  "lang_sk": {
-    "message": "斯洛伐克语"
-  },
-  "lang_sl": {
-    "message": "斯洛文尼亚语"
-  },
-  "lang_so": {
-    "message": "索马里语"
-  },
-  "lang_es": {
-    "message": "西班牙语"
-  },
-  "lang_su": {
-    "message": "巽他语"
-  },
-  "lang_sw": {
-    "message": "斯瓦希里语"
-  },
-  "lang_sv": {
-    "message": "瑞典语"
-  },
-  "lang_tl": {
-    "message": "塔加 路语"
-  },
-  "lang_tg": {
-    "message": "塔吉克语"
-  },
-  "lang_ta": {
-    "message": "泰米尔语"
-  },
-  "lang_tt": {
-    "message": "鞑靼语"
-  },
-  "lang_te": {
-    "message": "泰卢固语"
-  },
-  "lang_th": {
-    "message": "泰语"
-  },
-  "lang_tr": {
-    "message": "土耳其语"
-  },
-  "lang_tk": {
-    "message": "土库曼语"
-  },
-  "lang_uk": {
-    "message": "乌克兰语"
-  },
-  "lang_ur": {
-    "message": "乌尔都语"
-  },
-  "lang_ug": {
-    "message": "维吾尔语"
-  },
-  "lang_uz": {
-    "message": "乌兹别克语"
-  },
-  "lang_vi": {
-    "message": "越南语"
-  },
-  "lang_cy": {
-    "message": "威尔士语"
-  },
-  "lang_xh": {
-    "message": "雪撒语"
-  },
-  "lang_yi": {
-    "message": "第绪语"
-  },
-  "lang_yo": {
-    "message": "约鲁巴语"
-  },
-  "lang_zu": {
-    "message": "祖鲁语"
-  },
-  "lang_en_US": {
-    "message": "英语（美国）"
-  },
-  "lang_en_GB": {
-    "message": "英语（英国）"
-  },
-  "lang_pt_PT": {
-    "message": "葡萄牙语"
-  },
-  "lang_pt_BR": {
-    "message": "葡萄牙语（巴西）"
-  },
-  "lang_zh": {
-    "message": "中文"
-  }
+    "extName": {
+        "message": "Foxi"
+    },
+    "extDescription": {
+        "message": "在网页上快速翻译选定或输入的文本。支持 Google 翻译和DeepL API。"
+    },
+    "donateWithPaypalLabel": {
+        "message": "使用 PayPal 捐赠"
+    },
+    "donateLabel": {
+        "message": "捐助"
+    },
+    "enableOnThisPage": {
+        "message": "在此页面启用翻译"
+    },
+    "disableOnThisPage": {
+        "message": "在此页面禁用翻译"
+    },
+    "initialTextArea": {
+        "message": "输入文字"
+    },
+    "showLink": {
+        "message": "翻译此页面"
+    },
+    "openInGoogleLabel": {
+        "message": "在 Google 翻译中打开"
+    },
+    "openInDeeplLabel": {
+        "message": "在 DeepL 翻译器中打开"
+    },
+    "copyLabel": {
+        "message": "复制"
+    },
+    "copiedLabel": {
+        "message": "已复制。"
+    },
+    "listenLabel": {
+        "message": "朗读"
+    },
+    "targetLangLabel": {
+        "message": "目标语言"
+    },
+    "allLangLabel": {
+        "message": "所有语言"
+    },
+    "recentLangLabel": {
+        "message": "最近的语言"
+    },
+    "settingsLabel": {
+        "message": "设置"
+    },
+    "generalLabel": {
+        "message": "常规"
+    },
+    "translationApiLabel": {
+        "message": "翻译引擎"
+    },
+    "googleApiLabel": {
+        "message": "Google 翻译 API"
+    },
+    "googleApiCaptionLabel": {
+        "message": "使用 Google 翻译 API。无需注册。"
+    },
+    "deeplApiLabel": {
+        "message": "DeepL API"
+    },
+    "deeplApiCaptionLabel": {
+        "message": "使用 DeepL API。您必须用 DeepL API Free 或 DeepL API Pro 注册才能获得验证密钥。"
+    },
+    "howToUseDeeplLabel": {
+        "message": "如何注册 DeepL API"
+    },
+    "deeplPlanLabel": {
+        "message": "DeepL API 订阅计划"
+    },
+    "deeplPlanCaptionLabel": {
+        "message": "选择您注册的 DeepL API 计划。"
+    },
+    "deeplFreeLabel": {
+        "message": "DeepL API Free"
+    },
+    "deeplProLabel": {
+        "message": "DeepL API Pro"
+    },
+    "deeplAuthKeyLabel": {
+        "message": "认证密钥"
+    },
+    "deeplAuthKeyCaptionLabel": {
+        "message": "请输入 DeepL API 的认证密钥。"
+    },
+    "targetLangCaptionLabel": {
+        "message": "选择默认的目标语言"
+    },
+    "webPageLabel": {
+        "message": "网页"
+    },
+    "ifShowCandidateLabel": {
+        "message": "显示候选译文"
+    },
+    "ifShowCandidateCaptionLabel": {
+        "message": "翻译单词时显示多项候选翻译。"
+    },
+    "whenSelectTextLabel": {
+        "message": "选中文本时的行为"
+    },
+    "ifAutoTranslateLabel": {
+        "message": "显示翻译面板"
+    },
+    "ifAutoTranslateCaptionLabel": {
+        "message": "直接显示翻译面板而不显示按钮。"
+    },
+    "ifShowButtonLabel": {
+        "message": "显示翻译按钮"
+    },
+    "ifShowButtonCaptionLabel": {
+        "message": "显示翻译按钮以便在单击时打开面板。"
+    },
+    "dontshowbuttonlabel": {
+        "message": "不显示按钮或面板"
+    },
+    "dontshowbuttonCaptionlabel": {
+        "message": "不显示翻译按钮或翻译面板。"
+    },
+    "ifCheckLangLabel": {
+        "message": "不需要翻译时，不要显示按钮"
+    },
+    "ifCheckLangCaptionLabel": {
+        "message": "侦测选取文本的语言，如果它与目标语言相同，则不显示按钮。"
+    },
+    "ifChangeSecondLangOnPageCaptionLabel": {
+        "message": "检测所选文本的语言，如果与默认目标语言相同，则将其翻译为第二语言。"
+    },
+    "disableTranslationLabel": {
+        "message": "禁用翻译"
+    },
+    "isDisabledInTextFieldsLabel": {
+        "message": "禁用文本字段中的翻译"
+    },
+    "isDisabledInTextFieldsCaptionLabel": {
+        "message": "在文本字段中选择文本时，不显示翻译按钮或面板。"
+    },
+    "isDisabledInCodeElementLabel": {
+        "message": "在 <code> 标签中禁用翻译"
+    },
+    "isDisabledInCodeElementCaptionLabel": {
+        "message": "在 <code> 标签中选择文本时，不显示翻译按钮或面板。"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedLabel": {
+        "message": "按下修饰键时进行翻译"
+    },
+    "ifOnlyTranslateWhenModifierKeyPressedCaptionLabel": {
+        "message": "仅在按住指定的修饰键时显示翻译。"
+    },
+    "modifierKeyLabel": {
+        "message": "修饰键"
+    },
+    "shiftLabel": {
+        "message": "Shift"
+    },
+    "ctrlLabel": {
+        "message": "Ctrl"
+    },
+    "altLabel": {
+        "message": "Alt"
+    },
+    "cmdLabel": {
+        "message": "Command"
+    },
+    "disableUrlListLabel": {
+        "message": "要禁用翻译的 URL 列表"
+    },
+    "disableUrlListCaptionLabel": {
+        "message": "如果页面的URL匹配该白名单，该页面的翻译将被禁用。你可以使用“*”通配符。"
+    },
+    "toolbarLabel": {
+        "message": "工具栏弹出窗口"
+    },
+    "ifChangeSecondLangLabel": {
+        "message": "自动切换到第二语言"
+    },
+    "ifChangeSecondLangCaptionLabel": {
+        "message": "侦测文本输入所用的语言，如果它与默认的目标语言相同，则将它翻译为第二语言。"
+    },
+    "secondTargetLangLabel": {
+        "message": "第二语言:"
+    },
+    "secondTargetLangCaptionLabel": {
+        "message": "选择第二种目标语言。"
+    },
+    "ignoredDocumentLangLabel": {
+        "message": "元素带有 lang 属性时禁用翻译"
+    },
+    "ignoredDocumentLangCaptionLabel": {
+        "message": "HTML 元素的 lang 属性的值与语言列表中的某个标签匹配时，禁用翻译。请输入用逗号分隔的语言标签。"
+    },
+    "waitTimeLabel": {
+        "message": "翻译等待时间"
+    },
+    "waitTimeCaptionLabel": {
+        "message": "指定从字符输入到翻译开始的等待时间。（毫秒）"
+    },
+    "waitTime2CaptionLabel": {
+        "message": "如果您在短时间内翻译太多次，可能会暂时无法使用翻译功能。"
+    },
+    "menuLabel": {
+        "message": "右键菜单"
+    },
+    "ifShowMenuLabel": {
+        "message": "显示上下文菜单"
+    },
+    "ifShowMenuCaptionLabel": {
+        "message": "在网页或者标签页上右击时，将项目添加到显示的上下文菜单中。"
+    },
+    "pageTranslationLabel": {
+        "message": "页面翻译"
+    },
+    "pageTranslationOpenToLabel": {
+        "message": "用于显示翻译结果的标签页"
+    },
+    "pageTranslationOpenToCaptionLabel": {
+        "message": "指定用于显示翻译结果的标签页。"
+    },
+    "newTabLabel": {
+        "message": "新标签页"
+    },
+    "currentTabLabel": {
+        "message": "当前标签页"
+    },
+    "styleLabel": {
+        "message": "样式"
+    },
+    "themeLabel": {
+        "message": "主题"
+    },
+    "themeCaptionLabel": {
+        "message": "指定配色方案。"
+    },
+    "lightLabel": {
+        "message": "浅色"
+    },
+    "darkLabel": {
+        "message": "深色"
+    },
+    "systemLabel": {
+        "message": "系统"
+    },
+    "buttonStyleLabel": {
+        "message": "翻译按钮"
+    },
+    "buttonStyleCaptionLabel": {
+        "message": "指定在网页上显示的翻译按钮的样式。"
+    },
+    "buttonSizeLabel": {
+        "message": "大小"
+    },
+    "buttonPositionLabel": {
+        "message": "显示位置"
+    },
+    "topRightLabel": {
+        "message": "右上角"
+    },
+    "bottomRightLabel": {
+        "message": "右下角"
+    },
+    "topLeftLabel": {
+        "message": "左上角"
+    },
+    "bottomLeftLabel": {
+        "message": "左下角"
+    },
+    "topLabel": {
+        "message": "顶部"
+    },
+    "bottomLabel": {
+        "message": "底部"
+    },
+    "leftLabel": {
+        "message": "左侧"
+    },
+    "rightLabel": {
+        "message": "右侧"
+    },
+    "positionOffsetLabel": {
+        "message": "显示位置 - 偏移"
+    },
+    "panelStyleLabel": {
+        "message": "翻译面板"
+    },
+    "panelStyleCaptionLabel": {
+        "message": "指定在网页上显示的翻译面板的样式。"
+    },
+    "widthLabel": {
+        "message": "宽度"
+    },
+    "heightLabel": {
+        "message": "高度"
+    },
+    "fontSizeLabel": {
+        "message": "字体大小"
+    },
+    "referencePointLabel": {
+        "message": "显示位置 - 参考点"
+    },
+    "bottomSelectedTextLabel": {
+        "message": "所选文本的底部"
+    },
+    "topSelectedTextLabel": {
+        "message": "所选文本的顶部"
+    },
+    "clickedPointLabel": {
+        "message": "点击的位置"
+    },
+    "displayDirectionLabel": {
+        "message": "显示位置 - 方向"
+    },
+    "resultFontColorLabel": {
+        "message": "翻译结果的字体颜色"
+    },
+    "isOverrideColorsLabel": {
+        "message": "用下面的颜色覆盖默认颜色"
+    },
+    "candidateFontColorLabel": {
+        "message": "翻译候选的字体颜色"
+    },
+    "bgColorLabel": {
+        "message": "背景色"
+    },
+    "otherLabel": {
+        "message": "其他"
+    },
+    "isShowOptionsPageWhenUpdatedLabel": {
+        "message": "更新时显示选项页面"
+    },
+    "isShowOptionsPageWhenUpdatedCaptionLabel": {
+        "message": "Foxi 更新后显示选项页面从而快速了解更新内容。"
+    },
+    "isDebugModeLabel": {
+        "message": "启用调试模式"
+    },
+    "isDebugModeCaptionLabel": {
+        "message": "启用调试模式后, 日志将输出到调试器。"
+    },
+    "exportSettingsLabel": {
+        "message": "导出配置"
+    },
+    "exportSettingsCaptionLabel": {
+        "message": "将配置保存为 json 文件。"
+    },
+    "exportButtonLabel": {
+        "message": "导出"
+    },
+    "importSettingsLabel": {
+        "message": "导入配置"
+    },
+    "importSettingsCaptionLabel": {
+        "message": "加载计算机上保存的配置文件。"
+    },
+    "importButtonLabel": {
+        "message": "导入"
+    },
+    "resetSettingsLabel": {
+        "message": "重置设置"
+    },
+    "resetSettingsCaptionLabel": {
+        "message": "恢复所有设置为默认值。"
+    },
+    "resetSettingsButtonLabel": {
+        "message": "重置"
+    },
+    "shortcutsLabel": {
+        "message": "快捷键"
+    },
+    "keyboardShortcutsLabel": {
+        "message": "键盘快捷键"
+    },
+    "setKeyboardShortCutsMessage": {
+        "message": "设置键盘快捷键。"
+    },
+    "typeShortcutMessage": {
+        "message": "输入快捷键"
+    },
+    "typeLetterMessage": {
+        "message": "输入一个字母"
+    },
+    "includeModifierKeysMessage": {
+        "message": "必须包含 Ctrl 或 Alt"
+    },
+    "includeMacModifierKeysMessage": {
+        "message": "必须包含 Command，Ctrl 或 Alt"
+    },
+    "invalidLetterMessage": {
+        "message": "不能使用这个字母"
+    },
+    "invalidShortcutMessage": {
+        "message": "不能使用这个快捷键"
+    },
+    "clear": {
+        "message": "清除"
+    },
+    "reset": {
+        "message": "重置"
+    },
+    "informationLabel": {
+        "message": "信息"
+    },
+    "backersLabel": {
+        "message": "支持者"
+    },
+    "licenseLabel": {
+        "message": "授权条款"
+    },
+    "donationLabel": {
+        "message": "请捐助"
+    },
+    "donationCaptionLabel": {
+        "message": "感谢您使用Foxi！<br>您的支持会是我继续开发此款附加组件的动力。<br>如果您喜欢Foxi，希望您可以考虑捐助。"
+    },
+    "amazonTitleLabel": {
+        "message": "amazon.co.jp 电子礼品卡"
+    },
+    "sponsorsLabel": {
+        "message": "赞助者"
+    },
+    "addonPageLabel": {
+        "message": "附加组件页面"
+    },
+    "extensionPageLabel": {
+        "message": "拓展页面"
+    },
+    "privacyPolicyLabel": {
+        "message": "隐私政策"
+    },
+    "amazonUrl": {
+        "message": "https://www.amazon.co.jp/dp/B004N3APGO?language=zh_CN"
+    },
+    "addonUrl": {
+        "message": "https://addons.mozilla.org/zh-CN/firefox/addon/simple-translate/?src=optionpage"
+    },
+    "networkError": {
+        "message": "错误：请检查您的网络连接状态"
+    },
+    "unavailableError": {
+        "message": "错误：已达服务使用限制。请稍后再试。"
+    },
+    "deeplAuthError": {
+        "message": "错误：DeepL API 认证失败。请在设置页面检查认证密钥和订阅计划是否输入和设置正确。"
+    },
+    "unknownError": {
+        "message": "错误：未知错误"
+    },
+    "translatePageMenu": {
+        "message": "翻译此页面"
+    },
+    "translateTextMenu": {
+        "message": "翻译选中的文本"
+    },
+    "translateLinkMenu": {
+        "message": "翻译选中的链接"
+    },
+    "openPopupDescription": {
+        "message": "打开工具栏弹出窗口"
+    },
+    "lang_af": {
+        "message": "南非荷兰语"
+    },
+    "lang_sq": {
+        "message": "阿尔巴尼亚语"
+    },
+    "lang_am": {
+        "message": "阿姆哈拉语"
+    },
+    "lang_ar": {
+        "message": "阿拉伯语"
+    },
+    "lang_hy": {
+        "message": "亚美尼亚语"
+    },
+    "lang_az": {
+        "message": "阿塞拜疆语"
+    },
+    "lang_eu": {
+        "message": "巴斯克语"
+    },
+    "lang_be": {
+        "message": "白俄罗斯语"
+    },
+    "lang_bn": {
+        "message": "孟加拉语"
+    },
+    "lang_bs": {
+        "message": "波斯尼亚语"
+    },
+    "lang_bg": {
+        "message": "保加利亚语"
+    },
+    "lang_ca": {
+        "message": "加泰罗尼亚语"
+    },
+    "lang_ceb": {
+        "message": "宿雾语"
+    },
+    "lang_ny": {
+        "message": "齐切瓦语"
+    },
+    "lang_zh_CN": {
+        "message": "中文（简体）"
+    },
+    "lang_zh_TW": {
+        "message": "中文（繁体）"
+    },
+    "lang_co": {
+        "message": "科西嘉语"
+    },
+    "lang_hr": {
+        "message": "克罗地亚语"
+    },
+    "lang_cs": {
+        "message": "捷克语"
+    },
+    "lang_da": {
+        "message": "丹麦语"
+    },
+    "lang_nl": {
+        "message": "荷兰语"
+    },
+    "lang_en": {
+        "message": "英语"
+    },
+    "lang_eo": {
+        "message": "世界语"
+    },
+    "lang_et": {
+        "message": "爱沙尼亚语"
+    },
+    "lang_fi": {
+        "message": "芬兰 语"
+    },
+    "lang_fr": {
+        "message": "法语"
+    },
+    "lang_fy": {
+        "message": "弗里斯兰语"
+    },
+    "lang_gl": {
+        "message": "加利西亚语"
+    },
+    "lang_ka": {
+        "message": "格鲁吉亚语"
+    },
+    "lang_de": {
+        "message": "德语"
+    },
+    "lang_el": {
+        "message": "希腊语"
+    },
+    "lang_gu": {
+        "message": "古吉拉特语"
+    },
+    "lang_ht": {
+        "message": "海地语"
+    },
+    "lang_ha": {
+        "message": "豪萨语"
+    },
+    "lang_haw": {
+        "message": "夏威夷语"
+    },
+    "lang_he": {
+        "message": "希伯来语"
+    },
+    "lang_hi": {
+        "message": "印地语"
+    },
+    "lang_hu": {
+        "message": "匈牙利 语"
+    },
+    "lang_is": {
+        "message": "冰岛语"
+    },
+    "lang_ig": {
+        "message": "伊博语"
+    },
+    "lang_id": {
+        "message": "印度尼西亚语"
+    },
+    "lang_ga": {
+        "message": "爱尔兰语"
+    },
+    "lang_it": {
+        "message": "意大利语"
+    },
+    "lang_ja": {
+        "message": "日语"
+    },
+    "lang_jv": {
+        "message": "爪哇语"
+    },
+    "lang_kn": {
+        "message": "埃纳德语"
+    },
+    "lang_kk": {
+        "message": "哈萨克语"
+    },
+    "lang_km": {
+        "message": "高棉语"
+    },
+    "lang_rw": {
+        "message": "基尼亚卢旺达语"
+    },
+    "lang_ky": {
+        "message": "吉尔吉斯语"
+    },
+    "lang_ko": {
+        "message": "韩语"
+    },
+    "lang_ku": {
+        "message": "库尔德语"
+    },
+    "lang_lo": {
+        "message": "老挝语"
+    },
+    "lang_la": {
+        "message": "拉丁语"
+    },
+    "lang_lv": {
+        "message": "拉脱维亚语"
+    },
+    "lang_lt": {
+        "message": "立陶宛语"
+    },
+    "lang_lb": {
+        "message": "卢森堡语"
+    },
+    "lang_mk": {
+        "message": "马其顿语"
+    },
+    "lang_mg": {
+        "message": "马尔加什语"
+    },
+    "lang_ms": {
+        "message": "马来语"
+    },
+    "lang_ml": {
+        "message": "马拉雅拉姆"
+    },
+    "lang_mt": {
+        "message": "马耳他语"
+    },
+    "lang_mi": {
+        "message": "毛利语"
+    },
+    "lang_mr": {
+        "message": "马拉地语"
+    },
+    "lang_mn": {
+        "message": "蒙古语"
+    },
+    "lang_hmn": {
+        "message": "苗语"
+    },
+    "lang_my": {
+        "message": "缅甸语"
+    },
+    "lang_ne": {
+        "message": "尼泊尔语"
+    },
+    "lang_no": {
+        "message": "挪威语"
+    },
+    "lang_or": {
+        "message": "奥迪亚语（奥里亚文）"
+    },
+    "lang_fa": {
+        "message": "波斯语"
+    },
+    "lang_pl": {
+        "message": "波兰语"
+    },
+    "lang_pt": {
+        "message": "葡萄牙语"
+    },
+    "lang_pa": {
+        "message": "旁遮普语"
+    },
+    "lang_ps": {
+        "message": "普什图语"
+    },
+    "lang_ro": {
+        "message": "罗马尼亚语"
+    },
+    "lang_ru": {
+        "message": "俄语"
+    },
+    "lang_sm": {
+        "message": "萨摩亚语"
+    },
+    "lang_gd": {
+        "message": "苏格兰盖尔语"
+    },
+    "lang_sr": {
+        "message": "塞尔维亚语"
+    },
+    "lang_st": {
+        "message": "塞索托语"
+    },
+    "lang_sn": {
+        "message": "修纳语"
+    },
+    "lang_sd": {
+        "message": "信德语"
+    },
+    "lang_si": {
+        "message": "僧伽罗语"
+    },
+    "lang_sk": {
+        "message": "斯洛伐克语"
+    },
+    "lang_sl": {
+        "message": "斯洛文尼亚语"
+    },
+    "lang_so": {
+        "message": "索马里语"
+    },
+    "lang_es": {
+        "message": "西班牙语"
+    },
+    "lang_su": {
+        "message": "巽他语"
+    },
+    "lang_sw": {
+        "message": "斯瓦希里语"
+    },
+    "lang_sv": {
+        "message": "瑞典语"
+    },
+    "lang_tl": {
+        "message": "塔加 路语"
+    },
+    "lang_tg": {
+        "message": "塔吉克语"
+    },
+    "lang_ta": {
+        "message": "泰米尔语"
+    },
+    "lang_tt": {
+        "message": "鞑靼语"
+    },
+    "lang_te": {
+        "message": "泰卢固语"
+    },
+    "lang_th": {
+        "message": "泰语"
+    },
+    "lang_tr": {
+        "message": "土耳其语"
+    },
+    "lang_tk": {
+        "message": "土库曼语"
+    },
+    "lang_uk": {
+        "message": "乌克兰语"
+    },
+    "lang_ur": {
+        "message": "乌尔都语"
+    },
+    "lang_ug": {
+        "message": "维吾尔语"
+    },
+    "lang_uz": {
+        "message": "乌兹别克语"
+    },
+    "lang_vi": {
+        "message": "越南语"
+    },
+    "lang_cy": {
+        "message": "威尔士语"
+    },
+    "lang_xh": {
+        "message": "雪撒语"
+    },
+    "lang_yi": {
+        "message": "第绪语"
+    },
+    "lang_yo": {
+        "message": "约鲁巴语"
+    },
+    "lang_zu": {
+        "message": "祖鲁语"
+    },
+    "lang_en_US": {
+        "message": "英语（美国）"
+    },
+    "lang_en_GB": {
+        "message": "英语（英国）"
+    },
+    "lang_pt_PT": {
+        "message": "葡萄牙语"
+    },
+    "lang_pt_BR": {
+        "message": "葡萄牙语（巴西）"
+    },
+    "lang_zh": {
+        "message": "中文"
+    }
 }
