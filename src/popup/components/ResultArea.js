@@ -27,24 +27,29 @@ export default props => {
   };
 
   return (
-    <div id="resultArea">
-      <p className="resultText" dir="auto">{splitLine(resultText)}</p>
-      {shouldShowCandidate && <p className="candidateText" dir="auto">{splitLine(candidateText)}</p>}
-      {isError && <p className="error">{errorMessage}</p>}
-      {isError && (
-        <p className="translateLink">
-          <a onClick={handleLinkClick}>
-            {translationApi === "google" ?
-              browser.i18n.getMessage("openInGoogleLabel") :
-              browser.i18n.getMessage("openInDeeplLabel")
-            }
-          </a>
-        </p>
-      )}
-      <div className="mediaButtons">
-        <CopyButton text={resultText} />
-        <ListenButton text={resultText} lang={targetLang} />
+      <div id="resultArea" contentEditable>
+          <p className="resultText" dir="auto">
+              {splitLine(resultText)}
+          </p>
+          {shouldShowCandidate && (
+              <p className="candidateText" dir="auto">
+                  {splitLine(candidateText)}
+              </p>
+          )}
+          {isError && <p className="error">{errorMessage}</p>}
+          {isError && (
+              <p className="translateLink">
+                  <a onClick={handleLinkClick}>
+                      {translationApi === "google"
+                          ? browser.i18n.getMessage("openInGoogleLabel")
+                          : browser.i18n.getMessage("openInDeeplLabel")}
+                  </a>
+              </p>
+          )}
+          <div className="mediaButtons">
+              <CopyButton text={resultText} />
+              <ListenButton text={resultText} lang={targetLang} />
+          </div>
       </div>
-    </div>
   );
 };
