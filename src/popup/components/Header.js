@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import browser from "webextension-polyfill";
 import openUrl from "src/common/openUrl";
 import SettingsIcon from "../icons/settings.svg";
+import AnkiIcon from "../icons/anki.svg";
 import Toggle from "react-toggle";
 import "react-toggle/style.css";
 import "../styles/Header.scss";
@@ -30,7 +31,7 @@ export default (props) => (
                 />
             </div>
             <button className="ankiButton" onClick={props.addNote} title="Add to Anki">
-                A+
+                <AnkiIcon />
             </button>
             <button
                 className={"settingsButton"}
