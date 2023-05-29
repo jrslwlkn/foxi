@@ -18,7 +18,7 @@ First, install the AnciConnect plugin.
 
 1. Open Chrome browser and navigate to `chrome://extensions`
 2. Select "Developer Mode" and then click "Load unpacked extension..."
-3. From the file browser, choose to `simple-translate/dev/chrome`
+3. From the file browser, choose to `foxi/dev/chrome`
 
 ### Load the extension in Firefox
 
