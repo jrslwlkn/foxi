@@ -10,7 +10,7 @@ First, install the AnciConnect plugin.
 
 > Required Node 14+
 
-1. Clone the repository `git clone https://github.com/sienori/simple-translate`
+1. Clone the repository `git clone https://github.com/jrslwlkn/foxi`
 2. Run `npm install`
 3. Run `npm run watch-dev`
 
