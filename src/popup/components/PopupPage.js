@@ -184,7 +184,7 @@ export default class PopupPage extends Component {
             const result = await addNoteAndReversed(
                 this.state.selectedDeck,
                 this.state.inputText,
-                this.state.resultText + "\n" + this.state.candidateText
+                this.state.resultText + "<br/>" + this.state.candidateText.split("\n").join("<br/>")
             );
             window.alert(
                 result
