@@ -48,7 +48,6 @@ export async function addNoteAndReversed(deckName, Front, Back, tags = []) {
     try {
         return await ankiConnectInvoke("addNote", 5, params);
     } catch (e) {
-        console.error(`error adding note: ${e}`);
-        return null;
+        return e;
     }
 }
