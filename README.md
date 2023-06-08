@@ -2,11 +2,13 @@
 
 ## Prerequisites and Installation
 
-First, install the AnciConnect plugin.
+First, install the AnciConnect plugin:
 
 1. Open the Install Add-on dialog by selecting Tools > Add-ons > Browse & Install in Anki.
 2. Input `2055492159` into the text box labeled Code and press the OK button to proceed.
 3. Restart Anki when prompted to do so in order to complete the installation of AnkiConnect.
+
+Start local dev server:
 
 > Required Node 14+
 
