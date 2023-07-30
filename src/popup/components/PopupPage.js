@@ -3,7 +3,7 @@ import browser from "webextension-polyfill";
 import log from "loglevel";
 import { initSettings, getSettings, setSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
-import { addNoteAndReversed, getDecks } from "../../common/ankiConnect";
+import { addNoteAndReversed, getDecks, getModels } from "../../common/ankiConnect";
 import translate from "src/common/translate";
 import generateLangOptions from "src/common/generateLangOptions";
 import Header from "./Header";
@@ -54,6 +54,7 @@ export default class PopupPage extends Component {
             isEnabledOnPage: true,
             langHistory: [],
             decks: [],
+            models: [],
             selectedDeck: null,
         };
         this.isSwitchedSecondLang = false;
@@ -69,6 +70,7 @@ export default class PopupPage extends Component {
         document.body.classList.add(this.themeClass);
         const targetLang = getSettings("targetLang");
         const decks = await getDecks();
+        const models = await getModels();
         let langHistory = getSettings("langHistory");
         if (!langHistory) {
             const secondLang = getSettings("secondTargetLang");
@@ -76,10 +78,11 @@ export default class PopupPage extends Component {
             setSettings("langHistory", langHistory);
         }
         this.setState({
-            decks: decks,
+            decks,
+            models,
             selectedDeck: decks[0] ?? null,
-            targetLang: targetLang,
-            langHistory: langHistory,
+            targetLang,
+            langHistory,
             langList: generateLangOptions(getSettings("translationApi")),
         });
 
@@ -223,6 +226,7 @@ export default class PopupPage extends Component {
                     handleLangChange={this.handleLangChange}
                     langList={this.state.langList}
                     decks={this.state.decks}
+                    models={this.state.models}
                     handleSelect={this.handleDeckSelect}
                 />
             </div>

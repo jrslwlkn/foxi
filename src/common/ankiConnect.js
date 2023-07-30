@@ -33,11 +33,21 @@ export async function getDecks() {
     }
 }
 
-export async function addNoteAndReversed(deckName, Front, Back, tags = []) {
+export async function getModels() {
+    try {
+        return await ankiConnectInvoke("modelNames", 5);
+    } catch (e) {
+        console.error(`error getting available anki models: ${e}`);
+        return [];
+    }
+}
+
+
+export async function addNoteAndReversed(deckName, Front, Back, modelName, tags = []) {
     const params = {
         note: {
             deckName,
-            modelName: "Basic (and reversed card)",
+            modelName,
             fields: {
                 Front,
                 Back,

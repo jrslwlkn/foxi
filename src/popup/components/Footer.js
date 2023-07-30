@@ -27,9 +27,15 @@ export default class Footer extends Component {
         setSettings("deckName", deck);
     };
 
+    handleModelSelect = (model) => {
+        this.props.handleSelect(model);
+        setSettings("modelName", model);
+    };
+
     render() {
         const { tabUrl, targetLang, langHistory, langList } = this.props;
         const lastCachedDeckName = getSettings("deckName");
+        const lastCachedModelName = getSettings("modelName");
 
         return (
             <div id="footer">
@@ -52,6 +58,24 @@ export default class Footer extends Component {
                             ))}
                         </optgroup>
                     </select>
+                    <select
+                        style={{ margin: "10px 0" }}
+                        onChange={(e) => this.handleModelSelect(e.target.value)}
+                        value={lastCachedModelName ?? this.props.models[0] ?? null}
+                    >
+                        <optgroup label="Anki Card Models">
+                            {this.props.models.map((d) => (
+                                <option value={d} key={d}>
+                                    {d}
+                                </option>
+                            ))}
+                        </optgroup>
+                    </select>
+                </div>
+                <div className="selectWrap" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <div style={{ color: "whitesmoke" }}>
+                        Target language:
+                    </div>
                     <select
                         id="langList"
                         value={targetLang}
