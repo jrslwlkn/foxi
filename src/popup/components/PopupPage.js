@@ -3,7 +3,7 @@ import browser from "webextension-polyfill";
 import log from "loglevel";
 import { initSettings, getSettings, setSettings } from "src/settings/settings";
 import { updateLogLevel, overWriteLogLevel } from "src/common/log";
-import { addNoteAndReversed, getDecks, getModels } from "../../common/ankiConnect";
+import { addNote, getDecks, getModels } from "../../common/ankiConnect";
 import translate from "src/common/translate";
 import generateLangOptions from "src/common/generateLangOptions";
 import Header from "./Header";
@@ -56,6 +56,7 @@ export default class PopupPage extends Component {
             decks: [],
             models: [],
             selectedDeck: null,
+            selectedModel: null,
         };
         this.isSwitchedSecondLang = false;
         this.init();
@@ -69,6 +70,8 @@ export default class PopupPage extends Component {
         this.themeClass = getSettings("theme") + "-theme";
         document.body.classList.add(this.themeClass);
         const targetLang = getSettings("targetLang");
+        const selectedDeck = getSettings("deckName");
+        const selectedModel = getSettings("modelName");
         const decks = await getDecks();
         const models = await getModels();
         let langHistory = getSettings("langHistory");
@@ -80,7 +83,8 @@ export default class PopupPage extends Component {
         this.setState({
             decks,
             models,
-            selectedDeck: decks[0] ?? null,
+            selectedDeck: selectedDeck ?? decks[0] ?? null,
+            selectedModel: selectedModel ?? models[0] ?? null,
             targetLang,
             langHistory,
             langList: generateLangOptions(getSettings("translationApi")),
@@ -178,14 +182,15 @@ export default class PopupPage extends Component {
         } catch (e) {}
     };
 
-    handleDeckSelect = (selectedDeck) => {
-        this.setState({ selectedDeck });
+    handleSelect = (key, value) => {
+        this.setState({ [key]: value });
     };
 
     addNote = async () => {
         try {
-            const result = await addNoteAndReversed(
+            const result = await addNote(
                 this.state.selectedDeck,
+                this.state.selectedModel,
                 this.state.inputText,
                 this.state.resultText + "<br/>" + this.state.candidateText.split("\n").join("<br/>")
             );
@@ -227,7 +232,9 @@ export default class PopupPage extends Component {
                     langList={this.state.langList}
                     decks={this.state.decks}
                     models={this.state.models}
-                    handleSelect={this.handleDeckSelect}
+                    handleSelect={this.handleSelect}
+                    targetDeck={this.state.selectedDeck}
+                    targetModel={this.state.selectedModel}
                 />
             </div>
         );

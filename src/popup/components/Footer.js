@@ -20,22 +20,21 @@ export default class Footer extends Component {
     handleChange = (e) => {
         const lang = e.target.value;
         this.props.handleLangChange(lang);
+        setSettings("targetLang", lang);
     };
 
     handleDeckSelect = (deck) => {
-        this.props.handleSelect(deck);
+        this.props.handleSelect("selectedDeck", deck);
         setSettings("deckName", deck);
     };
 
     handleModelSelect = (model) => {
-        this.props.handleSelect(model);
+        this.props.handleSelect("selectedModel", model);
         setSettings("modelName", model);
     };
 
     render() {
-        const { tabUrl, targetLang, langHistory, langList } = this.props;
-        const lastCachedDeckName = getSettings("deckName");
-        const lastCachedModelName = getSettings("modelName");
+        const { tabUrl, targetDeck, targetModel, targetLang, langHistory, langList, decks, models } = this.props;
 
         return (
             <div id="footer">
@@ -48,10 +47,10 @@ export default class Footer extends Component {
                     <select
                         style={{ margin: "10px 0" }}
                         onChange={(e) => this.handleDeckSelect(e.target.value)}
-                        value={lastCachedDeckName ?? this.props.decks[0] ?? null}
+                        value={targetDeck}
                     >
                         <optgroup label="Anki Decks">
-                            {this.props.decks.map((d) => (
+                            {decks.map((d) => (
                                 <option value={d} key={d}>
                                     {d}
                                 </option>
@@ -61,10 +60,10 @@ export default class Footer extends Component {
                     <select
                         style={{ margin: "10px 0" }}
                         onChange={(e) => this.handleModelSelect(e.target.value)}
-                        value={lastCachedModelName ?? this.props.models[0] ?? null}
+                        value={targetModel}
                     >
                         <optgroup label="Anki Card Models">
-                            {this.props.models.map((d) => (
+                            {models.map((d) => (
                                 <option value={d} key={d}>
                                     {d}
                                 </option>

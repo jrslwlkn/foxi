@@ -43,7 +43,7 @@ export async function getModels() {
 }
 
 
-export async function addNoteAndReversed(deckName, Front, Back, modelName, tags = []) {
+export async function addNote(deckName, modelName, Front, Back, tags = []) {
     const params = {
         note: {
             deckName,
