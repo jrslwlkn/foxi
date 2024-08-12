@@ -56,7 +56,7 @@ const sendRequestToGoogle = async (word, sourceLang, targetLang) => {
   }
 
   resultData.sourceLanguage = result.data.src;
-  resultData.percentage = result.data.ld_result.srclangs_confidences[0];
+  resultData.percentage = result.data.ld_result?.srclangs_confidences?.[0];
   resultData.resultText = result.data.sentences.map(sentence => sentence.trans).join("");
   if (result.data.dict) {
     resultData.candidateText = result.data.dict
@@ -108,7 +108,7 @@ const sendRequestToDeepL = async (word, sourceLang, targetLang) => {
 };
 
 
-export default async (sourceWord, sourceLang = "auto", targetLang, translationApi) => {
+export default async (sourceWord, sourceLang, targetLang, translationApi) => {
   log.log(logDir, "tranlate()", sourceWord, targetLang, translationApi);
   sourceWord = sourceWord.trim();
   if (sourceWord === "")

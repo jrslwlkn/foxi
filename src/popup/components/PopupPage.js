@@ -103,7 +103,7 @@ export default class PopupPage extends Component {
     };
 
     handleInputText = (inputText) => {
-        this.setState({ inputText: inputText });
+        this.setState({ inputText });
 
         const waitTime = getSettings("waitTime");
         clearTimeout(this.inputTimer);
@@ -112,6 +112,14 @@ export default class PopupPage extends Component {
             this.switchSecondLang(result);
         }, waitTime);
     };
+
+    setSourceLang = (sourceLang) => {
+        this.setState({ sourceLang }, () => this.handleInputText(this.state.inputText));
+    }
+
+    setTargetLang = (targetLang) => {
+        this.setState({ targetLang }, () => this.handleInputText(this.state.inputText));
+    }
 
     setLangHistory = (lang) => {
         let langHistory = getSettings("langHistory") || [];
@@ -130,8 +138,8 @@ export default class PopupPage extends Component {
     };
 
     translateText = async (text, targetLang) => {
-        log.info(logDir, "translateText()", text, targetLang);
-        const result = await translate(text, "auto", targetLang);
+        log.info(logDir, "translateText()", text, this.state.sourceLang, targetLang);
+        const result = await translate(text, this.state.sourceLang, targetLang);
         this.setState({
             resultText: result.resultText,
             candidateText: result.candidateText,
@@ -226,7 +234,10 @@ export default class PopupPage extends Component {
                 />
                 <Footer
                     tabUrl={this.state.tabUrl}
+                    sourceLang={this.state.sourceLang}
+                    setSourceLang={this.setSourceLang}
                     targetLang={this.state.targetLang}
+                    setTargetLang={this.setTargetLang}
                     langHistory={this.state.langHistory}
                     handleLangChange={this.handleLangChange}
                     langList={this.state.langList}

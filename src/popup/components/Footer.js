@@ -17,11 +17,17 @@ export default class Footer extends Component {
         openUrl(translateUrl, isCurrentTab);
     };
 
-    handleChange = (e) => {
+    handleTargetLangChange = (e) => {
         const lang = e.target.value;
         this.props.handleLangChange(lang);
+        this.props.setTargetLang(lang);
         setSettings("targetLang", lang);
     };
+
+    handleSourceLangChange = (e) => {
+        const lang = e.target.value;
+        this.props.setSourceLang(lang);
+    }
 
     handleDeckSelect = (deck) => {
         this.props.handleSelect("selectedDeck", deck);
@@ -34,7 +40,7 @@ export default class Footer extends Component {
     };
 
     render() {
-        const { tabUrl, targetDeck, targetModel, targetLang, langHistory, langList, decks, models } = this.props;
+        const { tabUrl, targetDeck, targetModel, sourceLang, targetLang, langHistory, langList, decks, models } = this.props;
 
         return (
             <div id="footer">
@@ -43,61 +49,111 @@ export default class Footer extends Component {
                         <a onClick={this.handleLinkClick}>{browser.i18n.getMessage("showLink")}</a>
                     )}
                 </div>
-                <div className="selectWrap">
-                    <select
-                        style={{ margin: "10px 0" }}
-                        onChange={(e) => this.handleDeckSelect(e.target.value)}
-                        value={targetDeck}
-                    >
-                        <optgroup label="Anki Decks">
-                            {decks.map((d) => (
-                                <option value={d} key={d}>
-                                    {d}
-                                </option>
-                            ))}
-                        </optgroup>
-                    </select>
-                    <select
-                        style={{ margin: "10px 0" }}
-                        onChange={(e) => this.handleModelSelect(e.target.value)}
-                        value={targetModel}
-                    >
-                        <optgroup label="Anki Card Models">
-                            {models.map((d) => (
-                                <option value={d} key={d}>
-                                    {d}
-                                </option>
-                            ))}
-                        </optgroup>
-                    </select>
-                </div>
-                <div className="selectWrap" style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                    <div style={{ color: "whitesmoke" }}>
-                        Target language:
+                <div className="selectWrap" style={{ display: "flex", justifyContent: "space-between" }}>
+                    <div style={{width: "50%", marginRight: "3px"}}>
+                        <div style={{ color: "whitesmoke" }}>
+                            Deck:
+                        </div>
+                        <select
+                            style={{ marginTop: "5px", width: "100%" }}
+                            onChange={(e) => this.handleDeckSelect(e.target.value)}
+                            value={targetDeck}
+                        >
+                            <optgroup label="Anki Decks">
+                                {decks.map((d) => (
+                                    <option value={d} key={d}>
+                                        {d}
+                                    </option>
+                                ))}
+                            </optgroup>
+                        </select>
                     </div>
-                    <select
-                        id="langList"
-                        value={targetLang}
-                        onChange={this.handleChange}
-                        title={browser.i18n.getMessage("targetLangLabel")}
-                    >
-                        <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
-                            {langList
-                                .filter((option) => langHistory.includes(option.value))
+
+                    <div style={{width: "50%"}}>
+                        <div style={{ color: "whitesmoke" }}>
+                            Card:
+                        </div>
+                        <select
+                            style={{ marginTop: "5px", width: "100%" }}
+                            onChange={(e) => this.handleModelSelect(e.target.value)}
+                            value={targetModel}
+                        >
+                            <optgroup label="Anki Card Models">
+                                {models.map((d) => (
+                                    <option value={d} key={d}>
+                                        {d}
+                                    </option>
+                                ))}
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+
+                <br/>
+
+                <div className="selectWrap" style={{ display: "flex", justifyContent: "space-between" }}>
+                    <div style={{width: "50%", marginRight: "3px"}}>
+                        <div style={{ color: "whitesmoke" }}>
+                            Source language:
+                        </div>
+                        <select
+                            // id="langList"
+                            value={sourceLang}
+                            onChange={this.handleSourceLangChange}
+                            title={"Source Language"}
+                            style={{width: "100%", marginTop: "5px"}}
+                        >
+                            <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
+                                {langList
+                                    .filter((option) => langHistory.includes(option.value))
+                                    .map((option) => (
+                                        <option value={option.value} key={option.value}>
+                                            {option.name}
+                                        </option>
+                                    ))}
+                            </optgroup>
+                            <optgroup label={browser.i18n.getMessage("allLangLabel")}>
+                            {[ {name: "Auto", value: "auto"}, ...langList] 
                                 .map((option) => (
                                     <option value={option.value} key={option.value}>
                                         {option.name}
                                     </option>
                                 ))}
-                        </optgroup>
-                        <optgroup label={browser.i18n.getMessage("allLangLabel")}>
-                            {langList.map((option) => (
-                                <option value={option.value} key={option.value}>
-                                    {option.name}
-                                </option>
-                            ))}
-                        </optgroup>
-                    </select>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <br/>
+
+                    <div style={{width: "50%"}}>                        
+                        <div style={{ color: "whitesmoke" }}>
+                            Target language:
+                        </div>
+                        <select
+                            id="langList"
+                            value={targetLang}
+                            onChange={this.handleTargetLangChange}
+                            title={"Target Language"}
+                            style={{width: "100%", marginTop: "5px"}}
+                        >
+                            <optgroup label={browser.i18n.getMessage("recentLangLabel")}>
+                                {langList
+                                    .filter((option) => langHistory.includes(option.value))
+                                    .map((option) => (
+                                        <option value={option.value} key={option.value}>
+                                            {option.name}
+                                        </option>
+                                    ))}
+                            </optgroup>
+                            <optgroup label={browser.i18n.getMessage("allLangLabel")}>
+                                {langList.map((option) => (
+                                    <option value={option.value} key={option.value}>
+                                        {option.name}
+                                    </option>
+                                ))}
+                            </optgroup>
+                        </select>
+                    </div>
                 </div>
             </div>
         );
