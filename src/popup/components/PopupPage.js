@@ -45,7 +45,7 @@ export default class PopupPage extends Component {
             inputText: "",
             resultText: "",
             candidateText: "",
-            sourceLang: "",
+            sourceLang: "auto",
             isError: false,
             errorMessage: "",
             langList: [],
@@ -151,11 +151,11 @@ export default class PopupPage extends Component {
     };
 
     switchSecondLang = (result) => {
-        if (!getSettings("ifChangeSecondLang")) return;
+        // if (!getSettings("ifChangeSecondLang")) return;
 
         const defaultTargetLang = getSettings("targetLang");
         const secondLang = getSettings("secondTargetLang");
-        if (defaultTargetLang === secondLang) return;
+        // if (defaultTargetLang === secondLang) return;
 
         const equalsSourceAndTarget =
             result.sourceLanguage.split("-")[0] === this.state.targetLang.split("-")[0] &&
@@ -165,19 +165,21 @@ export default class PopupPage extends Component {
             result.percentage > 0;
         // split("-")[0] : deepLでenとen-USを区別しないために必要
 
-        if (!this.isSwitchedSecondLang) {
-            if (equalsSourceAndTarget && equalsSourceAndDefault) {
-                log.info(logDir, "=>switchSecondLang()", result, secondLang);
-                this.handleLangChange(secondLang);
-                this.isSwitchedSecondLang = true;
-            }
-        } else {
-            if (!equalsSourceAndDefault) {
-                log.info(logDir, "=>switchSecondLang()", result, defaultTargetLang);
-                this.handleLangChange(defaultTargetLang);
-                this.isSwitchedSecondLang = false;
-            }
-        }
+        // this.handleLangChange(secondLang);
+        this.isSwitchedSecondLang = true;
+        // if (!this.isSwitchedSecondLang) {
+        //     if (equalsSourceAndTarget && equalsSourceAndDefault) {
+        //         log.info(logDir, "=>switchSecondLang()", result, secondLang);
+        //         this.handleLangChange(secondLang);
+        //         this.isSwitchedSecondLang = true;
+        //     }
+        // } else {
+        //     if (!equalsSourceAndDefault) {
+        //         log.info(logDir, "=>switchSecondLang()", result, defaultTargetLang);
+        //         this.handleLangChange(defaultTargetLang);
+        //         this.isSwitchedSecondLang = false;
+        //     }
+        // }
     };
 
     toggleEnabledOnPage = async (e) => {
