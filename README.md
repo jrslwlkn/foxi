@@ -10,7 +10,7 @@ First, install the AnciConnect plugin:
 
 Start local dev server:
 
-> Required Node 14+
+> Required Node v14-v18 (using v18 currently)
 
 1. Clone the repository `git clone https://github.com/jrslwlkn/foxi`
 2. Run `npm install`
